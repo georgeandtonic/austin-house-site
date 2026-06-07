@@ -16,8 +16,10 @@ export const nav = [
   { href: 'feed', label: 'New Plots' },
 ];
 
-/** Build an internal href that respects the deploy base path. */
+/** Build an internal href that respects the deploy base path.
+ *  Robust whether BASE_URL is '/', '/austin-house-site' or '/austin-house-site/'. */
 export function link(path = ''): string {
-  const base = import.meta.env.BASE_URL; // '/' or '/austin-house-site/'
-  return (base + path).replace(/([^:]\/)\/+/g, '$1');
+  const base = import.meta.env.BASE_URL.replace(/\/+$/, ''); // strip trailing slash(es)
+  const p = path.replace(/^\/+/, ''); // strip leading slash(es)
+  return `${base}/${p}`;
 }
