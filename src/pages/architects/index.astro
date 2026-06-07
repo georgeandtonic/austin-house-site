@@ -1,0 +1,311 @@
+---
+import Base from '../../layouts/Base.astro';
+import { link } from '../../lib/site';
+import { architects, top5, skipList, FILTERS } from '../../data/architects';
+
+const others = architects.filter((a) => !a.top5);
+
+// Palette rotation for the typographic "plates" (no firm logos — restraint, and
+// zero risk of broken hotlinked images).
+const plateBg = ['#9c4526', '#5f6e50', '#5c4836', '#c19a4b', '#2a2622'];
+
+const availabilityTone: Record<string, string> = {
+  'Likely available': 'border-sage/50 text-sage-deep',
+  'Possible queue': 'border-ochre/60 text-[#8a6d2a]',
+  'Waitlist risk': 'border-terracotta/50 text-terracotta-deep',
+  Unverified: 'border-line text-muted',
+};
+---
+
+<Base
+  title="Architects"
+  description="18 Austin-area architecture firms profiled and rated for MCM fit, co-design posture, Texas-heat competence and budget — with a Top-5 to interview first."
+>
+  <!-- Hero -->
+  <section class="border-b border-line bg-paper-2">
+    <div class="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
+      <p class="eyebrow">The shortlist</p>
+      <h1 class="mt-4 font-display text-4xl font-semibold leading-[1.05] tracking-tight text-ink sm:text-6xl">
+        Austin-area architects
+      </h1>
+      <p class="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
+        {architects.length} firms, profiled and rated for a couple who wants MCM, heavy co-design,
+        site-driven design and a {''}<span class="whitespace-nowrap">$1–2M</span> budget. Austin has very
+        few <em>true</em> period-MCM specialists — so for a 12–24 month target, the binding
+        constraint is queue, not capability. Engage your top choices early.
+      </p>
+      <div class="mt-8 flex flex-wrap gap-3">
+        <a
+          href={link('architects/interview-questions')}
+          class="inline-flex items-center gap-2 rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-paper transition-colors hover:bg-walnut"
+        >
+          25-question interview bank →
+        </a>
+        <a
+          href="#how-to-engage"
+          class="inline-flex items-center gap-2 rounded-full border border-line px-5 py-2.5 text-sm font-medium text-ink-soft transition-colors hover:border-terracotta/50 hover:text-terracotta-deep"
+        >
+          How to engage & fees
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Top 5 featured plates -->
+  <section class="mx-auto max-w-6xl px-5 py-16 sm:px-8">
+    <div class="flex items-end justify-between">
+      <div>
+        <p class="eyebrow">Interview first</p>
+        <h2 class="mt-2 font-display text-3xl font-semibold text-ink sm:text-4xl">The Top 5</h2>
+      </div>
+    </div>
+    <p class="mt-3 max-w-2xl text-[0.97rem] leading-relaxed text-ink-soft">
+      These cluster at the intersection of a true MCM idiom, explicit co-design, boutique
+      principal attention and budget fit.
+    </p>
+
+    <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        top5.map((a, i) => (
+          <a
+            href={link(`architects/${a.slug}`)}
+            class="group flex flex-col overflow-hidden rounded-sm border border-line bg-card transition-all hover:-translate-y-1 hover:shadow-[0_18px_40px_-24px_rgba(42,38,34,0.45)]"
+          >
+            <div
+              class="relative flex h-40 flex-col justify-between p-5 text-paper"
+              style={`background:${plateBg[i % plateBg.length]}`}
+            >
+              <div class="flex items-start justify-between">
+                <span class="rounded-full bg-paper/20 px-2.5 py-0.5 text-xs font-medium backdrop-blur">
+                  No. {a.top5}
+                </span>
+                <span class="text-sm tracking-wide text-paper/90" title={`MCM fit ${a.mcmFit}/5`}>
+                  {a.mcmStars}
+                </span>
+              </div>
+              <p class="font-display text-3xl font-semibold leading-[1.05]">{a.name}</p>
+            </div>
+            <div class="flex flex-1 flex-col p-5">
+              <p class="text-sm leading-relaxed text-ink-soft">{a.summary}</p>
+              <div class="mt-4 flex flex-wrap gap-2 text-xs">
+                <span class="rounded-full border border-line px-2.5 py-1 text-muted">{a.studioLabel}</span>
+                <span class={`rounded-full border px-2.5 py-1 ${availabilityTone[a.availability]}`}>
+                  {a.availability}
+                </span>
+              </div>
+            </div>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- All firms — filter + sort -->
+  <section class="border-t border-line bg-paper-2">
+    <div class="mx-auto max-w-6xl px-5 py-16 sm:px-8">
+      <p class="eyebrow">Every firm profiled</p>
+      <h2 class="mt-2 font-display text-3xl font-semibold text-ink sm:text-4xl">
+        All {architects.length} firms
+      </h2>
+
+      <!-- Controls -->
+      <div class="mt-7 flex flex-wrap items-end gap-4 rounded-sm border border-line bg-card p-4">
+        <label class="flex flex-col gap-1 text-xs">
+          <span class="uppercase tracking-[0.12em] text-muted">Sort</span>
+          <select id="f-sort" class="control">
+            <option value="default">Recommended</option>
+            <option value="mcm">MCM fit (high→low)</option>
+            <option value="name">Name (A→Z)</option>
+          </select>
+        </label>
+        <label class="flex flex-col gap-1 text-xs">
+          <span class="uppercase tracking-[0.12em] text-muted">MCM fit</span>
+          <select id="f-mcm" class="control">
+            <option value="0">Any</option>
+            <option value="5">★★★★★ only</option>
+            <option value="4.5">4.5+ stars</option>
+            <option value="4">4+ stars</option>
+            <option value="3.5">3.5+ stars</option>
+          </select>
+        </label>
+        <label class="flex flex-col gap-1 text-xs">
+          <span class="uppercase tracking-[0.12em] text-muted">Location</span>
+          <select id="f-loc" class="control">
+            <option value="">Any</option>
+            {FILTERS.location.map((l) => <option value={l}>{l}</option>)}
+          </select>
+        </label>
+        <label class="flex flex-col gap-1 text-xs">
+          <span class="uppercase tracking-[0.12em] text-muted">Budget fit</span>
+          <select id="f-budget" class="control">
+            <option value="">Any</option>
+            {FILTERS.budget.map((b) => <option value={b}>{b}</option>)}
+          </select>
+        </label>
+        <label class="flex flex-col gap-1 text-xs">
+          <span class="uppercase tracking-[0.12em] text-muted">Availability</span>
+          <select id="f-avail" class="control">
+            <option value="">Any</option>
+            {FILTERS.availability.map((v) => <option value={v}>{v}</option>)}
+          </select>
+        </label>
+        <button id="f-reset" class="ml-auto text-sm text-terracotta-deep hover:underline">
+          Reset
+        </button>
+      </div>
+      <p id="result-count" class="mt-3 text-sm text-muted" aria-live="polite"></p>
+
+      <!-- Grid -->
+      <div id="firm-grid" class="mt-5 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+        {
+          others.map((a) => (
+            <a
+              href={link(`architects/${a.slug}`)}
+              class="firm-card group flex flex-col rounded-sm border border-line bg-card p-5 transition-all hover:-translate-y-0.5 hover:border-terracotta/40 hover:shadow-[0_14px_32px_-24px_rgba(42,38,34,0.4)]"
+              data-mcm={a.mcmFit}
+              data-loc={a.locations.join(',')}
+              data-budget={a.budgetCat}
+              data-avail={a.availability}
+              data-name={a.name}
+            >
+              <div class="flex items-start justify-between gap-3">
+                <h3 class="font-display text-2xl font-semibold leading-tight text-ink">{a.name}</h3>
+                <span class="shrink-0 pt-1 text-sm text-ochre" title={`MCM fit ${a.mcmFit}/5`}>
+                  {a.mcmStars}
+                </span>
+              </div>
+              <p class="mt-2 text-sm leading-relaxed text-ink-soft">{a.tagline}</p>
+              <dl class="mt-4 grid grid-cols-2 gap-y-1.5 text-xs text-muted">
+                <dt class="sr-only">Studio</dt>
+                <dd>{a.studioLabel}</dd>
+                <dt class="sr-only">Location</dt>
+                <dd class="text-right">{a.locations[0]}</dd>
+              </dl>
+              <div class="mt-3 flex flex-wrap gap-2 text-xs">
+                <span class="rounded-full border border-line px-2 py-0.5 text-ink-soft">{a.budgetCat}</span>
+                <span class={`rounded-full border px-2 py-0.5 ${availabilityTone[a.availability]}`}>
+                  {a.availability}
+                </span>
+              </div>
+              {a.maybeNote && (
+                <p class="mt-4 border-t border-line-soft pt-3 text-xs italic leading-relaxed text-muted">
+                  {a.maybeNote}
+                </p>
+              )}
+            </a>
+          ))
+        }
+      </div>
+      <p id="empty-msg" class="hidden py-10 text-center text-muted">
+        No firms match those filters. <button id="empty-reset" class="text-terracotta-deep underline">Reset</button>
+      </p>
+    </div>
+  </section>
+
+  <!-- Skip list -->
+  <section class="mx-auto max-w-6xl px-5 py-14 sm:px-8">
+    <details class="rounded-sm border border-line bg-card">
+      <summary class="cursor-pointer list-none px-6 py-4 [&::-webkit-details-marker]:hidden">
+        <span class="eyebrow">Ruled out</span>
+        <span class="ml-3 font-display text-xl text-ink">Skip, and why ({skipList.length})</span>
+      </summary>
+      <div class="space-y-5 border-t border-line px-6 py-5">
+        {
+          skipList.map((s) => (
+            <div>
+              <h3 class="font-display text-lg font-semibold text-ink">{s.name}</h3>
+              <p class="mt-1 text-sm leading-relaxed text-ink-soft">{s.reason}</p>
+            </div>
+          ))
+        }
+      </div>
+    </details>
+  </section>
+
+  <!-- How to engage (rendered from the source markdown) -->
+  <section id="how-to-engage" class="border-t border-line bg-paper-2">
+    <div class="mx-auto max-w-3xl px-5 py-16 sm:px-8">
+      <p class="eyebrow">Money & process</p>
+      <h2 class="mt-2 font-display text-3xl font-semibold text-ink sm:text-4xl">How to actually engage</h2>
+      <p class="mt-4 text-[0.97rem] leading-relaxed text-ink-soft">
+        Fee structures, the AIA phase split, realistic Austin timelines, and what to bring
+        to the first meeting — pulled from the shortlist. See the full detail on the
+        <a class="text-terracotta-deep underline" href={link('architects/engage')}>engagement page</a>.
+      </p>
+    </div>
+  </section>
+</Base>
+
+<style>
+  .control {
+    border: 1px solid var(--color-line);
+    background: var(--color-paper);
+    border-radius: 2px;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.85rem;
+    color: var(--color-ink);
+    min-width: 9rem;
+  }
+  .firm-card.is-hidden {
+    display: none;
+  }
+</style>
+
+<script>
+  const grid = document.getElementById('firm-grid')!;
+  const cards = Array.from(grid.querySelectorAll<HTMLElement>('.firm-card'));
+  const sel = (id: string) => document.getElementById(id) as HTMLSelectElement;
+  const fSort = sel('f-sort');
+  const fMcm = sel('f-mcm');
+  const fLoc = sel('f-loc');
+  const fBudget = sel('f-budget');
+  const fAvail = sel('f-avail');
+  const count = document.getElementById('result-count')!;
+  const empty = document.getElementById('empty-msg')!;
+
+  function apply() {
+    const minMcm = parseFloat(fMcm.value) || 0;
+    let shown = 0;
+    cards.forEach((c) => {
+      const mcm = parseFloat(c.dataset.mcm || '0');
+      const locs = (c.dataset.loc || '').split(',');
+      const ok =
+        mcm >= minMcm &&
+        (!fLoc.value || locs.includes(fLoc.value)) &&
+        (!fBudget.value || c.dataset.budget === fBudget.value) &&
+        (!fAvail.value || c.dataset.avail === fAvail.value);
+      c.classList.toggle('is-hidden', !ok);
+      if (ok) shown++;
+    });
+
+    // sort visible
+    const visible = cards.filter((c) => !c.classList.contains('is-hidden'));
+    visible.sort((a, b) => {
+      if (fSort.value === 'name')
+        return (a.dataset.name || '').localeCompare(b.dataset.name || '');
+      if (fSort.value === 'mcm')
+        return parseFloat(b.dataset.mcm || '0') - parseFloat(a.dataset.mcm || '0');
+      return 0; // default = source order
+    });
+    if (fSort.value !== 'default') visible.forEach((c) => grid.appendChild(c));
+
+    count.textContent = `Showing ${shown} of ${cards.length} firms`;
+    empty.classList.toggle('hidden', shown !== 0);
+  }
+
+  function reset() {
+    [fMcm, fLoc, fBudget, fAvail].forEach((s) => (s.value = ''));
+    fMcm.value = '0';
+    fSort.value = 'default';
+    // restore source order
+    cards.forEach((c) => grid.appendChild(c));
+    apply();
+  }
+
+  [fSort, fMcm, fLoc, fBudget, fAvail].forEach((s) =>
+    s.addEventListener('change', apply),
+  );
+  document.getElementById('f-reset')!.addEventListener('click', reset);
+  document.getElementById('empty-reset')?.addEventListener('click', reset);
+  apply();
+</script>

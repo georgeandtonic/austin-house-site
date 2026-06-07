@@ -1,0 +1,22 @@
+# build output
+dist/
+.output/
+.vercel/
+
+# dependencies
+node_modules/
+
+# generated types
+.astro/
+
+# logs
+npm-debug.log*
+*.log
+
+# env / secrets — never commit
+.env
+.env.*
+!.env.example
+
+# os
+.DS_Store

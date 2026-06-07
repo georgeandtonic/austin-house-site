@@ -1,0 +1,39 @@
+---
+import Base from '../../layouts/Base.astro';
+import { link } from '../../lib/site';
+import { renderMarkdown, extractBlock } from '../../lib/markdown';
+import architectRaw from '../../content/architect-shortlist.md?raw';
+
+const html = renderMarkdown(extractBlock(architectRaw, 'how-to-actually-engage'));
+---
+
+<Base
+  title="How to engage & fees"
+  description="Austin residential fee structures, the AIA phase split, realistic timelines, construction cost per square foot, and what to bring to the first meeting."
+>
+  <header class="border-b border-line bg-paper-2">
+    <div class="mx-auto max-w-3xl px-5 py-12 sm:px-8 sm:py-16">
+      <a
+        href={link('architects')}
+        class="inline-flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-terracotta-deep"
+      >
+        <svg class="h-3.5 w-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6">
+          <path d="M13 8H3M7 4L3 8l4 4" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        All architects
+      </a>
+      <p class="eyebrow mt-5">Money & process</p>
+      <h1 class="mt-3 font-display text-4xl font-semibold leading-tight tracking-tight text-ink sm:text-5xl">
+        How to actually engage
+      </h1>
+      <p class="mt-4 text-lg leading-relaxed text-ink-soft">
+        Fee models, the AIA phase split, realistic Austin timelines, construction cost
+        per square foot, and what to bring to a first meeting.
+      </p>
+    </div>
+  </header>
+
+  <div class="mx-auto max-w-3xl px-5 py-12 sm:px-8">
+    <article class="prose-mcm" set:html={html} />
+  </div>
+</Base>

@@ -1,0 +1,171 @@
+---
+import Base from '../../layouts/Base.astro';
+import { link } from '../../lib/site';
+import { interviewBank, totalQuestions } from '../../data/interviewQuestions';
+---
+
+<Base
+  title="Interview question bank"
+  description="A 25-question interview bank for vetting Austin architects — check off what you’ve asked, jot notes, and print or save your sheet per firm."
+>
+  <header class="border-b border-line bg-paper-2 print:border-0 print:bg-transparent">
+    <div class="mx-auto max-w-3xl px-5 py-12 sm:px-8 sm:py-16">
+      <a
+        href={link('architects')}
+        class="inline-flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-terracotta-deep print:hidden"
+      >
+        <svg class="h-3.5 w-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6">
+          <path d="M13 8H3M7 4L3 8l4 4" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        All architects
+      </a>
+      <p class="eyebrow mt-5">{totalQuestions} questions · 7 themes</p>
+      <h1 class="mt-3 font-display text-4xl font-semibold leading-tight tracking-tight text-ink sm:text-5xl">
+        Interview question bank
+      </h1>
+      <p class="mt-4 text-lg leading-relaxed text-ink-soft">
+        Ask each architect a consistent set so you can compare. Aim for 12–18 in a first
+        meeting; save the rest for a second round. Check off what you cover, jot notes,
+        and print or save a sheet per firm — your selections persist on this device.
+      </p>
+
+      <div class="mt-7 flex flex-wrap items-center gap-3 print:hidden">
+        <label class="flex items-center gap-2 text-sm">
+          <span class="text-muted">Firm:</span>
+          <input
+            id="firm-name"
+            type="text"
+            placeholder="e.g. Webber + Studio"
+            class="rounded-sm border border-line bg-paper px-3 py-1.5 text-sm text-ink"
+          />
+        </label>
+        <span id="progress" class="rounded-full border border-line px-3 py-1.5 text-sm text-ink-soft"></span>
+        <button id="btn-print" class="rounded-full bg-ink px-4 py-1.5 text-sm font-medium text-paper hover:bg-walnut">
+          Print / save PDF
+        </button>
+        <button id="btn-clear" class="text-sm text-terracotta-deep hover:underline">Clear all</button>
+      </div>
+      <p id="firm-print" class="hidden text-sm text-ink-soft print:block">
+        Firm: <span id="firm-print-name" class="font-medium"></span>
+      </p>
+    </div>
+  </header>
+
+  <div class="mx-auto max-w-3xl px-5 py-10 sm:px-8">
+    {
+      interviewBank.map((group) => (
+        <section class="mb-10 break-inside-avoid">
+          <h2 class="border-b border-line pb-2 font-display text-2xl font-semibold text-ink">
+            {group.theme}
+          </h2>
+          <ul class="mt-4 space-y-4">
+            {group.questions.map((item) => (
+              <li class="break-inside-avoid rounded-sm border border-line-soft bg-card p-4 print:border-line">
+                <label class="flex cursor-pointer items-start gap-3">
+                  <input
+                    type="checkbox"
+                    class="q-check mt-1 h-4 w-4 shrink-0 accent-[#9c4526]"
+                    data-n={item.n}
+                  />
+                  <span class="text-[0.97rem] leading-relaxed text-ink">
+                    <span class="mr-1.5 font-medium text-terracotta-deep">{item.n}.</span>
+                    {item.q}
+                  </span>
+                </label>
+                <textarea
+                  class="q-note mt-3 hidden w-full resize-y rounded-sm border border-line bg-paper px-3 py-2 text-sm text-ink print:block print:min-h-[2.5rem]"
+                  data-n={item.n}
+                  rows="2"
+                  placeholder="Notes…"
+                />
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</Base>
+
+<style>
+  @media print {
+    .q-note {
+      display: block !important;
+      border-color: #ddd2bf;
+    }
+  }
+</style>
+
+<script>
+  const KEY = 'austin-house-interview-v1';
+  type State = { firm?: string; checks: Record<string, boolean>; notes: Record<string, string> };
+  const load = (): State => {
+    try {
+      return JSON.parse(localStorage.getItem(KEY) || '') as State;
+    } catch {
+      return { checks: {}, notes: {} };
+    }
+  };
+  let state = load();
+  if (!state.checks) state = { checks: {}, notes: {} };
+  const save = () => localStorage.setItem(KEY, JSON.stringify(state));
+
+  const checks = Array.from(document.querySelectorAll<HTMLInputElement>('.q-check'));
+  const notes = Array.from(document.querySelectorAll<HTMLTextAreaElement>('.q-note'));
+  const firm = document.getElementById('firm-name') as HTMLInputElement;
+  const firmPrint = document.getElementById('firm-print');
+  const firmPrintName = document.getElementById('firm-print-name')!;
+  const progress = document.getElementById('progress')!;
+
+  function refresh() {
+    const done = checks.filter((c) => c.checked).length;
+    progress.textContent = `${done} / ${checks.length} asked`;
+    firmPrintName.textContent = firm.value || '—';
+    firmPrint?.classList.toggle('hidden', !firm.value);
+  }
+
+  // hydrate
+  firm.value = state.firm || '';
+  checks.forEach((c) => {
+    const n = c.dataset.n!;
+    c.checked = !!state.checks[n];
+    c.addEventListener('change', () => {
+      state.checks[n] = c.checked;
+      save();
+      refresh();
+    });
+  });
+  notes.forEach((t) => {
+    const n = t.dataset.n!;
+    t.value = state.notes[n] || '';
+    if (t.value) t.classList.remove('hidden');
+    t.addEventListener('input', () => {
+      state.notes[n] = t.value;
+      save();
+    });
+  });
+  firm.addEventListener('input', () => {
+    state.firm = firm.value;
+    save();
+    refresh();
+  });
+
+  document.getElementById('btn-print')!.addEventListener('click', () => {
+    notes.forEach((t) => t.classList.remove('hidden')); // reveal note fields for print
+    window.print();
+  });
+  document.getElementById('btn-clear')!.addEventListener('click', () => {
+    if (!confirm('Clear all checks and notes on this device?')) return;
+    state = { checks: {}, notes: {} };
+    save();
+    firm.value = '';
+    checks.forEach((c) => (c.checked = false));
+    notes.forEach((t) => {
+      t.value = '';
+      t.classList.add('hidden');
+    });
+    refresh();
+  });
+
+  refresh();
+</script>

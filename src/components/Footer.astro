@@ -1,0 +1,35 @@
+---
+import { nav, link, site } from '../lib/site';
+---
+
+<footer class="mt-24 border-t border-line bg-paper-2">
+  <div class="mx-auto max-w-6xl px-5 py-12 sm:px-8">
+    <div class="flex flex-col gap-8 sm:flex-row sm:items-end sm:justify-between">
+      <div class="max-w-md">
+        <p class="font-display text-2xl font-semibold text-ink">The Austin House</p>
+        <p class="mt-2 text-sm leading-relaxed text-ink-soft">
+          A working research monograph for {site.owners} — {site.budget}, {site.timeline}.
+          Sources are cited inline throughout; the three underlying dossiers are the
+          single source of truth.
+        </p>
+      </div>
+      <nav class="flex flex-wrap gap-x-6 gap-y-2">
+        {
+          nav.map((item) => (
+            <a
+              href={link(item.href)}
+              class="text-sm text-ink-soft transition-colors hover:text-terracotta-deep"
+            >
+              {item.label}
+            </a>
+          ))
+        }
+      </nav>
+    </div>
+    <p class="mt-10 text-xs text-muted">
+      Last updated {site.updated}. Compiled from primary-sourced research; every
+      factual claim is cited at its source. Not a substitute for an architect,
+      surveyor, geotech, or buyer’s agent.
+    </p>
+  </div>
+</footer>

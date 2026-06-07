@@ -1,0 +1,152 @@
+---
+import Base from '../../layouts/Base.astro';
+import { link } from '../../lib/site';
+import { architects } from '../../data/architects';
+import { renderMarkdown, extractBlock } from '../../lib/markdown';
+import architectRaw from '../../content/architect-shortlist.md?raw';
+
+export function getStaticPaths() {
+  return architects.map((a, i) => ({
+    params: { slug: a.slug },
+    props: {
+      a,
+      prev: architects[i - 1] ?? null,
+      next: architects[i + 1] ?? null,
+    },
+  }));
+}
+
+const { a, prev, next } = Astro.props;
+
+const section = extractBlock(architectRaw, a.mdKey);
+// The pull-quote and contact line are rendered as styled components below,
+// so drop them from the prose to avoid duplication.
+const bodyLines = section
+  .split('\n')
+  .filter(
+    (l) =>
+      !/^\*\*Pull-quote:\*\*/.test(l) && !/^\*\*Website ?\/ ?contact:\*\*/.test(l),
+  );
+const html = renderMarkdown(bodyLines.join('\n'));
+
+const facts: [string, string][] = [
+  ['MCM fit', `${a.mcmStars}  (${a.mcmFit}/5)`],
+  ['Studio', a.studioLabel],
+  ['Location', a.locations.join(' · ')],
+  ['Co-design', a.coDesign],
+  ['Texas-heat / site', a.heatSite],
+  ['Budget fit', a.budgetLabel],
+  ['Availability', a.availability],
+];
+---
+
+<Base title={a.name} description={a.summary}>
+  <article>
+    <!-- Header -->
+    <header class="border-b border-line bg-paper-2">
+      <div class="mx-auto max-w-4xl px-5 py-12 sm:px-8 sm:py-16">
+        <a
+          href={link('architects')}
+          class="inline-flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-terracotta-deep"
+        >
+          <svg class="h-3.5 w-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6">
+            <path d="M13 8H3M7 4L3 8l4 4" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          All architects
+        </a>
+        <div class="mt-5 flex flex-wrap items-center gap-3">
+          {a.top5 && (
+            <span class="rounded-full bg-terracotta-deep px-3 py-1 text-xs font-medium text-paper">
+              Top 5 — No. {a.top5}
+            </span>
+          )}
+          <span class="text-lg text-ochre" title={`MCM fit ${a.mcmFit}/5`}>{a.mcmStars}</span>
+        </div>
+        <h1 class="mt-3 font-display text-4xl font-semibold leading-[1.04] tracking-tight text-ink sm:text-5xl">
+          {a.name}
+        </h1>
+        <p class="mt-4 max-w-2xl text-lg leading-relaxed text-ink-soft">{a.summary}</p>
+        <a
+          href={a.website}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="mt-6 inline-flex items-center gap-2 rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-paper transition-colors hover:bg-walnut"
+        >
+          Visit website ↗
+        </a>
+      </div>
+    </header>
+
+    <div class="mx-auto max-w-4xl gap-12 px-5 py-12 sm:px-8 lg:grid lg:grid-cols-[1fr_15rem]">
+      <!-- Body -->
+      <div>
+        <figure class="mb-10 border-l-4 border-terracotta bg-card py-4 pl-5 pr-4">
+          <blockquote class="font-display text-xl italic leading-snug text-walnut">
+            “{a.pullQuote}”
+          </blockquote>
+          <figcaption class="mt-2 text-xs text-muted">— {a.pullQuoteSource}</figcaption>
+        </figure>
+        <div class="prose-mcm" set:html={html} />
+      </div>
+
+      <!-- At-a-glance sidebar -->
+      <aside class="mt-12 lg:mt-0">
+        <div class="sticky top-24 rounded-sm border border-line bg-card p-5">
+          <p class="eyebrow mb-3">At a glance</p>
+          <dl class="space-y-3 text-sm">
+            {
+              facts.map(([k, v]) => (
+                <div>
+                  <dt class="text-xs uppercase tracking-[0.1em] text-muted">{k}</dt>
+                  <dd class="mt-0.5 text-ink">{v}</dd>
+                </div>
+              ))
+            }
+            <div class="border-t border-line-soft pt-3">
+              <dt class="text-xs uppercase tracking-[0.1em] text-muted">Contact</dt>
+              <dd class="mt-1 space-y-0.5 text-ink-soft">
+                <a class="block break-words text-terracotta-deep hover:underline" href={a.website} target="_blank" rel="noopener noreferrer">
+                  {a.website.replace(/^https?:\/\//, '')}
+                </a>
+                {a.phone && <span class="block">{a.phone}</span>}
+                {a.email && (
+                  <a class="block break-words hover:underline" href={`mailto:${a.email}`}>{a.email}</a>
+                )}
+              </dd>
+            </div>
+          </dl>
+        </div>
+      </aside>
+    </div>
+
+    <!-- Prev / next -->
+    <nav class="mx-auto max-w-4xl border-t border-line px-5 py-8 sm:px-8">
+      <div class="flex justify-between gap-4 text-sm">
+        {
+          prev ? (
+            <a href={link(`architects/${prev.slug}`)} class="group max-w-[45%]">
+              <span class="text-xs uppercase tracking-[0.12em] text-muted">← Previous</span>
+              <span class="mt-1 block font-display text-lg text-ink group-hover:text-terracotta-deep">
+                {prev.name}
+              </span>
+            </a>
+          ) : (
+            <span />
+          )
+        }
+        {
+          next ? (
+            <a href={link(`architects/${next.slug}`)} class="group max-w-[45%] text-right">
+              <span class="text-xs uppercase tracking-[0.12em] text-muted">Next →</span>
+              <span class="mt-1 block font-display text-lg text-ink group-hover:text-terracotta-deep">
+                {next.name}
+              </span>
+            </a>
+          ) : (
+            <span />
+          )
+        }
+      </div>
+    </nav>
+  </article>
+</Base>

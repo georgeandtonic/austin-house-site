@@ -1,0 +1,133 @@
+---
+import Base from '../../layouts/Base.astro';
+import { link } from '../../lib/site';
+import { checklist, bring, visitNote } from '../../data/landChecklist';
+
+const total = checklist.reduce((n, g) => n + g.items.length, 0);
+---
+
+<Base
+  title="Site-visit checklist"
+  description="A reusable 25-item checklist for evaluating raw land in person — orientation, drainage, soil, trees, utilities, environmental flags and the nuisances listings hide."
+>
+  <header class="border-b border-line bg-paper-2 print:bg-transparent">
+    <div class="mx-auto max-w-3xl px-5 py-12 sm:px-8 sm:py-16">
+      <a
+        href={link('land')}
+        class="inline-flex items-center gap-1.5 text-sm text-muted transition-colors hover:text-terracotta-deep print:hidden"
+      >
+        <svg class="h-3.5 w-3.5" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6">
+          <path d="M13 8H3M7 4L3 8l4 4" stroke-linecap="round" stroke-linejoin="round" />
+        </svg>
+        Back to Land
+      </a>
+      <p class="eyebrow mt-5">{total} items · reusable per lot</p>
+      <h1 class="mt-3 font-display text-4xl font-semibold leading-tight tracking-tight text-ink sm:text-5xl">
+        Site-visit checklist
+      </h1>
+      <p class="mt-4 text-lg leading-relaxed text-ink-soft">{visitNote}</p>
+      <div class="mt-5 rounded-sm border border-line bg-card p-4 text-sm leading-relaxed text-ink-soft">
+        {bring}
+      </div>
+
+      <div class="mt-7 flex flex-wrap items-center gap-3 print:hidden">
+        <label class="flex items-center gap-2 text-sm">
+          <span class="text-muted">Lot:</span>
+          <input
+            id="lot-name"
+            type="text"
+            placeholder="e.g. 414 Blue Creek Dr"
+            class="rounded-sm border border-line bg-paper px-3 py-1.5 text-sm text-ink"
+          />
+        </label>
+        <span id="progress" class="rounded-full border border-line px-3 py-1.5 text-sm text-ink-soft"></span>
+        <button id="btn-print" class="rounded-full bg-ink px-4 py-1.5 text-sm font-medium text-paper hover:bg-walnut">
+          Print / save PDF
+        </button>
+        <button id="btn-clear" class="text-sm text-terracotta-deep hover:underline">Clear</button>
+      </div>
+      <p id="lot-print" class="hidden text-sm text-ink-soft print:block">
+        Lot: <span id="lot-print-name" class="font-medium"></span>
+      </p>
+    </div>
+  </header>
+
+  <div class="mx-auto max-w-3xl px-5 py-10 sm:px-8">
+    {
+      checklist.map((group) => (
+        <section class="mb-9 break-inside-avoid">
+          <h2 class="border-b border-line pb-2 font-display text-2xl font-semibold text-ink">
+            {group.theme}
+          </h2>
+          <ul class="mt-4 space-y-3">
+            {group.items.map((item) => (
+              <li class="break-inside-avoid">
+                <label class="flex cursor-pointer items-start gap-3 rounded-sm border border-line-soft bg-card p-3.5 print:border-line">
+                  <input
+                    type="checkbox"
+                    class="q-check mt-1 h-4 w-4 shrink-0 accent-[#5f6e50]"
+                    data-n={item.n}
+                  />
+                  <span class="text-[0.97rem] leading-relaxed text-ink">
+                    <span class="mr-1.5 font-medium text-sage-deep">{item.n}.</span>
+                    {item.text}
+                  </span>
+                </label>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</Base>
+
+<script>
+  const KEY = 'austin-house-sitevisit-v1';
+  type State = { lot?: string; checks: Record<string, boolean> };
+  let state: State = { checks: {} };
+  try {
+    const saved = JSON.parse(localStorage.getItem(KEY) || '');
+    if (saved && saved.checks) state = saved;
+  } catch {}
+  const save = () => localStorage.setItem(KEY, JSON.stringify(state));
+
+  const checks = Array.from(document.querySelectorAll<HTMLInputElement>('.q-check'));
+  const lot = document.getElementById('lot-name') as HTMLInputElement;
+  const lotPrint = document.getElementById('lot-print');
+  const lotPrintName = document.getElementById('lot-print-name')!;
+  const progress = document.getElementById('progress')!;
+
+  function refresh() {
+    const done = checks.filter((c) => c.checked).length;
+    progress.textContent = `${done} / ${checks.length} checked`;
+    lotPrintName.textContent = lot.value || '—';
+    lotPrint?.classList.toggle('hidden', !lot.value);
+  }
+
+  lot.value = state.lot || '';
+  checks.forEach((c) => {
+    const n = c.dataset.n!;
+    c.checked = !!state.checks[n];
+    c.addEventListener('change', () => {
+      state.checks[n] = c.checked;
+      save();
+      refresh();
+    });
+  });
+  lot.addEventListener('input', () => {
+    state.lot = lot.value;
+    save();
+    refresh();
+  });
+  document.getElementById('btn-print')!.addEventListener('click', () => window.print());
+  document.getElementById('btn-clear')!.addEventListener('click', () => {
+    if (!confirm('Clear this checklist on this device?')) return;
+    state = { checks: {} };
+    save();
+    lot.value = '';
+    checks.forEach((c) => (c.checked = false));
+    refresh();
+  });
+  refresh();
+</script>

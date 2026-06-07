@@ -1,0 +1,132 @@
+---
+import Base from '../layouts/Base.astro';
+import { link } from '../lib/site';
+import feed from '../../public/data/plots-feed.json';
+
+const usd = (n: number) =>
+  '$' + n.toLocaleString('en-US', { maximumFractionDigits: 0 });
+
+// Newest-first; ties broken by rank.
+const plots = [...feed.plots].sort((a, b) => {
+  if (a.first_seen !== b.first_seen) return a.first_seen < b.first_seen ? 1 : -1;
+  return (a.rank ?? 99) - (b.rank ?? 99);
+});
+
+const updated = new Date(feed.last_updated).toLocaleDateString('en-US', {
+  year: 'numeric',
+  month: 'long',
+  day: 'numeric',
+});
+
+const scenarioTone: Record<string, string> = {
+  A: 'bg-sage-deep',
+  B: 'bg-ochre',
+  C: 'bg-terracotta-deep',
+};
+---
+
+<Base
+  title="New plots"
+  description="A live, newest-first feed of land findings. The recurring land-scan agent appends to this feed; new listings since your last visit are flagged."
+>
+  <section class="border-b border-line bg-paper-2">
+    <div class="mx-auto max-w-5xl px-5 py-16 sm:px-8 sm:py-20">
+      <p class="eyebrow" style="color:var(--color-sage-deep)">Live · newest first</p>
+      <h1 class="mt-4 font-display text-4xl font-semibold leading-tight tracking-tight text-ink sm:text-6xl">
+        New plot findings
+      </h1>
+      <p class="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
+        A recurring land-scan agent appends fresh listings to the feed and triggers a
+        rebuild. Anything added since your last visit is flagged
+        <span class="mx-1 rounded-full bg-sage-deep px-2 py-0.5 align-middle text-xs font-medium text-paper">NEW</span>.
+      </p>
+      <p class="mt-4 flex flex-wrap items-center gap-x-6 gap-y-1 text-sm text-muted">
+        <span>Feed updated {updated}</span>
+        <span>{plots.length} plots</span>
+        <span id="new-count" aria-live="polite"></span>
+        <a class="text-terracotta-deep hover:underline" href={link('land')}>Full land search →</a>
+      </p>
+    </div>
+  </section>
+
+  <section class="mx-auto max-w-5xl px-5 py-12 sm:px-8">
+    <p id="first-visit" class="mb-6 hidden rounded-sm border border-dashed border-sage/60 bg-paper-2 px-4 py-3 text-sm text-ink-soft">
+      First visit — nothing’s marked new yet. Come back after the next scan and new
+      listings will be highlighted here.
+    </p>
+
+    <ol class="space-y-4">
+      {
+        plots.map((p) => (
+          <li
+            class="feed-item flex flex-col gap-4 rounded-sm border border-line bg-card p-5 sm:flex-row sm:items-start sm:justify-between"
+            data-firstseen={p.first_seen}
+          >
+            <div class="min-w-0">
+              <div class="flex flex-wrap items-center gap-2">
+                <span
+                  class={`rounded-full px-2 py-0.5 text-[0.65rem] font-medium uppercase tracking-wide text-paper ${scenarioTone[p.scenario] || 'bg-walnut'}`}
+                >
+                  Scenario {p.scenario}
+                </span>
+                <span class="text-xs text-muted">{p.submarket}</span>
+                <span class="text-xs text-muted">· {p.dom} DOM</span>
+                <span class="new-badge hidden rounded-full bg-sage-deep px-2 py-0.5 text-[0.65rem] font-medium uppercase tracking-wide text-paper">
+                  New
+                </span>
+              </div>
+              <h2 class="mt-2 font-display text-2xl font-semibold leading-tight text-ink">
+                {p.address}
+              </h2>
+              <p class="mt-2 max-w-2xl text-sm leading-relaxed text-ink-soft">{p.notes}</p>
+              <p class="mt-2 max-w-2xl text-xs leading-relaxed text-muted">
+                <span class="font-medium text-ink-soft">Watch:</span> {p.risks}
+              </p>
+              <p class="mt-1 text-xs text-muted">Source: {p.source}</p>
+            </div>
+
+            <div class="flex shrink-0 flex-row items-center gap-5 sm:flex-col sm:items-end sm:text-right">
+              <div>
+                <p class="font-display text-2xl text-ink">{usd(p.price_usd)}</p>
+                <p class="text-sm text-muted">{p.acreage} ac</p>
+              </div>
+              <a
+                href={p.listing_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="whitespace-nowrap rounded-full border border-ink px-4 py-2 text-sm font-medium text-ink transition-colors hover:bg-ink hover:text-paper"
+              >
+                View listing ↗
+              </a>
+            </div>
+          </li>
+        ))
+      }
+    </ol>
+  </section>
+</Base>
+
+<script>
+  const KEY = 'austin-house-feed-lastvisit-v1';
+  const prev = localStorage.getItem(KEY);
+  const items = Array.from(document.querySelectorAll<HTMLElement>('.feed-item'));
+  let newCount = 0;
+
+  if (!prev) {
+    document.getElementById('first-visit')?.classList.remove('hidden');
+  } else {
+    items.forEach((item) => {
+      const seen = item.dataset.firstseen || '';
+      if (seen > prev) {
+        item.querySelector('.new-badge')?.classList.remove('hidden');
+        item.classList.add('border-sage/60', 'shadow-[0_0_0_1px_rgba(124,138,107,0.4)]');
+        newCount++;
+      }
+    });
+    const counter = document.getElementById('new-count');
+    if (counter && newCount > 0) counter.textContent = `${newCount} new since your last visit`;
+  }
+
+  // Record this visit as the high-water mark for next time.
+  localStorage.setItem(KEY, new Date().toISOString());
+</script>

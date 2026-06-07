@@ -1,0 +1,331 @@
+---
+import Base from '../../layouts/Base.astro';
+import { link } from '../../lib/site';
+import { submarkets, tiers } from '../../data/submarkets';
+import { scenarios, scenarioNotes } from '../../data/scenarios';
+import feed from '../../../public/data/plots-feed.json';
+
+const plots = feed.plots;
+const usd = (n: number) =>
+  '$' + n.toLocaleString('en-US', { maximumFractionDigits: 0 });
+
+const mapPlots = plots.map((p) => ({
+  id: p.id,
+  rank: p.rank,
+  lat: p.lat,
+  lng: p.lng,
+  precision: p.geo_precision,
+  address: p.address,
+  submarket: p.submarket,
+  price: usd(p.price_usd),
+  acreage: p.acreage,
+  url: p.listing_url,
+}));
+
+const scenarioTone: Record<string, string> = {
+  A: 'bg-sage-deep',
+  B: 'bg-ochre',
+  C: 'bg-terracotta-deep',
+};
+---
+
+<Base
+  title="Land"
+  description="A land-search criteria spec plus 12 live plots (verified against ACTRIS MLS) across the Hill Country, lake submarkets and close-in Austin — with a mapped shortlist, budget scenarios and sub-market profiles."
+>
+  <Fragment slot="head">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin=""
+    />
+  </Fragment>
+
+  <!-- Hero -->
+  <section class="border-b border-line bg-paper-2">
+    <div class="mx-auto max-w-6xl px-5 py-16 sm:px-8 sm:py-20">
+      <p class="eyebrow">The search</p>
+      <h1 class="mt-4 font-display text-4xl font-semibold leading-[1.05] tracking-tight text-ink sm:text-6xl">
+        Land
+      </h1>
+      <p class="mt-5 max-w-2xl text-lg leading-relaxed text-ink-soft">
+        For a site-responsive MCM — where slope, trees, views and east-west solar
+        orientation are the whole point — the Hill Country and lake submarkets give you far
+        more land to design with per dollar than inner-Austin infill. Right land trumps
+        location. Below: {plots.length} live plots, ranked.
+      </p>
+      <p class="mt-4 max-w-2xl text-sm leading-relaxed text-muted">
+        Listings are a 2026-06-07 snapshot, verified against ACTRIS MLS via Longhorn Realty
+        and TexasRealEstateSource. They go stale fast — treat this as a starting basket, not
+        a standing inventory.
+      </p>
+      <a
+        href={link('land/site-visit-checklist')}
+        class="mt-7 inline-flex items-center gap-2 rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-paper transition-colors hover:bg-walnut"
+      >
+        25-item site-visit checklist →
+      </a>
+    </div>
+  </section>
+
+  <!-- Map -->
+  <section class="mx-auto max-w-6xl px-5 pt-14 sm:px-8">
+    <div class="flex flex-wrap items-end justify-between gap-3">
+      <div>
+        <p class="eyebrow">The shortlist, mapped</p>
+        <h2 class="mt-2 font-display text-3xl font-semibold text-ink">12 plots across the metro</h2>
+      </div>
+      <p class="flex flex-wrap items-center gap-4 text-xs text-muted">
+        <span class="inline-flex items-center gap-1.5">
+          <span class="inline-block h-3 w-3 rounded-full" style="background:#9c4526"></span> exact
+        </span>
+        <span class="inline-flex items-center gap-1.5">
+          <span class="inline-block h-3 w-3 rounded-full border-2 border-dashed" style="border-color:#7c8a6b;background:transparent"></span>
+          approximate (street/town)
+        </span>
+      </p>
+    </div>
+    <div
+      id="map"
+      class="mt-5 h-[26rem] w-full rounded-sm border border-line bg-paper-2 sm:h-[30rem]"
+      role="img"
+      aria-label="Map of the 12 shortlisted plots across the Austin metro"
+    >
+    </div>
+    <p id="map-fallback" class="mt-2 hidden text-sm text-muted">
+      Map couldn’t load — the plot cards below have every listing and a direct link.
+    </p>
+    <p class="mt-2 text-xs text-muted">
+      Four rural addresses geocoded only to the town/street level (shown dashed); pin
+      position is approximate. The “View listing” link on each card is authoritative.
+    </p>
+  </section>
+
+  <!-- Plot cards -->
+  <section class="mx-auto max-w-6xl px-5 py-12 sm:px-8">
+    <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
+      {
+        plots.map((p) => (
+          <article
+            id={`plot-${p.id}`}
+            class="flex scroll-mt-24 flex-col rounded-sm border border-line bg-card p-5"
+          >
+            <div class="flex items-start justify-between gap-3">
+              <div class="flex items-center gap-2">
+                <span class="font-display text-lg font-semibold text-line">
+                  {String(p.rank).padStart(2, '0')}
+                </span>
+                <span
+                  class={`rounded-full px-2 py-0.5 text-[0.65rem] font-medium uppercase tracking-wide text-paper ${scenarioTone[p.scenario] || 'bg-walnut'}`}
+                  title="Budget scenario"
+                >
+                  Scenario {p.scenario}
+                </span>
+              </div>
+              <span class="text-xs text-muted">{p.dom} DOM</span>
+            </div>
+
+            <h3 class="mt-3 font-display text-xl font-semibold leading-tight text-ink">
+              {p.address}
+            </h3>
+            <p class="mt-0.5 text-sm text-muted">{p.submarket}</p>
+
+            <dl class="mt-4 grid grid-cols-2 gap-3 border-y border-line-soft py-3">
+              <div>
+                <dt class="text-[0.65rem] uppercase tracking-[0.1em] text-muted">Price</dt>
+                <dd class="font-display text-2xl text-ink">{usd(p.price_usd)}</dd>
+              </div>
+              <div>
+                <dt class="text-[0.65rem] uppercase tracking-[0.1em] text-muted">Acreage</dt>
+                <dd class="font-display text-2xl text-ink">{p.acreage} ac</dd>
+              </div>
+            </dl>
+
+            <p class="mt-3 text-sm leading-relaxed text-ink-soft">{p.notes}</p>
+            <details class="mt-3 text-sm">
+              <summary class="cursor-pointer text-xs font-medium uppercase tracking-[0.1em] text-terracotta-deep">
+                Risks & utilities
+              </summary>
+              <p class="mt-2 leading-relaxed text-ink-soft">{p.risks}</p>
+              <p class="mt-2 text-xs text-muted">
+                <span class="font-medium">Utilities:</span> {p.utilities} · <span class="font-medium">HOA:</span> {p.hoa}
+              </p>
+            </details>
+
+            <a
+              href={p.listing_url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="mt-5 inline-flex items-center justify-center gap-1.5 rounded-full border border-ink px-4 py-2 text-sm font-medium text-ink transition-colors hover:bg-ink hover:text-paper"
+            >
+              View listing ↗
+            </a>
+          </article>
+        ))
+      }
+    </div>
+  </section>
+
+  <!-- Budget scenarios -->
+  <section class="border-y border-line bg-paper-2">
+    <div class="mx-auto max-w-6xl px-5 py-16 sm:px-8">
+      <p class="eyebrow">The math closes three ways</p>
+      <h2 class="mt-2 font-display text-3xl font-semibold text-ink sm:text-4xl">Budget scenarios</h2>
+      <p class="mt-3 max-w-2xl text-[0.97rem] leading-relaxed text-ink-soft">
+        All-in envelope $1–2M (land + build + soft costs). Land trades inversely against build size.
+      </p>
+
+      <div class="mt-8 grid gap-5 lg:grid-cols-3">
+        {
+          scenarios.map((s) => (
+            <div class="flex flex-col rounded-sm border border-line bg-card p-6">
+              <div class="flex items-center gap-3">
+                <span class={`flex h-9 w-9 items-center justify-center rounded-full font-display text-lg font-semibold text-paper ${scenarioTone[s.key]}`}>
+                  {s.key}
+                </span>
+                <h3 class="font-display text-2xl font-semibold text-ink">{s.title}</h3>
+              </div>
+              <dl class="mt-5 space-y-2.5 text-sm">
+                {[
+                  ['Land', s.land],
+                  ['Build budget', s.build],
+                  ['Size @ ~$500/sf', s.sqft],
+                  ['Soft costs', s.soft],
+                ].map(([k, v]) => (
+                  <div class="flex justify-between gap-3 border-b border-line-soft pb-2">
+                    <dt class="text-muted">{k}</dt>
+                    <dd class="text-right font-medium text-ink">{v}</dd>
+                  </div>
+                ))}
+              </dl>
+              <p class="mt-4 text-sm leading-relaxed text-ink-soft">{s.profile}</p>
+              <p class="mt-4 text-xs leading-relaxed text-muted">
+                <span class="font-medium text-ink-soft">Where:</span> {s.where}
+              </p>
+            </div>
+          ))
+        }
+      </div>
+      <div class="mt-6 grid gap-4 text-sm text-ink-soft sm:grid-cols-2">
+        <p class="rounded-sm border border-line bg-card p-4 leading-relaxed">{scenarioNotes.buildCost}</p>
+        <p class="rounded-sm border border-line bg-card p-4 leading-relaxed">{scenarioNotes.carrying}</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sub-market profiles accordion -->
+  <section class="mx-auto max-w-6xl px-5 py-16 sm:px-8">
+    <p class="eyebrow">Where to look</p>
+    <h2 class="mt-2 font-display text-3xl font-semibold text-ink sm:text-4xl">
+      Sub-market profiles
+    </h2>
+    <p class="mt-3 max-w-2xl text-[0.97rem] leading-relaxed text-ink-soft">
+      {submarkets.length} sub-markets across four tiers — commute baselines to downtown Austin,
+      typical lot size, in-budget pricing, utilities, soil and the key risk for each.
+    </p>
+
+    <div class="mt-8 space-y-10">
+      {
+        tiers.map((tier) => (
+          <div>
+            <h3 class="mb-3 font-display text-xl font-semibold text-terracotta-deep">{tier}</h3>
+            <div class="space-y-2">
+              {submarkets
+                .filter((s) => s.tier === tier)
+                .map((s) => (
+                  <details class="group rounded-sm border border-line bg-card">
+                    <summary class="flex cursor-pointer items-center justify-between gap-3 px-5 py-3.5 [&::-webkit-details-marker]:hidden">
+                      <span class="flex flex-wrap items-baseline gap-x-3 gap-y-1">
+                        <span class="font-display text-lg font-semibold text-ink">{s.name}</span>
+                        {s.fit && (
+                          <span class="rounded-full bg-paper-2 px-2 py-0.5 text-[0.65rem] uppercase tracking-wide text-sage-deep">
+                            {s.fit}
+                          </span>
+                        )}
+                      </span>
+                      <span class="flex shrink-0 items-center gap-3 text-xs text-muted">
+                        <span class="hidden sm:inline">{s.downtown}</span>
+                        <span class="hidden sm:inline">{s.budget}</span>
+                        <svg class="h-4 w-4 transition-transform group-open:rotate-45" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.5">
+                          <path d="M8 3v10M3 8h10" stroke-linecap="round" />
+                        </svg>
+                      </span>
+                    </summary>
+                    <div class="border-t border-line px-5 py-4">
+                      <dl class="mb-3 grid grid-cols-2 gap-x-4 gap-y-2 text-xs sm:grid-cols-4">
+                        {[
+                          ['County', s.county],
+                          ['Schools', s.isd],
+                          ['Downtown', s.downtown],
+                          ['Typical lot', s.lot],
+                          ['In-budget', s.budget],
+                          ['Water / sewer', s.water],
+                          ['Soil', s.soil],
+                          ['Key risk', s.keyRisk],
+                        ].map(([k, v]) => (
+                          <div>
+                            <dt class="uppercase tracking-[0.08em] text-muted">{k}</dt>
+                            <dd class="mt-0.5 text-ink">{v}</dd>
+                          </div>
+                        ))}
+                      </dl>
+                      <p class="text-sm leading-relaxed text-ink-soft">{s.profile}</p>
+                    </div>
+                  </details>
+                ))}
+            </div>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+</Base>
+
+<script
+  is:inline
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
+
+<script is:inline define:vars={{ plots: mapPlots }}>
+  (function () {
+    const el = document.getElementById('map');
+    const fallback = document.getElementById('map-fallback');
+    if (!el || typeof window.L === 'undefined') {
+      fallback && fallback.classList.remove('hidden');
+      return;
+    }
+    const L = window.L;
+    const map = L.map(el, { scrollWheelZoom: false }).setView([30.35, -98.0], 9);
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; OpenStreetMap contributors',
+      maxZoom: 18,
+    }).addTo(map);
+
+    const bounds = [];
+    plots.forEach((p) => {
+      if (p.lat == null || p.lng == null) return;
+      const exact = p.precision === 'exact';
+      const marker = L.circleMarker([p.lat, p.lng], {
+        radius: 9,
+        color: exact ? '#9c4526' : '#5f6e50',
+        weight: exact ? 2 : 2,
+        fillColor: exact ? '#bb5a35' : '#f3eee3',
+        fillOpacity: exact ? 0.9 : 0.5,
+        dashArray: exact ? null : '3 3',
+      }).addTo(map);
+      marker.bindPopup(
+        `<div style="font-family:Inter,system-ui,sans-serif;min-width:190px">
+           <div style="font-weight:600;margin-bottom:2px">No. ${p.rank} · ${p.submarket}</div>
+           <div style="font-size:13px;margin-bottom:4px">${p.address}</div>
+           <div style="font-size:13px"><b>${p.price}</b> · ${p.acreage} ac</div>
+           ${p.precision !== 'exact' ? '<div style="font-size:11px;color:#8a8073;margin-top:3px">Pin approximate (' + p.precision + '-level)</div>' : ''}
+           <a href="${p.url}" target="_blank" rel="noopener" style="font-size:12px;color:#9c4526;display:inline-block;margin-top:5px">View listing &#8599;</a>
+         </div>`,
+      );
+      bounds.push([p.lat, p.lng]);
+    });
+    if (bounds.length) map.fitBounds(bounds, { padding: [40, 40] });
+  })();
+</script>

@@ -1,0 +1,73 @@
+---
+import { nav, link, site } from '../lib/site';
+const path = Astro.url.pathname.replace(/\/$/, '');
+function active(href: string) {
+  const target = link(href).replace(/\/$/, '');
+  return path === target || path.startsWith(target + '/');
+}
+---
+
+<header class="sticky top-0 z-40 border-b border-line/70 bg-paper/85 backdrop-blur-md">
+  <nav class="mx-auto flex max-w-6xl items-center justify-between px-5 py-3.5 sm:px-8">
+    <a href={link('')} class="group flex items-baseline gap-2.5">
+      <span class="font-display text-xl font-semibold leading-none tracking-tight text-ink sm:text-2xl"
+        >The Austin House</span
+      >
+      <span class="hidden text-[0.62rem] uppercase tracking-[0.18em] text-muted sm:inline"
+        >George &amp; Taylor</span
+      >
+    </a>
+
+    <input type="checkbox" id="nav-toggle" class="peer hidden" />
+    <label
+      for="nav-toggle"
+      class="flex cursor-pointer flex-col gap-[5px] p-1.5 sm:hidden"
+      aria-label="Toggle navigation"
+    >
+      <span class="block h-0.5 w-6 bg-ink"></span>
+      <span class="block h-0.5 w-6 bg-ink"></span>
+      <span class="block h-0.5 w-6 bg-ink"></span>
+    </label>
+
+    <ul class="hidden items-center gap-7 sm:flex">
+      {
+        nav.map((item) => (
+          <li>
+            <a
+              href={link(item.href)}
+              class:list={[
+                'text-sm transition-colors hover:text-terracotta-deep',
+                active(item.href)
+                  ? 'text-terracotta-deep font-medium'
+                  : 'text-ink-soft',
+              ]}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+
+    <ul
+      class="absolute left-0 right-0 top-full hidden flex-col gap-1 border-b border-line bg-paper px-5 py-3 peer-checked:flex sm:hidden"
+    >
+      {
+        nav.map((item) => (
+          <li>
+            <a
+              href={link(item.href)}
+              class:list={[
+                'block py-2 text-base',
+                active(item.href) ? 'text-terracotta-deep font-medium' : 'text-ink-soft',
+              ]}
+            >
+              {item.label}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </nav>
+</header>
+<span class="sr-only">{site.tagline}</span>

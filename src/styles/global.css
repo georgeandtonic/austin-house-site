@@ -1,0 +1,260 @@
+@import "tailwindcss";
+
+/* ── Mid-century-modern theme tokens ───────────────────────────────
+   Palette keyed to the Eames House interior: warm white paper,
+   terracotta, sage, walnut, ochre, charcoal ink. */
+@theme {
+  --color-paper: #f3eee3;
+  --color-paper-2: #faf6ec;
+  --color-card: #fbf8f0;
+  --color-ink: #2a2622;
+  --color-ink-soft: #564f46;
+  --color-muted: #6f665a;
+  --color-line: #ddd2bf;
+  --color-line-soft: #e8dfcf;
+  --color-terracotta: #bb5a35;
+  --color-terracotta-deep: #9c4526;
+  --color-sage: #7c8a6b;
+  --color-sage-deep: #5f6e50;
+  --color-walnut: #5c4836;
+  --color-ochre: #c19a4b;
+
+  --font-display: "Cormorant Garamond", "Hoefler Text", Georgia, serif;
+  --font-body: "Inter", "Söhne", system-ui, -apple-system, sans-serif;
+
+  --tracking-label: 0.18em;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: var(--color-paper);
+  color: var(--color-ink);
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection {
+  background: var(--color-terracotta);
+  color: #fff;
+}
+
+a {
+  color: inherit;
+}
+
+/* Eyebrow / label treatment used throughout */
+.eyebrow {
+  font-size: 0.72rem;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  font-weight: 500;
+  color: var(--color-terracotta-deep);
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+/* Anchor offset so sticky-nav doesn't cover headings on jump */
+:target {
+  scroll-margin-top: 6rem;
+}
+
+/* Respect reduced motion */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+/* ── Long-form prose (the dossier & rendered markdown) ───────────── */
+.prose-mcm {
+  color: var(--color-ink);
+  max-width: 44rem;
+  font-size: 1.12rem;
+  line-height: 1.75;
+}
+.prose-mcm > * + * {
+  margin-top: 1.35em;
+}
+.prose-mcm h2 {
+  font-family: var(--font-display);
+  font-size: clamp(1.9rem, 4vw, 2.6rem);
+  line-height: 1.1;
+  font-weight: 600;
+  margin-top: 2.6em;
+  margin-bottom: 0.1em;
+  letter-spacing: -0.01em;
+  scroll-margin-top: 6rem;
+}
+.prose-mcm h3 {
+  font-family: var(--font-display);
+  font-size: clamp(1.4rem, 3vw, 1.8rem);
+  line-height: 1.15;
+  font-weight: 600;
+  margin-top: 1.8em;
+  margin-bottom: 0.1em;
+  scroll-margin-top: 6rem;
+}
+.prose-mcm h4 {
+  font-family: var(--font-body);
+  font-size: 0.78rem;
+  letter-spacing: var(--tracking-label);
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--color-terracotta-deep);
+  margin-top: 1.8em;
+}
+.prose-mcm p,
+.prose-mcm li {
+  color: var(--color-ink-soft);
+}
+.prose-mcm a {
+  color: var(--color-terracotta-deep);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+  text-decoration-color: var(--color-line);
+  transition: text-decoration-color 0.15s ease;
+}
+.prose-mcm a:hover {
+  text-decoration-color: var(--color-terracotta);
+}
+.prose-mcm strong {
+  color: var(--color-ink);
+  font-weight: 600;
+}
+.prose-mcm ul,
+.prose-mcm ol {
+  padding-left: 1.25em;
+}
+.prose-mcm ul {
+  list-style: none;
+  padding-left: 0;
+}
+.prose-mcm ul > li {
+  position: relative;
+  padding-left: 1.4em;
+}
+.prose-mcm ul > li::before {
+  content: "";
+  position: absolute;
+  left: 0.1em;
+  top: 0.72em;
+  width: 0.5em;
+  height: 0.5em;
+  background: var(--color-sage);
+  transform: rotate(45deg);
+}
+.prose-mcm ol {
+  list-style: decimal;
+}
+.prose-mcm li + li {
+  margin-top: 0.5em;
+}
+
+/* Blockquotes become pull-quotes — full-bleed of the text column */
+.prose-mcm blockquote {
+  margin: 2.4em -1.5rem;
+  padding: 1.6rem 1.8rem;
+  background: var(--color-paper-2);
+  border-left: 4px solid var(--color-terracotta);
+  font-family: var(--font-display);
+  font-size: clamp(1.3rem, 2.6vw, 1.7rem);
+  line-height: 1.35;
+  color: var(--color-walnut);
+}
+.prose-mcm blockquote p {
+  color: var(--color-walnut);
+  margin: 0;
+}
+.prose-mcm blockquote p + p {
+  margin-top: 0.6em;
+}
+.prose-mcm blockquote strong {
+  color: var(--color-terracotta-deep);
+}
+.prose-mcm blockquote a {
+  color: var(--color-terracotta-deep);
+}
+
+/* Images render wide with a caption (the italic line after them) */
+.prose-mcm img {
+  width: 100%;
+  border-radius: 2px;
+  margin: 2.4em 0 0.6em;
+  background: var(--color-line-soft);
+}
+.prose-mcm img + em,
+.prose-mcm p > em:only-child {
+  display: block;
+  font-size: 0.85rem;
+  font-style: italic;
+  color: var(--color-muted);
+  text-align: left;
+  margin-top: 0;
+}
+
+/* Tables in prose */
+.prose-mcm table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.92rem;
+  display: block;
+  overflow-x: auto;
+}
+.prose-mcm th,
+.prose-mcm td {
+  border-bottom: 1px solid var(--color-line);
+  padding: 0.55rem 0.7rem;
+  text-align: left;
+  vertical-align: top;
+}
+.prose-mcm th {
+  font-family: var(--font-body);
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--color-ink);
+  border-bottom: 2px solid var(--color-walnut);
+}
+.prose-mcm hr {
+  border: none;
+  border-top: 1px solid var(--color-line);
+  margin: 3em 0;
+}
+.prose-mcm code {
+  font-size: 0.85em;
+  background: var(--color-paper-2);
+  padding: 0.1em 0.35em;
+  border-radius: 2px;
+}
+.prose-mcm pre {
+  background: var(--color-ink);
+  color: var(--color-paper);
+  padding: 1.2rem;
+  border-radius: 3px;
+  overflow-x: auto;
+  font-size: 0.82rem;
+  line-height: 1.5;
+}
+.prose-mcm pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+}
+
+@media (min-width: 768px) {
+  .prose-mcm blockquote {
+    margin-left: -2.5rem;
+    margin-right: -2.5rem;
+    padding: 2rem 2.5rem;
+  }
+}
