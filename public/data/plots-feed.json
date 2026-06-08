@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-07T00:00:00Z",
+  "last_updated": "2026-06-08T12:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -171,7 +171,7 @@
       "price_usd": 534900,
       "acreage": 1.4,
       "listing_url": "https://www.texasrealestatesource.com/listing/lago-vista-tx/78645/2900-constitution-dr/44-1800494427/",
-      "notes": "~130 ft wide — genuinely useful frontage to orient the long axis E–W for a horizontal MCM. Rolling slope, medium trees, Hill Country + lake views, strong view potential. Price cut from $549,900.",
+      "notes": "~130 ft wide — genuinely useful frontage to orient the long axis E–W for a horizontal MCM. Rolling slope, medium trees, Hill Country + lake views, strong view potential. Price cut from $549,900. [Off-market as of 2026-06-08: Compass shows not currently listed; Trulia sold record found.]",
       "risks": "Seller flags buyer-to-verify buildability — do the floodplain/geotech early. Septic perc test needed.",
       "lat": 30.41916,
       "lng": -97.996474,
@@ -180,7 +180,8 @@
       "dom": 48,
       "hoa": "~$240/yr",
       "utilities": "Water + electric available; septic needed",
-      "source": "TexasRealEstateSource (ACTRIS MLS)"
+      "source": "TexasRealEstateSource (ACTRIS MLS)",
+      "status": "off_market"
     },
     {
       "id": "lot-2-hamilton-pool-rd-bee-cave",
