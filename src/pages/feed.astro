@@ -89,6 +89,11 @@ const scenarioTone: Record<string, string> = {
               <div>
                 <p class="font-display text-2xl text-ink">{usd(p.price_usd)}</p>
                 <p class="text-sm text-muted">{p.acreage} ac</p>
+                {p.commute && (
+                  <p class="mt-1 text-xs text-muted">
+                    Downtown {p.commute.downtown_minutes} min · Domain {p.commute.domain_minutes} min
+                  </p>
+                )}
               </div>
               <a
                 href={p.listing_url}

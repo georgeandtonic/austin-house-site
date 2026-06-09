@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-08T12:00:00Z",
+  "last_updated": "2026-06-08T22:30:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -20,7 +20,16 @@
       "dom": 19,
       "hoa": "~$120/yr, light restrictions",
       "utilities": "Electric available; well + septic needed",
-      "source": "Longhorn Realty (ACTRIS MLS)"
+      "source": "Longhorn Realty (ACTRIS MLS)",
+      "commute": {
+        "downtown_minutes": 35,
+        "downtown_miles": 23.9,
+        "domain_minutes": 41,
+        "domain_miles": 31.6,
+        "method": "osrm-free-flow",
+        "computed_at": "2026-06-08T22:30:00Z",
+        "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      }
     },
     {
       "id": "3006-point-cv-lago-vista",
@@ -40,7 +49,16 @@
       "dom": 20,
       "hoa": "~$17/mo + $200/yr POA (lake parks, boat ramps)",
       "utilities": "Public water + sewer + electric + cable",
-      "source": "TexasRealEstateSource (ACTRIS MLS)"
+      "source": "TexasRealEstateSource (ACTRIS MLS)",
+      "commute": {
+        "downtown_minutes": 64,
+        "downtown_miles": 39.6,
+        "domain_minutes": 54,
+        "domain_miles": 31.6,
+        "method": "osrm-free-flow",
+        "computed_at": "2026-06-08T22:30:00Z",
+        "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      }
     },
     {
       "id": "101-purple-sage-driftwood",
@@ -60,7 +78,16 @@
       "dom": 103,
       "hoa": "None indicated",
       "utilities": "Well + electric + existing septic in",
-      "source": "Longhorn Realty (ACTRIS MLS)"
+      "source": "Longhorn Realty (ACTRIS MLS)",
+      "commute": {
+        "downtown_minutes": 36,
+        "downtown_miles": 24.6,
+        "domain_minutes": 42,
+        "domain_miles": 32.3,
+        "method": "osrm-free-flow",
+        "computed_at": "2026-06-08T22:30:00Z",
+        "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      }
     },
     {
       "id": "lot-33-vista-ridge-dr-round-mountain",
@@ -80,7 +107,16 @@
       "dom": 251,
       "hoa": "~$42/mo + $500/yr",
       "utilities": "Electric + underground utilities available; septic + well needed",
-      "source": "Longhorn Realty (ACTRIS MLS)"
+      "source": "Longhorn Realty (ACTRIS MLS)",
+      "commute": {
+        "downtown_minutes": 75,
+        "downtown_miles": 53.4,
+        "domain_minutes": 78,
+        "domain_miles": 57.7,
+        "method": "osrm-free-flow",
+        "computed_at": "2026-06-08T22:30:00Z",
+        "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      }
     },
     {
       "id": "421-s-bear-creek-rd-liberty-hill",
@@ -100,7 +136,16 @@
       "dom": 74,
       "hoa": "No HOA fee noted",
       "utilities": "Well + septic + electric all installed",
-      "source": "Longhorn Realty (ACTRIS MLS)"
+      "source": "Longhorn Realty (ACTRIS MLS)",
+      "commute": {
+        "downtown_minutes": 42,
+        "downtown_miles": 33.4,
+        "domain_minutes": 32,
+        "domain_miles": 25.4,
+        "method": "osrm-free-flow",
+        "computed_at": "2026-06-08T22:30:00Z",
+        "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      }
     },
     {
       "id": "977-tomichi-trl-lakeway",
@@ -120,7 +165,16 @@
       "dom": 613,
       "hoa": "$267/mo (Rough Hollow) + ARB",
       "utilities": "MUD water + sewer + electric + fiber + propane",
-      "source": "TexasRealEstateSource (ACTRIS MLS)"
+      "source": "TexasRealEstateSource (ACTRIS MLS)",
+      "commute": {
+        "downtown_minutes": 39,
+        "downtown_miles": 22.7,
+        "domain_minutes": 42,
+        "domain_miles": 27.1,
+        "method": "osrm-free-flow",
+        "computed_at": "2026-06-08T22:30:00Z",
+        "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      }
     },
     {
       "id": "1202-dusk-ct-lago-vista",
@@ -140,7 +194,16 @@
       "dom": 81,
       "hoa": "~$240/yr (Emerald Bend)",
       "utilities": "Likely water available, septic needed — verify",
-      "source": "TexasRealEstateSource (ACTRIS MLS)"
+      "source": "TexasRealEstateSource (ACTRIS MLS)",
+      "commute": {
+        "downtown_minutes": 65,
+        "downtown_miles": 40.2,
+        "domain_minutes": 56,
+        "domain_miles": 32.2,
+        "method": "osrm-free-flow",
+        "computed_at": "2026-06-08T22:30:00Z",
+        "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      }
     },
     {
       "id": "1935-wayside-dr-wimberley",
@@ -160,7 +223,16 @@
       "dom": 66,
       "hoa": "~$50/yr (low)",
       "utilities": "Assume well + septic; confirm",
-      "source": "Longhorn Realty (ACTRIS MLS)"
+      "source": "Longhorn Realty (ACTRIS MLS)",
+      "commute": {
+        "downtown_minutes": 63,
+        "downtown_miles": 42.2,
+        "domain_minutes": 72,
+        "domain_miles": 52.1,
+        "method": "osrm-free-flow",
+        "computed_at": "2026-06-08T22:30:00Z",
+        "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      }
     },
     {
       "id": "2900-constitution-dr-lago-vista",
@@ -181,7 +253,16 @@
       "hoa": "~$240/yr",
       "utilities": "Water + electric available; septic needed",
       "source": "TexasRealEstateSource (ACTRIS MLS)",
-      "status": "off_market"
+      "status": "off_market",
+      "commute": {
+        "downtown_minutes": 61,
+        "downtown_miles": 38.3,
+        "domain_minutes": 51,
+        "domain_miles": 30.3,
+        "method": "osrm-free-flow",
+        "computed_at": "2026-06-08T22:30:00Z",
+        "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      }
     },
     {
       "id": "lot-2-hamilton-pool-rd-bee-cave",
@@ -201,7 +282,16 @@
       "dom": 382,
       "hoa": "N/A noted",
       "utilities": "Public water available; septic likely",
-      "source": "TexasRealEstateSource (ACTRIS MLS)"
+      "source": "TexasRealEstateSource (ACTRIS MLS)",
+      "commute": {
+        "downtown_minutes": 28,
+        "downtown_miles": 16.7,
+        "domain_minutes": 32,
+        "domain_miles": 21.1,
+        "method": "osrm-free-flow",
+        "computed_at": "2026-06-08T22:30:00Z",
+        "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      }
     },
     {
       "id": "1912-holly-st-austin",
@@ -221,7 +311,16 @@
       "dom": 6,
       "hoa": "N/A",
       "utilities": "City water + sewer connected",
-      "source": "TexasRealEstateSource (ACTRIS MLS)"
+      "source": "TexasRealEstateSource (ACTRIS MLS)",
+      "commute": {
+        "downtown_minutes": 7,
+        "downtown_miles": 2.8,
+        "domain_minutes": 19,
+        "domain_miles": 12.1,
+        "method": "osrm-free-flow",
+        "computed_at": "2026-06-08T22:30:00Z",
+        "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      }
     },
     {
       "id": "551-lake-view-dr-spicewood",
@@ -241,7 +340,16 @@
       "dom": 38,
       "hoa": "$121/mo ($1,452/yr)",
       "utilities": "Electricity + water available; septic needed",
-      "source": "Longhorn Realty (ACTRIS MLS)"
+      "source": "Longhorn Realty (ACTRIS MLS)",
+      "commute": {
+        "downtown_minutes": 52,
+        "downtown_miles": 34.5,
+        "domain_minutes": 55,
+        "domain_miles": 38.8,
+        "method": "osrm-free-flow",
+        "computed_at": "2026-06-08T22:30:00Z",
+        "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      }
     }
   ]
 }
