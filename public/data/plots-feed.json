@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-08T22:30:00Z",
+  "last_updated": "2026-06-09T02:44:22.510Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -29,6 +29,17 @@
         "method": "osrm-free-flow",
         "computed_at": "2026-06-08T22:30:00Z",
         "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      },
+      "flood": {
+        "femaZone": "AE",
+        "femaZoneSubtype": "",
+        "sfha": true,
+        "baseFloodElevationFt": null,
+        "riskLevel": "high",
+        "description": "Zone AE: inside the 100-year (1% annual chance) floodplain — Special Flood Hazard Area, lenders require flood insurance.",
+        "source": "FEMA NFHL (MapServer/28)",
+        "queriedAt": "2026-06-09T02:44:22.510Z",
+        "geoPrecisionNote": "town-level coord — verify on county GIS before offer"
       }
     },
     {
@@ -58,6 +69,17 @@
         "method": "osrm-free-flow",
         "computed_at": "2026-06-08T22:30:00Z",
         "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      },
+      "flood": {
+        "femaZone": "AE",
+        "femaZoneSubtype": "",
+        "sfha": true,
+        "baseFloodElevationFt": 722,
+        "riskLevel": "high",
+        "description": "Zone AE: inside the 100-year (1% annual chance) floodplain — Special Flood Hazard Area, lenders require flood insurance. Base flood elevation 722 ft.",
+        "source": "FEMA NFHL (MapServer/28)",
+        "queriedAt": "2026-06-09T02:44:22.510Z",
+        "geoPrecisionNote": "exact coord"
       }
     },
     {
@@ -87,6 +109,17 @@
         "method": "osrm-free-flow",
         "computed_at": "2026-06-08T22:30:00Z",
         "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      },
+      "flood": {
+        "femaZone": "X",
+        "femaZoneSubtype": "AREA OF MINIMAL FLOOD HAZARD",
+        "sfha": false,
+        "baseFloodElevationFt": null,
+        "riskLevel": "low",
+        "description": "Zone X (AREA OF MINIMAL FLOOD HAZARD): minimal flood hazard per FEMA (outside the 100- and 500-year floodplains).",
+        "source": "FEMA NFHL (MapServer/28)",
+        "queriedAt": "2026-06-09T02:44:22.510Z",
+        "geoPrecisionNote": "town-level coord — verify on county GIS before offer"
       }
     },
     {
@@ -116,6 +149,17 @@
         "method": "osrm-free-flow",
         "computed_at": "2026-06-08T22:30:00Z",
         "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      },
+      "flood": {
+        "femaZone": "X",
+        "femaZoneSubtype": "",
+        "sfha": false,
+        "baseFloodElevationFt": null,
+        "riskLevel": "low",
+        "description": "No FEMA flood feature mapped at this point — could mean minimal risk OR an unmapped/unanalyzed area; verify on county GIS.",
+        "source": "FEMA NFHL (MapServer/28)",
+        "queriedAt": "2026-06-09T02:44:22.510Z",
+        "geoPrecisionNote": "street-level coord — verify on county GIS before offer"
       }
     },
     {
@@ -145,6 +189,17 @@
         "method": "osrm-free-flow",
         "computed_at": "2026-06-08T22:30:00Z",
         "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      },
+      "flood": {
+        "femaZone": "X",
+        "femaZoneSubtype": "AREA OF MINIMAL FLOOD HAZARD",
+        "sfha": false,
+        "baseFloodElevationFt": null,
+        "riskLevel": "low",
+        "description": "Zone X (AREA OF MINIMAL FLOOD HAZARD): minimal flood hazard per FEMA (outside the 100- and 500-year floodplains).",
+        "source": "FEMA NFHL (MapServer/28)",
+        "queriedAt": "2026-06-09T02:44:22.510Z",
+        "geoPrecisionNote": "town-level coord — verify on county GIS before offer"
       }
     },
     {
@@ -174,6 +229,17 @@
         "method": "osrm-free-flow",
         "computed_at": "2026-06-08T22:30:00Z",
         "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      },
+      "flood": {
+        "femaZone": "X",
+        "femaZoneSubtype": "AREA OF MINIMAL FLOOD HAZARD",
+        "sfha": false,
+        "baseFloodElevationFt": null,
+        "riskLevel": "low",
+        "description": "Zone X (AREA OF MINIMAL FLOOD HAZARD): minimal flood hazard per FEMA (outside the 100- and 500-year floodplains).",
+        "source": "FEMA NFHL (MapServer/28)",
+        "queriedAt": "2026-06-09T02:44:22.510Z",
+        "geoPrecisionNote": "street-level coord — verify on county GIS before offer"
       }
     },
     {
@@ -203,6 +269,17 @@
         "method": "osrm-free-flow",
         "computed_at": "2026-06-08T22:30:00Z",
         "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      },
+      "flood": {
+        "femaZone": "AE",
+        "femaZoneSubtype": "",
+        "sfha": true,
+        "baseFloodElevationFt": 722,
+        "riskLevel": "high",
+        "description": "Zone AE: inside the 100-year (1% annual chance) floodplain — Special Flood Hazard Area, lenders require flood insurance. Base flood elevation 722 ft.",
+        "source": "FEMA NFHL (MapServer/28)",
+        "queriedAt": "2026-06-09T02:44:22.510Z",
+        "geoPrecisionNote": "exact coord"
       }
     },
     {
@@ -232,6 +309,17 @@
         "method": "osrm-free-flow",
         "computed_at": "2026-06-08T22:30:00Z",
         "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      },
+      "flood": {
+        "femaZone": "X",
+        "femaZoneSubtype": "AREA OF MINIMAL FLOOD HAZARD",
+        "sfha": false,
+        "baseFloodElevationFt": null,
+        "riskLevel": "low",
+        "description": "Zone X (AREA OF MINIMAL FLOOD HAZARD): minimal flood hazard per FEMA (outside the 100- and 500-year floodplains).",
+        "source": "FEMA NFHL (MapServer/28)",
+        "queriedAt": "2026-06-09T02:44:22.510Z",
+        "geoPrecisionNote": "exact coord"
       }
     },
     {
@@ -262,6 +350,17 @@
         "method": "osrm-free-flow",
         "computed_at": "2026-06-08T22:30:00Z",
         "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      },
+      "flood": {
+        "femaZone": "AE",
+        "femaZoneSubtype": "",
+        "sfha": true,
+        "baseFloodElevationFt": 722,
+        "riskLevel": "high",
+        "description": "Zone AE: inside the 100-year (1% annual chance) floodplain — Special Flood Hazard Area, lenders require flood insurance. Base flood elevation 722 ft.",
+        "source": "FEMA NFHL (MapServer/28)",
+        "queriedAt": "2026-06-09T02:44:22.510Z",
+        "geoPrecisionNote": "exact coord"
       }
     },
     {
@@ -291,6 +390,17 @@
         "method": "osrm-free-flow",
         "computed_at": "2026-06-08T22:30:00Z",
         "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      },
+      "flood": {
+        "femaZone": "X",
+        "femaZoneSubtype": "AREA OF MINIMAL FLOOD HAZARD",
+        "sfha": false,
+        "baseFloodElevationFt": null,
+        "riskLevel": "low",
+        "description": "Zone X (AREA OF MINIMAL FLOOD HAZARD): minimal flood hazard per FEMA (outside the 100- and 500-year floodplains).",
+        "source": "FEMA NFHL (MapServer/28)",
+        "queriedAt": "2026-06-09T02:44:22.510Z",
+        "geoPrecisionNote": "street-level coord — verify on county GIS before offer"
       }
     },
     {
@@ -320,6 +430,17 @@
         "method": "osrm-free-flow",
         "computed_at": "2026-06-08T22:30:00Z",
         "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      },
+      "flood": {
+        "femaZone": "X",
+        "femaZoneSubtype": "0.2 PCT ANNUAL CHANCE FLOOD HAZARD",
+        "sfha": false,
+        "baseFloodElevationFt": null,
+        "riskLevel": "moderate",
+        "description": "Zone X (0.2 PCT ANNUAL CHANCE FLOOD HAZARD): inside the 500-year (0.2% annual chance) floodplain — moderate risk, insurance not federally mandated.",
+        "source": "FEMA NFHL (MapServer/28)",
+        "queriedAt": "2026-06-09T02:44:22.510Z",
+        "geoPrecisionNote": "exact coord"
       }
     },
     {
@@ -349,6 +470,17 @@
         "method": "osrm-free-flow",
         "computed_at": "2026-06-08T22:30:00Z",
         "note": "free-flow estimate; rush hour ~1.4x for Hill Country, ~1.7x for inner suburbs"
+      },
+      "flood": {
+        "femaZone": "X",
+        "femaZoneSubtype": "AREA OF MINIMAL FLOOD HAZARD",
+        "sfha": false,
+        "baseFloodElevationFt": null,
+        "riskLevel": "low",
+        "description": "Zone X (AREA OF MINIMAL FLOOD HAZARD): minimal flood hazard per FEMA (outside the 100- and 500-year floodplains).",
+        "source": "FEMA NFHL (MapServer/28)",
+        "queriedAt": "2026-06-09T02:44:22.510Z",
+        "geoPrecisionNote": "town-level coord — verify on county GIS before offer"
       }
     }
   ]

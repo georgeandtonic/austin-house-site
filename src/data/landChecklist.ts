@@ -112,7 +112,7 @@ export const checklist: ChecklistGroup[] = [
     items: [
       {
         n: 17,
-        text: 'Pull FEMA + county GIS on your phone while standing there — is the build pad outside 100-yr AND 500-yr? Walk to the floodplain line if there is one.',
+        text: 'Pull FEMA + county GIS on your phone while standing there — is the build pad outside 100-yr AND 500-yr? Walk to the floodplain line if there is one. The site feed shows FEMA NFHL zone data, but confirm it on the county GIS (Travis/Hays/Williamson) — the national layer can lag local map revisions.',
       },
       {
         n: 18,

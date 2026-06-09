@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import { link } from '../lib/site';
 import feed from '../../public/data/plots-feed.json';
+import { floodText, floodTone, type Flood } from '../lib/flood';
 
 const usd = (n: number) =>
   '$' + n.toLocaleString('en-US', { maximumFractionDigits: 0 });
@@ -92,6 +93,15 @@ const scenarioTone: Record<string, string> = {
                 {p.commute && (
                   <p class="mt-1 text-xs text-muted">
                     Downtown {p.commute.downtown_minutes} min · Domain {p.commute.domain_minutes} min
+                  </p>
+                )}
+                {p.flood && (
+                  <p
+                    class="mt-1 text-xs font-medium"
+                    style={`color:${floodTone(p.flood as Flood)}`}
+                    title={p.flood.description}
+                  >
+                    {floodText(p.flood as Flood)}
                   </p>
                 )}
               </div>
