@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-09T02:44:22.510Z",
+  "last_updated": "2026-06-09T12:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -482,6 +482,21 @@
         "queriedAt": "2026-06-09T02:44:22.510Z",
         "geoPrecisionNote": "town-level coord — verify on county GIS before offer"
       }
+    },
+    {
+      "id": "799-bell-springs-rd-dripping-springs",
+      "first_seen": "2026-06-09T00:00:00Z",
+      "address": "799 Bell Springs Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 575000,
+      "acreage": 8.75,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/1323238/799-bell-springs-rd-dripping-springs-tx-78620/",
+      "notes": "Rolling hills with mature trees and open space, no deed restrictions — maximum design freedom for an unconventional MCM. Large flat building area identified in listing; 8.75 acres gives room to orient the long axis E-W. Scenario A (~$1.4M build budget remaining at the $575k land price).",
+      "risks": "Unusual 'lightning-bolt' lot shape may constrain build-pad placement — verify on plat before offer. Standard Dripping Springs flag: confirm Edwards Aquifer recharge-zone status (TCEQ) before offer; impervious-cover limits apply in recharge zones. Well + septic required. Price varies across listing sources ($575k–$625k); confirm with listing agent.",
+      "lat": null,
+      "lng": null,
+      "source": "Longhorn Realty (ACTRIS MLS)",
+      "status": "active"
     }
   ]
 }
