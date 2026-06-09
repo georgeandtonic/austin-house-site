@@ -1,0 +1,636 @@
+{
+  "nick-deaver": [
+    {
+      "n": 1,
+      "file": "images/architects/nick-deaver/1.jpg",
+      "width": 1200,
+      "height": 892,
+      "bytes": 324471,
+      "project": "RaveOn",
+      "year": 2018,
+      "via": "ArchDaily",
+      "sourcePage": "https://www.archdaily.com/967565/raveon-nick-deaver-architect",
+      "imageUrl": "https://images.adsttc.com/media/images/6128/eef6/9da8/5001/64fa/eccf/large_jpg/raveon-12.jpg",
+      "credit": "Casey Dunn"
+    },
+    {
+      "n": 2,
+      "file": "images/architects/nick-deaver/2.jpg",
+      "width": 1200,
+      "height": 1000,
+      "bytes": 158270,
+      "project": "RaveOn",
+      "year": 2018,
+      "via": "ArchDaily",
+      "sourcePage": "https://www.archdaily.com/967565/raveon-nick-deaver-architect",
+      "imageUrl": "https://images.adsttc.com/media/images/6128/eee1/9da8/5001/64fa/ecc3/large_jpg/raveon-6.jpg",
+      "credit": "Casey Dunn"
+    },
+    {
+      "n": 3,
+      "file": "images/architects/nick-deaver/3.jpg",
+      "width": 1200,
+      "height": 922,
+      "bytes": 179923,
+      "project": "RaveOn",
+      "year": 2018,
+      "via": "ArchDaily",
+      "sourcePage": "https://www.archdaily.com/967565/raveon-nick-deaver-architect",
+      "imageUrl": "https://images.adsttc.com/media/images/6128/eef6/e07f/ae01/6619/52b9/large_jpg/raveon-4.jpg",
+      "credit": "Casey Dunn"
+    }
+  ],
+  "matt-fajkus": [
+    {
+      "n": 1,
+      "file": "images/architects/matt-fajkus/1.jpg",
+      "width": 1200,
+      "height": 752,
+      "bytes": 178150,
+      "project": "Split House",
+      "year": 2019,
+      "via": "firm",
+      "sourcePage": "https://www.mfarchitecture.com/work-split-house",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/51ae76f9e4b0d19bff6e1308/1597177041884-Z3RMU2G8SR3A93SGDL5Q/Split+House.jpg",
+      "credit": null
+    },
+    {
+      "n": 2,
+      "file": "images/architects/matt-fajkus/2.jpg",
+      "width": 1200,
+      "height": 816,
+      "bytes": 324625,
+      "project": "Re-Open House",
+      "year": 2017,
+      "via": "firm",
+      "sourcePage": "https://www.mfarchitecture.com/work-reopen-house",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/51ae76f9e4b0d19bff6e1308/1597175969067-XJ3UGGGGNWF1P79N86I2/Re-Open+House+by+Matt+Fajkus+Architecture.jpg",
+      "credit": null
+    },
+    {
+      "n": 3,
+      "file": "images/architects/matt-fajkus/3.jpg",
+      "width": 1200,
+      "height": 923,
+      "bytes": 171007,
+      "project": "Inverse House",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://www.mfarchitecture.com/work-inverse-house",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/51ae76f9e4b0d19bff6e1308/1617292027313-U2AB3DR6CMYHA8Q588YS/4+Inverse+House+by+Matt+Fajkus+Architecture+photo+by+Casey+Dunn.jpg",
+      "credit": null
+    }
+  ],
+  "webber-studio": [
+    {
+      "n": 1,
+      "file": "images/architects/webber-studio/1.jpg",
+      "width": 1200,
+      "height": 788,
+      "bytes": 197118,
+      "project": "Fairfield House",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://webberstudio.com/wp-content/uploads/2021/05/fairfield-house7-1.jpg",
+      "imageUrl": "https://webberstudio.com/wp-content/uploads/2021/05/fairfield-house7-1.jpg",
+      "credit": null
+    },
+    {
+      "n": 2,
+      "file": "images/architects/webber-studio/2.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 134347,
+      "project": "Angelwylde Residence",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://webberstudio.com/wp-content/uploads/2021/05/angelwylde-residence15-1.jpg",
+      "imageUrl": "https://webberstudio.com/wp-content/uploads/2021/05/angelwylde-residence15-1.jpg",
+      "credit": null
+    },
+    {
+      "n": 3,
+      "file": "images/architects/webber-studio/3.jpg",
+      "width": 1024,
+      "height": 683,
+      "bytes": 57343,
+      "project": "Woodland Residence",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://webberstudio.com/wp-content/uploads/2021/05/Woodland-Residences-7-1.jpg",
+      "imageUrl": "https://webberstudio.com/wp-content/uploads/2021/05/Woodland-Residences-7-1.jpg",
+      "credit": null
+    }
+  ],
+  "a-parallel": [
+    {
+      "n": 1,
+      "file": "images/architects/a-parallel/1.jpg",
+      "width": 1200,
+      "height": 796,
+      "bytes": 178051,
+      "project": "Three Courts Residence",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://www.aparallel.com/three-courts-residence",
+      "imageUrl": "https://manage.aparallel.com/sites/default/files/2025-09/APA_THREECOURTS%20%284%29_0.jpg",
+      "credit": null
+    },
+    {
+      "n": 2,
+      "file": "images/architects/a-parallel/2.jpg",
+      "width": 1200,
+      "height": 800,
+      "bytes": 201687,
+      "project": "Terrace Mountain Residence",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://www.aparallel.com/terrace-mountain-residence",
+      "imageUrl": "https://manage.aparallel.com/sites/default/files/2025-09/APA_TERRACEMOUNTAIN%20%2832%29.jpg",
+      "credit": null
+    }
+  ],
+  "pollen": [
+    {
+      "n": 1,
+      "file": "images/architects/pollen/1.jpg",
+      "width": 1200,
+      "height": 1340,
+      "bytes": 269388,
+      "project": "Balcones House",
+      "year": 2011,
+      "via": "ArchDaily",
+      "sourcePage": "https://www.archdaily.com/805995/balcones-house-pollen-architecture-and-design",
+      "imageUrl": "https://images.adsttc.com/media/images/58ae/be42/e58e/ce4c/d100/0181/large_jpg/6_whit_preston_96257-Edit_3000px.jpg",
+      "credit": "Whit Preston"
+    },
+    {
+      "n": 2,
+      "file": "images/architects/pollen/2.jpg",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 245700,
+      "project": "Balcones House",
+      "year": 2011,
+      "via": "ArchDaily",
+      "sourcePage": "https://www.archdaily.com/805995/balcones-house-pollen-architecture-and-design",
+      "imageUrl": "https://images.adsttc.com/media/images/58ae/bec3/e58e/ce4c/d100/0183/large_jpg/3_casey_dunn_dining_94666-2_3000px.jpg",
+      "credit": "Casey Dunn"
+    },
+    {
+      "n": 3,
+      "file": "images/architects/pollen/3.jpg",
+      "width": 1200,
+      "height": 935,
+      "bytes": 142310,
+      "project": "Balcones House",
+      "year": 2011,
+      "via": "ArchDaily",
+      "sourcePage": "https://www.archdaily.com/805995/balcones-house-pollen-architecture-and-design",
+      "imageUrl": "https://images.adsttc.com/media/images/58ae/be8f/e58e/ce2b/4500/02e1/large_jpg/2_casey_dunn1_3000px.jpg",
+      "credit": "Casey Dunn"
+    }
+  ],
+  "clayton-korte": [
+    {
+      "n": 1,
+      "file": "images/architects/clayton-korte/1.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 72893,
+      "project": "Hill Country Wine Cave",
+      "year": 2021,
+      "via": "firm",
+      "sourcePage": "https://claytonkorte.com/project/hill-country-wine-cave/",
+      "imageUrl": "https://claytonkorte.com/wp-content/uploads/og-images/hill-country-wine-cave.jpg",
+      "credit": null
+    },
+    {
+      "n": 2,
+      "file": "images/architects/clayton-korte/2.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 101757,
+      "project": "Balcones Residence",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://claytonkorte.com/project/balcones-residence/",
+      "imageUrl": "https://claytonkorte.com/wp-content/uploads/og-images/balcones-residence.jpg",
+      "credit": null
+    },
+    {
+      "n": 3,
+      "file": "images/architects/clayton-korte/3.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 74923,
+      "project": "Ridgecrest Residence",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://claytonkorte.com/project/ridgecrest-residence/",
+      "imageUrl": "https://claytonkorte.com/wp-content/uploads/og-images/ridgecrest-residence.jpg",
+      "credit": null
+    }
+  ],
+  "jay-corder": [
+    {
+      "n": 1,
+      "file": "images/architects/jay-corder/1.jpg",
+      "width": 1200,
+      "height": 818,
+      "bytes": 239386,
+      "project": "Pemberton Residence",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://www.jaycorder.com/projects/pemberton-residence/",
+      "imageUrl": "https://www.jaycorder.com/wp-content/uploads/jay-corder-pemberton-07.jpg",
+      "credit": null
+    },
+    {
+      "n": 2,
+      "file": "images/architects/jay-corder/2.jpg",
+      "width": 1200,
+      "height": 800,
+      "bytes": 287240,
+      "project": "Silver Ridge Residence",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://www.jaycorder.com/projects/silver-ridge-residence/",
+      "imageUrl": "https://www.jaycorder.com/wp-content/uploads/jay-corder-silver-ridge-18.jpg",
+      "credit": null
+    },
+    {
+      "n": 3,
+      "file": "images/architects/jay-corder/3.jpg",
+      "width": 1200,
+      "height": 800,
+      "bytes": 120972,
+      "project": "Shoal Creek Residence",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://www.jaycorder.com/projects/shoal-creek-residence/",
+      "imageUrl": "https://www.jaycorder.com/wp-content/uploads/jay-corder-shoal-creek-09.jpg",
+      "credit": null
+    }
+  ],
+  "specht-novak": [
+    {
+      "n": 1,
+      "file": "images/architects/specht-novak/1.jpg",
+      "width": 1200,
+      "height": 675,
+      "bytes": 235760,
+      "project": "Stealth House",
+      "year": 2024,
+      "via": "firm",
+      "sourcePage": "https://spechtnovak.com/work/stealth-house/",
+      "imageUrl": "https://spechtnovak.com/wp-content/uploads/2023/09/Stealth01-copy.jpg",
+      "credit": null
+    },
+    {
+      "n": 2,
+      "file": "images/architects/specht-novak/2.jpg",
+      "width": 1200,
+      "height": 900,
+      "bytes": 249067,
+      "project": "Zilker Park House",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://spechtnovak.com/work/zilker-park-house/",
+      "imageUrl": "https://spechtnovak.com/wp-content/uploads/2023/09/Specht-Novak_Zilker_Leonid-Furmansky_01.jpg",
+      "credit": null
+    },
+    {
+      "n": 3,
+      "file": "images/architects/specht-novak/3.jpg",
+      "width": 1200,
+      "height": 762,
+      "bytes": 244711,
+      "project": "Treetops House",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://spechtnovak.com/work/treetops-house/",
+      "imageUrl": "https://spechtnovak.com/wp-content/uploads/2023/10/Specht-Novak_Treetops-House_Casey-Dunn_04.jpg",
+      "credit": null
+    }
+  ],
+  "jay-hargrave": [
+    {
+      "n": 1,
+      "file": "images/architects/jay-hargrave/1.jpg",
+      "width": 450,
+      "height": 450,
+      "bytes": 44100,
+      "project": "Atelier Wong",
+      "year": 2010,
+      "via": "Dezeen",
+      "sourcePage": "https://www.dezeen.com/2010/01/05/atelier-wong-by-cottam-hargrave/",
+      "imageUrl": "https://static.dezeen.com/uploads/2010/01/dzn_Atelier-Wong-by-Cottam-Hargrave-12.jpg",
+      "credit": null
+    }
+  ],
+  "cuppett-kilpatrick": [
+    {
+      "n": 1,
+      "file": "images/architects/cuppett-kilpatrick/1.jpg",
+      "width": 1200,
+      "height": 1200,
+      "bytes": 254304,
+      "project": "1 Hillside",
+      "year": null,
+      "via": "Dezeen",
+      "sourcePage": "https://www.dezeen.com/2017/03/22/tim-cuppett-architects-one-hillside-austin-home-modern-rustic-slurried-stone-charred-wood/",
+      "imageUrl": "https://static.dezeen.com/uploads/2017/03/1-hillside-by-tim-cuppett-architects-texas-texan-austin-home-house_dezeen_square2.jpg",
+      "credit": null
+    },
+    {
+      "n": 2,
+      "file": "images/architects/cuppett-kilpatrick/2.jpg",
+      "width": 1200,
+      "height": 824,
+      "bytes": 317438,
+      "project": "Belmont Park",
+      "year": 2019,
+      "via": "Dwell",
+      "sourcePage": "https://www.dwell.com/home/belmont-park-1798d35c",
+      "imageUrl": "https://images.dwell.com/photos/6441361513482915840/6611388527503646720/large.jpg",
+      "credit": null
+    }
+  ],
+  "chioco-design": [
+    {
+      "n": 1,
+      "file": "images/architects/chioco-design/1.jpg",
+      "width": 1200,
+      "height": 800,
+      "bytes": 126424,
+      "project": "Basin Ledge Residence",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://www.chiocodesign.com/projects/basin-ledge-residence/",
+      "imageUrl": "https://www.chiocodesign.com/wp-content/uploads/2018/11/Basin-Ledge-4.jpg",
+      "credit": null
+    },
+    {
+      "n": 2,
+      "file": "images/architects/chioco-design/2.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 245812,
+      "project": "Airole Residence",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://www.chiocodesign.com/projects/airole-residence/",
+      "imageUrl": "https://www.chiocodesign.com/wp-content/uploads/2018/11/Grable330_2.jpg",
+      "credit": null
+    },
+    {
+      "n": 3,
+      "file": "images/architects/chioco-design/3.jpg",
+      "width": 880,
+      "height": 713,
+      "bytes": 137653,
+      "project": "Rollingwood custom home",
+      "year": null,
+      "via": "HomeWorldDesign",
+      "sourcePage": "https://homeworlddesign.com/custom-home-designed-chioco-design/",
+      "imageUrl": "https://f7e5m2b4.delivery.rocketcdn.me/wp-content/uploads/2017/09/Contemporary-Custom-Home-12.jpg",
+      "credit": null
+    }
+  ],
+  "alterstudio": [
+    {
+      "n": 1,
+      "file": "images/architects/alterstudio/1.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 68672,
+      "project": "Barton Hills Residence",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://alterstudio.net/work/barton-hills-residence",
+      "imageUrl": "https://cdn.sanity.io/images/wtyjs5ew/production/c6cf17f420f9a71a0f89e9260eb2def05256ac61-3200x2376.jpg?rect=0,348,3200,1680&w=1200&h=630&fm=jpg&sharp=5&q=60&fit=crop&auto=format",
+      "credit": null
+    },
+    {
+      "n": 2,
+      "file": "images/architects/alterstudio/2.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 182292,
+      "project": "Westview Residence",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://alterstudio.net/work/westview-residence",
+      "imageUrl": "https://cdn.sanity.io/images/wtyjs5ew/production/af1b027952e7f94f4cb74dbe255a70bb7f8ad2e5-3200x2476.jpg?rect=0,398,3200,1680&w=1200&h=630&fm=jpg&sharp=5&q=60&fit=crop&auto=format",
+      "credit": null
+    },
+    {
+      "n": 3,
+      "file": "images/architects/alterstudio/3.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 186373,
+      "project": "Tarrytown Residence",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://alterstudio.net/work/tarrytown-residence",
+      "imageUrl": "https://cdn.sanity.io/images/wtyjs5ew/production/08ca6ec2cb0af21cccddad26443d29c999a3c3e2-3200x2259.jpg?rect=0,290,3200,1680&w=1200&h=630&fm=jpg&sharp=5&q=60&fit=crop&auto=format",
+      "credit": null
+    }
+  ],
+  "furman-keil": [
+    {
+      "n": 1,
+      "file": "images/architects/furman-keil/1.jpg",
+      "width": 1200,
+      "height": 926,
+      "bytes": 210602,
+      "project": "Dog Run Ranch",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://www.fkarchitects.net/dogrun-ranch",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5733d63ba3360cb05c828989/1482185099187-XBIE7YJM3M5T3JVJNS1C/furman_keil_dogrun_2.jpg",
+      "credit": null
+    },
+    {
+      "n": 2,
+      "file": "images/architects/furman-keil/2.jpg",
+      "width": 1200,
+      "height": 960,
+      "bytes": 390322,
+      "project": "Roost",
+      "year": 2025,
+      "via": "ArchDaily",
+      "sourcePage": "https://www.archdaily.com/1032369/roost-platform-furman-plus-keil-architects",
+      "imageUrl": "https://images.adsttc.com/media/images/687f/86b7/6df6/fa68/8f56/271b/large_jpg/roost-platform-furman-plus-keil-architects_7.jpg",
+      "credit": "Leonid Furmansky"
+    },
+    {
+      "n": 3,
+      "file": "images/architects/furman-keil/3.jpg",
+      "width": 1200,
+      "height": 614,
+      "bytes": 158950,
+      "project": "Rammed Earth Ranch",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://www.fkarchitects.net/rammed-earth-ranch",
+      "imageUrl": "https://images.squarespace-cdn.com/content/v1/5733d63ba3360cb05c828989/1487785603602-JJ0ITWKK84SFN5XQZPAO/furman_keil_rammed_earth_ranch_1.jpg",
+      "credit": null
+    }
+  ],
+  "larue": [
+    {
+      "n": 1,
+      "file": "images/architects/larue/1.jpg",
+      "width": 600,
+      "height": 600,
+      "bytes": 71866,
+      "project": "Hilltop renovation",
+      "year": 2023,
+      "via": "Dezeen",
+      "sourcePage": "https://www.dezeen.com/2023/07/18/larue-architects-kelle-contine-austin-house/",
+      "imageUrl": "https://static.dezeen.com/uploads/2023/07/rollingwood-house-la-rue-architects-sq-600x600.jpg",
+      "credit": null
+    }
+  ],
+  "lake-flato": [
+    {
+      "n": 1,
+      "file": "images/architects/lake-flato/1.jpg",
+      "width": 1200,
+      "height": 897,
+      "bytes": 218191,
+      "project": "Story Pool House",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://www.lakeflato.com/ranches/story-pool-house",
+      "imageUrl": "https://lakeflato.b-cdn.net/wp-content/uploads/2024/12/28024_N4_medium-1440x1076.jpg",
+      "credit": null
+    },
+    {
+      "n": 2,
+      "file": "images/architects/lake-flato/2.jpg",
+      "width": 1200,
+      "height": 871,
+      "bytes": 243499,
+      "project": "Lake Austin House",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://www.lakeflato.com/project/lake-austin-house/",
+      "imageUrl": "https://lakeflato.b-cdn.net/wp-content/uploads/2024/12/24012_N32_medium-1440x1045.jpg",
+      "credit": null
+    },
+    {
+      "n": 3,
+      "file": "images/architects/lake-flato/3.jpg",
+      "width": 818,
+      "height": 563,
+      "bytes": 157677,
+      "project": "Hillside House",
+      "year": 2016,
+      "via": "designboom",
+      "sourcePage": "https://www.designboom.com/architecture/lake-flato-hillside-house-austin-texas-07-01-2016/",
+      "imageUrl": "https://www.designboom.com/twitterimages/uploads/2016/05/lake-flato-hillside-house-austin-texas-designboom-01.jpg",
+      "credit": null
+    }
+  ],
+  "andersson-wise": [
+    {
+      "n": 1,
+      "file": "images/architects/andersson-wise/1.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 169179,
+      "project": "Lake House",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://www.anderssonwise.com/projects/lake-house",
+      "imageUrl": "https://s3.us-east-2.amazonaws.com/aw-craft/images-next/Projects/Current-Work/Lake-House/_1200x630_crop_center-center_82_none/05_LakeHouse_ch5_0011A.jpg?mtime=1716407769",
+      "credit": null
+    },
+    {
+      "n": 2,
+      "file": "images/architects/andersson-wise/2.jpg",
+      "width": 1200,
+      "height": 630,
+      "bytes": 147837,
+      "project": "House Above Lake Austin",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://www.anderssonwise.com/projects/house-above-lake-austin",
+      "imageUrl": "https://s3.us-east-2.amazonaws.com/aw-craft/images-next/Projects/Current-Work/House-Above-Lake-Austin/_1200x630_crop_center-center_82_none/03_HouseAboveLakeAustin_ch3_alternate0023B.jpg?mtime=1716407026",
+      "credit": null
+    }
+  ],
+  "bercy-chen": [
+    {
+      "n": 1,
+      "file": "images/architects/bercy-chen/1.jpg",
+      "width": 1200,
+      "height": 800,
+      "bytes": 164246,
+      "project": "Edgeland House",
+      "year": 2012,
+      "via": "ArchDaily",
+      "sourcePage": "https://www.archdaily.com/331677/edgeland-house-bercy-chen-studio",
+      "imageUrl": "https://images.adsttc.com/media/images/511b/9e4b/b3fc/4b67/7100/0123/large_jpg/MG9C7724.jpg",
+      "credit": "Paul Bardagjy"
+    },
+    {
+      "n": 2,
+      "file": "images/architects/bercy-chen/2.jpg",
+      "width": 1200,
+      "height": 800,
+      "bytes": 242747,
+      "project": "Edgeland House",
+      "year": 2012,
+      "via": "ArchDaily",
+      "sourcePage": "https://www.archdaily.com/331677/edgeland-house-bercy-chen-studio",
+      "imageUrl": "https://images.adsttc.com/media/images/511b/9dd6/b3fc/4b93/3f00/0118/large_jpg/MG9C7648.jpg",
+      "credit": "Paul Bardagjy"
+    },
+    {
+      "n": 3,
+      "file": "images/architects/bercy-chen/3.jpg",
+      "width": 1200,
+      "height": 927,
+      "bytes": 186260,
+      "project": "Annie Residence",
+      "year": null,
+      "via": "ArchDaily",
+      "sourcePage": "https://www.archdaily.com/250478/annie-residence-bercy-chen-studio",
+      "imageUrl": "https://images.adsttc.com/media/images/5018/adc8/28ba/0d5d/5d00/0392/large_jpg/stringio.jpg",
+      "credit": null
+    }
+  ],
+  "michael-hsu": [
+    {
+      "n": 1,
+      "file": "images/architects/michael-hsu/1.jpg",
+      "width": 1200,
+      "height": 801,
+      "bytes": 195217,
+      "project": "Greenbelt Residence",
+      "year": 2023,
+      "via": "firm",
+      "sourcePage": "https://hsuoffice.com/catalogue/greenbelt-residence/",
+      "imageUrl": "https://hsuoffice.com/wp-content/uploads/2023/01/Weitz-Residence-37.jpg",
+      "credit": null
+    },
+    {
+      "n": 2,
+      "file": "images/architects/michael-hsu/2.jpg",
+      "width": 1200,
+      "height": 862,
+      "bytes": 168947,
+      "project": "Llano Retreat",
+      "year": null,
+      "via": "firm",
+      "sourcePage": "https://hsuoffice.com/catalogue/llano-retreat/",
+      "imageUrl": "https://hsuoffice.com/wp-content/uploads/2023/01/Llano-Retreat-1Hi-Res.jpg",
+      "credit": null
+    }
+  ]
+}

@@ -2,6 +2,7 @@
 import Base from '../../layouts/Base.astro';
 import { link } from '../../lib/site';
 import { architects } from '../../data/architects';
+import { architectImages } from '../../data/architect-images';
 import { renderMarkdown, extractBlock } from '../../lib/markdown';
 import architectRaw from '../../content/architect-shortlist.md?raw';
 
@@ -28,6 +29,16 @@ const bodyLines = section
       !/^\*\*Pull-quote:\*\*/.test(l) && !/^\*\*Website ?\/ ?contact:\*\*/.test(l),
   );
 const html = renderMarkdown(bodyLines.join('\n'));
+
+const images = architectImages[a.slug] ?? [];
+// Strip width scales with the number of images so a single fallback image
+// doesn't balloon to full width.
+const galleryCols =
+  images.length >= 3
+    ? 'sm:grid-cols-3'
+    : images.length === 2
+      ? 'sm:grid-cols-2'
+      : 'sm:grid-cols-1 sm:max-w-md';
 
 const facts: [string, string][] = [
   ['MCM fit', `${a.mcmStars}  (${a.mcmFit}/5)`],
