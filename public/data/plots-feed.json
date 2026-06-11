@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-10T12:00:00Z",
+  "last_updated": "2026-06-11T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -129,10 +129,10 @@
       "first_seen": "2026-06-07T00:00:00Z",
       "address": "Lot 33 Vista Ridge Dr, Round Mountain, TX 78663",
       "submarket": "Round Mountain",
-      "price_usd": 244000,
+      "price_usd": 218000,
       "acreage": 7.25,
       "listing_url": "https://www.longhornrealty.com/property-search/detail/44/7990916/lot-33-vista-ridge-dr-round-mountain-tx-78663/",
-      "notes": "Cheapest route to real acreage + big Hill Country views; level-to-gentle, gated, wildlife-exempt (near-zero carrying cost). Leaves the fattest build budget of any plot (Scenario A, ~$1.5M+). Light Blanco County permitting suits an unconventional design.",
+      "notes": "Cheapest route to real acreage + big Hill Country views; level-to-gentle, gated, wildlife-exempt (near-zero carrying cost). Leaves the fattest build budget of any plot, now even more so. Light Blanco County permitting suits an unconventional design. [Price updated 2026-06-11: was $244,000, now $218,000 (−10.7%); Scenario A build budget grows to ~$1.58M+ at updated land price.]",
       "risks": "Distance and total car-dependence (60–75 min downtown) is the headline. Must drill a well (cost + quantity unknown — ask neighbors). Fewer trees means less natural shade — design for it. Long DOM (251).",
       "lat": 30.4589679,
       "lng": -98.4136716,
@@ -142,6 +142,7 @@
       "hoa": "~$42/mo + $500/yr",
       "utilities": "Electric + underground utilities available; septic + well needed",
       "source": "Longhorn Realty (ACTRIS MLS)",
+      "status": "price_changed",
       "commute": {
         "downtown_minutes": 75,
         "downtown_miles": 53.4,
@@ -529,6 +530,57 @@
       "lng": null,
       "source": "Longhorn Realty (ACTRIS MLS)",
       "status": "active"
+    },
+    {
+      "id": "12241-fitzhugh-pl-lot-10-dripping-springs",
+      "first_seen": "2026-06-11T07:00:00Z",
+      "address": "12241 Fitzhugh Pl Lot 10, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 450000,
+      "acreage": 2.43,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/6561742/12241-fitzhugh-pl-dripping-springs-tx-78620/",
+      "notes": "Gated Hill Country lot (Fitzhugh Place subdivision) with confirmed mature oaks and panoramic views; 2.43 acres gives room for a thoughtful E-W MCM siting. DSISD, ~$120/yr light HOA. Listed Dec 2025, Longhorn Realty MLS #6561742. Scenario A (~$1.55M build budget remaining at $450k land price).",
+      "risks": "At 2.43 acres the lot is smaller than ideal for Hill Country — verify buildable footprint and E-W long-axis freedom on the plat before offer. Standard Dripping Springs flag: confirm Edwards Aquifer recharge-zone status (TCEQ); well + septic required. Listing confirmed via multiple IDX mirrors (MLS #6561742) but broker site blocked during today's scan — verify active status with listing agent.",
+      "lat": null,
+      "lng": null,
+      "source": "Longhorn Realty (ACTRIS MLS)",
+      "status": "active",
+      "hoa": "~$120/yr (Fitzhugh Place, light restrictions)",
+      "utilities": "Electric available; well + septic required"
+    },
+    {
+      "id": "1725-cripple-creek-sta-dripping-springs",
+      "first_seen": "2026-06-11T07:00:00Z",
+      "address": "1725 Cripple Creek Sta, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 475000,
+      "acreage": 11.368,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/7455096/1725-cripple-creek-sta-dripping-springs-tx-78620/",
+      "notes": "11.37-acre Stagecoach Ranch parcel (same Hill Country subdivision as existing 915 Overland Stage Rd in feed) with well and electricity already on site; varying topography from level to high vista with Hill Country views, wet-weather creek, and rocky outcroppings — a strong site-responsive MCM canvas. $220/yr HOA. Listed Jan 2026, MLS #9788907. Scenario A (~$1.5M build budget at $475k land).",
+      "risks": "Listing status uncertain — one IDX source flagged property as possibly no longer listed; verify active status with listing agent (Longhorn Realty) before pursuing. Standard Dripping Springs flag: confirm Edwards Aquifer recharge-zone status (TCEQ); well quantity/quality not confirmed in listing. Wet-weather creek on property — confirm build pad is outside FEMA 100-yr floodplain/Atlas-14.",
+      "lat": null,
+      "lng": null,
+      "source": "Longhorn Realty (ACTRIS MLS)",
+      "status": "active",
+      "hoa": "$220/yr (Stagecoach Ranch, light restrictions)",
+      "utilities": "Well + electric on site; septic required"
+    },
+    {
+      "id": "275-deer-run-wimberley",
+      "first_seen": "2026-06-11T07:00:00Z",
+      "address": "275 Deer Run, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 449000,
+      "acreage": 5,
+      "listing_url": "https://www.redfin.com/TX/Wimberley/275-Deer-Run-78676/home/180371608",
+      "notes": "5-acre Deer Run Estates lot in Wimberley, heavily wooded with selective clearing for a private homesite; county-maintained road; community Blanco River deep-water park 2 min away; 10 min to Wimberley Square. Price cut from $499k. Listing by Compass RE Texas (Unlock MLS #7229607). Scenario A (~$1.55M build budget at $449k land).",
+      "risks": "Standard Wimberley flood check required: confirm build pad is well clear of FEMA 100-yr floodplain and Atlas-14 storm runoff — Blanco River park is nearby and area has 2015 flood history. Well + septic likely required (not confirmed in listing). HOA fee for Deer Run Estates not confirmed in search data. Listing URL points to Redfin — confirm details directly with Compass RE Texas agent.",
+      "lat": null,
+      "lng": null,
+      "source": "Compass RE Texas (Unlock MLS)",
+      "status": "active",
+      "hoa": "Deer Run Estates (fee not confirmed; includes Blanco River park access)",
+      "utilities": "Well + septic likely required; electric assumed available"
     }
   ]
 }
