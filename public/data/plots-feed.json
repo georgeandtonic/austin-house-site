@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-11T07:00:00Z",
+  "last_updated": "2026-06-12T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -465,6 +465,7 @@
       "hoa": "$121/mo ($1,452/yr)",
       "utilities": "Electricity + water available; septic needed",
       "source": "Longhorn Realty (ACTRIS MLS)",
+      "status": "off_market",
       "commute": {
         "downtown_minutes": 52,
         "downtown_miles": 34.5,
@@ -581,6 +582,38 @@
       "status": "active",
       "hoa": "Deer Run Estates (fee not confirmed; includes Blanco River park access)",
       "utilities": "Well + septic likely required; electric assumed available"
+    },
+    {
+      "id": "6611-ranch-road-962-w-round-mountain",
+      "first_seen": "2026-06-12T07:00:00Z",
+      "address": "6611 Ranch Road 962 W, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 299000,
+      "acreage": 8.2,
+      "listing_url": "https://www.exprealty.com/round-mountain-tx-real-estate/estates-at-round-mountain/6611-ranch-road-962-w",
+      "notes": "8.2-acre unimproved lot in Estates at Round Mountain (Blanco County) — companion submarket to Lot 33 Vista Ridge already in feed, different subdivision. Paved Ranch Road 962 access; Hill Country setting near Marble Falls and Horseshoe Bay. At $299k this is Scenario A (~$1.5M build budget). Annual taxes ~$6,200 — verify wildlife/ag exemption status; with exemption carry cost drops to near-zero. Light Blanco County permitting suits an unconventional MCM design.",
+      "risks": "No tree cover, slope, or utility information confirmed in listing data — verify on plat + satellite before offer. Well + septic required (standard for Blanco County; well cost and water quantity unknown). If ag/wildlife exemption does not transfer, $6,200/yr carry cost during design-build is meaningful. 60-75 min to downtown; full car dependence same as all Round Mountain listings.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS (Longhorn Realty IDX)",
+      "status": "active"
+    },
+    {
+      "id": "lot-3-4-vista-ridge-dr-round-mountain",
+      "first_seen": "2026-06-12T07:00:00Z",
+      "address": "Lot 3 & 4 Vista Ridge Dr, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 399900,
+      "acreage": 11.01,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/7674680/lot-3-amp-4-vista-ridge-dr-round-mountain-tx-78663/",
+      "notes": "11.01-acre gated lot in The Vistas at Round Mountain (same subdivision as Lot 33 Vista Ridge Dr in feed), Blanco County. The standout feature: a high-producing 40 GPM water well already in + a pond — removes Hill Country's biggest utility unknown. Wildlife-exempt (near-zero carrying cost), underground utilities, sweeping Hill Country views. Flagged as an honorable mention in the June 7 survey but not previously added to the feed; confirmed active today. Scenario A (~$1.4M build budget at $399,900 land).",
+      "risks": "11 acres is more land than needed — confirm the ag/wildlife exemption survives construction (it can lapse during active permitting, sharply raising carry cost). Well water quality unknown — budget for a water test early. Slope, tree cover, and build pad orientation not confirmed in listing data; verify on plat + satellite before offer. 60-75 min to downtown; full car dependence.",
+      "lat": null,
+      "lng": null,
+      "source": "Longhorn Realty (ACTRIS MLS)",
+      "status": "active",
+      "hoa": "~$42/mo + $500/yr (The Vistas at Round Mountain — same HOA as Lot 33 in feed)",
+      "utilities": "Underground utilities + 40 GPM well on site; septic needed"
     }
   ]
 }
