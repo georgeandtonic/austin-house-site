@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-13T07:00:00Z",
+  "last_updated": "2026-06-14T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -129,10 +129,10 @@
       "first_seen": "2026-06-07T00:00:00Z",
       "address": "Lot 33 Vista Ridge Dr, Round Mountain, TX 78663",
       "submarket": "Round Mountain",
-      "price_usd": 218000,
+      "price_usd": 249000,
       "acreage": 7.25,
       "listing_url": "https://www.longhornrealty.com/property-search/detail/44/7990916/lot-33-vista-ridge-dr-round-mountain-tx-78663/",
-      "notes": "Cheapest route to real acreage + big Hill Country views; level-to-gentle, gated, wildlife-exempt (near-zero carrying cost). Leaves the fattest build budget of any plot, now even more so. Light Blanco County permitting suits an unconventional design. [Price updated 2026-06-11: was $244,000, now $218,000 (−10.7%); Scenario A build budget grows to ~$1.58M+ at updated land price.]",
+      "notes": "Cheapest route to real acreage + big Hill Country views; level-to-gentle, gated, wildlife-exempt (near-zero carrying cost). Leaves the fattest build budget of any plot, now even more so. Light Blanco County permitting suits an unconventional design. [Price updated 2026-06-11: was $244,000, now $218,000 (−10.7%); Scenario A build budget grows to ~$1.58M+ at updated land price.] [Price updated 2026-06-14: was $218,000, now $249,000 (+14.2%); appears re-listed by new broker (Jenna Moore, Topper Real Estate) after prior Longhorn Realty listing apparently lapsed. Scenario A build budget at $249k land is ~$1.55M. Verify listing status and terms with new agent before engaging.]",
       "risks": "Distance and total car-dependence (60–75 min downtown) is the headline. Must drill a well (cost + quantity unknown — ask neighbors). Fewer trees means less natural shade — design for it. Long DOM (251).",
       "lat": 30.4589679,
       "lng": -98.4136716,
@@ -631,6 +631,23 @@
       "status": "active",
       "hoa": "$250/yr (York Creek Ranch, gated)",
       "utilities": "Electric at property line; well + septic required"
+    },
+    {
+      "id": "480-blue-creek-dr-dripping-springs",
+      "first_seen": "2026-06-14T07:00:00Z",
+      "address": "480 Blue Creek Dr, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 450000,
+      "acreage": 5.0,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/4918283/480-blue-creek-dr-dripping-springs-tx-78620/",
+      "notes": "In the same Blue Creek Ranch subdivision as the #1-ranked 414 Blue Creek Dr — identical $120/yr HOA and DSISD. Abundantly treed cul-de-sac lot (native trees: large 40ft+, medium, and small) with multiple build sites on 5 acres; no through traffic. At $450k this is Scenario A (~$1.55M build budget remaining). Confirmed active on Keller Williams, LandWatch, HAR, and Compass IDX mirrors (MLS #4918283).",
+      "risks": "Level terrain reduces the walkout/split-level drama available on gently sloping Hill Country alternatives — verify if a thoughtful E-W long-axis MCM orientation with terracing is achievable on the plat. Standard Blue Creek/Dripping Springs flag: confirm Edwards Aquifer recharge-zone status (TCEQ) before offer; well + septic required. Longhorn Realty direct page is currently blocked — confirm active status with listing agent before engaging.",
+      "lat": null,
+      "lng": null,
+      "source": "Longhorn Realty (ACTRIS MLS)",
+      "status": "active",
+      "hoa": "$120/yr (Blue Creek Ranch, light restrictions)",
+      "utilities": "Electric/cable/phone available; well + septic required"
     }
   ]
 }
