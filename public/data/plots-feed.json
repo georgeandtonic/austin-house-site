@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-15T07:00:00Z",
+  "last_updated": "2026-06-16T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -680,6 +680,23 @@
       "source": "Longhorn Realty (ACTRIS MLS)",
       "status": "active",
       "utilities": "Well + septic required; electric available"
+    },
+    {
+      "id": "1000-norwood-rd-dripping-springs",
+      "first_seen": "2026-06-16T07:00:00Z",
+      "address": "1000 Norwood Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 652500,
+      "acreage": 13.17,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/4829715/1000-norwood-rd-dripping-springs-tx-78620/",
+      "notes": "13.17-acre parcel in Hurlbut Ranch West subdivision (Hays County, DSISD). Road frontage on Norwood Rd; electricity line already installed near a potential building site. Trees confirmed in listing description. At $652,500, Scenario A (~$1.35M build budget). Longhorn Realty MLS #4829715. Price has been reduced significantly from the original ~$998k–$1M ask — motivated seller after extended time on market.",
+      "risks": "Very long days-on-market (listing dates to July 2022 on some aggregators — potentially ~4 years DOM); investigate why this property has not sold before engaging. Significant price discrepancy across platforms ($652,500 on Longhorn Realty vs. $699k–$998k on other IDX mirrors) — verify the current listing price directly with Longhorn Realty before making any offer. Standard Dripping Springs flag: confirm Edwards Aquifer recharge-zone status (TCEQ) before offer; impervious-cover limits may apply. Well + septic required. At 13.17 acres (over the 10-acre ideal), verify ag/wildlife exemption status and that construction won't lapse the exemption — without it, carry cost is material at this acreage.",
+      "lat": null,
+      "lng": null,
+      "source": "Longhorn Realty (ACTRIS MLS)",
+      "status": "active",
+      "hoa": "Hurlbut Ranch West — HOA status not confirmed in listing data; verify before offer",
+      "utilities": "Electricity installed near building site; well + septic required"
     }
   ]
 }
