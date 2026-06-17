@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-16T07:00:00Z",
+  "last_updated": "2026-06-17T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -11,7 +11,7 @@
       "price_usd": 620000,
       "acreage": 7.3,
       "listing_url": "https://www.longhornrealty.com/property-search/detail/44/9898962/414-blue-creek-dr-dripping-springs-tx-78620/",
-      "notes": "The cleanest match to the whole brief: gently sloping with multiple build sites, heavy oaks, Hill Country views, light deed restrictions (~$120/yr HOA). 7+ acres gives freedom to site the long axis E–W. Lands squarely in Scenario A (~$1.4M left for build). [2026-06-13 flag: a new Unlock MLS listing appeared at 414 Blue Creek Dr via Realty Reimagined LLC at 5.2 acres/$350,000 (10 days on market). May be a different survey parcel sharing the street address, or a subdivided portion of this lot. Verify with Longhorn Realty that ACTRIS #9898962 is still active before engaging.]",
+      "notes": "The cleanest match to the whole brief: gently sloping with multiple build sites, heavy oaks, Hill Country views, light deed restrictions (~$120/yr HOA). 7+ acres gives freedom to site the long axis E–W. Lands squarely in Scenario A (~$1.4M left for build). [2026-06-13 flag: a new Unlock MLS listing appeared at 414 Blue Creek Dr via Realty Reimagined LLC at 5.2 acres/$350,000 (10 days on market). May be a different survey parcel sharing the street address, or a subdivided portion of this lot. Verify with Longhorn Realty that ACTRIS #9898962 is still active before engaging.] [2026-06-17 flag: two additional listings now appear for this address — an Unlock MLS listing at $850,000/7.3 ac (same parcel size as this entry, +37% from feed price) and a La Casa Realty Group listing at $625,000/7.3 ac on ACTRIS. Both unverified (403 blocks). If the original Longhorn Realty/ACTRIS #9898962 listing was relisted by a new broker at $850k, that would be a material price change — call Longhorn Realty directly to confirm #9898962 status before engaging.]",
       "risks": "A wet-weather creek runs the back — confirm a build pad fully out of FEMA floodplain. Dripping Springs sits over the Barton Springs Edwards recharge zone, which can impose impervious-cover limits; verify before offer.",
       "lat": 30.1902067,
       "lng": -98.0866781,
@@ -697,6 +697,56 @@
       "status": "active",
       "hoa": "Hurlbut Ranch West — HOA status not confirmed in listing data; verify before offer",
       "utilities": "Electricity installed near building site; well + septic required"
+    },
+    {
+      "id": "901-days-end-rd-wimberley",
+      "first_seen": "2026-06-17T07:00:00Z",
+      "address": "901 Days End Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 299900,
+      "acreage": 5.13,
+      "listing_url": "https://www.atproperties.com/1931955/901-days-end-rd-wimberley-texas-78676-unlockmls",
+      "notes": "5.13-acre Burnett Ranch lot in Wimberley with Hill Country views near Mt Baldy; a shed conveys. Wimberley Village Water Supply Corp is available on this parcel — no well needed, a meaningful differentiator for Wimberley acreage. Community Blanco River park (Burnett Ranch) nearby for fishing/swimming. Listed September 2024 (~21 months DOM) at $299,900 — long DOM suggests negotiating room but also warrants investigating the cause. Unlock MLS #1931955 via @properties lone star Christie's. Scenario A (~$1.70M build budget at $299,900 land).",
+      "risks": "Standard Wimberley flood check required: Blanco River corridor has serious 2015 flood history; Burnett Ranch River Park access means proximity — confirm build pad is well outside FEMA 100-yr floodplain and Atlas-14 runoff zone before offer. Long DOM (~21 months) warrants investigation — ask the listing agent directly what concerns prior buyers raised. Price discrepancy across sources: Redfin shows $299,900, @properties listing shows $349,900 — confirm current asking price before engaging. Septic needs confirmation (water supply is available but sewer status unknown).",
+      "lat": null,
+      "lng": null,
+      "source": "@properties lone star / Unlock MLS",
+      "status": "active",
+      "utilities": "Wimberley Village Water Supply Corp available; septic required; electric assumed available"
+    },
+    {
+      "id": "lot-37-vista-ridge-dr-round-mountain",
+      "first_seen": "2026-06-17T07:00:00Z",
+      "address": "Lot 37 Vista Ridge Dr, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 230000,
+      "acreage": 5.0,
+      "listing_url": "https://www.search.unlockmls.com/address/Lot-37-Vista-Ridge-Dr-Round-Mountain-TX-78663/1963623",
+      "notes": "5-acre lot in The Vistas at Round Mountain (Blanco County) — same gated subdivision as Lot 33 Vista Ridge Dr and Lot 3&4 Vista Ridge Dr already in feed. Wildlife exemption (free-roaming Blackbuck Antelope) keeps carry cost near zero during design-build. Underground utilities available, sweeping Hill Country views, multiple build sites. Listed August 2025 (Unlock MLS #1963623). At $230,000 this is Scenario A with the largest build budget in the feed (~$1.57M remaining); close proximity (~minutes) to Johnson City, Marble Falls, and Burnet for services.",
+      "risks": "Round Mountain is 60-75 min to downtown — full car dependence same as all Vistas at Round Mountain listings. Well + septic required. Tree cover, slope, and specific build-pad orientation not confirmed in listing data — verify on plat + satellite before offer. Verify ag/wildlife exemption transfer and that construction won't lapse the exemption. HOA ~$42/mo + $500/yr (same as Lot 33 and Lot 3&4 in feed).",
+      "lat": null,
+      "lng": null,
+      "source": "Unlock MLS",
+      "status": "active",
+      "hoa": "~$42/mo + $500/yr (The Vistas at Round Mountain)",
+      "utilities": "Underground utilities available; well + septic required"
+    },
+    {
+      "id": "lot-3-vista-ridge-dr-round-mountain",
+      "first_seen": "2026-06-17T07:00:00Z",
+      "address": "Lot 3 Vista Ridge Dr, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 189000,
+      "acreage": 5.01,
+      "listing_url": "https://www.redfin.com/TX/Round-Mountain/Lot-3-Vista-Ridge-Dr-78663/home/196219296",
+      "notes": "5-acre lot in The Vistas at Round Mountain (Blanco County) individually listed at $189,000 (ACTRIS MLS #7032765) — the seller appears to offer Lot 3 both standalone and as part of the combined Lot 3&4 (11.01 ac, $399,900) already in the feed. At $189k this is the lowest-priced entry in the entire feed (~$37,700/ac). Wildlife exemption (near-zero carry), underground utilities, gated, sweeping Hill Country views. Scenario A (~$1.61M build budget at $189k land). Last updated May 31, 2026 on Redfin.",
+      "risks": "At $189k investigate whether there is a specific issue (irregular shape, limited trees, unfavorable road position, steep slope) vs. simply lowest-ask in the subdivision before offer. Verify that the individual Lot 3 listing (MLS #7032765) is distinct from the combined Lot 3&4 listing (MLS #177241) and that purchasing Lot 3 alone does not encumber Lot 4 or create shared-access complications. Well + septic required. 60-75 min to downtown; full car dependence.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS",
+      "status": "active",
+      "hoa": "~$42/mo + $500/yr (The Vistas at Round Mountain)",
+      "utilities": "Underground utilities available; well + septic required"
     }
   ]
 }
