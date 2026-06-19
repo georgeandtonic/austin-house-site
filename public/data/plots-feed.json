@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-18T07:00:00Z",
+  "last_updated": "2026-06-19T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -779,6 +779,39 @@
       "source": "HAR.com (ACTRIS MLS)",
       "status": "active",
       "utilities": "Well + septic likely required; electric assumed available"
+    },
+    {
+      "id": "tbd-stagecoach-ranch-loop-dripping-springs",
+      "first_seen": "2026-06-19T07:00:00Z",
+      "address": "TBD Stagecoach Ranch Loop, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 398000,
+      "acreage": 5.01,
+      "listing_url": "https://www.zinasells.com/property-search/detail/44/2901320/tbd-stagecoach-ranch-loop-dripping-springs-tx-78620/",
+      "notes": "5.01-acre lot (Lot 14B) in Stagecoach Ranch subdivision (Hays County, DSISD) — same Hill Country subdivision as 915 Overland Stage Rd and 1725 Cripple Creek Sta in feed. Features Hill Country views with a strong native-tree mix: Live Oaks, Spanish Oaks, and Madrone trees — excellent MCM shade and thermal screening. Approximately 400 feet of paved road frontage on Stagecoach Ranch Loop. ACTRIS MLS #2901320. Confirmed active across multiple IDX mirrors (HAR, Coldwell Banker, Keller Williams). At $398,000 this is Scenario A (~$1.60M build budget). Long DOM (~13 months, listed May 7, 2025) — investigate with listing agent before engaging.",
+      "risks": "Long DOM (~13 months) is the primary flag — ask the listing agent directly why this lot has not sold; there may be a recharge-zone, slope, access, or HOA issue not disclosed in listing snippets. Standard Dripping Springs flag: confirm Edwards Aquifer recharge-zone status (TCEQ) before offer; impervious-cover limits may apply. Deed restriction / HOA status for Stagecoach Ranch not confirmed in available listing data — verify CC&Rs before offer. Well + septic required.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS (Zina Sells / Keller Williams IDX)",
+      "status": "active",
+      "utilities": "Well + septic required; electric likely available — verify per parcel"
+    },
+    {
+      "id": "lot-4-vista-ridge-dr-round-mountain",
+      "first_seen": "2026-06-19T07:00:00Z",
+      "address": "Lot 4 Vista Ridge Dr, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 249000,
+      "acreage": 6.0,
+      "listing_url": "https://kkiel.cbharper.com/real-estate/community/the-vistas-at-round-mountain",
+      "notes": "6-acre lot in The Vistas at Round Mountain (Blanco County) — fifth listing from this gated subdivision now in the feed, alongside Lot 33 ($249k/7.25ac), Lot 37 ($230k/5ac), Lot 3 ($189k/5ac), and combined Lot 3&4 ($399,900/11ac). Listed by Jenna Moore, Topper Real Estate (ACTRIS MLS #5791066), fresh listing (~5 days on market as of June 19, 2026). Wildlife exemption (free-ranging Blackbuck Antelope) keeps carry cost near zero during design-build. Underground utilities, paved roads, sweeping 180-degree Hill Country views. At $249,000 this is Scenario A (~$1.55M build budget, ~$41,500/ac).",
+      "risks": "Verify the individual Lot 4 listing (MLS #5791066) is genuinely standalone and does not create shared-access complications with the combined Lot 3&4 listing (MLS #177241), which remains active at $399,900 — confirm with listing agent before offer. Tree cover, slope, and specific build-pad orientation not confirmed in listing data — verify on plat + satellite. Well + septic required. 60-75 min to downtown; full car dependence.",
+      "lat": null,
+      "lng": null,
+      "source": "Topper Real Estate (ACTRIS MLS)",
+      "status": "active",
+      "hoa": "~$42/mo + $500/yr (The Vistas at Round Mountain — same HOA as Lot 33, Lot 37, Lot 3, and Lot 3&4 in feed)",
+      "utilities": "Underground utilities available; well + septic required"
     }
   ]
 }
