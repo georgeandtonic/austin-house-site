@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-19T07:00:00Z",
+  "last_updated": "2026-06-20T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -812,6 +812,55 @@
       "status": "active",
       "hoa": "~$42/mo + $500/yr (The Vistas at Round Mountain — same HOA as Lot 33, Lot 37, Lot 3, and Lot 3&4 in feed)",
       "utilities": "Underground utilities available; well + septic required"
+    },
+    {
+      "id": "140-cave-springs-rd-wimberley",
+      "first_seen": "2026-06-20T07:00:00Z",
+      "address": "140 Cave Springs Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 350000,
+      "acreage": 6.26,
+      "listing_url": "https://www.landwatch.com/hays-county-texas-undeveloped-land-for-sale/pid/423590453",
+      "notes": "6.26-acre lot in Lost Springs Ranch — a gated 311-acre community with 77 estate-sized lots just minutes from Wimberley Square (Hays County, Wimberley ISD). Active 'New Listing' as of June 20, 2026 (ACTRIS MLS #4249081, confirmed across Zillow, LandWatch, Land.com, and multiple IDX mirrors). Community amenities include a private Blanco River Park Bluff with scenic views, a pool complex with covered pavilion, outdoor fireplace & fire pit, hiking trails, and a pond park. At $350,000 (~$55,900/ac) this is the best $/acre entry in the Wimberley submarket currently in the feed. Scenario A (~$1.65M build budget at $350k land).",
+      "risks": "Lost Springs Ranch is a gated community — verify CC&Rs and design guidelines before offer; an ARB could constrain flat roofs or large glazing. The Blanco River Park Bluff community amenity means the Blanco River is accessible from the community — verify this specific lot's build pad is well outside FEMA 100-yr floodplain and Atlas-14 runoff before offer (Wimberley area has serious 2015 flood history). Well + septic likely required; confirm if community water system exists. Standard Wimberley commute (~50-60 min to downtown).",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS (LandWatch IDX / MLS #4249081)",
+      "status": "active",
+      "utilities": "Well + septic likely required; confirm community water system"
+    },
+    {
+      "id": "lot-180-lookout-mountain-rd-johnson-city",
+      "first_seen": "2026-06-20T07:00:00Z",
+      "address": "Lot 180 Lookout Mountain Rd, Johnson City, TX 78636",
+      "submarket": "Johnson City / Legacy Hills",
+      "price_usd": 375000,
+      "acreage": 6.0,
+      "listing_url": "https://www.flexgrouprealestate.com/listings/subdivision/Legacy-Hills/land-for-sale/",
+      "notes": "6-acre homesite in Phase 2 of Legacy Hills — a gated 1,200-acre ranch community in Blanco County, 12 miles west of Dripping Springs (Johnson City ISD). Perched on one of the highest-elevation streets in the subdivision with sweeping panoramic Hill Country views to the west, north, and east — the strongest view profile of any lot added to the feed this run. Wildlife exemption maintained on all Legacy Hills lots (near-zero carry during design-build). Underground utilities and private paved roads. Listed at $375,000 by Jill Powell, Engel & Volkers Alamo Heights (confirmed active via HAR and Homes.com search results). Scenario A (~$1.63M build budget).",
+      "risks": "Johnson City ISD (not DSISD or Wimberley ISD) — verify this is acceptable before offer. Legacy Hills has design requirements (minimum 2,000 sq ft residence with masonry siding) — verify full CC&Rs permit flat roofs, large glazing, and MCM massing before offer; masonry includes limestone and stucco (MCM-compatible), but an ARB could still restrict other elements. Commute is ~70-80 min to downtown (further than Dripping Springs or Round Mountain alternatives). Well + septic required. Direct listing fetch unavailable (all sites 403); confirmed active via HAR and Homes.com search snippets.",
+      "lat": null,
+      "lng": null,
+      "source": "Engel & Volkers Alamo Heights (ACTRIS MLS / HAR confirmed active)",
+      "status": "active",
+      "hoa": "Legacy Hills HOA — fee not confirmed; wildlife exemption maintained community-wide",
+      "utilities": "Underground utilities available; well + septic required"
+    },
+    {
+      "id": "tbd-lot-17b-deer-run-wimberley",
+      "first_seen": "2026-06-20T07:00:00Z",
+      "address": "TBD Lot 17-B Deer Run, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 495000,
+      "acreage": 6.0,
+      "listing_url": "https://devorarealty.com/listing/actris/2099257/Wimberley/TBD-LOT-17-B-DEER-RUN/",
+      "notes": "6-acre lot (Lot 17-B) in Deer Run Estates — the same gated subdivision as '275 Deer Run' already in the feed, with the same private HOA Blanco River Park for swimming, kayaking, and fishing (Hays County, Wimberley ISD). Gently rolling terrain with majestic live oaks and abundant wildlife, described as an ideal custom home building site. ACTRIS MLS #2099257 (Devora Realty). At $495,000, Scenario A (~$1.51M build budget). One acre larger than '275 Deer Run' (5 ac / $399k) — compare both plats for build-pad orientation and slope before choosing.",
+      "risks": "Standard Wimberley flood check required: the private Blanco River Park HOA amenity means this community abuts the Blanco River; verify this specific lot's build pad is well outside FEMA 100-yr floodplain and Atlas-14 runoff before offer (Wimberley 2015 flood history). Well + septic required (not installed). Confirm HOA design guidelines have no MCM restrictions before offer. At $82,500/ac this lot is priced higher per acre than '275 Deer Run' ($79,800/ac) — compare before pursuing both.",
+      "lat": null,
+      "lng": null,
+      "source": "Devora Realty (ACTRIS MLS #2099257)",
+      "status": "active",
+      "utilities": "Well + septic required; electric assumed available"
     }
   ]
 }
