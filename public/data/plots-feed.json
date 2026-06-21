@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-20T07:00:00Z",
+  "last_updated": "2026-06-21T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -861,6 +861,23 @@
       "source": "Devora Realty (ACTRIS MLS #2099257)",
       "status": "active",
       "utilities": "Well + septic required; electric assumed available"
+    },
+    {
+      "id": "108-cross-trl-spicewood",
+      "first_seen": "2026-06-21T07:00:00Z",
+      "address": "108 Cross Trl, Spicewood, TX 78669",
+      "submarket": "Spicewood (Double Horn)",
+      "price_usd": 300000,
+      "acreage": 5.34,
+      "listing_url": "https://www.texashomerealtors.com/homes-for-sale/TX/spicewood/78669/108_cross_trl/bid-39-2847184",
+      "notes": "5.34-acre custom homesite in the gated Double Horn community (Burnet County, Spicewood). No rear neighbors — lot backs to a peaceful community pond. Positioned among million-dollar estate homes in a Hill Country setting. Community amenities include pool, pavilion with fireplace, playground, basketball court, BBQ grills, and miles of scenic trails. Equestrian-friendly (up to 2 horses per tract with approved fencing). Seller financing available. Confirmed active across multiple IDX mirrors (ACTRIS MLS #2847184, ~368 days on market). At $300,000 (~$56,200/ac), Scenario A (~$1.50M build budget).",
+      "risks": "Long DOM (~368 days) is the primary flag — investigate with the listing agent why this lot has not sold before committing to diligence; there may be a siting, soil, HOA, or physical issue not visible in search snippets. HOA approval required for building plans — verify CC&Rs and design guidelines do not ban flat roofs, large glazing, or MCM massing before offer. HOA monthly/annual fee amount not confirmed in available listing data (described as 'low'). Tree cover, topography/slope, and specific Hill Country views not confirmed in available data — verify on satellite and plat. Well + septic likely required. ~50 min to downtown Austin.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS (Double Horn / IDX mirrors, MLS #2847184)",
+      "status": "active",
+      "hoa": "HOA fee not confirmed (described as 'low'); HOA approval required for building plans",
+      "utilities": "Electric available (community infrastructure); well + septic likely required"
     }
   ]
 }
