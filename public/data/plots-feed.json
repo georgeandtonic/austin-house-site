@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-21T07:00:00Z",
+  "last_updated": "2026-06-22T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -878,6 +878,22 @@
       "status": "active",
       "hoa": "HOA fee not confirmed (described as 'low'); HOA approval required for building plans",
       "utilities": "Electric available (community infrastructure); well + septic likely required"
+    },
+    {
+      "id": "3600-stagecoach-ranch-loop-dripping-springs",
+      "first_seen": "2026-06-22T07:00:00Z",
+      "address": "3600 Stagecoach Ranch Loop, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 450000,
+      "acreage": 10.002,
+      "listing_url": "https://www.har.com/homedetail/3600-stagecoach-ranch-loop-dripping-springs-tx-78620/3903981",
+      "notes": "10.002-acre lot in Stagecoach Ranch subdivision (Hays County, DSISD) — the same Hill Country community as 915 Overland Stage Rd, 1725 Cripple Creek Sta, and TBD Stagecoach Ranch Loop (Lot 14B) already in the feed. Standout feature at $450k for 10 acres: a PEC power pole and meter loop are already on site, removing one electric-service cost. Treed with madrone, oak, and cedar plus native grasses; seller has plotted a path/road through the property that loops back to the entrance, providing a useful internal access road. Seclusion close to Hamilton Pool, Westcave Preserve, Reimers Ranch, and Pedernales Falls State Park. Confirmed active across HAR, realtyaustin.com, Williamskw IDX, and TDR Real Estate Group (ACTRIS MLS #4912304). Scenario A (~$1.55M build budget at $450k land).",
+      "risks": "No HOA or deed-restriction details confirmed in listing data — verify CC&Rs before offer; Stagecoach Ranch is a ranch subdivision and may have light restrictions, but confirm no ARB that would restrict MCM design (flat roof, large glazing). Standard Dripping Springs flag: confirm Edwards Aquifer recharge-zone status (TCEQ) before offer; impervious-cover limits may apply. Well + septic required. Madrone and cedar mix adds WUI wildfire consideration — assess defensible space. Two MLS IDs circulate for this listing (ACTRIS #4912304 and IDX #5841115); confirm the active MLS number with the listing agent before engaging.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS (Stagecoach Ranch, MLS #4912304 / HAR confirmed active)",
+      "status": "active",
+      "utilities": "PEC power pole and meter loop on site; well + septic required"
     }
   ]
 }
