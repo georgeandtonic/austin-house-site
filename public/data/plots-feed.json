@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-22T07:00:00Z",
+  "last_updated": "2026-06-23T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -894,6 +894,23 @@
       "source": "ACTRIS MLS (Stagecoach Ranch, MLS #4912304 / HAR confirmed active)",
       "status": "active",
       "utilities": "PEC power pole and meter loop on site; well + septic required"
+    },
+    {
+      "id": "162-legacy-hls-johnson-city",
+      "first_seen": "2026-06-23T07:00:00Z",
+      "address": "162 Legacy Hls, Johnson City, TX 78636",
+      "submarket": "Johnson City / Legacy Hills",
+      "price_usd": 340000,
+      "acreage": 8.0,
+      "listing_url": "https://www.zillow.com/homedetails/162-Legacy-Hls-Johnson-City-TX-78636/2067309133_zpid/",
+      "notes": "8-acre hilltop cul-de-sac lot in Legacy Hills (Blanco County) — largest parcel from this gated subdivision now in the feed, alongside Lot 180 Lookout Mountain Rd ($375k/6ac, added June 20). Hilltop position with stunning views and sunsets confirmed in listing description. Wildlife exemption (Black Buck and Oryx herds community-wide) keeps carry cost near zero during design-build. Gated, underground utilities, paved roads — fully serviced Hill Country lot. Seller financing available. At $340,000 (~$42,500/ac), Scenario A (~$1.66M build budget); 8 acres gives strong E-W siting freedom for a horizontal MCM. Listed by Cheryl Fowlkes, eXp Realty, ~6 days on market per HAR (Zillow MLS #3882197). Price discrepancy: HAR/eXp shows $340k; other IDX mirrors show $495,000–$499,444 — confirm current asking price directly with listing agent before any offer action.",
+      "risks": "Price discrepancy ($340k vs $495k) is the first diligence item — call eXp Realty (Cheryl Fowlkes) to confirm current ask before advancing. Same CC&R flags as Lot 180: minimum 2,000 sq ft residence with masonry siding required — verify full CC&Rs allow flat roofs, large glazing, and MCM massing before offer (masonry = limestone/stucco = MCM-compatible, but ARB review process could still restrict). Johnson City ISD (not DSISD or Wimberley ISD) — verify acceptable. Commute ~70-80 min to downtown Austin; full car dependence.",
+      "lat": null,
+      "lng": null,
+      "source": "eXp Realty (ACTRIS MLS #3882197 / HAR confirmed active)",
+      "status": "active",
+      "hoa": "Legacy Hills HOA — fee not confirmed; wildlife exemption maintained community-wide",
+      "utilities": "Underground utilities available; well + septic required"
     }
   ]
 }
