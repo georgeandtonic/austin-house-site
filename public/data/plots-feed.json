@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-23T07:00:00Z",
+  "last_updated": "2026-06-24T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -92,7 +92,7 @@
       "price_usd": 695000,
       "acreage": 11.5,
       "listing_url": "https://www.longhornrealty.com/property-search/detail/44/3004040/101-purple-sage-driftwood-tx-78619/",
-      "notes": "Big acreage, rolling topography, mature oaks throughout, Hill Country views, backs to a historic ranch. Water well, electric and existing septic are already in — a major de-risk. Platted into 2 tracts (optionality). Price cut from $843k shows motivation.",
+      "notes": "Big acreage, rolling topography, mature oaks throughout, Hill Country views, backs to a historic ranch. Water well, electric and existing septic are already in — a major de-risk. Platted into 2 tracts (optionality). Price cut from $843k shows motivation. [Off-market as of 2026-06-24: HAR.com confirms 'not for sale'; no active listing found across Redfin, Trulia, or Coldwell Banker. Entry retained per retention policy.]",
       "risks": "11.5 acres is more land (and tax/management) than needed — confirm the exemption holds. Existing septic age/condition needs inspection. Verify recharge-zone status (Driftwood varies).",
       "lat": 30.1229876,
       "lng": -98.0308425,
@@ -102,6 +102,7 @@
       "hoa": "None indicated",
       "utilities": "Well + electric + existing septic in",
       "source": "Longhorn Realty (ACTRIS MLS)",
+      "status": "off_market",
       "commute": {
         "downtown_minutes": 36,
         "downtown_miles": 24.6,
@@ -412,10 +413,10 @@
       "first_seen": "2026-06-07T00:00:00Z",
       "address": "1912 Holly St, Austin, TX 78702",
       "submarket": "East Austin (Holly)",
-      "price_usd": 649000,
+      "price_usd": 750000,
       "acreage": 0.1,
       "listing_url": "https://www.texasrealestatesource.com/listing/austin-tx/78702/1912-holly-st/44-1802545517/",
-      "notes": "Walkable urban infill, full city utilities connected, 5–10 min to downtown / Lady Bird Lake. East Austin welcomes modern design (low style friction) — a jewel-box MCM. Teardown, sold land-value.",
+      "notes": "Walkable urban infill, full city utilities connected, 5–10 min to downtown / Lady Bird Lake. East Austin welcomes modern design (low style friction) — a jewel-box MCM. Teardown, sold land-value. [Price updated 2026-06-24: was $649,000, now $750,000 (+15.6%); confirmed across Coldwell Banker, BHG Realty, and HAR. Appears relisted under ACTRIS MLS #3025811 (original was #9659490 via TexasRealEstateSource). Confirm current ask directly with listing agent before offer.]",
       "risks": "0.1 ac is tight — limited siting/orientation freedom and no privacy buffer. Holly is near Lady Bird Lake — floodplain check essential. Clay soil possible east of I-35 — verify.",
       "lat": 30.2532935,
       "lng": -97.725259,
@@ -425,6 +426,7 @@
       "hoa": "N/A",
       "utilities": "City water + sewer connected",
       "source": "TexasRealEstateSource (ACTRIS MLS)",
+      "status": "price_changed",
       "commute": {
         "downtown_minutes": 7,
         "downtown_miles": 2.8,
@@ -911,6 +913,39 @@
       "status": "active",
       "hoa": "Legacy Hills HOA — fee not confirmed; wildlife exemption maintained community-wide",
       "utilities": "Underground utilities available; well + septic required"
+    },
+    {
+      "id": "125-north-haven-dr-liberty-hill",
+      "first_seen": "2026-06-24T07:00:00Z",
+      "address": "125 North Haven Dr, Liberty Hill, TX 78642",
+      "submarket": "Liberty Hill",
+      "price_usd": 499000,
+      "acreage": 5.364,
+      "listing_url": "https://ensorrealtors.com/tx/liberty-hill/north-haven/125-north-haven-dr/",
+      "notes": "5.364-acre parcel in North Haven Planned Community (Liberty Hill ISD) with a highly unusual utility package for the area: City of Georgetown water, City of Liberty Hill wastewater, PEC electric, and Spectrum internet/cable — all utilities confirmed available, no well or septic risk. Off Hwy 183 near the new 183 toll extension. Ensor & Co. ACTRIS MLS #3713922. At $499,000 (~$93,000/ac), Scenario A (~$1.50M build budget). Price discrepancy across IDX sources ($449,500–$499,000) — confirm current asking price with listing agent before any offer action.",
+      "risks": "North Haven is a builder-directed planned community (GFO Home development) — HOA design guidelines may restrict flat roofs, large glazing, or MCM massing; obtain and verify full CC&Rs with the HOA ($50/mo, Goodwin Management) before offer. 'Cannot subdivide' means a single parcel only — confirm the lot is truly raw/unbuilt before pursuing. Suburban Liberty Hill location off Hwy 183 could be on the eastern clay side of Williamson County rather than the western limestone zone — verify soil type before offer. No slope, view, or tree-cover data confirmed in listing snippets; verify on satellite and plat.",
+      "lat": null,
+      "lng": null,
+      "source": "Ensor & Co. Realtors (ACTRIS MLS #3713922)",
+      "status": "active",
+      "hoa": "$50/mo (~$600/yr, Goodwin Management)",
+      "utilities": "City of Georgetown water + City of Liberty Hill wastewater + PEC electric + Spectrum"
+    },
+    {
+      "id": "5025-county-road-200-liberty-hill",
+      "first_seen": "2026-06-24T07:00:00Z",
+      "address": "5025 County Road 200, Liberty Hill, TX 78642",
+      "submarket": "Liberty Hill",
+      "price_usd": 407100,
+      "acreage": 5.9,
+      "listing_url": "https://www.coldwellbankerhomes.com/tx/liberty-hill/5025-county-road-200-rd/pid_63258489/",
+      "notes": "5.9-acre parcel in Bear Creek Ranch Unit 3 (Williamson County, Liberty Hill ISD) — same Bear Creek Ranch area as 421 S Bear Creek Rd and 412 S Bear Creek Rd already in the feed. Flat terrain with mature trees and multiple build sites; ag exemption eligible (near-zero carry during design-build). Three adjacent parcels on County Road 200 available separately or together (Lots 17/18/19, 14.7 acres total) — Lot 19 alone confirmed at $407,100. Coldwell Banker MLS #6514613. At $407,100 (~$69,000/ac), Scenario A (~$1.60M build budget).",
+      "risks": "Long DOM (~154 days from January 2025 listing date) warrants investigation — call Coldwell Banker to understand why this parcel has not sold before committing to diligence. Flat topography is the primary MCM site trade-off: verify on satellite whether sufficient grade exists for a walkout or split-level orientation. Price discrepancy across platforms ($407,100–$499,000) — confirm current asking price before offer. Standard Liberty Hill flag: verify soil is western limestone/caliche and not on the Blackland clay side of the county. HOA/deed restrictions for Bear Creek Ranch Unit 3 not confirmed — a Bear Creek Country Estates HOA exists in the area; verify terms before offer. Well + septic likely required (utilities not confirmed in listing data).",
+      "lat": null,
+      "lng": null,
+      "source": "Coldwell Banker (ACTRIS MLS #6514613)",
+      "status": "active",
+      "utilities": "Well + septic likely required; electric assumed available — verify per parcel"
     }
   ]
 }
