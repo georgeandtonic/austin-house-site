@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-24T07:00:00Z",
+  "last_updated": "2026-06-25T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -946,6 +946,39 @@
       "source": "Coldwell Banker (ACTRIS MLS #6514613)",
       "status": "active",
       "utilities": "Well + septic likely required; electric assumed available — verify per parcel"
+    },
+    {
+      "id": "1401-valley-view-rd-wimberley",
+      "first_seen": "2026-06-25T07:00:00Z",
+      "address": "1401 Valley View Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 350000,
+      "acreage": 5.02,
+      "listing_url": "https://www.search.unlockmls.com/address/1401-Valley-View-Rd-Wimberley-TX-78676/7611288",
+      "notes": "Build-ready 5.02-acre lot in Burnett Ranch (Hays County, Wimberley ISD) — same community as 901 Days End Rd and 0 Hummingbird Ln already in the feed. Standout differentiator: power, well, AND septic are all installed and in place — the only Wimberley entry in the feed with all three utilities confirmed, removing the two biggest Hill Country unknowns at once. Level, cleared, fully high fenced and cross-fenced; beautiful oak trees throughout; Blanco River park access included. At $350k (~$69,700/ac), Scenario A (~$1.65M build budget remaining). Keller Williams Wimberley / Unlock MLS #7611288. Listed May 18, 2026.",
+      "risks": "Standard Wimberley flood check required before offer: Burnett Ranch has Blanco River access and the 2015 flood was catastrophic — verify build pad is well outside FEMA 100-yr floodplain and Atlas-14 runoff, even on a level lot. Price discrepancy: HAR snippet showed $350,000; one secondary source shows $399,000 — confirm current asking price directly with Keller Williams Wimberley before engaging. Level terrain is the main site-design trade-off vs. gently sloping Hill Country alternatives.",
+      "lat": null,
+      "lng": null,
+      "source": "Keller Williams Wimberley (Unlock MLS #7611288)",
+      "status": "active",
+      "utilities": "Power + well + septic all installed on site"
+    },
+    {
+      "id": "lot-20-comanche-ridge-round-mountain",
+      "first_seen": "2026-06-25T07:00:00Z",
+      "address": "Lot 20 Comanche Ridge, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 250000,
+      "acreage": 5.02,
+      "listing_url": "https://neuhausre.com/properties/round-mountain/lot-20-comanche-rdg-9583671/",
+      "notes": "5.02-acre homesite in The Bluffs at Round Mountain (Blanco County) — a separate gated subdivision from The Vistas at Round Mountain already in the feed. Mature oaks and Hill Country views throughout. Community features free-roaming Black Buck Antelope — wildlife exemption applies (near-zero carry during design-build). HOA $500/yr. Paved access, gated, between Marble Falls, Johnson City, and Horseshoe Bay. At $250,000 (~$49,800/ac), Scenario A (~$1.55M build budget). Listed by Kale Stephens, Horseshoe Bay Living 2, LLC (ACTRIS MLS #9583671). Listed March 2025; ~460 days DOM is the primary flag.",
+      "risks": "Very long DOM (~460 days from March 2025) is the headline — call listing agent (Kale Stephens, Horseshoe Bay Living 2) to understand why this lot has not sold before committing to diligence; may have an issue with slope, shade, road position, or soil not visible in search data. Verify wildlife exemption transfer and that the listing is still active (high DOM increases staleness risk). Well + septic required (no well drilled — budget for unknown depth). 60-75 min to downtown; full car dependence.",
+      "lat": null,
+      "lng": null,
+      "source": "Horseshoe Bay Living 2 / Neuhaus RE (ACTRIS MLS #9583671)",
+      "status": "active",
+      "hoa": "$500/yr (The Bluffs at Round Mountain)",
+      "utilities": "Underground utilities available; well + septic required"
     }
   ]
 }
