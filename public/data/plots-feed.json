@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-25T07:00:00Z",
+  "last_updated": "2026-06-26T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -979,6 +979,23 @@
       "status": "active",
       "hoa": "$500/yr (The Bluffs at Round Mountain)",
       "utilities": "Underground utilities available; well + septic required"
+    },
+    {
+      "id": "4808-w-fitzhugh-rd-dripping-springs",
+      "first_seen": "2026-06-26T07:00:00Z",
+      "address": "4808 W Fitzhugh Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 550000,
+      "acreage": 5.0,
+      "listing_url": "https://www.spinelliresidentialhomes.com/homes-for-sale/tx/dripping-springs/78620/4808-w-fitzhugh-rd/bid-44-1043527",
+      "notes": "5-acre unrestricted parcel in Pioneer Ranch Sec 1 (Dripping Springs, TX 78620), DSISD schools. Gentle slope with Hill Country views toward the Pedernales River Valley. No HOA, no deed restrictions. Close to the W Fitzhugh Rd/Bell Springs corridor — within the same preferred zone as several existing Dripping Springs entries. At $550,000 (~$110k/ac), Scenario A (~$1.55M remaining build budget). Listed April 13, 2026 by Coldwell Banker (ACTRIS MLS #1043527).",
+      "risks": "Direct listing page returns 403 (Coldwell Banker) — price and acreage confirmed from multiple IDX search snippets. Pioneer Ranch Sec 1 is marketed as unrestricted but verify no deed restrictions on file at Hays County before offer (Pioneer Ranch has multiple sections with varying restrictions). Well and septic required; no utilities on-site. Verify build pad is outside FEMA 100-yr floodplain (Pedernales River watershed — Zone AE present along creek corridors). ~35-40 min to downtown Austin.",
+      "lat": null,
+      "lng": null,
+      "source": "Coldwell Banker (ACTRIS MLS #1043527)",
+      "status": "active",
+      "hoa": "None",
+      "utilities": "Electric available at street; well + septic required"
     }
   ]
 }
