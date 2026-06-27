@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-26T07:00:00Z",
+  "last_updated": "2026-06-27T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -978,6 +978,23 @@
       "source": "Horseshoe Bay Living 2 / Neuhaus RE (ACTRIS MLS #9583671)",
       "status": "active",
       "hoa": "$500/yr (The Bluffs at Round Mountain)",
+      "utilities": "Underground utilities available; well + septic required"
+    },
+    {
+      "id": "116-legacy-hills-dr-johnson-city",
+      "first_seen": "2026-06-27T07:00:00Z",
+      "address": "116 Legacy Hills Dr, Johnson City, TX 78636",
+      "submarket": "Johnson City / Legacy Hills",
+      "price_usd": 310000,
+      "acreage": 5.0,
+      "listing_url": "https://www.atproperties.com/3249211/116-legacy-hills-dr-johnson-city-texas-78636-unlockmls",
+      "notes": "Third lot from Legacy Hills gated community now in the feed, alongside Lot 180 Lookout Mountain Rd ($375k/6ac, added June 20) and 162 Legacy Hls ($340k/8ac, added June 23). 5-acre homesite with gently rolling terrain, mature oak trees, incredible long-range views, and wildlife exemption (Blackbuck, Oryx herds — near-zero carry during design-build). Backing to large acreage tracts for extra privacy. Underground utilities, paved roads — fully serviced Blanco County lot. At $310,000 (~$62,000/ac), this is the lowest-priced Legacy Hills entry in the feed and among the best $/ac entries in any gated Hill Country community. Scenario A (~$1.69M build budget remaining at $310k land). Listed by @properties lone star Christie's International Real Estate (Unlock MLS #3249211). Listed May 13, 2025 (~13 months DOM as of June 27, 2026).",
+      "risks": "Very long DOM (~13 months) is the primary flag — call listing agent (@properties lone star Christie's) to understand why this lot has not sold before committing to diligence; may have a siting, view angle, road position, or slope issue within the community not visible in search snippets. Same CC&R flags as Lot 180 and 162 Legacy Hls: 2,000 sqft minimum residence + masonry siding required — verify full CC&Rs permit flat roofs and large glazing before offer (masonry = limestone/stucco = MCM-compatible, but ARB review process could still restrict). Johnson City ISD (not DSISD or Wimberley ISD) — confirm acceptable. Well + septic required. Commute ~70-80 min to downtown Austin; full car dependence.",
+      "lat": null,
+      "lng": null,
+      "source": "@properties lone star Christie's International Real Estate (Unlock MLS #3249211)",
+      "status": "active",
+      "hoa": "Legacy Hills HOA — fee not confirmed; wildlife exemption maintained community-wide",
       "utilities": "Underground utilities available; well + septic required"
     },
     {
