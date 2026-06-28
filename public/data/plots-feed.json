@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-27T07:00:00Z",
+  "last_updated": "2026-06-28T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1013,6 +1013,23 @@
       "status": "active",
       "hoa": "None",
       "utilities": "Electric available at street; well + septic required"
+    },
+    {
+      "id": "15-acres-red-corral-ranch-rd-wimberley",
+      "first_seen": "2026-06-28T07:00:00Z",
+      "address": "15 Acres Red Corral Ranch Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 899000,
+      "acreage": 15.0,
+      "listing_url": "https://www.search.unlockmls.com/address/15-Acres-Red-Corral-Ranch-Rd-Wimberley-TX-78676/3076256",
+      "notes": "Ag-exempt hilltop on sought-after Red Corral Ranch Rd with diverse terrain and multiple building sites along the hilltop offering unobstructed long-distance views; electricity/power already on site; no HOA (full design freedom); surrounded by large ranches for privacy and seclusion; great hardwoods (oaks) throughout; publicly maintained asphalt county road access. 15 minutes from Dripping Springs, Wimberley, and Blanco. Listed May 19, 2026 (Unlock MLS #3076256). At $899,000, this pushes the land budget to its ceiling — Scenario C land cost with Scenario A acreage — leaving ~$1.1M for build (~1,800–2,700 sf at $400–$600/sf).",
+      "risks": "Budget ceiling: at $899k land, the build budget is the tightest of any entry in the feed (~$1.1M remaining before soft costs — verify this works for the design program before pursuing). 15 acres is more land than ideal — confirm ag/wildlife exemption transfers and that construction won't lapse it (exemption lapse during build sharply raises carry cost at this acreage). Ash juniper mix adds WUI wildfire consideration — assess defensible space. Standard Wimberley flood check required before offer despite hilltop position. Well + septic required (electricity confirmed on-site but water system is not). Confirm no deed restrictions on file at Hays County before offer — listing says unimproved land with no HOA, but verify at title.",
+      "lat": null,
+      "lng": null,
+      "source": "Coldwell Banker / Thrive Realty (Unlock MLS #3076256)",
+      "status": "active",
+      "hoa": "None",
+      "utilities": "Electricity on-site confirmed; well + septic required"
     }
   ]
 }
