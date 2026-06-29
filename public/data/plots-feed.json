@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-28T07:00:00Z",
+  "last_updated": "2026-06-29T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -8,10 +8,10 @@
       "first_seen": "2026-06-07T00:00:00Z",
       "address": "414 Blue Creek Dr, Dripping Springs, TX 78620",
       "submarket": "Dripping Springs",
-      "price_usd": 620000,
+      "price_usd": 850000,
       "acreage": 7.3,
       "listing_url": "https://www.longhornrealty.com/property-search/detail/44/9898962/414-blue-creek-dr-dripping-springs-tx-78620/",
-      "notes": "The cleanest match to the whole brief: gently sloping with multiple build sites, heavy oaks, Hill Country views, light deed restrictions (~$120/yr HOA). 7+ acres gives freedom to site the long axis E–W. Lands squarely in Scenario A (~$1.4M left for build). [2026-06-13 flag: a new Unlock MLS listing appeared at 414 Blue Creek Dr via Realty Reimagined LLC at 5.2 acres/$350,000 (10 days on market). May be a different survey parcel sharing the street address, or a subdivided portion of this lot. Verify with Longhorn Realty that ACTRIS #9898962 is still active before engaging.] [2026-06-17 flag: two additional listings now appear for this address — an Unlock MLS listing at $850,000/7.3 ac (same parcel size as this entry, +37% from feed price) and a La Casa Realty Group listing at $625,000/7.3 ac on ACTRIS. Both unverified (403 blocks). If the original Longhorn Realty/ACTRIS #9898962 listing was relisted by a new broker at $850k, that would be a material price change — call Longhorn Realty directly to confirm #9898962 status before engaging.]",
+      "notes": "The cleanest match to the whole brief: gently sloping with multiple build sites, heavy oaks, Hill Country views, light deed restrictions (~$120/yr HOA). 7+ acres gives freedom to site the long axis E–W. Lands squarely in Scenario A (~$1.4M left for build). [2026-06-13 flag: a new Unlock MLS listing appeared at 414 Blue Creek Dr via Realty Reimagined LLC at 5.2 acres/$350,000 (10 days on market). May be a different survey parcel sharing the street address, or a subdivided portion of this lot. Verify with Longhorn Realty that ACTRIS #9898962 is still active before engaging.] [2026-06-17 flag: two additional listings now appear for this address — an Unlock MLS listing at $850,000/7.3 ac (same parcel size as this entry, +37% from feed price) and a La Casa Realty Group listing at $625,000/7.3 ac on ACTRIS. Both unverified (403 blocks). If the original Longhorn Realty/ACTRIS #9898962 listing was relisted by a new broker at $850k, that would be a material price change — call Longhorn Realty directly to confirm #9898962 status before engaging.] [2026-06-29 update: price confirmed at $850,000 by La Casa Realty Group (ACTRIS MLS #4080951) across Trulia, Zillow, and Realty Austin IDX. Original Longhorn Realty ACTRIS #9898962 at $620,000 appears to have lapsed and been relisted at +37%. Old price: $620,000.]",
       "risks": "A wet-weather creek runs the back — confirm a build pad fully out of FEMA floodplain. Dripping Springs sits over the Barton Springs Edwards recharge zone, which can impose impervious-cover limits; verify before offer.",
       "lat": 30.1902067,
       "lng": -98.0866781,
@@ -20,7 +20,8 @@
       "dom": 19,
       "hoa": "~$120/yr, light restrictions",
       "utilities": "Electric available; well + septic needed",
-      "source": "Longhorn Realty (ACTRIS MLS)",
+      "source": "La Casa Realty Group (ACTRIS MLS #4080951, relisted from Longhorn Realty ACTRIS #9898962)",
+      "status": "price_changed",
       "commute": {
         "downtown_minutes": 35,
         "downtown_miles": 23.9,
@@ -1030,6 +1031,55 @@
       "status": "active",
       "hoa": "None",
       "utilities": "Electricity on-site confirmed; well + septic required"
+    },
+    {
+      "id": "403-prochnow-rd-dripping-springs",
+      "first_seen": "2026-06-29T07:00:00Z",
+      "address": "403 Prochnow Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 675000,
+      "acreage": 5.09,
+      "listing_url": "https://www.zillow.com/homes/403-Prochnow-Rd-Dripping-Springs-TX-78620_rb/",
+      "notes": "Fresh listing (4 days on market per Zillow as of June 29, 2026) on Prochnow Road in Dripping Springs. Prochnow Road corridor is a sought-after Hill Country address featuring wooded and pasture land with oak motts, slightly sloping topography, sunrise vistas, and abundant wildlife. At $675,000 (~$132k/ac), Scenario A (~$1.33M build budget remaining). Listed by Realty Austin via Unlock MLS.",
+      "risks": "Specific lot features (slope grade, tree coverage, subdivision CC&Rs) not confirmed in search snippets — direct listing page 403-blocked. Standard Dripping Springs flag: confirm Edwards Aquifer recharge-zone status (TCEQ) before offer; impervious-cover limits may apply. Well + septic required. Direct listing URL not verified — listing confirmed via Zillow search snippets (4 days DOM); verify current price and status directly with listing agent before engaging.",
+      "lat": null,
+      "lng": null,
+      "source": "Realty Austin (Unlock MLS)",
+      "status": "active",
+      "utilities": "Well + septic required; electric available"
+    },
+    {
+      "id": "tbd-winnie-smith-rd-round-mountain",
+      "first_seen": "2026-06-29T07:00:00Z",
+      "address": "TBD Winnie Smith Rd, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 225000,
+      "acreage": 5.0,
+      "listing_url": "https://www.zillow.com/homedetails/Winnie-Smith-Rd-Round-Mountain-TX-78663/454920437_zpid/",
+      "notes": "5-acre ag-exempt parcel in J A Wohlers Surv #407 Abs/621, Round Mountain (Blanco County). Located between the Colorado and Pedernales Rivers, 10 minutes from Lake LBJ and 15 minutes from Lake Travis. Wildlife-rich (wild turkeys, white-tailed deer, blackbuck antelope) — ag exemption keeps carry cost near zero during design-build. Seller may contribute to buyer expenses. Blanco County light permitting suits an unconventional MCM design. At $225,000 (~$45k/ac), Scenario A (~$1.58M build budget).",
+      "risks": "Price discrepancy across sources: primary source shows $225,000; one secondary source shows $199,900 — confirm current asking price with Watters International Realty before engaging. No utility (well, septic, electric) details confirmed in listing data — well + septic almost certainly required; budget for unknown well depth/yield. Tree coverage, slope grade, and specific build-pad orientation not confirmed in listing data — verify on satellite and plat before offer. 60-75 min to downtown; full car dependence same as all Round Mountain listings.",
+      "lat": null,
+      "lng": null,
+      "source": "Watters International Realty (Zillow confirmed active)",
+      "status": "active",
+      "utilities": "Well + septic required; electric availability not confirmed"
+    },
+    {
+      "id": "920-elder-hill-rd-driftwood",
+      "first_seen": "2026-06-29T07:00:00Z",
+      "address": "920 Elder Hill Rd, Driftwood, TX 78619",
+      "submarket": "Driftwood",
+      "price_usd": 650000,
+      "acreage": 5.03,
+      "listing_url": "https://www.har.com/homedetail/920-a-elder-hill-rd-driftwood-tx-78619-us/16485895",
+      "notes": "5.03-acre ag-exempt lot in a small 4-lot private subdivision in Driftwood (Hays County, DSISD). Gated access, multiple level and gently rolling building sites with Hill Country views, majestic oaks throughout, partially cleared — a classic Driftwood MCM site canvas. Infrastructure on site: large wood deck, 30-amp RV hookup, 1,000-gallon water storage tank with pump, dump tank, and detached storage shed. Listed $142,900 below appraised value per listing description. STRs allowed. At $650,000 (~$129k/ac), Scenario A (~$1.35M build budget). ACTRIS MLS #4013152.",
+      "risks": "Very long DOM (~571 days, listed November 22, 2023) is the primary flag — call listing agent to understand why this property has not sold before committing to diligence investment; there may be a soil, access, recharge zone, or shape issue not visible in search snippets. Price discrepancy across sources ($597,000–$650,000) — confirm current asking price with listing agent before offer. Standard Driftwood flag: confirm Edwards Aquifer recharge-zone status (TCEQ) before offer; impervious-cover limits may apply. Well + septic required.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS (MLS #4013152 / HAR confirmed active)",
+      "status": "active",
+      "hoa": "Small 4-lot subdivision — HOA/deed restrictions not confirmed; verify before offer",
+      "utilities": "Water storage tank on site (well not drilled); septic required; electric at or near property"
     }
   ]
 }
