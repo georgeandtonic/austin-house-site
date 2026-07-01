@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-06-29T07:00:00Z",
+  "last_updated": "2026-07-01T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1080,6 +1080,23 @@
       "status": "active",
       "hoa": "Small 4-lot subdivision — HOA/deed restrictions not confirmed; verify before offer",
       "utilities": "Water storage tank on site (well not drilled); septic required; electric at or near property"
+    },
+    {
+      "id": "lot-1-legacy-hills-dr-johnson-city",
+      "first_seen": "2026-07-01T07:00:00Z",
+      "address": "Lot 1 Legacy Hills Dr, Johnson City, TX 78636",
+      "submarket": "Johnson City / Legacy Hills",
+      "price_usd": 234600,
+      "acreage": 5.0,
+      "listing_url": "https://www.thriverealty.com/property-search/detail/44/6365731/lot-1-legacy-hills-dr-johnson-city-tx-78636/",
+      "notes": "Fourth lot from Legacy Hills gated community now in the feed, alongside Lot 180 Lookout Mountain Rd ($375k/6ac), 162 Legacy Hls ($340k/8ac), and 116 Legacy Hills Dr ($310k/5ac). At $234,600 (~$46,900/ac) this is the lowest-priced entry in Legacy Hills and among the lowest $/ac in all of Blanco County. Listed by Jenna Moore, Topper Real Estate (same agent as Lot 4 Vista Ridge Dr in feed). Mature oak trees, paved roads, underground utilities, gated entrance, agricultural exemption (low carry cost during design-build). Johnson City ISD. Scenario A (~$1.77M build budget remaining at $234,600 land — the largest build envelope in the entire feed).",
+      "risks": "Very long DOM (~20 months, listed September 24, 2024) is the primary flag — call Jenna Moore / Topper Real Estate to understand why this lot has not sold before committing to diligence; may have an issue with position, slope, view angle, or road access within the community not visible in search snippets. Same CC&R flags as all Legacy Hills entries: 2,000 sqft minimum residence + 1/3 masonry siding required — verify full CC&Rs permit flat roofs and large glazing before offer (masonry = limestone/stucco = MCM-compatible, but ARB review process could still restrict). Johnson City ISD (not DSISD or Wimberley ISD) — confirm acceptable. Well + septic required. Commute ~70-80 min to downtown Austin; full car dependence.",
+      "lat": null,
+      "lng": null,
+      "source": "Topper Real Estate / Thrive Realty (ACTRIS MLS #6365731)",
+      "status": "active",
+      "hoa": "Legacy Hills HOA — fee not confirmed; agricultural exemption maintained community-wide",
+      "utilities": "Underground utilities available; well + septic required"
     }
   ]
 }
