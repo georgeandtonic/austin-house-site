@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-01T07:00:00Z",
+  "last_updated": "2026-07-02T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1097,6 +1097,38 @@
       "status": "active",
       "hoa": "Legacy Hills HOA — fee not confirmed; agricultural exemption maintained community-wide",
       "utilities": "Underground utilities available; well + septic required"
+    },
+    {
+      "id": "820-stone-ridge-mountain-dr-round-mountain",
+      "first_seen": "2026-07-02T07:00:00Z",
+      "address": "820 Stone Ridge Mountain Dr, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 289000,
+      "acreage": 10.57,
+      "listing_url": "https://www.zillow.com/homedetails/820-Stone-Ridge-Mountain-Dr-Round-Mountain-TX-78663/455930336_zpid/",
+      "notes": "Stone Ridge Mountain is a gated subdivision in Blanco County, approximately 2 miles from Johnson City and 45 minutes from the Bee Cave / Austin corridor. Lot 21 (10.57 acres) features a thicket of impressive old-growth oak trees, multiple large level build sites, and long-range Hill Country views from higher elevations — a classic MCM site canvas. Ag exemption via active cattle grazing lease (near-zero carry cost during design-build). Seller has a detailed well analysis confirming access to a high-producing well — removes Hill Country's biggest utility unknown before closing. At $289,000 (~$27,300/ac), this is the best $/ac of any Round Mountain listing in the feed with confirmed oak cover, views, and utility access. Scenario A (~$1.71M build budget remaining at $289k land price). Listed by Jan Moreland (Moreland Properties) and Josh Robertson (Texas Ranch Brokers LLC), approximately 49 days on market.",
+      "risks": "Price discrepancy across sources ($239,000–$289,000 range) — confirm current asking price with listing agents (Moreland Properties or Texas Ranch Brokers LLC) before offer. Stone Ridge Mountain POA building codes apply — verify CC&Rs do not restrict flat roofs, large glazing, or MCM design before offer. Well access confirmed via seller's analysis but well is not drilled — verify depth and yield with an independent well contractor before closing. At 10.57 acres, confirm ag exemption transfers cleanly with the cattle grazing lease, or that a new owner can establish an alternative exemption (wildlife) without a taxable lapse. Well + septic required; electric availability not confirmed. Blanco County permitting applies (light permitting, favorable for unconventional design). ~70 min to downtown Austin.",
+      "lat": null,
+      "lng": null,
+      "source": "Zillow / HAR confirmed active (Moreland Properties + Texas Ranch Brokers LLC)",
+      "status": "active",
+      "utilities": "Well access confirmed via seller analysis (not drilled); septic required; electric availability not confirmed"
+    },
+    {
+      "id": "lot-48-stoneridge-mountain-round-mountain",
+      "first_seen": "2026-07-02T07:00:00Z",
+      "address": "Lot 48 Stoneridge Mountain, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 314999,
+      "acreage": 5.0,
+      "listing_url": "https://www.har.com/homedetail/lot-48-stoneridge-mountain-round-mountain-tx-78663/16839087",
+      "notes": "Stone Ridge Mountain is a gated subdivision in Blanco County, approximately 2 miles from Johnson City and 45 minutes from the Bee Cave / Austin corridor. Lot 48 (just over 5 acres) features a dramatic build site: cleared land from the street rises to a tree-lined crest with long-distance views extending for miles. A hand-built stone wall from the original ranch anchors a massive Live Oak tree at the crest — a characterful, shaded building location with genuine MCM potential. POA building codes maintain community character and quiet enjoyment of nature. At $314,999 (~$63,000/ac), Scenario A (~$1.685M build budget remaining). Listed by Topper Real Estate.",
+      "risks": "Stone Ridge Mountain POA building codes apply — verify CC&Rs do not restrict flat roofs, large glazing, or MCM design before offer; request the full CC&R/design guidelines packet from Topper Real Estate before engaging. No ag/wildlife exemption mentioned in listing data — confirm current property tax basis and whether an exemption can be established before closing (lapse during design-build raises carry cost). No utility details confirmed — well + septic required; electric availability not confirmed. Specific slope grade, soil type, and lot orientation not confirmed from search data — verify on plat and satellite before offer. ~70 min to downtown Austin.",
+      "lat": null,
+      "lng": null,
+      "source": "Topper Real Estate (HAR confirmed / Zillow confirmed active)",
+      "status": "active",
+      "utilities": "Well + septic required; electric availability not confirmed"
     }
   ]
 }
