@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-02T07:00:00Z",
+  "last_updated": "2026-07-03T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1127,6 +1127,38 @@
       "lat": null,
       "lng": null,
       "source": "Topper Real Estate (HAR confirmed / Zillow confirmed active)",
+      "status": "active",
+      "utilities": "Well + septic required; electric availability not confirmed"
+    },
+    {
+      "id": "tbd-moonridge-ln-wimberley",
+      "first_seen": "2026-07-03T07:00:00Z",
+      "address": "TBD Moonridge Ln, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 550000,
+      "acreage": 5.98,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/5491521/tbd-moonridge-ln-wimberley-tx-78676/",
+      "notes": "Lot 3 in Moonridge, marketed as 'Wimberley's newest subdivision' — a 10-lot exclusive gated enclave on a Hill Country ridgeline (Hays County, Wimberley ISD). Features gated entrance, underground utilities, paved roads with ribbon curbs, and a small pond with trees. Wildlife tax exemption active — near-zero carry cost during design-build. Long-range Hill Country views from the ridgeline. Listing agent: Hills Of Texas Sky Realty (ACTRIS MLS #5491521). Listed April 10, 2025 (~15 months DOM as of July 3, 2026). Price confirmed at $550,000 across Redfin, Compass, Zillow, Weichert, and Austin Texas Homes IDX. Scenario A (~$1.45M build budget at $550k land).",
+      "risks": "Long DOM (~15 months) is the primary flag — investigate directly with Hills Of Texas Sky Realty why this lot has not sold. CC&Rs for Moonridge not confirmed in listing snippets — verify no ARB that restricts flat roofs or large glazing before offer; request design guidelines from listing agent. Standard Wimberley flood check required: confirm build pad is outside FEMA 100-yr floodplain and Atlas-14 runoff. Well + septic likely required (underground utilities confirmed but water source not specified). HOA fee not confirmed; verify before offer.",
+      "lat": null,
+      "lng": null,
+      "source": "Hills Of Texas Sky Realty (ACTRIS MLS #5491521)",
+      "status": "active",
+      "utilities": "Underground utilities confirmed; well + septic likely required — verify water source"
+    },
+    {
+      "id": "tbd-ranch-to-market-3237-wimberley",
+      "first_seen": "2026-07-03T07:00:00Z",
+      "address": "TBD Ranch to Market 3237, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 550000,
+      "acreage": 11.62,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/4626119/tbd-ranch-to-market-3237-wimberley-tx-78676/",
+      "notes": "11.62-acre ag-exempt parcel in Escondida Ranch, Wimberley area (Hays County). Ag exemption ($24 annual taxes — near-zero carry during design-build). Exotic Blackbuck and whitetail deer roaming on site. Hill Country and rural views; trees and woods throughout; custom renderings for to-be-built available from listing agent. Listed September 8, 2025 by Keller Williams - Lake Travis (ACTRIS MLS #4626119); ~10 months DOM as of July 3, 2026. Price confirmed at $550,000 across Coldwell Banker, Douglas Elliman, @properties, Redfin, and Ensor & Co. IDX. At $550,000 (~$47,300/ac), Scenario A (~$1.45M build budget). At 11.62 acres this is slightly above the ideal 10-acre maximum but within the 15-acre hard ceiling.",
+      "risks": "Long DOM (~10 months) warrants investigation — call Keller Williams Lake Travis to understand why this parcel has not sold before committing to diligence. At 11.62 acres, confirm ag/wildlife exemption transfers cleanly and that construction will not lapse it (lapse raises carry cost sharply). Standard Wimberley flood check required before offer. Well + septic required (utilities not confirmed in listing data). Tree cover density, slope, specific build-pad orientation, and road access not confirmed in listing snippets — verify on plat and satellite before offer.",
+      "lat": null,
+      "lng": null,
+      "source": "Keller Williams - Lake Travis (ACTRIS MLS #4626119)",
       "status": "active",
       "utilities": "Well + septic required; electric availability not confirmed"
     }
