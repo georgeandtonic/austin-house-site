@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-04T07:00:00Z",
+  "last_updated": "2026-07-05T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -574,14 +574,14 @@
       "first_seen": "2026-06-11T07:00:00Z",
       "address": "275 Deer Run, Wimberley, TX 78676",
       "submarket": "Wimberley",
-      "price_usd": 399000,
+      "price_usd": 299000,
       "acreage": 5,
       "listing_url": "https://www.redfin.com/TX/Wimberley/275-Deer-Run-78676/home/180371608",
-      "notes": "5-acre Deer Run Estates lot in Wimberley, heavily wooded with selective clearing for a private homesite; county-maintained road; community Blanco River deep-water park 2 min away; 10 min to Wimberley Square. Price cut from $499k. Listing by Compass RE Texas (Unlock MLS #7229607). Scenario A (~$1.55M build budget at $449k land). [Price updated 2026-06-18: was $449,000, now $399,000 (−11.1%); confirmed via multiple IDX sources. Build budget improves to ~$1.60M.]",
-      "risks": "Standard Wimberley flood check required: confirm build pad is well clear of FEMA 100-yr floodplain and Atlas-14 storm runoff — Blanco River park is nearby and area has 2015 flood history. Well + septic likely required (not confirmed in listing). HOA fee for Deer Run Estates not confirmed in search data. Listing URL points to Redfin — confirm details directly with Compass RE Texas agent.",
+      "notes": "5-acre Deer Run Estates lot in Wimberley, heavily wooded with selective clearing for a private homesite; county-maintained road; community Blanco River deep-water park 2 min away; 10 min to Wimberley Square. Price cut from $499k. Listing by Compass RE Texas (Unlock MLS #7229607). Scenario A (~$1.55M build budget at $449k land). [Price updated 2026-06-18: was $449,000, now $399,000 (−11.1%); confirmed via multiple IDX sources. Build budget improves to ~$1.60M.] [2026-07-05 price update: confirmed at $299,000 via new active listing MLS #8330749 (Central Metro Realty, listing agent Mario Barrett) — down from feed price of $399,000 (−25%). Old listing MLS #7229607 (Compass RE Texas, Unlock MLS) appears to have been relisted under new broker. Verify current terms directly with Central Metro Realty before engaging.]",
+      "risks": "Standard Wimberley flood check required: confirm build pad is well clear of FEMA 100-yr floodplain and Atlas-14 storm runoff — Blanco River park is nearby and area has 2015 flood history. Well + septic likely required (not confirmed in listing). HOA fee for Deer Run Estates not confirmed in search data. Listing URL points to Redfin — confirm details directly with Central Metro Realty (new listing agent Mario Barrett, MLS #8330749).",
       "lat": null,
       "lng": null,
-      "source": "Compass RE Texas (Unlock MLS)",
+      "source": "Central Metro Realty (ACTRIS MLS #8330749, relisted from Compass RE Texas Unlock MLS #7229607)",
       "status": "price_changed",
       "hoa": "Deer Run Estates (fee not confirmed; includes Blanco River park access)",
       "utilities": "Well + septic likely required; electric assumed available"
@@ -1195,6 +1195,39 @@
       "status": "active",
       "hoa": "Legacy Hills HOA — fee not confirmed; wildlife exemption maintained community-wide",
       "utilities": "Underground utilities + high-speed internet available; well + septic required"
+    },
+    {
+      "id": "97-summit-ridge-trail-johnson-city",
+      "first_seen": "2026-07-05T07:00:00Z",
+      "address": "97 Summit Ridge Trail, Johnson City, TX 78636",
+      "submarket": "Johnson City / Summit at Cypress Mill",
+      "price_usd": 299000,
+      "acreage": 5.01,
+      "listing_url": "https://www.compass.com/homedetails/97-Summit-Ridge-Trail-Johnson-City-TX-78636/1G7QF5_pid/",
+      "notes": "5.01-acre lot in The Summit at Cypress Mill (Blanco County) — a gated Hill Country community separate from Legacy Hills. Majestic oaks scattered throughout, cleared build sites ready for custom home planning. Wildlife exemption (Black Antelope free-grazing) keeps carry cost near zero during design-build. Flexible CC&Rs described in listing. Listed February 2, 2026 (ACTRIS MLS #7429207, confirmed across Compass and eXp Realty IDX). At $299,000 (~$59,700/ac), Scenario A (~$1.70M build budget remaining).",
+      "risks": "Long DOM (~154 days as of July 5, 2026) — investigate with listing agent why this lot has not sold before committing to diligence. Summit at Cypress Mill POA/CC&R details described as 'flexible' but verify full CC&Rs do not restrict flat roofs, large glazing, or MCM massing before offer. No specific utility information confirmed — well + septic required, electric availability not confirmed. Slope, orientation, and specific build-pad details not confirmed from search data — verify on plat and satellite before offer. ~70 min to downtown Austin; full car dependence.",
+      "lat": null,
+      "lng": null,
+      "source": "Compass / eXp Realty (ACTRIS MLS #7429207)",
+      "status": "active",
+      "utilities": "Well + septic required; electric availability not confirmed"
+    },
+    {
+      "id": "tbd-hidden-hills-dr-dripping-springs",
+      "first_seen": "2026-07-05T07:00:00Z",
+      "address": "TBD Hidden Hills Dr, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 385000,
+      "acreage": 2.97,
+      "listing_url": "https://devorarealty.com/listing/actris/1223146/Dripping-Springs/TBD-Hidden-Hills-Drive/",
+      "notes": "2.97-acre lot in Dripping Springs (Hays County, DSISD) with a rare differentiator: city-supplied water available — removes the well-drilling cost and quantity unknown that applies to nearly all other Dripping Springs entries in the feed. Elevated, level build envelope with panoramic east-facing views. Voluntary HOA (light or no restrictions). Less than 20 minutes to Austin. Listed September 21, 2025 (ACTRIS MLS #1223146, Anders Realty & Mortgage Group, confirmed across Coldwell Banker, Devora Realty, and searchaustinlakehomes.com IDX). At $385,000 (~$130k/ac), Scenario A/B (~$1.62M build budget remaining).",
+      "risks": "Long DOM (~288 days as of July 5, 2026) — investigate with listing agent why this lot has not sold; the elevated level terrain and east-facing view are assets, but there may be an issue with size, shape, or HOA terms not visible in search snippets. At 2.97 acres this is smaller than ideal for Hill Country — verify that a thoughtful E-W long-axis MCM is achievable on the plat before offer. Standard Dripping Springs flag: confirm Edwards Aquifer recharge-zone status (TCEQ) before offer; impervious-cover limits may apply. Septic required (city water available but no sewer). Confirm voluntary HOA terms and any deed restrictions before offer.",
+      "lat": null,
+      "lng": null,
+      "source": "Anders Realty & Mortgage Group (ACTRIS MLS #1223146)",
+      "status": "active",
+      "hoa": "Voluntary HOA (fee and terms not confirmed; described as light or no restrictions)",
+      "utilities": "City water available; septic required; electric assumed available"
     }
   ]
 }
