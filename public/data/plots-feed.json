@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-05T07:00:00Z",
+  "last_updated": "2026-07-06T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1228,6 +1228,22 @@
       "status": "active",
       "hoa": "Voluntary HOA (fee and terms not confirmed; described as light or no restrictions)",
       "utilities": "City water available; septic required; electric assumed available"
+    },
+    {
+      "id": "tbd-mount-sharp-rd-wimberley",
+      "first_seen": "2026-07-06T07:00:00Z",
+      "address": "TBD Mount Sharp Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 647000,
+      "acreage": 11.0,
+      "listing_url": "https://www.search.unlockmls.com/address/TBD-Mount-Sharp-Rd-Wimberley-TX-78676/2283032",
+      "notes": "11-acre parcel on Mount Sharp Road in the Wimberley area (Hays County, Wimberley ISD), 45 minutes from Austin, equidistant to Dripping Springs and Wimberley. Features an abundance of majestic oak trees, panoramic views of rolling hills and dense oak groves, dramatic elevation changes created by a wet-weather creek, and a breathtaking cliffside view. Paved road frontage; electricity readily available. At $647,000 (~$58,800/ac), Scenario A (~$1.35M build budget remaining). Confirmed active across Redfin (ACTRIS MLS #8289787), Compass (Unlock MLS #2283032), Blue Line Realty, and Coldwell Banker (MLS #7163546) IDX mirrors. Listed July 22, 2025 by Shipley Ranches.",
+      "risks": "Long DOM (~11.5 months since July 22, 2025) is the primary flag — call Shipley Ranches to understand why this lot has not sold before committing to diligence; multiple MLS IDs (2283032/8289787/7163546) may indicate prior listing lapses and relistings. Wet-weather creek creates drainage and floodplain considerations — verify build pad is entirely outside FEMA 100-yr floodplain and Atlas-14 runoff before offer. Standard Wimberley flood diligence required (Blanco River watershed). Well + septic required. At 11 acres this is slightly above the ideal 10-acre maximum but within the 15-acre hard ceiling.",
+      "lat": null,
+      "lng": null,
+      "source": "Shipley Ranches (Unlock MLS #2283032 / ACTRIS MLS #8289787)",
+      "status": "active",
+      "utilities": "Paved road frontage; electricity readily available; well + septic required"
     }
   ]
 }
