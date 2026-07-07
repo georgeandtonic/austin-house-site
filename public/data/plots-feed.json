@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-06T07:00:00Z",
+  "last_updated": "2026-07-07T12:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -821,15 +821,15 @@
       "first_seen": "2026-06-20T07:00:00Z",
       "address": "140 Cave Springs Rd, Wimberley, TX 78676",
       "submarket": "Wimberley",
-      "price_usd": 350000,
+      "price_usd": 274700,
       "acreage": 6.26,
       "listing_url": "https://www.landwatch.com/hays-county-texas-undeveloped-land-for-sale/pid/423590453",
-      "notes": "6.26-acre lot in Lost Springs Ranch — a gated 311-acre community with 77 estate-sized lots just minutes from Wimberley Square (Hays County, Wimberley ISD). Active 'New Listing' as of June 20, 2026 (ACTRIS MLS #4249081, confirmed across Zillow, LandWatch, Land.com, and multiple IDX mirrors). Community amenities include a private Blanco River Park Bluff with scenic views, a pool complex with covered pavilion, outdoor fireplace & fire pit, hiking trails, and a pond park. At $350,000 (~$55,900/ac) this is the best $/acre entry in the Wimberley submarket currently in the feed. Scenario A (~$1.65M build budget at $350k land).",
+      "notes": "6.26-acre lot in Lost Springs Ranch — a gated 311-acre community with 77 estate-sized lots just minutes from Wimberley Square (Hays County, Wimberley ISD). Active 'New Listing' as of June 20, 2026 (ACTRIS MLS #4249081, confirmed across Zillow, LandWatch, Land.com, and multiple IDX mirrors). Community amenities include a private Blanco River Park Bluff with scenic views, a pool complex with covered pavilion, outdoor fireplace & fire pit, hiking trails, and a pond park. [2026-07-07 price update: confirmed at $274,700 via Land.com and LandWatch (MLS #4249081) — down from feed price of $350,000 (−21.5%). Old price: $350,000. At $274,700 (~$43,900/ac) this is now the best $/acre entry in the entire Wimberley submarket in the feed. Scenario A (~$1.72M build budget at $274,700 land). Verify current price directly with listing agent before offer.]",
       "risks": "Lost Springs Ranch is a gated community — verify CC&Rs and design guidelines before offer; an ARB could constrain flat roofs or large glazing. The Blanco River Park Bluff community amenity means the Blanco River is accessible from the community — verify this specific lot's build pad is well outside FEMA 100-yr floodplain and Atlas-14 runoff before offer (Wimberley area has serious 2015 flood history). Well + septic likely required; confirm if community water system exists. Standard Wimberley commute (~50-60 min to downtown).",
       "lat": null,
       "lng": null,
       "source": "ACTRIS MLS (LandWatch IDX / MLS #4249081)",
-      "status": "active",
+      "status": "price_changed",
       "utilities": "Well + septic likely required; confirm community water system"
     },
     {
@@ -1244,6 +1244,40 @@
       "source": "Shipley Ranches (Unlock MLS #2283032 / ACTRIS MLS #8289787)",
       "status": "active",
       "utilities": "Paved road frontage; electricity readily available; well + septic required"
+    },
+    {
+      "id": "408-osage-way-lot-30-johnson-city",
+      "first_seen": "2026-07-07T07:00:00Z",
+      "address": "408 Osage Way (Lot 30), Johnson City, TX 78636",
+      "submarket": "Johnson City / Preserve at Walnut Springs",
+      "price_usd": 540000,
+      "acreage": 5.66,
+      "listing_url": "https://farmandranch.com/property/408-osage-way-preserve-at-walnut-springs-lot-30",
+      "notes": "5.66-acre Lot 30 at The Preserve at Walnut Springs — a 2,000-acre gated ranch community with only 66 homesites in Blanco County (Johnson City ISD). Set at 1,800+ ft elevation (one of the highest in Blanco County), this lot captures sweeping 360-degree views of rolling hills. Gently sloping terrain with mature native trees; community-wide ag exemption (2024 wildlife-exempt taxes ~$1,072). Community amenities: 6 ponds, 2 natural springs, spring-fed swimming hole, 22 miles of hike/ride trails, equestrian center, clubhouse with 2 pools, tennis, sport court, putting green. Confirmed active across Farm & Ranch, TexasLand, and multiple IDX mirrors (MLS #4718158, Douglas Elliman Real Estate). At $540,000 (~$95,400/ac), Scenario A (~$1.46M build budget remaining).",
+      "risks": "HIGH HOA: $7,300/yr LOA fee is the highest in the entire feed — carry cost during 18-24 month design+build is $10,950–$14,600, significantly higher than any other entry. ARB/architectural standards exist ('complement the natural environment') — verify full CC&Rs specifically confirm flat roofs, large glazing, and MCM massing are permitted BEFORE offer; this is the primary dealbreaker risk. Price discrepancy across sources ($540k–$1,175k on older listings) — confirm current asking price directly with listing agent (Jeanne Parker, Douglas Elliman) before engaging. Well + septic required. ~70-80 min to downtown Austin.",
+      "lat": null,
+      "lng": null,
+      "source": "Douglas Elliman Real Estate (Farm & Ranch MLS #4718158)",
+      "status": "active",
+      "hoa": "$7,300/yr (Preserve at Walnut Springs LOA)",
+      "utilities": "Underground utilities + paved roads; well + septic required"
+    },
+    {
+      "id": "140-lantana-dr-lot-74-johnson-city",
+      "first_seen": "2026-07-07T07:00:00Z",
+      "address": "140 Lantana Dr (Lot 74), Johnson City, TX 78636",
+      "submarket": "Johnson City / Preserve at Walnut Springs",
+      "price_usd": 415000,
+      "acreage": 5.0,
+      "listing_url": "https://www.search.unlockmls.com/address/140-Lantana-Dr-Johnson-City-TX-78636/9559154",
+      "notes": "5-acre Lot 74 at The Preserve at Walnut Springs — companion listing to 408 Osage Way (Lot 30) added this run. Gently rolling terrain encircled by 1,500+/- acres of accessible preserved land. Heritage oaks confirmed; same community amenities (22 miles of trails, live water, equine facility, clubhouse with 2 pools, tennis, artisan springs, wildflowers). Community-wide ag exemption (2024 wildlife-exempt taxes $1,072). Confirmed active across Unlock MLS #9559154, HAR, Rocket Homes, Walker TX Team, Vista Real Estate, TechTown Realty, and TxLandAndLake (7+ independent IDX sources). At $415,000 (~$83,000/ac), Scenario A (~$1.59M build budget remaining).",
+      "risks": "Same CC&R flags as 408 Osage Way (Lot 30) added this run: $7,300/yr HOA (highest in feed) + ARB with architectural standards — verify CC&Rs allow flat roofs and large glazing BEFORE offer. Price and specific lot features (slope, tree density, view angle, build-pad position) not confirmed beyond search snippets — verify on plat + satellite before offer. Well + septic required. ~70-80 min to downtown Austin.",
+      "lat": null,
+      "lng": null,
+      "source": "Anders Ranch Realty (Unlock MLS #9559154)",
+      "status": "active",
+      "hoa": "$7,300/yr (Preserve at Walnut Springs LOA)",
+      "utilities": "Underground utilities + paved roads; well + septic required"
     }
   ]
 }
