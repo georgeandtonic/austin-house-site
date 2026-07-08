@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-07T12:00:00Z",
+  "last_updated": "2026-07-08T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1278,6 +1278,38 @@
       "status": "active",
       "hoa": "$7,300/yr (Preserve at Walnut Springs LOA)",
       "utilities": "Underground utilities + paved roads; well + septic required"
+    },
+    {
+      "id": "0-stone-ridge-mountain-dr-lot-19-round-mountain",
+      "first_seen": "2026-07-08T07:00:00Z",
+      "address": "0 Stone Ridge Mountain Dr (Lot 19), Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 299000,
+      "acreage": 5.0,
+      "listing_url": "https://www.zillow.com/homedetails/0-Stone-Ridge-Mountain-Dr-Round-Mountain-TX-78663/2074480311_zpid/",
+      "notes": "Lot 19 in Stone Ridge Mountain — the gated Blanco County subdivision already represented in the feed by Lot 21 (820 Stone Ridge Mountain Dr, $289k/10.57ac) and Lot 48 ($314,999/5ac). At $299,000 (~$59,800/ac), Lot 19 is a 5-acre parcel with long-distance Hill Country views, abundant oaks throughout, and a cleared flat homesite. Ag exemption active (near-zero carry cost during design-build). Located approximately 2 miles from Johnson City, 45 minutes from Bee Cave / Austin corridor, within short range of Marble Falls, Dripping Springs, and Fredericksburg. Listed by eXp Realty (ACTRIS MLS #ACT2472213). Scenario A (~$1.70M build budget remaining). ~250 days on market.",
+      "risks": "Long DOM (~250 days) is the primary flag — call listing agent (eXp Realty) to understand why this lot has not sold before committing to diligence; may have a slope, siting, or soil issue not visible in search snippets. Stone Ridge Mountain POA building codes apply — verify CC&Rs do not restrict flat roofs, large glazing, or MCM design before offer (same flag as Lot 21 and Lot 48 in feed). Price discrepancy across sources ($299k–$315k) — confirm current asking price directly with listing agent before engaging. Well + septic required; electric availability not confirmed. Blanco County light permitting is favorable for unconventional design. ~70 min to downtown Austin.",
+      "lat": null,
+      "lng": null,
+      "source": "eXp Realty (ACTRIS MLS #ACT2472213 / Zillow + LandSearch confirmed active)",
+      "status": "active",
+      "utilities": "Well + septic required; electric availability not confirmed"
+    },
+    {
+      "id": "tbd-verdejo-dr-dripping-springs",
+      "first_seen": "2026-07-08T07:00:00Z",
+      "address": "TBD Verdejo Dr, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 640000,
+      "acreage": 6.8,
+      "listing_url": "https://www.har.com/drippingsprings/realestate/for_sale?property_class_id=3",
+      "notes": "6.8-acre vacant land tract in the George W Lindsay Survey, Dripping Springs (Hays County, DSISD). Fresh listing — approximately 19 days on market as of July 8, 2026. At $640,000 (~$94,100/ac), Scenario A (~$1.36M build budget remaining). Listed on ACTRIS MLS #2785630 by Stanberry REALTORS / Pure Realty. A new raw land offering in the core Dripping Springs submarket at acreage that allows genuine E-W MCM siting.",
+      "risks": "Property details (slope grade, tree coverage, road access, HOA/deed restrictions) not confirmed from available data — direct broker pages blocked (403) during scan; details derived from HAR.com search snippets. Standard Dripping Springs flag: confirm Edwards Aquifer recharge-zone status (TCEQ) before offer; impervious-cover limits may apply. Hays County floodplain check required. Well + septic required (no utility details confirmed). Conflicting listing agent sources (Stanberry REALTORS vs. Pure Realty) — confirm current listing agent and terms directly on ACTRIS before engaging.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS #2785630 (HAR confirmed active, ~19 days on market)",
+      "status": "active",
+      "utilities": "Well + septic required; electric availability not confirmed"
     }
   ]
 }
