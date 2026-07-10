@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-08T07:00:00Z",
+  "last_updated": "2026-07-10T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1310,6 +1310,54 @@
       "source": "ACTRIS MLS #2785630 (HAR confirmed active, ~19 days on market)",
       "status": "active",
       "utilities": "Well + septic required; electric availability not confirmed"
+    },
+    {
+      "id": "560-longview-rd-dripping-springs",
+      "first_seen": "2026-07-10T07:00:00Z",
+      "address": "560 Longview Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs / Fitzhugh-Bell Springs corridor",
+      "price_usd": 450000,
+      "acreage": 5.0,
+      "listing_url": "https://www.atproperties.com/3528080/560-longview-rd-dripping-springs-texas-78620-unlockmls",
+      "notes": "5-acre tract on Longview Rd in the Bell Springs / Fitzhugh Road corridor — one of the most MCM-compatible submartkets in the feed. Large established oaks with long-distance panoramic Hill Country views from elevated terrain. Fenced on 3 sides. Accessed via Fitzhugh Rd → Sycamore Creek Dr → Twin Creek Rd → Longview Rd. Listed May 6, 2025 (ACTRIS MLS #3528080 / Unlock MLS #3528080, @properties Lone Star Christie's International). At $450,000 (~$90,000/ac), Scenario A (~$1.55M build budget remaining). Confirmed active across 8+ independent IDX sources: Longhorn Realty, Redfin, @properties Lone Star Christie's, Coldwell Banker, Austin Texas Homes, lakehouses4sale.net, Pirie Properties, and Compass.",
+      "risks": "Extended DOM (~14 months as of July 2026) is the lead flag — call listing agent before committing diligence spend; may reveal a slope, siting, soil, or access issue not visible in search snippets. Back of property ends in a seasonal creek that flows during heavy rains; the hard-filter threshold is floodplain on the build pad specifically — with 5 acres, the build pad can likely be sited clear of the creek bed, but a Hays County FEMA FIRM check and on-the-ground survey are required before offer. Standard Dripping Springs flag: confirm Edwards Aquifer recharge-zone status (TCEQ) before offer; impervious-cover limits may apply. No HOA confirmed in listing data — verify deed restrictions and private road maintenance agreement. Well + septic required.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS #3528080 / Unlock MLS #3528080 (@properties Lone Star Christie's; confirmed on Longhorn Realty, Redfin, Coldwell Banker, Austin Texas Homes, lakehouses4sale.net, Pirie Properties, Compass — 8+ independent IDX sources)",
+      "status": "active",
+      "utilities": "Well + septic required; electric availability not confirmed from search data"
+    },
+    {
+      "id": "17307-e-reed-parks-rd-jonestown",
+      "first_seen": "2026-07-10T07:00:00Z",
+      "address": "17307 E Reed Parks Rd, Jonestown, TX 78645",
+      "submarket": "Jonestown / Lake Travis",
+      "price_usd": 595000,
+      "acreage": 5.34,
+      "listing_url": "https://www.atproperties.com/1420723/17307-e-reed-parks-rd-jonestown-texas-78645-unlockmls",
+      "notes": "5.34-acre vacant land parcel in Jonestown (Travis County) with direct walk-down access to Lake Travis and ability to build a private boat dock. Gently sloping terrain with lake adjacency. Listed on Unlock MLS #1420723 (@properties Lone Star Christie's). At $595,000 (~$111,500/ac), Scenario A (~$1.41M build budget remaining). Confirmed active across 9 independent IDX sources: HAR.com, Redfin, Zillow, RE/MAX, @properties Lone Star Christie's, Coldwell Banker, certexas.com, texasrealtygroup.com, and eliciamichaudrealestate.com.",
+      "risks": "Verify original list date directly on HAR.com — MLS #1420723 is a lower ABOR sequence number, suggesting this listing may have been on market longer than typical new-scan discoveries; confirm DOM before engaging. Travis County floodplain check required for any lake-adjacent parcel. Lake Travis walk-down access and dock rights — confirm these are deeded to this specific parcel and are not shared or easement-dependent. HOA or deed restrictions not confirmed in search data — verify before offer. Well + septic likely required; electric availability not confirmed. ~40 min to downtown Austin.",
+      "lat": null,
+      "lng": null,
+      "source": "Unlock MLS #1420723 (@properties Lone Star Christie's; confirmed on HAR.com, Redfin, Zillow, RE/MAX, Coldwell Banker, certexas.com, texasrealtygroup.com, eliciamichaudrealestate.com — 9 independent IDX sources)",
+      "status": "active",
+      "utilities": "Well + septic likely required; electric availability not confirmed from search data"
+    },
+    {
+      "id": "5301-spring-preserve-trail-bee-cave",
+      "first_seen": "2026-07-10T07:00:00Z",
+      "address": "5301 Spring Preserve Trail, Bee Cave, TX 78738",
+      "submarket": "Bee Cave",
+      "price_usd": 849500,
+      "acreage": 2.0046,
+      "listing_url": "https://www.coldwellbankerhomes.com/tx/bee-cave/5301-spring-preserve-trail/pid_62410860/",
+      "notes": "2-acre Lot 14 in Spring Creek Preserve — a brand-new 17-lot gated boutique enclave just west of Austin's city limits in Bee Cave (Travis County, Lake Travis ISD). Lot backs to large and medium Live Oaks and over 200 ft of neighborhood street frontage. Community borders Little Barton Creek and is surrounded by 900+ acres of preserved land. No time frame to build; buyers bring their own builder. All 4 utilities already stubbed to the lot. Half a mile from Hamilton Pool Rd / Hwy 71. Listed November 8, 2024 on ACTRIS MLS #9326896 (Coldwell Banker). At $849,500 (~$423,700/ac), Scenario A (~$1.15M build budget remaining). Confirmed active across 5+ independent IDX sources: Coldwell Banker, jpmrealestatephotography.com, amyknowsaustin.com, Compass, and kriscalder.evrealestate.com.",
+      "risks": "CRITICAL: Gated community — HOA and deed restrictions almost certainly exist. Before any diligence investment, obtain the full CC&Rs and confirm that flat roofs, large glazing, metal cladding, and MCM massing are explicitly permitted; architectural review is the primary dealbreaker risk for this entry. Lot is adjacent to Little Barton Creek — Travis County floodplain check required before offer. Price per acre ($423,700/ac) is the highest raw land price per acre in the feed — buyer is paying for utilities stub-out, prime Bee Cave location, and community preservation surround. Listing date November 2024 (~8 months DOM as of July 2026) — verify still active on ACTRIS before engaging. 2 acres is the smallest buildable parcel in the feed; verify the site can accommodate an E-W MCM siting with required setbacks before offer.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS #9326896 (Coldwell Banker; confirmed on jpmrealestatephotography.com, amyknowsaustin.com, Compass, kriscalder.evrealestate.com — 5+ independent IDX sources)",
+      "status": "active",
+      "utilities": "All 4 utilities stubbed to lot (electricity, water, gas, sewer or septic — confirm specifics with listing agent)"
     }
   ]
 }
