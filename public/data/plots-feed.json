@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-10T07:00:00Z",
+  "last_updated": "2026-07-11T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1358,6 +1358,57 @@
       "source": "ACTRIS MLS #9326896 (Coldwell Banker; confirmed on jpmrealestatephotography.com, amyknowsaustin.com, Compass, kriscalder.evrealestate.com — 5+ independent IDX sources)",
       "status": "active",
       "utilities": "All 4 utilities stubbed to lot (electricity, water, gas, sewer or septic — confirm specifics with listing agent)"
+    },
+    {
+      "id": "59-balcones-dr-johnson-city",
+      "first_seen": "2026-07-11T07:00:00Z",
+      "address": "59 Balcones Dr, Johnson City, TX 78636",
+      "submarket": "Johnson City / 464 Ranch",
+      "price_usd": 425000,
+      "acreage": 6.02,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/1794637/59-balcones-dr-johnson-city-tx-78636/",
+      "notes": "6.02-acre homesite in 464 Ranch — a 100% high-fenced, gated community near Johnson City (Blanco County). Property features wildlife exemption (near-zero carry during design-build), underground utilities, fiber internet, asphalt interior roads, and a dedicated 7-acre community park with a stock pond. 2-mile walking/hiking trail and pickleball courts. Multiple elevated build sites available. Listed May 8, 2026 by Longhorn Realty (ACTRIS MLS #1794637). At $425,000 (~$70,600/ac), Scenario A (~$1.58M build budget remaining). Confirmed active across 4+ independent IDX sources: Longhorn Realty, Zillow, HAR, and easylivingpropertymanagement.com.",
+      "risks": "HOA/CC&R details not confirmed in available search snippets — a gated high-fenced community almost certainly has an ARB and design guidelines; obtain full CC&Rs before any offer and verify flat roofs, large glazing, and MCM massing are explicitly permitted (primary dealbreaker risk). Confirm wildlife exemption transfers cleanly or can be re-established without a lapse during construction. Well + septic likely required; verify per-lot utility hookup details directly with listing agent. ~70-80 min to downtown Austin; full car dependence.",
+      "lat": null,
+      "lng": null,
+      "source": "Longhorn Realty (ACTRIS MLS #1794637; confirmed on Zillow, HAR, easylivingpropertymanagement.com — 4+ independent IDX sources)",
+      "status": "active",
+      "hoa": "464 Ranch HOA — fee not confirmed; wildlife exemption maintained community-wide",
+      "utilities": "Underground utilities + fiber + asphalt roads; well + septic likely required — verify per-lot"
+    },
+    {
+      "id": "tbd-fall-creek-rd-spicewood",
+      "first_seen": "2026-07-11T07:00:00Z",
+      "address": "TBD Fall Creek Rd, Spicewood, TX 78669",
+      "submarket": "Spicewood / Lake Travis",
+      "price_usd": 699000,
+      "acreage": 10.0,
+      "listing_url": "https://www.exitrealty.com/listing/detail/listing/1739173/tbd-fall-creek-rd-spicewood-tx-78669/",
+      "notes": "10-acre parcel on Fall Creek Rd in Spicewood (Blanco County) with multiple potential build sites featuring expansive Hill Country views. Native grasses and trees throughout the site. Survey: Gc & Sfrr Co Surv #329 Abs #94. No HOA indicated in listing data — suggests full design freedom for an unconventional MCM build. Listed by Exit Realty (MLS #1739173, last updated March 16, 2026). At $699,000 (~$69,900/ac), Scenario A (~$1.30M build budget remaining). 10 acres provides ample E-W siting freedom. Confirmed active across 4+ independent IDX sources: Exit Realty (MLS #1739173), Austin Texas Homes, Zillow, Land.com.",
+      "risks": "Site features (slope gradient, tree species/density, road access type, soil) not confirmed in available search data — direct listing pages returned 403 during scan. No HOA indicated — verify deed restrictions on file with Blanco County before offer; 'no HOA' does not preclude subdivision-level deed covenants. Standard Spicewood/Fall Creek area flag: confirm build pad is fully outside FEMA 100-yr floodplain before offer. Well + septic required; confirm electric availability with listing agent. Listing last updated March 2026 — verify still active and current price before engaging.",
+      "lat": null,
+      "lng": null,
+      "source": "Exit Realty (MLS #1739173; confirmed on Austin Texas Homes, Zillow, Land.com — 4+ independent IDX sources)",
+      "status": "active",
+      "hoa": "None indicated",
+      "utilities": "Well + septic required; electric availability not confirmed from search data"
+    },
+    {
+      "id": "274-ira-hill-rd-dripping-springs",
+      "first_seen": "2026-07-11T07:00:00Z",
+      "address": "274 Ira Hill Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 749900,
+      "acreage": 8.17,
+      "listing_url": "https://www.searchaustinhomes.com/listings/274-ira-hill-rd-dripping-springs-tx-78620/8179783",
+      "notes": "8.17-acre ag-exempt homesite in Mountain Oaks (Dripping Springs, TX 78620, Hays County, DSISD). Agricultural exemption active — near-zero carry during design-build. Mature oaks confirmed throughout. Flat, cleared primary homesite already established on the parcel. Cul-de-sac location (no through traffic). Existing on-site infrastructure: 30x40 metal building with electricity and 30-amp RV hookup. 'Minimal restrictions' noted in listing description. Listed by Vince Burgess Group (ACTRIS MLS #8179783). At $749,900 (~$91,800/ac), Scenario A (~$1.25M build budget remaining). Confirmed active across 6+ independent IDX sources: Vince Burgess Group, HAR, Zillow, Legacy Broker Group, Dave Perry Miller, Rela, searchaustinhomes.com.",
+      "risks": "Standard Dripping Springs flag: confirm Edwards Aquifer recharge-zone status (TCEQ) before offer; impervious-cover limits apply throughout much of the DS submarket. Hays County FEMA floodplain check required before offer. 'Minimal restrictions' is self-reported — pull full deed restrictions from Hays County before offer. Existing metal building and RV hookup are assets but verify they are permitted structures; unpermitted outbuildings can complicate financing. Well + septic likely required (existing 30-amp RV hookup confirms electric access to site; confirm grid service to primary homesite). At $749,900, this is the highest-priced new entry this run, but carries the best immediately-actionable site profile: ag-exempt, flat cleared homesite, mature oaks, cul-de-sac.",
+      "lat": null,
+      "lng": null,
+      "source": "Vince Burgess Group (ACTRIS MLS #8179783; confirmed on HAR, Zillow, Legacy Broker Group, Dave Perry Miller, Rela, searchaustinhomes.com — 6+ independent IDX sources)",
+      "status": "active",
+      "hoa": "Mountain Oaks — minimal restrictions per listing description; HOA fee not confirmed; verify deed restrictions before offer",
+      "utilities": "30x40 metal building with electricity + 30-amp RV hookup on site; well + septic likely required"
     }
   ]
 }
