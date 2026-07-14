@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-12T07:00:00Z",
+  "last_updated": "2026-07-14T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1460,6 +1460,23 @@
       "status": "active",
       "hoa": "None noted",
       "utilities": "Electricity stubbed to property; well + septic required"
+    },
+    {
+      "id": "lot-5-vista-ridge-dr-round-mountain",
+      "first_seen": "2026-07-14T07:00:00Z",
+      "address": "Lot #5 The Vistas At Round Mountain, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 260000,
+      "acreage": 6.0,
+      "listing_url": "https://www.coldwellbankerhomes.com/tx/round-mountain/lot-5-the-vistas-at-round-mountain/pid_70408106/",
+      "notes": "6-acre homesite in The Vistas at Round Mountain (same gated Blanco County subdivision as Lot 33, Lot 37, Lot 3&4, Lot 3, and Lot 4 already in feed). Mature hardwoods, sweeping 180-degree Hill Country views, level and build-ready terrain. Wildlife/ag exemption via free-ranging Blackbuck Antelope (near-zero carry during design-build). Underground utilities, paved asphalt roads, gated community. Listed April 1, 2026 (MLS #7798881, Coldwell Banker). At $260,000 (~$43,300/ac), Scenario A (~$1.74M build budget remaining — among the highest build envelopes in the feed).",
+      "risks": "Listing URLs blocked during scan (HTTP 403); details verified across Coldwell Banker, Homes.com, and Douglas Elliman search snippets (3 independent IDX sources). Well + septic required (standard for all Vistas at Round Mountain lots). 60-75 min to downtown; full car dependence. Verify ag/wildlife exemption transfer and that construction won't lapse it during design-build. Tree cover and specific slope not confirmed beyond listing description — verify on plat + satellite before offer.",
+      "lat": null,
+      "lng": null,
+      "source": "Coldwell Banker (MLS #7798881)",
+      "status": "active",
+      "hoa": "~$42/mo + $500/yr (The Vistas at Round Mountain — same HOA as other Vistas lots in feed)",
+      "utilities": "Underground utilities; well + septic required"
     }
   ]
 }
