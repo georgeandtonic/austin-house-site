@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-14T07:00:00Z",
+  "last_updated": "2026-07-15T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1477,6 +1477,40 @@
       "status": "active",
       "hoa": "~$42/mo + $500/yr (The Vistas at Round Mountain — same HOA as other Vistas lots in feed)",
       "utilities": "Underground utilities; well + septic required"
+    },
+    {
+      "id": "000-little-creek-ranch-johnson-city",
+      "first_seen": "2026-07-15T07:00:00Z",
+      "address": "000 Little Creek Ranch (Tall Oak Ranch), Johnson City, TX 78636",
+      "submarket": "Johnson City / Blanco County",
+      "price_usd": 215000,
+      "acreage": 6.0,
+      "listing_url": "https://www.coldwellbankerhomes.com/tx/johnson-city/000-little-creek-ranch/pid_69364809/",
+      "notes": "6-acre rolling Hill Country tract near Johnson City (Blanco County), marketed as 'Tall Oak Ranch' for its clusters of mature live oaks throughout. 1.6 miles from downtown Johnson City. Light deed restrictions; no HOA. Rolling terrain, Hill Country character. Listed January 27, 2026 (ACTRIS MLS #4986916). At $215,000 (~$35,800/ac), Scenario A (~$1.79M build budget remaining — among the largest build envelopes in the feed). Confirmed active across 6 independent IDX sources (Farm & Ranch, Coldwell Banker, RE/MAX, Homes.com, Sotheby's/Kuper, Realty Austin).",
+      "risks": "Long DOM (~169 days as of 2026-07-15) is the lead flag — call listing agent to understand why this tract hasn't sold before any diligence investment; there may be a slope, access, soil, or well-yield issue not visible in search snippets. Well + septic required (standard Blanco County). ~60-75 min to downtown Austin; full car dependence. Exact tree count, view angles, and specific topographic profile not confirmed beyond 'rolling terrain with live oak clusters' — verify on plat + satellite before offer. Light deed restrictions confirmed; obtain full restriction language from Blanco County Clerk or listing agent before offer.",
+      "lat": null,
+      "lng": null,
+      "source": "Farm & Ranch / Coldwell Banker (ACTRIS MLS #4986916)",
+      "status": "active",
+      "hoa": "None",
+      "utilities": "Well + septic required; electric availability unconfirmed (Pedernales Electric Coop likely)"
+    },
+    {
+      "id": "lot-9-mesa-ranch-rd-dripping-springs",
+      "first_seen": "2026-07-15T07:00:00Z",
+      "address": "Lot 9 Mesa Ranch Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs (Mesa Verde)",
+      "price_usd": 699000,
+      "acreage": 6.13,
+      "listing_url": "https://ensorrealtors.com/tx/dripping-springs/mesa-verde-texas/-9-mesa-ranch-rd-w-fitzhugh-rd/",
+      "notes": "6.13-acre homesite in Mesa Verde — a gated 34-lot equestrian community off W. Fitzhugh Rd in Dripping Springs (Hays County, DSISD). Level terrain with rear tree line; Hill Country setting. Community features: underground utilities including electric, fiber internet, gated access, paved roads, equestrian-friendly deed plan. ~10 min to downtown Dripping Springs. Parcels in Mesa Verde range 6–14 acres. Listed by Ensor & Co. (ACTRIS MLS #4248772). At $699,000 (~$114,000/ac), Scenario A (~$1.30M build budget remaining). Confirmed across 4+ independent IDX sources (Ensor & Co., mytexashomeresource.com, casorarealty.com, westondeanhomes.com).",
+      "risks": "Primary flag: 'thoughtful restrictions' in a gated equestrian community — CC&Rs must be reviewed before offer; equestrian community ARBs have a track record of restricting flat roofs, large glazing, or MCM massing. Request full CC&Rs from Hays County Clerk or listing agent and confirm MCM design is explicitly permitted before engaging. Standard Dripping Springs flag: Edwards Aquifer recharge-zone check required (TCEQ) before offer — impervious-cover limits apply in recharge zones. Level terrain is less ideal than gently sloping for MCM walkout; verify E-W siting on plat with setbacks. Well + septic likely required despite underground utility infrastructure — confirm potable water source. Multiple MLS IDs circulating (ACTRIS #4248772 / #7142479) — confirm canonical active listing with Ensor & Co. before engaging. Address may also appear as '4755 W Fitzhugh Rd' or '#26 Mesa Ranch Rd' on some IDX mirrors.",
+      "lat": null,
+      "lng": null,
+      "source": "Ensor & Co. Realtors (ACTRIS MLS #4248772)",
+      "status": "active",
+      "hoa": "HOA exists (equestrian community rules); monthly/annual fee not confirmed",
+      "utilities": "Underground utilities (electric confirmed); fiber internet available; potable water source unconfirmed (well likely required)"
     }
   ]
 }
