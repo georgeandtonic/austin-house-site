@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-15T07:00:00Z",
+  "last_updated": "2026-07-16T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1511,6 +1511,39 @@
       "status": "active",
       "hoa": "HOA exists (equestrian community rules); monthly/annual fee not confirmed",
       "utilities": "Underground utilities (electric confirmed); fiber internet available; potable water source unconfirmed (well likely required)"
+    },
+    {
+      "id": "3101-3-longhorn-trl-wimberley",
+      "first_seen": "2026-07-16T07:00:00Z",
+      "address": "3101-3 Longhorn Trl, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 550000,
+      "acreage": 10.0,
+      "listing_url": "https://riversandoaksrealtygroup.com/listing-detail/1173744603/3101-3-Longhorn-TRL-Wimberley-TX/",
+      "notes": "10-acre Wimberley lot (Tract 3 of 4 adjacent tracts at this address) with no HOA — an advantage over most Wimberley listings in the feed. Many trees throughout, Hill Country views, and multiple building sites. Electricity available; well + septic needed. Wimberley ISD. ~214 days on market as of March 16, 2026 (listed ~August 2025). At $550,000 (~$55,000/ac), Scenario A (~$1.45M build budget remaining). Confirmed active via Rivers and Oaks Realty Group IDX (MLS #9699669) and RE/MAX.",
+      "risks": "Long DOM (~214 days as of March 2026, likely longer today) warrants an up-front conversation with the listing agent to understand why this parcel hasn't moved — slope, access, well-water issue, or price is the most common cause on Hill Country lots with this DOM profile. Standard Wimberley flood check required: Blanco River corridor has serious 2015 flood history; confirm build pad is well outside FEMA 100-yr floodplain and Atlas-14 runoff before offer. Well + septic required; water quantity unknown — ask neighbors' well depth and GPM before offer. 'One of 4 tracts' framing means adjacent parcels may develop in ways that affect privacy; review the full plat before offer.",
+      "lat": null,
+      "lng": null,
+      "source": "Rivers and Oaks Realty Group (MLS #9699669)",
+      "status": "active",
+      "hoa": "None",
+      "utilities": "Electricity available; well + septic required"
+    },
+    {
+      "id": "1930-s-rainbow-ranch-rd-wimberley",
+      "first_seen": "2026-07-16T07:00:00Z",
+      "address": "1930 S Rainbow Ranch Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 399999,
+      "acreage": 6.75,
+      "listing_url": "https://ensorrealtors.com/tx/wimberley/rainbow-ranch/1930-s-rainbow-ranch-rd/",
+      "notes": "6.75-acre Rainbow Ranch parcel in Wimberley with varied terrain: level areas at the top with distant views, sloped and terraced sections with multiple building spots, and Panther Creek at the bottom (forms a wet-weather swimming hole in heavy rain). Several hardwood tree varieties, native grasses, and shrubs throughout. The sloped-to-terraced topography with a high-point building pad is a strong MCM site profile — level at the top for siting, drama below. Wimberley ISD. ~45 min to Austin/ABIA. At $399,999 (~$59,300/ac), Scenario A (~$1.60M build budget remaining). Confirmed active across Ensor & Co. (MLS #9954244), RE/MAX (MLS #7962780), lakehouses4sale.net, and horsedaddys.com.",
+      "risks": "Price discrepancy across sources ($399,999 on RE/MAX vs $500,000 on Ensor & Co., with two different MLS IDs) suggests a possible relisting or price negotiation in progress — confirm the current ask directly with Ensor & Co. (listing agent) before pursuing. Panther Creek at the bottom warrants a careful FEMA + Atlas-14 floodplain check; the upper level building pad should be well above any drainage, but verify before offer. HOA status for Rainbow Ranch subdivision not confirmed in any source — request CC&Rs and annual fee disclosure from listing agent. Standard Wimberley flood check required (2015 Blanco River flood history). Well + septic required; electric assumed available but not confirmed in listing data.",
+      "lat": null,
+      "lng": null,
+      "source": "Ensor & Co. Realtors (MLS #9954244)",
+      "status": "active",
+      "utilities": "Well + septic required; electric assumed available"
     }
   ]
 }
