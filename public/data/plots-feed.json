@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-16T07:00:00Z",
+  "last_updated": "2026-07-17T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1544,6 +1544,39 @@
       "source": "Ensor & Co. Realtors (MLS #9954244)",
       "status": "active",
       "utilities": "Well + septic required; electric assumed available"
+    },
+    {
+      "id": "130-lost-crk-wimberley",
+      "first_seen": "2026-07-17T07:00:00Z",
+      "address": "130 Lost Crk, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 379000,
+      "acreage": 9.35,
+      "listing_url": "https://www.exprealty.com/wimberley-tx-real-estate/hill-country-ranches/130-lost-crk",
+      "notes": "9.35-acre parcel in Hill Country Ranches subdivision, Wimberley, with no HOA. Existing well on property. Small cabin/structure already on site. Multiple terraced building sites with Hill Country views — strong MCM siting profile. At $379,000 (~$40,500/ac), comfortably Scenario A (~$1.62M remaining for build). Confirmed active across Coldwell Banker (SABOR MLS #1990523, updated July 1, 2026), KW Williams, eXp Realty, Compass, and Redfin IDX mirrors with consistent 9.35 ac and $379k data. Note: a second cross-listing exists on Unlock MLS (Compass, MLS #4201502, $626,450, dated June 2025) — the more recently updated SABOR/CB listing at $379k is treated as current price. Wimberley ISD. Hays County.",
+      "risks": "Price discrepancy across MLS systems: SABOR/Coldwell Banker shows $379,000 (updated July 1, 2026) while Compass/Unlock MLS shows $626,450 (June 2025 listing) — confirm current ask and status directly with listing agent before pursuing. Confirm 100-yr floodplain boundary relative to chosen build pad (Hill Country Ranches parcels include varied terrain). Verify CC&Rs for Hill Country Ranches subdivision — listed as no HOA, but confirm no deed restrictions that would affect MCM modern design. Well on site: test water quantity and quality before offer.",
+      "lat": null,
+      "lng": null,
+      "source": "Coldwell Banker / SABOR MLS #1990523; cross-listed Compass / Unlock MLS #4201502",
+      "status": "active",
+      "utilities": "Well on property; septic required; electric assumed available"
+    },
+    {
+      "id": "5165-lone-man-mountain-rd-wimberley",
+      "first_seen": "2026-07-17T07:00:00Z",
+      "address": "5165 Lone Man Mountain Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 695000,
+      "acreage": 9.974,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/4951662/5165-lone-man-mountain-rd-wimberley-tx-78676/",
+      "notes": "9.97-acre unrestricted parcel in Rolling Oaks subdivision, Wimberley, with no HOA. Electricity and water connections available at the road; only septic required. Two existing shell structures on site (600 sf + 1,536 sf) — usable as studio/guest quarters or demo'd for a clear build site. Wet-weather creek at rear. Hilly terrain of Lone Man Mountain area; multiple build-pad options likely. At $695,000 (~$69,700/ac) this is a Scenario B/C budget with ~$1.3M remaining for build at $2M all-in. 181 DOM suggests negotiating room. Confirmed active via Longhorn Realty (ACTRIS MLS #4951662), Coldwell Banker, Thrive Realty, RE/MAX, and HAR IDX mirrors. Wimberley ISD. Hays County.",
+      "risks": "181 days on market — investigate why (soil issues, failed septic perc, unrecorded deed restrictions, road access concerns). Confirm legal road access/easement for Lone Man Mountain Rd. Shell structures: confirm permits, whether adaptive reuse is allowed, or if demo/new construction is the path. Wet-weather creek at rear: FEMA floodplain check required for build pad. At $695k land, approaches upper Scenario C range — tight build budget if full envelope is $2M. Unrestricted/no HOA is an asset for MCM design freedom but confirm no county overlay that could complicate modern exterior.",
+      "lat": null,
+      "lng": null,
+      "dom": 181,
+      "source": "Longhorn Realty (ACTRIS MLS #4951662)",
+      "status": "active",
+      "utilities": "Electricity + water available at road; septic required"
     }
   ]
 }
