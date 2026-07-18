@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-17T07:00:00Z",
+  "last_updated": "2026-07-18T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1577,6 +1577,23 @@
       "source": "Longhorn Realty (ACTRIS MLS #4951662)",
       "status": "active",
       "utilities": "Electricity + water available at road; septic required"
+    },
+    {
+      "id": "tbd-w-rr-962-round-mountain",
+      "first_seen": "2026-07-18T07:00:00Z",
+      "address": "TBD W RR 962, Round Mountain, TX 78663",
+      "submarket": "Round Mountain / Blanco County",
+      "price_usd": 218000,
+      "acreage": 5.01,
+      "listing_url": "https://www.phyllisbrowning.com/property/tbd-w-rr-962-round-mountain-tx-78663/93519707/",
+      "notes": "5.01-acre gated community lot in Bluffs at Round Mountain (Blanco County), a separate subdivision from The Vistas and Estates at Round Mountain already in the feed. Wildlife exemption via free-ranging Blackbuck Antelope (near-zero carry during design-build; annual taxes ~$846 confirmed). Underground utilities + electricity available. Multiple build sites with mature oaks and long-range Hill Country views. Paved RR 962 road access. $200/yr HOA. At $218,000 (~$43,500/ac), Scenario A (~$1.78M build budget remaining). Confirmed active across Phyllis Browning, homecity.com (ACTRIS MLS #8080561), Zillow, RE/MAX, HAR, Kevin Kent Real Estate, and homefinder.com (7 independent IDX sources).",
+      "risks": "Well + septic required (standard Blanco County rural). Wildlife exemption must transfer cleanly and not lapse during design-build construction — confirm with listing agent before offer. Specific build-pad slope, view angle, and tree density not confirmed beyond listing descriptions; verify on satellite/plat before advancing. HOA CC&Rs not fully reviewed: $200/yr is light, but request full CC&Rs and confirm no ARB restrictions prohibiting MCM design before offer. Standard Blanco County floodplain check required. ~60-75 min to downtown Austin.",
+      "lat": null,
+      "lng": null,
+      "source": "Phyllis Browning Company / ACTRIS MLS #8080561; cross-confirmed on homecity.com, Zillow, RE/MAX, HAR, Kevin Kent Real Estate (7 IDX sources)",
+      "status": "active",
+      "hoa": "$200/yr",
+      "utilities": "Underground utilities; electricity available; well + septic required"
     }
   ]
 }
