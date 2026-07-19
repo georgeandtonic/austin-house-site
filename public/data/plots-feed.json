@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-18T07:00:00Z",
+  "last_updated": "2026-07-19T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1594,6 +1594,23 @@
       "status": "active",
       "hoa": "$200/yr",
       "utilities": "Underground utilities; electricity available; well + septic required"
+    },
+    {
+      "id": "400-wolf-trl-wimberley",
+      "first_seen": "2026-07-19T07:00:00Z",
+      "address": "400 Wolf Trail, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 419000,
+      "acreage": 5.2,
+      "listing_url": "https://www.spyglassrealty.com/listing/2849323-400-wolf-trail-wimberley-tx-78676",
+      "notes": "5.20-acre raw land parcel in Burnett Ranch Sec 5, Wimberley, TX 78676 (Hays County, Wimberley ISD). Same subdivision as 901 Days End Rd already in the feed — Burnett Ranch POA includes private Blanco River park access for residents. Listed 4/20/2026 by Evan Eppinger, Streamline Properties LLC (ACTRIS MLS #2849323). Property described as raw land (vacant); well + septic required. At $419,000 (~$80,600/ac), Scenario A leaves ~$1.58M for build at $2M all-in. Verified via Google search snippets across 2 independent search rounds (all IDX direct pages 403 in this environment); details consistent: 5.20 ac, $419,000, MLS #2849323, Burnett Ranch Sec 5, listed 4/20/2026.",
+      "risks": "Wimberley/Burnett Ranch flood check required — subdivision borders Blanco River recreation area; confirm build pad is outside FEMA 100-yr floodplain before advancing. HOA fee unknown — request Burnett Ranch POA fee schedule and full CC&Rs; confirm no ARB restriction prohibiting MCM design (flat roofs, large glazing, metal cladding). Well + septic required: budget for unknown well depth and yield. Property description is sparse — verify road access, slope, tree cover, and buildable envelope on plat before diligence investment. Verified via web search snippets only (direct IDX pages 403 in this environment); confirm listing still active with agent before advancing.",
+      "lat": null,
+      "lng": null,
+      "source": "Streamline Properties LLC / ACTRIS MLS #2849323 (via Spyglass Realty IDX; verified via Google search snippets)",
+      "status": "active",
+      "hoa": "Burnett Ranch POA (fee unknown; includes private Blanco River park access)",
+      "utilities": "Well + septic required; electricity assumed available at road"
     }
   ]
 }
