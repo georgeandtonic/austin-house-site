@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-19T07:00:00Z",
+  "last_updated": "2026-07-20T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1611,6 +1611,57 @@
       "status": "active",
       "hoa": "Burnett Ranch POA (fee unknown; includes private Blanco River park access)",
       "utilities": "Well + septic required; electricity assumed available at road"
+    },
+    {
+      "id": "220-estates-rd-wimberley",
+      "first_seen": "2026-07-20T07:00:00Z",
+      "address": "220 Estates Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 850000,
+      "acreage": 13.66,
+      "listing_url": "https://www.compass.com/listing/220-estates-road-wimberley-tx-78676/1807387789096759553/",
+      "notes": "13.66-acre parcel in Blanco River Estates subdivision, Wimberley, TX 78676 (Hays County, Wimberley ISD — but see Comal ISD flag below). Listed March 29, 2025 by Century 21 Randall Morris & Associates (ACTRIS MLS #9442187; also appears as MLS #3845392 on Longhorn Realty — possible relisting). Electricity on site; no water or sewer (well + septic required). Hunter's cabin used by the seller's family for years; raw land with ancillary structure. Trees and Hill Country views confirmed in listing description. At $850,000 (~$62,200/ac), Scenario C land cost with Scenario A acreage — remaining build budget ~$1.15M at $2M all-in. Confirmed active across Compass, Shane T. White Team, HomeBaseTexas, and Longhorn Realty IDX sources (4+ independent sources).",
+      "risks": "CRITICAL — SUBDIVISION NAME: 'Blanco River Estates' in Wimberley (78676) strongly suggests proximity to the Blanco River, which has catastrophic 2015 flood history. Verify FEMA 100-yr floodplain on the build pad specifically before advancing — this is the primary hard-filter risk. Two MLS numbers in circulation (9442187 and 3845392) — confirm canonical active listing with listing agent (Century 21 Randall Morris) before engaging; may indicate a relisting. School district flag: Comal ISD appears in some sources for this address, which is atypical for Wimberley 78676 (usually Wimberley ISD or Hays CISD) — verify school district assignment with Hays County CAD before offer. Long DOM (~16 months, listed March 29, 2025) — call listing agent to understand why this parcel hasn't sold before committing to diligence spend. Well + septic required.",
+      "lat": null,
+      "lng": null,
+      "source": "Century 21 Randall Morris & Associates (ACTRIS MLS #9442187 / Longhorn Realty MLS #3845392; confirmed on Compass, Shane T. White Team, HomeBaseTexas, Longhorn Realty — 4+ independent IDX sources)",
+      "status": "active",
+      "hoa": "Blanco River Estates HOA status not confirmed — verify before offer",
+      "utilities": "Electricity on site; well + septic required; no water or sewer"
+    },
+    {
+      "id": "lot-19-round-mountain-reserve-cir-round-mountain",
+      "first_seen": "2026-07-20T07:00:00Z",
+      "address": "Lot 19 Round Mountain Reserve Cir, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 688000,
+      "acreage": 12.74,
+      "listing_url": "https://www.har.com/homedetail/lot-19-round-mountain-reserve-round-mountain-tx-78663-us/16385326",
+      "notes": "12.74-acre lot in Round Mountain Reserve — a luxury master-planned gated community of 2,000 acres in Blanco County, between Marble Falls and Johnson City. First Round Mountain Reserve entry added to the feed (separate from The Vistas at Round Mountain, Stone Ridge Mountain, Bluffs at Round Mountain, Estates at Round Mountain, and Winnie Smith Rd already in feed). Featuring Hill Country views, green space corridors, and access to community trails and parks. Blanco County light permitting environment suits an unconventional MCM design. At $688,000 (~$54,000/ac), Scenario A (~$1.31M build budget). Confirmed via Redfin (MLS #172546), HAR (listing ID 16385326), and roundmountainreserve.com search snippets (3 independent sources).",
+      "risks": "Luxury master-planned gated community almost certainly has an HOA with architectural review board — verify full CC&Rs specifically permit flat roofs, large glazing, metal cladding, and MCM massing before offer; this is the primary dealbreaker risk. HOA fee and exact CC&R terms not confirmed in search data. Well + septic required (standard Blanco County rural). 60-75 min to downtown Austin; full car dependence. At 12.74 acres, above the ideal 10-acre maximum; confirm ag/wildlife exemption status and that construction will not lapse it. Multiple lots available in the development — compare with Lot 28 (6.11ac/$430k, also added to feed today) before choosing. Per-acre price ($54,000/ac) is higher than other Round Mountain entries in the feed.",
+      "lat": null,
+      "lng": null,
+      "source": "Redfin (MLS #172546); HAR.com listing ID 16385326; roundmountainreserve.com confirmed active",
+      "status": "active",
+      "hoa": "Round Mountain Reserve HOA — fee and CC&R terms not confirmed; luxury community almost certainly has architectural review",
+      "utilities": "Well + septic required; electric availability not confirmed from search data"
+    },
+    {
+      "id": "2078-w-ranch-road-962-lot-28-round-mountain",
+      "first_seen": "2026-07-20T07:00:00Z",
+      "address": "2078 W Ranch Road 962, Lot 28, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 430000,
+      "acreage": 6.11,
+      "listing_url": "https://www.har.com/homedetail/2078-w-ranch-road-962-lot-28-rd-round-mountain-tx-78663-us/16427433",
+      "notes": "6.11-acre lot (Lot 28) in Round Mountain Reserve, Blanco County — the most affordable Round Mountain Reserve entry in the feed, at $430,000 (~$70,400/ac). Standout feature: property backs to over 20 acres of nature preserve and Fossil Creek watershed, providing a natural privacy buffer on the rear boundary. Gated luxury master-planned community on 2,000 acres with Hill Country views, community trails and parks, and green space wildlife corridors separating lots. Blanco County light permitting suits an unconventional MCM design. At $430,000, Scenario A (~$1.57M build budget remaining). Confirmed via HAR.com (listing ID 16427433) and roundmountainreserve.com search snippets (2 independent sources). Companion lot to Lot 19 (12.74ac/$688k) also added to feed today.",
+      "risks": "Luxury master-planned gated community almost certainly has an HOA with architectural review board — verify full CC&Rs specifically permit flat roofs, large glazing, metal cladding, and MCM massing before offer; this is the primary dealbreaker risk. HOA fee and exact CC&R terms not confirmed in search data. Well + septic required (standard Blanco County rural). 60-75 min to downtown Austin; full car dependence. Fossil Creek watershed backing means a creek corridor nearby — verify FEMA floodplain on the specific build pad before advancing. Per-acre price ($70,400/ac) is on the higher end for Blanco County.",
+      "lat": null,
+      "lng": null,
+      "source": "HAR.com listing ID 16427433; roundmountainreserve.com confirmed active",
+      "status": "active",
+      "hoa": "Round Mountain Reserve HOA — fee and CC&R terms not confirmed; luxury community almost certainly has architectural review",
+      "utilities": "Well + septic required; electric availability not confirmed from search data"
     }
   ]
 }
