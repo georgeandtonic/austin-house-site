@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-20T07:00:00Z",
+  "last_updated": "2026-07-21T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1662,6 +1662,40 @@
       "status": "active",
       "hoa": "Round Mountain Reserve HOA — fee and CC&R terms not confirmed; luxury community almost certainly has architectural review",
       "utilities": "Well + septic required; electric availability not confirmed from search data"
+    },
+    {
+      "id": "tbd-caliche-rd-wimberley",
+      "first_seen": "2026-07-21T07:00:00Z",
+      "address": "TBD Caliche Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 545160,
+      "acreage": 7.08,
+      "listing_url": "https://www.search.unlockmls.com/address/TBD-Caliche-Rd-Wimberley-TX-78676/9175868",
+      "notes": "7.08-acre raw land parcel with panoramic Hill Country views and multiple viable build sites. No HOA — light deed restrictions only, which typically permit unconventional architecture including MCM flat roofs and metal cladding. Listed February 2026 (ACTRIS MLS #9175868). Electricity reportedly available nearby; well and septic required (standard Hays County rural). Wimberley submarket offers creative builder tolerance. At $545,160 (~$77,000/ac), Scenario A leaves approximately $1.45M build budget. Confirmed via Unlock MLS / CB Harper search snippets (ACTRIS MLS #9175868, 2 independent sources).",
+      "risks": "Blanco River watershed proximity — verify FEMA 100-year floodplain on build pad before advancing; Wimberley is flood-prone. Well and septic unknowns — confirm percolation and no Blackland clay on this specific parcel. Verify paved road access to Caliche Rd. Confirm electricity connection distance and cost. Light deed restrictions must be reviewed to confirm no language that could restrict MCM design elements.",
+      "lat": null,
+      "lng": null,
+      "source": "Unlock MLS / CB Harper (ACTRIS MLS #9175868)",
+      "status": "active",
+      "hoa": "None (light deed restrictions only)",
+      "utilities": "Electricity nearby; well + septic required"
+    },
+    {
+      "id": "1650-s-rainbow-ranch-rd-wimberley",
+      "first_seen": "2026-07-21T07:00:00Z",
+      "address": "1650 S Rainbow Ranch Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 520000,
+      "acreage": 11.28,
+      "listing_url": "https://rocket.com/homes/listings/1650-s-rainbow-ranch-rd-wimberley-tx-78676",
+      "notes": "11.28-acre raw land parcel covered in mature Oaks and Elms with multiple viable build sites. Horses and livestock allowed — strongly suggesting minimal deed restrictions and no HOA architectural review board. Listed June 2024 (MLS #548048); long days-on-market (~13 months) warrants investigation but may indicate pricing flexibility. Well and septic required; electricity assumed available. At $520,000 (~$46,100/ac), Scenario A leaves approximately $1.48M build budget. Above the 10-acre ideal but within the 15-acre hard max. Confirmed via Rocket Homes / MLS #548048 (2 independent sources).",
+      "risks": "Long DOM (~13 months) — investigate why; could indicate septic, title, easement, or access issues. Wimberley flood check required for Blanco River proximity. Well and septic unknowns. Verify paved road access and electricity connection distance. Confirm ag/wildlife exemption status; at 11.28 acres, acreage is above ideal maximum — verify construction will not trigger exemption lapse. Deed restrictions must be reviewed in full even if horses allowed.",
+      "lat": null,
+      "lng": null,
+      "source": "Rocket Homes / MLS #548048",
+      "status": "active",
+      "hoa": "Not confirmed; horses/livestock allowed suggesting minimal or no restrictions",
+      "utilities": "Well + septic required; electric assumed available"
     }
   ]
 }
