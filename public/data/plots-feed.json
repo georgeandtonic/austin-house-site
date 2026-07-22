@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-21T07:00:00Z",
+  "last_updated": "2026-07-22T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1696,6 +1696,23 @@
       "status": "active",
       "hoa": "Not confirmed; horses/livestock allowed suggesting minimal or no restrictions",
       "utilities": "Well + septic required; electric assumed available"
+    },
+    {
+      "id": "509-513-nomad-dr-spicewood",
+      "first_seen": "2026-07-22T07:00:00Z",
+      "address": "509-513 Nomad Dr, Spicewood, TX 78669",
+      "submarket": "Spicewood (Paleface Lake Country Estates)",
+      "price_usd": 575000,
+      "acreage": 3.10,
+      "listing_url": "https://www.redfin.com/TX/Spicewood/513-Nomad-Dr-78669/home/40132571",
+      "notes": "Combined two-lot (509 + 513 Nomad Dr) waterfront parcel of 3.10 acres with 250 feet of water frontage on the Pedernales River arm of Lake Travis. Upper bluff plateau offers 172 feet of dramatic cliff frontage — strong MCM siting profile with sweeping lake-framing glass wall potential. Situated in Paleface Lake Country Estates, a boutique 58-homesite community with a community well (avoids individual well-drilling cost and risk) and a private boat launch exclusive to PLCE residents. Listed February 28, 2025 (ACTRIS MLS #6285899, listing agent Audra Smith, AustinRealEstate.com). At $575,000 (~$185,500/ac), Scenario A (~$1.425M build budget remaining at $2M all-in). Confirmed active across RE/MAX, Compass, Redfin, Zillow, HAR, KW, and Douglas Residential IDX (7 independent sources).",
+      "risks": "Long DOM (~17 months since Feb 2025) — investigate before advancing; extended market time often signals overpricing, undisclosed soil or structural issues, road access concerns, or HOA deal-breakers. Paleface Lake Country Estates HOA: full CC&Rs not reviewed — specifically confirm whether the ARB permits flat roofs, large glazing, metal cladding, and MCM massing; this is the primary dealbreaker risk for this lot. Waterfront on Lake Travis arm: FEMA flood pool elevation check required for build pad — Lake Travis fluctuates significantly; bluff-top pads need confirmation above flood pool. Combined two-lot package (509 + 513): confirm both parcels can close together and be combined on a single tax ID and build permit. Community well ownership and rights need title review. Travis County: confirm no setback or impervious-cover overlay limiting build footprint on 3.1 acres.",
+      "lat": null,
+      "lng": null,
+      "source": "AustinRealEstate.com / ACTRIS MLS #6285899 (confirmed via RE/MAX, Compass, Redfin, Zillow, HAR, KW, Douglas Residential — 7 IDX sources)",
+      "status": "active",
+      "hoa": "Paleface Lake Country Estates HOA — fee and CC&R terms not confirmed; ARB check critical",
+      "utilities": "Community well (PLCE); septic required; electric assumed available"
     }
   ]
 }
