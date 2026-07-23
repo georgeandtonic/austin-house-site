@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-22T07:00:00Z",
+  "last_updated": "2026-07-23T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1713,6 +1713,23 @@
       "status": "active",
       "hoa": "Paleface Lake Country Estates HOA — fee and CC&R terms not confirmed; ARB check critical",
       "utilities": "Community well (PLCE); septic required; electric assumed available"
+    },
+    {
+      "id": "lot-81-toro-pass-wimberley",
+      "first_seen": "2026-07-23T07:00:00Z",
+      "address": "Lot 81 Toro Pass, Wimberley, TX 78676",
+      "submarket": "Wimberley / Hays County",
+      "price_usd": 545000,
+      "acreage": 5.77,
+      "listing_url": "https://tcphouses.com/listing/actris/7131249/Wimberley/Lot-81-Toro-Pass/",
+      "notes": "Oak-studded 5.77-acre level lot in Mustang Valley Sec 5. Underground utilities, paved roads, high-speed fiber, existing ag-exemption. Community amenities include lake access, hiking trails, tennis/pickleball courts, playground, and pavilion. Listed ~July 18 2026 by Westbank Realty. Low HOA dues (Mustang Valley POA). ACTRIS MLS #7131249.",
+      "risks": "Level terrain may limit hillside MCM massing and passive view siting. HOA/ARB CC&Rs not reviewed — confirm Mustang Valley POA permits flat roofs, large glazing, and MCM massing before advancing. Wimberley/Blanco River watershed — confirm build pad outside 100-yr floodplain. Hays County: verify no Edwards Aquifer recharge zone overlay restricting impervious cover.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS #7131249 / Unlock MLS (confirmed via multiple IDX search snippets)",
+      "status": "active",
+      "hoa": "Mustang Valley POA — low annual dues reported; CC&Rs not reviewed",
+      "utilities": "Underground utilities in place; high-speed fiber; well + septic required"
     }
   ]
 }
