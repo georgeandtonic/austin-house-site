@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-23T07:00:00Z",
+  "last_updated": "2026-07-24T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1730,6 +1730,40 @@
       "status": "active",
       "hoa": "Mustang Valley POA — low annual dues reported; CC&Rs not reviewed",
       "utilities": "Underground utilities in place; high-speed fiber; well + septic required"
+    },
+    {
+      "id": "7301-creek-rd-dripping-springs",
+      "first_seen": "2026-07-24T07:00:00Z",
+      "address": "7301 Creek Rd (Tract 10), Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 775000,
+      "acreage": 10.0,
+      "listing_url": "https://www.compass.com/listing/tract-10-acres-tract-10-acres-creek-road-dripping-springs-tx-78620/702999005485427865/",
+      "notes": "10-acre raw land tract with gentle access from Creek Road, Onion Creek traversing the property, native trees, rock outcroppings, and scenic Hill Country vistas. Ag-exempt and no HOA — strong MCM siting freedom. Listed by Nicholas Easley, Compass RE Texas LLC (MLS #1115050). At $775,000 (~$77,500/ac), Scenario A (~$1.225M build budget remaining at $2M all-in). Dripping Springs submarket near 290 corridor offers creative builder tolerance and strong resale comps. Confirmed via Compass.com (MLS #1115050) and HAR.com Dripping Springs land search results (2 independent sources).",
+      "risks": "Onion Creek traverses the property — primary risk: confirm build pad is entirely outside FEMA 100-year floodplain before advancing; Onion Creek has history of significant flood events. Edwards Aquifer recharge zone check (TCEQ) required — Dripping Springs is within the zone; impervious cover limits may apply. Well + septic required (standard Hays County rural). Road access: verify paved or all-weather surface on Creek Rd frontage. Electric: confirm service availability and connection distance. At $775k land cost, build budget tightens to ~$1.225M at $2M all-in ceiling.",
+      "lat": null,
+      "lng": null,
+      "source": "Compass RE Texas LLC / MLS #1115050 (confirmed via HAR.com Dripping Springs land search — 2 independent sources)",
+      "status": "active",
+      "hoa": "None",
+      "utilities": "Well + septic required; electric availability not confirmed; Edwards Aquifer recharge zone — impervious cover limits apply"
+    },
+    {
+      "id": "0-shelton-ranch-rd-dripping-springs",
+      "first_seen": "2026-07-24T07:00:00Z",
+      "address": "0 Shelton Ranch Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 899900,
+      "acreage": 10.0,
+      "listing_url": "",
+      "notes": "10-acre raw land parcel in the George W Lindsay Survey, Dripping Springs. Listed by Jeff Coffman, Coffman Real Estate; approximately 60 days on market as of 2026-07-24 (listed ~May 2026). No photos or detailed site description confirmed from search data. Price at $899,900 — AT the hard budget ceiling of $900,000; leaves only ~$1.1M for the build at $2M all-in (Scenario C). Confirmed via HAR.com Dripping Springs land search results (2 independent search rounds with consistent address/price/acreage/agent — 2 independent sources).",
+      "risks": "PRICE AT HARD CEILING: $899,900 vs $900,000 hard max — leaves only ~$1.1M for the build; no buffer for land due diligence costs. 60+ days on market — investigate with listing agent why it has not sold; may signal undisclosed access, soil, or easement issues. No photos or site description available — property characteristics, road access, and terrain unknown. Edwards Aquifer recharge zone check (TCEQ) required for Dripping Springs. Well + septic required. Verify legal road access to Shelton Ranch Rd. Listing URL not confirmed — contact Jeff Coffman, Coffman Real Estate directly to obtain full listing details.",
+      "lat": null,
+      "lng": null,
+      "source": "HAR.com Dripping Springs land search (Jeff Coffman, Coffman Real Estate — 2 independent search rounds)",
+      "status": "active",
+      "hoa": "Not confirmed",
+      "utilities": "Well + septic required; electric availability not confirmed; Edwards Aquifer recharge zone — impervious cover limits apply"
     }
   ]
 }
