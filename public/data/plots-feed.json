@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-24T07:00:00Z",
+  "last_updated": "2026-07-25T12:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1764,6 +1764,40 @@
       "status": "active",
       "hoa": "Not confirmed",
       "utilities": "Well + septic required; electric availability not confirmed; Edwards Aquifer recharge zone — impervious cover limits apply"
+    },
+    {
+      "id": "301-lonesome-trl-driftwood",
+      "first_seen": "2026-07-25T12:00:00Z",
+      "address": "301 Lonesome Trl, Driftwood, TX 78619",
+      "submarket": "Driftwood",
+      "price_usd": 485000,
+      "acreage": 5.16,
+      "listing_url": "https://www.har.com/homedetail/301-lonesome-trl-driftwood-tx-78619/3902992",
+      "notes": "5.16-acre view lot with panoramic Hill Country views and Heritage Oak trees throughout. Dual road frontage (Rolling Oaks Dr and Lonesome Trail). Plat-only deed restrictions ('no commercial, no swine') — effectively unrestricted for residential MCM use. Wimberley ISD (atypical for Driftwood — verify). Multiple relistings (MLS #5440868, #5684804, #1163566, #8212868) suggest extended DOM and motivated seller. At $485,000 (~$94,000/ac), Scenario A (~$1.52M build budget). Confirmed via HAR.com (#3902992), Zillow (MLS #5684804), Redfin (MLS #1163566), Trulia (MLS #5440868), LandSearch (5 independent IDX sources).",
+      "risks": "Multiple MLS ID relistings indicate extended market time — call listing agent to confirm current status, any prior contract failures. Driftwood: confirm Edwards Aquifer recharge-zone status (TCEQ). Well + septic required. Floodplain check required. Slope/tree/orientation not confirmed — verify on satellite/plat.",
+      "lat": null,
+      "lng": null,
+      "source": "HAR.com (listing #3902992); Zillow (MLS #5684804); Redfin (MLS #1163566); Trulia (MLS #5440868); LandSearch (5 independent IDX sources)",
+      "status": "active",
+      "hoa": "None — plat restrictions only (no commercial use, no swine)",
+      "utilities": "Well + septic required; electric assumed available"
+    },
+    {
+      "id": "0-fitzhugh-rd-dripping-springs",
+      "first_seen": "2026-07-25T12:00:00Z",
+      "address": "TBD (0) Fitzhugh Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs (Fitzhugh Rd corridor)",
+      "price_usd": 285000,
+      "acreage": 1.93,
+      "listing_url": "https://www.har.com/homedetail/0-fitzhugh-rd-dripping-springs-tx-78620/3869212",
+      "notes": "1.93-acre raw unimproved parcel with culvert access directly on Fitzhugh Road (Dreamland, 12 Fox Beer Brewery, Bell Springs Winery all within miles). Mix of mature oak mottes and native cedar. DSISD. No confirmed HOA or deed restrictions. Listing markets as 'mixed residential/commercial development potential' — verify Hays County zoning permits single-family residential MCM use. At $285,000 (~$147,700/ac per HAR; some IDX sources show $250,000 — confirm with agent), Scenario A (~$1.72M build budget). Confirmed via HAR.com (#3869212), Zillow (MLS #5405814), Compass, Moreland Properties, TDR Real Estate Group (5 independent IDX sources). Separate 12-acre parcel at TBD Fitzhugh Rd (MLS #6440518) being subdivided into 4 x 3-acre tracts — this is the independently listed 1.93-ac parcel (MLS #5405814).",
+      "risks": "Price discrepancy ($250k vs ~$285k across sources) — confirm exact ask with listing agent before offer. At 1.93 acres, smaller end of ideal range — verify E-W long-axis MCM siting on plat with setbacks. 'Mixed residential/commercial development potential' in listing — verify residential zoning. Standard DS flag: confirm Edwards Aquifer recharge-zone status (TCEQ). Well + septic required; electric availability not confirmed.",
+      "lat": null,
+      "lng": null,
+      "source": "HAR.com (listing #3869212); Zillow (MLS #5405814); Compass; Moreland Properties; TDR Real Estate Group (5 independent IDX sources)",
+      "status": "active",
+      "hoa": "None confirmed — verify no deed restrictions before offer",
+      "utilities": "Raw land; culvert access only; well + septic required; electric availability not confirmed"
     }
   ]
 }
