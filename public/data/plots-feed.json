@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-25T12:00:00Z",
+  "last_updated": "2026-07-26T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1798,6 +1798,57 @@
       "status": "active",
       "hoa": "None confirmed — verify no deed restrictions before offer",
       "utilities": "Raw land; culvert access only; well + septic required; electric availability not confirmed"
+    },
+    {
+      "id": "lot-68-leaning-madrone-dr-johnson-city",
+      "first_seen": "2026-07-26T07:00:00Z",
+      "address": "Lot 68 W Leaning Madrone Dr, Johnson City, TX 78636",
+      "submarket": "Johnson City",
+      "price_usd": 336000,
+      "acreage": 6.0,
+      "listing_url": "https://www.highrises.com/realestateandhomes-detail/68-Leaning-Madrone-Dr_Johnson-City_TX_78636_M97838-09649",
+      "notes": "6-acre homesite in Legacy Hills (Blanco County) — same gated wildlife community as several other feed entries (116 Legacy Hills Dr, Lot 1 Legacy Hills Dr, etc.). Wildlife exemption active (near-zero carrying cost during design-build). Panoramic Hill Country views; underground utilities to lot line; private well + septic required. 35 days on market. Listed by Jenna Moore, Topper Real Estate (CTXMLS MLS #593781 per HAR). At $336,000 this is Scenario A (~$1.67M build budget remaining).",
+      "risks": "All broker/IDX pages return 403 — verify active listing status directly with Jenna Moore / Topper Real Estate before engaging. Standard Legacy Hills flags: private well + septic required (drill cost and water quantity unknown from listing data); gated community — confirm HOA/CC&Rs permit MCM flat-roof and glazing-heavy design before offer. Confirmed via HAR.com (CTXMLS MLS #593781) and Highrises.com (2 independent IDX sources).",
+      "lat": null,
+      "lng": null,
+      "source": "HAR.com (CTXMLS MLS #593781); Highrises.com (2 independent IDX sources)",
+      "status": "active",
+      "hoa": "Legacy Hills HOA — annual fee not confirmed in listing data; gated community; verify CC&Rs for MCM design compatibility",
+      "utilities": "Underground utilities to lot line; private well + septic required"
+    },
+    {
+      "id": "0-clear-lake-dr-wimberley",
+      "first_seen": "2026-07-26T07:00:00Z",
+      "address": "0 Clear Lake Dr, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 679000,
+      "acreage": 10.44,
+      "listing_url": "https://www.zillow.com/homedetails/0-Clear-Lake-Dr-Wimberley-TX-78676/2066563671_zpid/",
+      "notes": "10.44-acre parcel in Clear Lake Estates I (Hays County), Wimberley. Abundant trees with privacy; located near Lotus Ranch and Thompson Ranch. Rectangular parcel; flat elevation with a dry creek; public road on the front. No HOA; low tax rate. Listed by Dan Justus, Keller Williams Realty SW. 95 days on market. At $679,000 this is above Scenario A but within Scenario B range (~$1.12M build budget remaining at $679k land). Confirmed via Zillow + Lopez Group Realtors (CTXMLS MLS #604345).",
+      "risks": "Flat terrain limits walkout/split-level MCM drama — verify E-W siting and panoramic view potential on satellite before engaging. Dry creek on property: confirm build pad is outside FEMA 100-yr floodplain and Atlas-14 storm-runoff zone. 95 DOM suggests pricing resistance — investigate reason with listing agent before engaging. Standard Wimberley flood check: Blanco River corridor has 2015 flood history; confirm build-pad elevation. Well + septic likely required. $679k is $79k above Scenario B ($600k) land target.",
+      "lat": null,
+      "lng": null,
+      "source": "Zillow (CTXMLS MLS #604345); Lopez Group Realtors (2 independent IDX sources)",
+      "status": "active",
+      "hoa": "None",
+      "utilities": "Well + septic likely required; public road access confirmed"
+    },
+    {
+      "id": "tbd-cr-201-liberty-hill",
+      "first_seen": "2026-07-26T07:00:00Z",
+      "address": "TBD CR 201, Liberty Hill, TX 78642",
+      "submarket": "Liberty Hill",
+      "price_usd": 399950,
+      "acreage": 5.0,
+      "listing_url": "https://www.exprealty.com/liberty-hill-tx-real-estate/liberty-hill/tbd-cr-201-cr-201-land",
+      "notes": "5-acre unrestricted parcel on CR 201, Liberty Hill (Williamson County), approximately 2 miles from Hwy 29. Contiguous to Seven Hills residential development (202 acres). No HOA; unrestricted use allows full MCM design freedom. Listed April 2026 by eXp Realty (ACTRIS MLS #8912039). At $399,950 this is Scenario A (~$1.60M build budget remaining). Confirmed via eXp Realty, Realtymaxam.com, and befirstre.com (3 independent IDX sources).",
+      "risks": "Proximity to Butler Farms and Liberty Hill High School suggests suburban fringe character — verify setting matches desired rural Hill Country aesthetic before engaging. Significant price discrepancy across aggregators ($249k–$929k on some mirrors); the $399,950 eXp Realty figure (April 2026) is most likely current — confirm directly with listing agent before offer. Williamson County clay-line check: verify soil type is limestone/caliche (western) not clay (eastern). Well + septic likely required; electric availability not confirmed; confirm legal road access/easement for CR 201 frontage.",
+      "lat": null,
+      "lng": null,
+      "source": "eXp Realty (ACTRIS MLS #8912039); Realtymaxam.com; befirstre.com (3 independent IDX sources)",
+      "status": "active",
+      "hoa": "None (unrestricted)",
+      "utilities": "Well + septic likely required; electric availability not confirmed"
     }
   ]
 }
