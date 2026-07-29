@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-28T07:00:00Z",
+  "last_updated": "2026-07-29T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1883,6 +1883,23 @@
       "status": "active",
       "hoa": "None (unrestricted)",
       "utilities": "200amp power on site; well likely required; rainwater catchment (1000-gal) conveys"
+    },
+    {
+      "id": "5165-lone-man-mountain-rd-wimberley",
+      "first_seen": "2026-07-29T07:00:00Z",
+      "address": "5165 Lone Man Mountain Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 695000,
+      "acreage": 9.97,
+      "listing_url": "https://www.har.com/homedetail/5165-lone-man-mountain-rd-wimberley-tx-78676/14729838",
+      "notes": "9.97-acre unrestricted tract on Lone Man Mountain Road off Hwy 3237, on the Wimberley/Driftwood border. Cedar cleared along most of the parcel except for privacy hedging along property lines. Two unfinished shell structures on site (600 sf and 1,536 sf) — marketed for completion as rental income; both are unhabitable shells and could be demolished or finished to suit. Primary value is the unrestricted raw acreage. Wet-weather creek runs at the back of the lot. At $695,000 for 9.97 acres (~$70/ac), Scenario A (~$1.3M build budget remaining). No HOA or deed restrictions — full design freedom for MCM flat roof, large glazing, or unconventional massing; unrestricted status is rare in this corridor. Listed July 18, 2025 (ACTRIS MLS #4951662); 376+ days on market as of July 2026. Confirmed via 7 independent IDX sources: Compass, Coldwell Banker, Realty Texas, Longhorn Realty, Austin Texas Homes, RE/MAX, and Thrive Realty.",
+      "risks": "Long DOM (376+ days) is a significant flag — investigate with listing agent whether price, creek/floodplain, shell-structure permitting complications, or access issues are the cause before engaging. Wet-weather creek at back: FEMA floodplain check required for the primary build pad. Two existing shell structures may carry open building permits that could complicate new construction permitting — verify permit status with Hays County before offer. Unrestricted means no CC&Rs but also no design-review protection from adjacent uses. Well + septic required. Hwy 3237 corridor proximity: verify noise and light pollution on site.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS #4951662 (Compass, Coldwell Banker, Realty Texas, Longhorn Realty, Austin Texas Homes, RE/MAX, Thrive Realty — 7 IDX sources)",
+      "status": "active",
+      "hoa": "None (unrestricted)",
+      "utilities": "Well + septic required; electric available"
     }
   ]
 }
