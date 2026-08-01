@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-07-31T07:00:00Z",
+  "last_updated": "2026-08-01T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -2002,6 +2002,23 @@
       "status": "active",
       "hoa": "Legacy Hills HOA \u2014 ARB terms unknown; see comps for other Legacy Hills lots in feed",
       "utilities": "Well + septic likely required"
+    },
+    {
+      "id": "tbd-county-road-207-liberty-hill",
+      "first_seen": "2026-08-01T07:00:00Z",
+      "address": "TBD County Road 207, Liberty Hill, TX 78642",
+      "submarket": "Liberty Hill",
+      "price_usd": 690000,
+      "acreage": 10.29,
+      "listing_url": "https://www.compass.com/homedetails/207-County-Road-207-Liberty-Hill-TX-78642/270UI5_pid/",
+      "notes": "10.29-acre tract on County Road 207, Liberty Hill (Williamson County). 1.6 miles from Hwy 183 on CR 207. Fenced on three sides with high fence along north boundary. Nearby wells 410\u2013430 ft deep, 25\u201335 GPM reported production. Listed March 26, 2026 by Don Honeycutt, Longhorn Realty, LLC (TREC #0546883; ACTRIS MLS #4620622). Liberty Hill ISD. At $690,000 (~$67k/ac), Scenario B (~$1.11M build budget remaining). Confirmed via Compass, Zillow, Papasan Properties, Rocket Homes (4 independent IDX sources).",
+      "risks": "Primary broker (longhornrealty.com) returns 403 \u2014 verify listing still active with Don Honeycutt (512-578-9490) before engaging. All four IDX sources confirm same price and acreage. Williamson County clay-line check: CR 207 area is western Williamson County \u2014 verify soil type is limestone/caliche, not expansive clay. No HOA confirmed \u2014 verify no deed restrictions before offer. Well required (410\u2013430 ft depth typical); septic required. Liberty Hill growth pressure: verify no road-widening easements or near-term annexation risk. $690k is $90k above Scenario B land target.",
+      "lat": null,
+      "lng": null,
+      "source": "Compass (MLS #4620622); Zillow (zpid/456802611); Papasan Properties; Rocket Homes (4 independent IDX sources). Listing agent: Don Honeycutt, Longhorn Realty, LLC (TREC #0546883, 512-578-9490).",
+      "status": "active",
+      "hoa": "None confirmed \u2014 verify no deed restrictions before offer",
+      "utilities": "Well required (410\u2013430 ft depth typical); septic required; electric availability not confirmed"
     }
   ]
 }
