@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-01T07:00:00Z",
+  "last_updated": "2026-08-02T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -2019,6 +2019,91 @@
       "status": "active",
       "hoa": "None confirmed \u2014 verify no deed restrictions before offer",
       "utilities": "Well required (410\u2013430 ft depth typical); septic required; electric availability not confirmed"
+    },
+    {
+      "id": "251-cotton-rd-dripping-springs",
+      "first_seen": "2026-08-02T07:00:00Z",
+      "address": "251 Cotton Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 320000,
+      "acreage": 5.01,
+      "listing_url": "https://www.loriwakefield.com/property/6031021/",
+      "notes": "5.01-acre tract at the end of a cul-de-sac on the west side of Dripping Springs. Many trees; approximately 15 min to downtown Dripping Springs. Hillview Add Sec 2 subdivision. Listed by Ashley Tullis, Keller Williams Realty. At $320,000 (~$64k/ac), well under Scenario A land target with ~$1.38M remaining for the build. Confirmed via multiple IDX sources (loriwakefield.com, Keller Williams/Atomic Properties Group).",
+      "risks": "Floodplain and soil type not confirmed in listing data \u2014 western Hays County hill country is generally limestone terrain but parcel-level verification required. HOA/deed restrictions unknown \u2014 verify with county records before offer. Price discrepancy noted: most sources $320,000; some older snippets show $349,900 \u2014 confirm current asking price with agent. MLS number not surfaced in any search result \u2014 verify with Keller Williams before engaging. Broker pages return 403; listing status not independently verifiable from live MLS. Well + septic likely required.",
+      "lat": null,
+      "lng": null,
+      "source": "Keller Williams Realty (agent: Ashley Tullis); confirmed via multiple IDX mirror sources including loriwakefield.com/property/6031021/. Broker site blocked during today's scan.",
+      "status": "active",
+      "hoa": "Not mentioned in listing data \u2014 verify deed restrictions before offer",
+      "utilities": "Well + septic likely required; public utilities not confirmed"
+    },
+    {
+      "id": "00-travis-dr-lago-vista",
+      "first_seen": "2026-08-02T07:00:00Z",
+      "address": "00 Travis Dr, Lago Vista, TX 78645",
+      "submarket": "Lago Vista / Lake Travis",
+      "price_usd": 450000,
+      "acreage": 1.29,
+      "listing_url": "https://www.realtyaustin.com/00-travis-dr-lago-vista-tx-78645-3401735.html",
+      "notes": "1.29-acre waterfront lot in Montechino Lake Travis, a master-planned 278-acre lakeside community with 202 total homesites. Panoramic Lake Travis views; large oak trees; Hill Country landscape. Site permits both a home and a boat dock. Listed by RealtyAustin (ACTRIS MLS #3401735); data from July 11, 2026. At $450,000 (~$349k/ac), Lake Travis waterfront premium \u2014 Scenario A/B. Private drive access adjacent to The Villas at Lake Travis vineyard.",
+      "risks": "CRITICAL: Montechino Lake Travis HOA is confirmed active (master-planned community with amenity center) \u2014 ARB architectural standards are unknown and must be verified before advancing; HOA prohibiting flat roofs, large glazing, or MCM massing is a hard dealbreaker. Listing status ambiguous: RealtyAustin page is in search index with July 2026 data but at least one aggregator snippet suggests possible expiration \u2014 verify current MLS status directly before engaging. FEMA floodplain listed as 'Unknown' in available data; waterfront parcels require FIRM map check before offer. Access via private drive \u2014 verify recorded easement and road maintenance agreement.",
+      "lat": null,
+      "lng": null,
+      "source": "RealtyAustin (ACTRIS MLS #3401735); confirmed via multiple IDX sources. Listing page blocked during today's scan.",
+      "status": "active",
+      "hoa": "Montechino Lake Travis HOA \u2014 CONFIRMED ACTIVE (master-planned community); ARB architectural standards unknown \u2014 verify CC&Rs permit MCM design before advancing",
+      "utilities": "Boat dock rights included per listing; water/sewer details not in available data"
+    },
+    {
+      "id": "lots-6-7-pedernales-cliff-trl-spicewood",
+      "first_seen": "2026-08-02T07:00:00Z",
+      "address": "Lots 6 & 7 Pedernales Cliff Trail, Spicewood, TX 78669",
+      "submarket": "Spicewood / Pedernales River",
+      "price_usd": 349000,
+      "acreage": 0.521,
+      "listing_url": "https://www.landsearch.com/properties/pedernales-cliff-trl-spicewood-tx-78669/5137690",
+      "notes": "0.521-acre (22,694 sq ft) combined Lots 6 & 7 on Pedernales Cliff Trail, Spicewood. Clifftop position above the Pedernales River with panoramic Hill Country and river views. No deed restrictions \u2014 explicitly marketed as 'a true anomaly in a market saturated with deed-restricted subdivisions.' Electricity at street. Listed/updated July 23, 2026 (confirmed active). Keller Williams Lake Travis (512) 448-4111. At $349,000, Scenario A with ~$1.35M remaining for the build. Part of the Milam Ranch / Spicewood cluster; Lots 8\u201310 on the same road also listed separately at $599,000.",
+      "risks": "Pedernales Cliff Trail road access must be verified \u2014 confirm road is paved and accessible year-round; verify access is not solely via private easement over neighboring land. 0.521 acres is minimal for a custom home with cistern, septic system, and required setbacks \u2014 verify buildable envelope with Hays/Travis County before advancing. FEMA FIRM check required \u2014 cliff position above river is encouraging but some cliff parcels in this corridor carry riverine floodplain designations from below. No public water or sewer \u2014 cistern or well + septic required within a constrained footprint. Verify lots are independently purchasable and not a required bundle.",
+      "lat": null,
+      "lng": null,
+      "source": "LandSearch (property ID 5137690); Keller Williams Lake Travis (512) 448-4111; confirmed via HAR.com, Zillow, certexas.com (MLS #2812743 combined listing). No deed restrictions per listing.",
+      "status": "active",
+      "hoa": "No deed restrictions \u2014 confirmed in listing",
+      "utilities": "Electricity at street; no public water or sewer \u2014 cistern/well + septic required"
+    },
+    {
+      "id": "lots-8-10-pedernales-cliff-trl-spicewood",
+      "first_seen": "2026-08-02T07:00:00Z",
+      "address": "Lots 8, 9 & 10 Pedernales Cliff Trail, Spicewood, TX 78669",
+      "submarket": "Spicewood / Pedernales River",
+      "price_usd": 599000,
+      "acreage": 1.843,
+      "listing_url": "https://www.homes.com/property/lots-8-9-10-pedernales-cliff-trail-spicewood-tx/jnq62mqptkcpz/",
+      "notes": "1.843-acre (80,294 sq ft) combined Lots 8\u201310 on Pedernales Cliff Trail, Spicewood. Clifftop position above the Pedernales River and Lake Travis with panoramic views and a cliffside staircase to the water. No deed restrictions. Electricity at street. MLS #5605813, listed March 27, 2026. At $599,000 (~$325k/ac), Scenario A waterfront-adjacent premium with ~$1.1M build budget remaining. Can also be purchased combined with Lots 6\u20137 as a 2.364-acre package (MLS #2812743, $995,000).",
+      "risks": "Cliff access road (Pedernales Cliff Trail) \u2014 same road-condition and easement considerations as Lots 6\u20137 on this road; verify paved access and no private-easement-only ingress. FEMA FIRM check required \u2014 cliff position above river is promising but verify no Zone A/AE designation extends to the parcel boundary. 1.843 acres is workable but all setbacks and septic drainfield must fit within the upland area above the cliff line \u2014 verify buildable envelope with county before advancing. Investigate what has suppressed buyer interest given the listing date of March 2026 (5+ months on market). No public water or sewer \u2014 cistern/well + septic required.",
+      "lat": null,
+      "lng": null,
+      "source": "Homes.com; HAR.com; homeprosrealestategroup.com; confirmed via multiple IDX sources. MLS #5605813. Listed March 27, 2026.",
+      "status": "active",
+      "hoa": "No deed restrictions \u2014 confirmed in listing",
+      "utilities": "Electricity at street; cliffside staircase to river/lake; no public water or sewer \u2014 cistern/well + septic required"
+    },
+    {
+      "id": "530-pioneer-trl-dripping-springs",
+      "first_seen": "2026-08-02T07:00:00Z",
+      "address": "530 Pioneer Trail, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 849999,
+      "acreage": 10.0,
+      "listing_url": "https://www.compass.com/homedetails/530-Pioneer-Trail-Dripping-Springs-TX-78620/2058232677858969393_lid/",
+      "notes": "10-acre unrestricted tract on Pioneer Trail off W Fitzhugh Road and Bell Springs Road, Dripping Springs. Kuper Sotheby's Int'l Realty primary listing (MLS #8510064), listed March 10, 2026. Over $200,000 in existing infrastructure: commercial septic (2019), water well (2022), 400-amp electrical service, 3,000-gallon water storage, paved internal road network (2022), and 7 established pad sites each pre-plumbed with electrical, septic, and water connections. No HOA, unrestricted. At $849,999 (~$85k/ac) per primary listing, Scenario C with ~$50k headroom under hard cap.",
+      "risks": "Price discrepancy across platforms: Kuper Sotheby's (primary) shows $849,999; at least one platform shows $999,000 \u2014 confirm current asking price before advancing ($999k fails the $900k hard cap). Multi-broker concurrent listing (Kuper Sotheby's, Compass, Coldwell Banker, LandMastersTX) \u2014 clarify which broker holds the active listing and coordinate accordingly. 7 pad sites and commercial septic suggest prior STR, event venue, or compound use \u2014 verify no open Hays County code violations or permit holds before offer. Floodplain check required for this acreage near Fitzhugh/Bell Springs corridor. At $849,999, only ~$50k headroom under hard cap \u2014 negotiate with DOM and seller motivation in mind.",
+      "lat": null,
+      "lng": null,
+      "source": "Kuper Sotheby's Int'l Realty (MLS #8510064); confirmed via @properties Christie's, Compass, Coldwell Banker, LandMastersTX, Vibe Regroup \u2014 multiple broker sources.",
+      "status": "active",
+      "hoa": "None \u2014 unrestricted (confirmed in listing)",
+      "utilities": "Commercial septic (2019), water well (2022), 400-amp electrical service, 3,000-gallon water storage \u2014 substantial infrastructure on-site"
     }
   ]
 }
