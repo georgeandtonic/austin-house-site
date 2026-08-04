@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-02T07:00:00Z",
+  "last_updated": "2026-08-04T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -623,15 +623,15 @@
       "first_seen": "2026-06-13T07:00:00Z",
       "address": "10673 W FM 150 W, Driftwood, TX 78619",
       "submarket": "Driftwood",
-      "price_usd": 499900,
+      "price_usd": 429000,
       "acreage": 5.0,
       "listing_url": "https://www.longhornrealty.com/property-search/detail/44/6129052/10673-w-w-fm-150-driftwood-tx-78619/",
-      "notes": "5-acre gated lot in York Creek Ranch subdivision (Hays County, DSISD). Mature oak canopy throughout, level-to-gentle terrain. Electricity at back property line; well + septic needed. $250/yr HOA with light restrictions. Originally flagged as a June 7 honorable mention at $429k; confirmed active today at $499,900 via multiple IDX mirrors. Scenario A (~$1.5M build budget remaining at current land price).",
-      "risks": "Level terrain reduces walkout/terrace drama vs. gently sloping alternatives \u2014 verify on satellite and plat that a thoughtful E-W MCM orientation is achievable. Well + septic required. Standard Driftwood flag: confirm Edwards Aquifer recharge-zone status (TCEQ) before offer; impervious-cover limits may apply. Price is 16% above the June 7 survey price ($429k) \u2014 possible relisting at a higher ask; confirm current terms directly with Longhorn Realty before engaging.",
+      "notes": "5-acre gated lot in York Creek Ranch subdivision (Hays County, DSISD). Mature oak canopy throughout, level-to-gentle terrain. Electricity at back property line; well + septic needed. $250/yr HOA with light restrictions. Originally flagged as a June 7 honorable mention at $429k; relisted at $499,900 (confirmed active via multiple IDX mirrors, July 2026). [2026-08-04 price update: confirmed at $429,000 via multiple IDX sources (Movoto, Spirit Real Estate IDX, MLS #6129052 active IDX mirror) \u2014 down from feed price of $499,900 (-14.2%). Property has reverted to original June 7 survey price. Old feed price: $499,900.] Scenario A (~$1.57M build budget remaining at $429k land price).",
+      "risks": "Level terrain reduces walkout/terrace drama vs. gently sloping alternatives \u2014 verify on satellite and plat that a thoughtful E-W MCM orientation is achievable. Well + septic required. Standard Driftwood flag: confirm Edwards Aquifer recharge-zone status (TCEQ) before offer; impervious-cover limits may apply. Price history: originally surveyed at $429k (June 7), relisted at $499,900, confirmed back at $429,000 as of 2026-08-04 \u2014 confirm current terms directly with Longhorn Realty before engaging.",
       "lat": null,
       "lng": null,
       "source": "Longhorn Realty (ACTRIS MLS)",
-      "status": "active",
+      "status": "price_changed",
       "hoa": "$250/yr (York Creek Ranch, gated)",
       "utilities": "Electric at property line; well + septic required"
     },
