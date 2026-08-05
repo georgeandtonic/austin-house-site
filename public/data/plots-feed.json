@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-04T07:00:00Z",
+  "last_updated": "2026-08-05T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -2104,6 +2104,40 @@
       "status": "active",
       "hoa": "None \u2014 unrestricted (confirmed in listing)",
       "utilities": "Commercial septic (2019), water well (2022), 400-amp electrical service, 3,000-gallon water storage \u2014 substantial infrastructure on-site"
+    },
+    {
+      "id": "lot-88-e-leaning-madrone-dr-johnson-city",
+      "first_seen": "2026-08-05T07:00:00Z",
+      "address": "Lot 88 E Leaning Madrone Dr, Johnson City, TX 78636",
+      "submarket": "Johnson City / Legacy Hills",
+      "price_usd": 325000,
+      "acreage": 5.01,
+      "listing_url": "https://www.har.com/homedetail/lot-88-legacy-hills-none-johnson-city-tx-78636-us/15868131",
+      "notes": "5.01-acre homesite in Legacy Hills, Johnson City (Blanco County). Panoramic Hill Country views; described as a premier lot in the community. Price varies across IDX sources ($289k\u2013$325k); $325k from HAR (CTXMLS/ACTRIS feed \u2014 most authoritative). Listing agent varies by source: Mary Elwell / The Damron Group REALTORS (most recent data) and Megan Hall / Magnolia Realty Austin Hill Co (earlier IDX data) \u2014 verify current listing agent before engaging. Legacy Hills is ag-exempt with underground utilities and high-speed internet. At $325,000 (~$65k/ac), Scenario A with ~$1.37M remaining for the build.",
+      "risks": "Agent attribution inconsistent across IDX sources (The Damron Group vs. Magnolia Realty) \u2014 verify current listing agent and confirm MLS number before engaging. Price varies $289k\u2013$325k across platforms; confirm current asking price directly. No MLS number surfaced in available search data \u2014 confirm via HAR.com (listing ID 15868131) or direct agent contact. Legacy Hills HOA/ARB terms unknown \u2014 MUST verify CC&Rs permit flat roofs, large glazing, MCM massing before offer. Well + septic required; local well production data unknown for this lot.",
+      "lat": null,
+      "lng": null,
+      "source": "HAR.com (listing ID 15868131); multiple IDX sources (LandWatch, Movoto, HAR). Listing agents: Mary Elwell / The Damron Group REALTORS (most recent) and Megan Hall / Magnolia Realty Austin Hill Co (earlier data).",
+      "status": "active",
+      "hoa": "Legacy Hills HOA \u2014 gated community; ARB architectural standards unknown; verify CC&Rs permit MCM flat-roof and glazing-heavy design before advancing",
+      "utilities": "Underground utilities + high-speed internet available; well + septic required"
+    },
+    {
+      "id": "lot-106-e-flying-owl-dr-johnson-city",
+      "first_seen": "2026-08-05T07:00:00Z",
+      "address": "Lot 106 E Flying Owl Dr, Johnson City, TX 78636",
+      "submarket": "Johnson City / Legacy Hills",
+      "price_usd": 299900,
+      "acreage": 5.01,
+      "listing_url": "https://devorarealty.com/listing/actris/2132883/Johnson-City/Lot-106-E-Flying-Owl-Drive/",
+      "notes": "5.01-acre homesite in Legacy Hills, Johnson City (Blanco County). Beautifully cleared land with several level building areas shaded by mature live oaks \u2014 described as an ideal canvas for a custom home. Dark sky community; exotic wildlife (Oryx, Black Buck Antelope); ag-exempt. Underground utilities and high-speed internet available to each lot. ACTRIS MLS #2132883. At $299,900 (~$60k/ac), Scenario A with ~$1.40M remaining for the build. Confirmed via four independent ACTRIS-connected IDX sources.",
+      "risks": "Price discrepancy noted: ACTRIS-sourced IDX sites (Keller Williams, Devora Realty, Emerald Haven Realty) show $299,900; some aggregator snippets showed higher figures ($525k\u2013$545k) \u2014 verify current asking price with listing agent before engaging. Legacy Hills HOA/ARB terms unknown \u2014 MUST verify CC&Rs permit flat roofs, large glazing, MCM massing before offer (gated community). Well + septic required \u2014 no public water. Well production data and drill depth for this lot unknown. Listing date not confirmed in available data; verify DOM and active status before engaging.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS #2132883; confirmed via Keller Williams, Houzeo, Devora Realty, Emerald Haven Realty (4 independent IDX sources).",
+      "status": "active",
+      "hoa": "Legacy Hills HOA \u2014 gated community; ARB architectural standards unknown; verify CC&Rs permit MCM flat-roof and glazing-heavy design before advancing",
+      "utilities": "Underground utilities + high-speed internet available; well + septic required"
     }
   ]
 }
