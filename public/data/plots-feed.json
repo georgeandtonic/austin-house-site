@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-05T07:00:00Z",
+  "last_updated": "2026-08-06T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -2138,6 +2138,23 @@
       "status": "active",
       "hoa": "Legacy Hills HOA \u2014 gated community; ARB architectural standards unknown; verify CC&Rs permit MCM flat-roof and glazing-heavy design before advancing",
       "utilities": "Underground utilities + high-speed internet available; well + septic required"
+    },
+    {
+      "id": "9580-smith-west-ranch-rd-round-mountain",
+      "first_seen": "2026-08-06T07:00:00Z",
+      "address": "9580 Smith West Ranch Rd, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 375000,
+      "acreage": 11.0,
+      "listing_url": "https://www.longhornresidential.com/property-search/detail/44/6618204/9580-smith-west-ranch-rd-round-mountain-tx-78663/",
+      "notes": "11-acre lot in Smith Ranch (Blanco County), listed by Keller Williams Realty (Jason Van Note, ACTRIS MLS #6618204). Currently ag-exempt via beekeeping \u2014 near-zero carry during design-build. Dual road frontage on both Smith West Ranch Road and Ranch Road 962; two independent access points. Terrain mixes open meadows with oak clusters and native brush \u2014 some shade potential and Hill Country character. Very light deed restrictions including STR allowance (broad design freedom). At $375,000 (~$34k/ac), Scenario A with ~$1.625M build budget remaining at $2M all-in. ~20 min to Johnson City and Marble Falls; ~70\u201375 min to downtown Austin.",
+      "risks": "Open meadow terrain means fewer mature trees than ideal Hill Country lots \u2014 design for passive solar and artificial shading from the start. Well + septic required (standard Blanco County rural; no public water or sewer). Verify ag/wildlife exemption transfers and can be maintained through design-build without lapsing. Blanco County floodplain check required (terrain appears elevated, but confirm per parcel). Full CC&Rs not reviewed \u2014 request and confirm no ARB provision that restricts MCM design (flat roofs, large glazing). 11 acres is more land than the 1\u201310 ac ideal; confirm ag/wildlife exemption survives active construction phase (~18\u201324 mo). ~70\u201375 min to downtown Austin; full car dependence (same tradeoff as all Round Mountain listings).",
+      "lat": null,
+      "lng": null,
+      "source": "Keller Williams Realty (ACTRIS MLS #6618204; Jason Van Note)",
+      "status": "active",
+      "hoa": "Very light deed restrictions (STR allowed); HOA dues not confirmed \u2014 verify before offer",
+      "utilities": "Well + septic required; electricity assumed available (verify proximity); no public water or sewer"
     }
   ]
 }
