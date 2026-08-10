@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-08T07:00:00Z",
+  "last_updated": "2026-08-10T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -2189,6 +2189,23 @@
       "status": "active",
       "hoa": "No HOA fees; Vineyard Hills Ranch Unrec Sub — mild restrictive covenants; full CC&Rs not reviewed",
       "utilities": "Well + septic required (rural Blanco County); electricity availability not confirmed — verify before offer"
+    },
+    {
+      "id": "tbd-river-mountain-rd-wimberley",
+      "first_seen": "2026-08-10T07:00:00Z",
+      "address": "TBD River Mountain Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 436000,
+      "acreage": 5.216,
+      "listing_url": "https://theemerygrouprealestate.com/listing/actris/6880042/Wimberley/TBD-RIVER-MOUNTAIN-Road/",
+      "notes": "5.216-acre homesite in River Mountain Ranch, Wimberley (Hays County). ACTRIS MLS #6880042, listed by The Emery Group. Ag valuation in place (reduced property taxes). Private Blanco River Park access for HOA members (swimming, fishing, kayaking, picnicking along the Blanco River). Hill Country views from elevated, gently rolling terrain; multiple potential build sites overlooking a seasonal ravine. Towering live oaks, native hardwoods, abundant wildlife. Minutes from downtown Wimberley. Price varies across IDX platforms ($249k–$436k); $436k from most current IDX data. Confirmed via 6+ independent IDX sources (BHHS, Coldwell Banker, The Emery Group, texcella.com, meganmrazekhomes.com, thomasluxurygroup.com). Approximately 43 days on market as of August 5, 2026. At $436,000 (~$83.4k/ac), Scenario A with ~$1.564M remaining for the build.",
+      "risks": "Price varies widely across IDX platforms ($249k–$436k) — confirm current asking price directly with listing agent (The Emery Group) before advancing. River Mountain Ranch HOA terms and CC&Rs unknown — MUST verify no MCM-restrictive provisions (flat roofs, large glazing, contemporary massing) before offer; HOA prohibition is a hard dealbreaker. Well + septic required (rural Hays County / Wimberley area; no public water confirmed). Ag valuation — verify transfer and maintenance through active construction phase without lapsing. Confirm FEMA floodplain status for build pad; seasonal ravine on property warrants parcel-level flood check. Blanco River Park is a private HOA amenity — confirm membership terms and year-round access.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS #6880042 (The Emery Group); confirmed via BHHS, Coldwell Banker, texcella.com, meganmrazekhomes.com, thomasluxurygroup.com — 6+ independent IDX sources.",
+      "status": "active",
+      "hoa": "River Mountain Ranch HOA — dues amount unknown; architectural/design restrictions unknown; CC&Rs not reviewed — MUST verify no MCM-restrictive provisions before advancing",
+      "utilities": "Well + septic required (rural Hays County / Wimberley area); electricity availability unknown — verify before offer"
     }
   ]
 }
