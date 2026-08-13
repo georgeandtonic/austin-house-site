@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-12T07:00:00Z",
+  "last_updated": "2026-08-13T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -1534,10 +1534,10 @@
       "first_seen": "2026-07-16T07:00:00Z",
       "address": "1930 S Rainbow Ranch Rd, Wimberley, TX 78676",
       "submarket": "Wimberley",
-      "price_usd": 399999,
+      "price_usd": 500000,
       "acreage": 6.75,
       "listing_url": "https://ensorrealtors.com/tx/wimberley/rainbow-ranch/1930-s-rainbow-ranch-rd/",
-      "notes": "6.75-acre Rainbow Ranch parcel in Wimberley with varied terrain: level areas at the top with distant views, sloped and terraced sections with multiple building spots, and Panther Creek at the bottom (forms a wet-weather swimming hole in heavy rain). Several hardwood tree varieties, native grasses, and shrubs throughout. The sloped-to-terraced topography with a high-point building pad is a strong MCM site profile \u2014 level at the top for siting, drama below. Wimberley ISD. ~45 min to Austin/ABIA. At $399,999 (~$59,300/ac), Scenario A (~$1.60M build budget remaining). Confirmed active across Ensor & Co. (MLS #9954244), RE/MAX (MLS #7962780), lakehouses4sale.net, and horsedaddys.com.",
+      "notes": "6.75-acre Rainbow Ranch parcel in Wimberley with varied terrain: level areas at the top with distant views, sloped and terraced sections with multiple building spots, and Panther Creek at the bottom (forms a wet-weather swimming hole in heavy rain). Several hardwood tree varieties, native grasses, and shrubs throughout. The sloped-to-terraced topography with a high-point building pad is a strong MCM site profile \u2014 level at the top for siting, drama below. Wimberley ISD. ~45 min to Austin/ABIA. At $500,000 (~$74,100/ac), Scenario A (~$1.50M build budget remaining). Price updated 2026-08-13: confirmed at $500,000 on primary listing (Ensor & Co., MLS #9954244); initial feed entry of $399,999 reflected a secondary RE/MAX cross-listing. Confirmed active across Ensor & Co., lakehouses4sale.net, horsedaddys.com.",
       "risks": "Price discrepancy across sources ($399,999 on RE/MAX vs $500,000 on Ensor & Co., with two different MLS IDs) suggests a possible relisting or price negotiation in progress \u2014 confirm the current ask directly with Ensor & Co. (listing agent) before pursuing. Panther Creek at the bottom warrants a careful FEMA + Atlas-14 floodplain check; the upper level building pad should be well above any drainage, but verify before offer. HOA status for Rainbow Ranch subdivision not confirmed in any source \u2014 request CC&Rs and annual fee disclosure from listing agent. Standard Wimberley flood check required (2015 Blanco River flood history). Well + septic required; electric assumed available but not confirmed in listing data.",
       "lat": null,
       "lng": null,
@@ -2223,6 +2223,57 @@
       "status": "active",
       "hoa": "Spring Hollow POA — light restrictions; 10-acre community reserve park; annual fees and CC&Rs not reviewed — verify before advancing",
       "utilities": "Well + septic required; county-maintained paved road access confirmed; electricity availability unknown — verify before offer"
+    },
+    {
+      "id": "tbd-s-rainbow-ranch-rd-wimberley",
+      "first_seen": "2026-08-13T07:00:00Z",
+      "address": "TBD S Rainbow Ranch Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 465000,
+      "acreage": 11.22,
+      "listing_url": "https://crossingsrealestate.com/listing/actris/4645073/Wimberley/TBD-S-Rainbow-Ranch-Road/",
+      "notes": "11.22-acre unimproved parcel in Rainbow Ranch subdivision, Wimberley (Hays County). ACTRIS MLS #4645073, listed June 9, 2026. Electricity, sewer, and water available — unusually complete utility service for this submarket. Hill Country terrain minutes to downtown Wimberley; Wimberley ISD. Annual taxes $17,217 (2025). At $465,000 (~$41,400/ac), Scenario A with ~$1.535M remaining for the build. Rainbow Ranch HOA ($420/yr confirmed on other subdivision lots). Confirmed via certexas.com, ashleyaustinhomes.com, crossingsrealestate.com, remax-gateway.com — 4 independent IDX sources.",
+      "risks": "Rainbow Ranch HOA architectural/landscape committee — CC&Rs not reviewed; MUST verify no flat-roof, large-glazing, or MCM-massing restrictions before advancing (dealbreaker). 11.22 acres approaches the top of the 0.3–15-acre target range; verify ag/wildlife exemption availability and continuity through construction. TBD address means no parcel-specific FEMA FIRM map available from search data — request flood panel from listing agent before offer. 'Water available' notation not disambiguated (public water vs. shared well vs. rainwater); confirm utility type and septic requirement. ~65 days on market as of scan date (listed June 9, 2026) — investigate reason for lack of offers. Standard Wimberley flood check required.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS #4645073; confirmed via certexas.com, ashleyaustinhomes.com, crossingsrealestate.com, remax-gateway.com (4 IDX sources)",
+      "status": "active",
+      "hoa": "Rainbow Ranch HOA — $420/yr (confirmed on other subdivision lots); architectural/landscape committee exists; CC&Rs not reviewed — MUST verify no MCM-restrictive provisions before advancing",
+      "utilities": "Electricity, sewer, and water available per listing; utility type (public vs. private) not confirmed — verify before offer"
+    },
+    {
+      "id": "lot-100-2-s-rainbow-ranch-rd-wimberley",
+      "first_seen": "2026-08-13T07:00:00Z",
+      "address": "Lot 100-2 S. Rainbow Ranch Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 313100,
+      "acreage": 5.05,
+      "listing_url": "https://www.spyglassrealty.com/listing/2985142-lot-100-2-s-rainbow-ranch-road-wimberley-tx-78676",
+      "notes": "5.05-acre newly subdivided wooded lot in Rainbow Ranch subdivision, Wimberley (Hays County). ACTRIS MLS #2985142. Located between Dripping Springs and Wimberley with easy access via Lone Man Mountain Road to Kyle, Dripping Springs, and Wimberley. Adjacent Lot 100-3 (MLS #3866313, 5.33 acres) also available — potential assemblage of ~10.38 acres for $626,200. Annual taxes $8,497/yr. At $313,100 (~$61,900/ac), one of the most affordable Rainbow Ranch entry points in the feed; Scenario A with ~$1.69M remaining for the build. Well + septic required. 'Reasonable restrictions' noted in listing. Confirmed via spyglassrealty.com, wimberleyhomes.com, armstrongrealestatetx.com — 3 IDX sources.",
+      "risks": "'Reasonable restrictions' noted in listing — CC&Rs not reviewed; MUST verify no flat-roof, large-glazing, or MCM-massing restrictions before advancing (dealbreaker). Well + septic required; no public water. Lot address (Lot 100-2) means build site, road type, and proximity to electricity are not visible in search data — verify on-site or with listing agent. No active ag exemption indicated by tax amount ($8,497/yr); verify whether ag/wildlife exemption is achievable. Adjacent Lot 100-3 also available — confirm HOA treats two-lot assemblage consistently. Standard Wimberley flood and soil checks required.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS #2985142; confirmed via spyglassrealty.com, wimberleyhomes.com, armstrongrealestatetx.com (3 IDX sources)",
+      "status": "active",
+      "hoa": "Rainbow Ranch HOA — dues and CC&Rs not confirmed for this newly subdivided lot; 'reasonable restrictions' noted — verify before advancing",
+      "utilities": "Well + septic required; electricity availability not confirmed — verify before offer"
+    },
+    {
+      "id": "lot-100-3-s-rainbow-ranch-rd-wimberley",
+      "first_seen": "2026-08-13T07:00:00Z",
+      "address": "Lot 100-3 S. Rainbow Ranch Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 313100,
+      "acreage": 5.33,
+      "listing_url": "https://www.urbanspacerealtors.com/homes/lot-100-3-s-rainbow-ranch-rd-wimberley-tx-78676-26d2e9f78b48030ff0d6f27b8a662be6/",
+      "notes": "5.33-acre newly subdivided wooded lot in Rainbow Ranch subdivision, Wimberley (Hays County). ACTRIS MLS #3866313. Adjacent to Lot 100-2 (MLS #2985142, 5.05 acres, also available) — potential assemblage of ~10.38 acres for $626,200. Originally listed May 22, 2025 at $330,460; price reduced to $313,100 (~5.2% cut). Located between Dripping Springs and Wimberley via Lone Man Mountain Road. Well + septic required. 'Reasonable restrictions' in place. At $313,100 (~$58,700/ac), Scenario A with ~$1.69M remaining for the build. Confirmed via urbanspacerealtors.com, knoxre.com, exprealty.com — 3 IDX sources.",
+      "risks": "High DOM — listed May 22, 2025 (~15 months on market as of August 2026); MUST investigate reason before engaging (potential title, soil, access, HOA, or structural issue on subdivided lot). 'Reasonable restrictions' noted — CC&Rs not reviewed; MUST verify no flat-roof, large-glazing, or MCM-massing restrictions before advancing. Well + septic required; no public water. Lot address (Lot 100-3) means build site, road access type, and electricity distance are not visible in search data — verify before offer. Confirm HOA treatment of two-lot assemblage if acquiring with Lot 100-2. Standard Wimberley flood and soil checks required.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS #3866313; confirmed via urbanspacerealtors.com, knoxre.com, exprealty.com (3 IDX sources)",
+      "status": "active",
+      "hoa": "Rainbow Ranch HOA — dues and CC&Rs not confirmed for this newly subdivided lot; 'reasonable restrictions' noted — verify before advancing",
+      "utilities": "Well + septic required; electricity availability not confirmed — verify before offer"
     }
   ]
 }
