@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-13T07:00:00Z",
+  "last_updated": "2026-08-14T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -2274,6 +2274,40 @@
       "status": "active",
       "hoa": "Rainbow Ranch HOA — dues and CC&Rs not confirmed for this newly subdivided lot; 'reasonable restrictions' noted — verify before advancing",
       "utilities": "Well + septic required; electricity availability not confirmed — verify before offer"
+    },
+    {
+      "id": "3101-4-longhorn-trl-wimberley",
+      "first_seen": "2026-08-14T07:00:00Z",
+      "address": "3101-4 Longhorn Trl, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 600000,
+      "acreage": 10.0,
+      "listing_url": "https://www.zillow.com/homedetails/3101-4-Longhorn-Trl-Wimberley-TX-78676/459738905_zpid/",
+      "notes": "10-acre unimproved parcel in a quiet Wimberley country setting — one of four adjacent tracts available along Longhorn Trail (3101-1, -2, -3, -4; each 10 ac). Adjacent 3101-3 Longhorn Trl is already in the feed at $550k (MLS #9699669); this parcel (3101-4) is priced at $600k. No HOA, electricity available, Hill Country views, multiple build sites. Well + septic required. Century 21 Randall Morris & Associates (ACTRIS MLS #4285924). Confirmed active ~August 12, 2026. Scenario A (~$1.4M build budget at $600k land).",
+      "risks": "Standard Wimberley flags: confirm build pad is well outside FEMA 100-yr floodplain and Atlas-14 storm runoff (Blanco River corridor area has 2015 flood history). Well + septic required; well cost and water quantity unknown until drilled. Longhorn Trail subdivision road type and access not confirmed — verify paved vs. easement. With 10 acres E-W orientation freedom should be achievable — verify on plat + satellite before offer.",
+      "lat": null,
+      "lng": null,
+      "source": "Century 21 Randall Morris & Associates (ACTRIS MLS #4285924)",
+      "status": "active",
+      "hoa": "None",
+      "utilities": "Electricity available; well + septic required"
+    },
+    {
+      "id": "12333b-rr-12-2-wimberley",
+      "first_seen": "2026-08-14T07:00:00Z",
+      "address": "12333B RR 12 RD #2, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 635000,
+      "acreage": 5.08,
+      "listing_url": "https://www.zillow.com/homedetails/12333B-Rr-12-2-Wimberley-TX-78676/457978414_zpid/",
+      "notes": "5.08-acre lot on Ranch Road 12 in Wimberley, classified as 'multi lots (adjacent)' in listing data — one of several adjacent parcels available. Listed by Barbara Latimer / Hills Of Texas Sky Realty (ACTRIS MLS #4835773). 'Waterfront' categorization in multiple listing databases suggests proximity to the Blanco River or a creek tributary. At $635,000 (~$125k/ac), price is at the high end for Wimberley land; any waterfront premium should be weighed against flood risk. Scenario A/B border (~$1.37M build budget at $635k land).",
+      "risks": "'Waterfront' classification on Ranch Road 12 in Wimberley strongly suggests Blanco River or creek adjacency — run hard FEMA floodplain/Atlas-14 check on build pad before offer; 2015 Blanco River flood was catastrophic and this road corridor was impacted. Price per acre (~$125k) is elevated vs. typical Wimberley raw land ($40-80k/ac); verify the water-access premium is justified by a usable, out-of-floodplain build pad. HOA/deed restrictions not confirmed — verify before offer. Well + septic likely required. Full listing description not accessible due to proxy blocks; verify details directly with Hills Of Texas Sky Realty before engaging.",
+      "lat": null,
+      "lng": null,
+      "source": "Hills Of Texas Sky Realty (ACTRIS MLS #4835773); confirmed via Zillow, LandWatch, Trulia (3 IDX sources)",
+      "status": "active",
+      "hoa": "Not confirmed; verify before offer",
+      "utilities": "Well + septic likely required; electric assumed available"
     }
   ]
 }
