@@ -2308,6 +2308,23 @@
       "status": "active",
       "hoa": "Not confirmed; verify before offer",
       "utilities": "Well + septic likely required; electric assumed available"
+    },
+    {
+      "id": "2229-park-view-dr-marble-falls",
+      "first_seen": "2026-08-17T07:00:00Z",
+      "address": "2229 Park View Dr, Marble Falls, TX 78654",
+      "submarket": "Marble Falls",
+      "price_usd": 205000,
+      "acreage": 3.0,
+      "listing_url": "https://www.coldwellbankerhomes.com/tx/marble-falls/2229-park-view-dr/pid_72350890/",
+      "notes": "3-acre lot in Mustang Ridge Estates subdivision, Marble Falls (Burnet County). Mature trees, peaceful Hill Country setting, minutes from downtown Marble Falls and Lake Marble Falls. HOA $400/yr (light restrictions — verify CC&Rs for MCM compatibility before advancing). Seller financing available. Listed July 6, 2026 (~42 days on market at time of scan). ACTRIS MLS #1745370. At $205,000 (~$68k/ac), this is the most affordable 3+ acre lot in the feed. Scenario A with ~$1.795M remaining build budget.",
+      "risks": "HOA ($400/yr) — obtain CC&Rs from Burnet CAD or listing agent before offer; Mustang Ridge Estates has an HOA with 'reasonable' restrictions but architectural review process is unknown — must confirm MCM-compatible (flat roofs, large glazing, unconventional massing). ~50-60 min to downtown Austin (full car dependence, same as Marble Falls / Burnet County generally). Verify FEMA floodplain status on build pad — get FIRM map for parcel. Well + septic likely required (verify city water/sewer availability at parcel). Soil type: Llano Uplift limestone/granite soils expected (not blackland clay) — confirm with county soil survey. Site visit needed before offer.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS #1745370; confirmed via cbapex.com, Knox Realtors, Coldwell Banker (pid_72350890), eXp Realty, TDR Real Estate Group — 5+ broker IDX sources",
+      "status": "active",
+      "hoa": "$400/yr (Mustang Ridge Estates — CC&Rs not yet reviewed)",
+      "utilities": "Well + septic likely required; verify city water/sewer availability; electric assumed available"
     }
   ]
 }
