@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-14T07:00:00Z",
+  "last_updated": "2026-08-19T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -577,7 +577,7 @@
       "price_usd": 449000,
       "acreage": 5,
       "listing_url": "https://www.redfin.com/TX/Wimberley/275-Deer-Run-78676/home/180371608",
-      "notes": "5-acre Deer Run Estates lot in Wimberley, heavily wooded with selective clearing for a private homesite; county-maintained road; community Blanco River deep-water park 2 min away; 10 min to Wimberley Square. Price cut from $499k. Listing by Compass RE Texas (Unlock MLS #7229607). Scenario A (~$1.55M build budget at $449k land). [Price updated 2026-06-18: was $449,000, now $399,000 (\u221211.1%); confirmed via multiple IDX sources. Build budget improves to ~$1.60M.] [2026-07-05 price update: confirmed at $299,000 via new active listing MLS #8330749 (Central Metro Realty, listing agent Mario Barrett) \u2014 down from feed price of $399,000 (\u221225%). Old listing MLS #7229607 (Compass RE Texas, Unlock MLS) appears to have been relisted under new broker. Verify current terms directly with Central Metro Realty before engaging.] [2026-08-12 price update: multiple IDX sources now show $449,000 (MLS #7229607, Compass RE Texas); MLS #8330749 (Central Metro Realty at $299k) no longer appearing in search results — may have expired or been withdrawn. Price updated to $449k (+50% from prior feed value of $299k).]",
+      "notes": "5-acre Deer Run Estates lot in Wimberley, heavily wooded with selective clearing for a private homesite; county-maintained road; community Blanco River deep-water park 2 min away; 10 min to Wimberley Square. Price cut from $499k. Listing by Compass RE Texas (Unlock MLS #7229607). Scenario A (~$1.55M build budget at $449k land). [Price updated 2026-06-18: was $449,000, now $399,000 (\u221211.1%); confirmed via multiple IDX sources. Build budget improves to ~$1.60M.] [2026-07-05 price update: confirmed at $299,000 via new active listing MLS #8330749 (Central Metro Realty, listing agent Mario Barrett) \u2014 down from feed price of $399,000 (\u221225%). Old listing MLS #7229607 (Compass RE Texas, Unlock MLS) appears to have been relisted under new broker. Verify current terms directly with Central Metro Realty before engaging.] [2026-08-12 price update: multiple IDX sources now show $449,000 (MLS #7229607, Compass RE Texas); MLS #8330749 (Central Metro Realty at $299k) no longer appearing in search results \u2014 may have expired or been withdrawn. Price updated to $449k (+50% from prior feed value of $299k).]",
       "risks": "Standard Wimberley flood check required: confirm build pad is well clear of FEMA 100-yr floodplain and Atlas-14 storm runoff \u2014 Blanco River park is nearby and area has 2015 flood history. Well + septic likely required (not confirmed in listing). HOA fee for Deer Run Estates not confirmed in search data. Listing URL points to Redfin \u2014 confirm details directly with Central Metro Realty (new listing agent Mario Barrett, MLS #8330749).",
       "lat": null,
       "lng": null,
@@ -2165,13 +2165,13 @@
       "acreage": 5.0,
       "listing_url": "https://www.landsearch.com/properties/211-raindrop-wimberley-tx-78676/5443787",
       "notes": "5-acre undeveloped lot in Rainbow Ranch subdivision, Wimberley (Hays County), just north of Wimberley in the Hill Country. Listed by Coldwell Banker Realty (ACTRIS MLS #2003608, last updated 07/29/2026). Asking $349,000 (~$69,800/ac); HOA $420/yr. Peaceful, private setting in established Hill Country subdivision. Estimated taxes $5,258/yr (no active ag exemption). At $349,000, Scenario A with ~$1.65M remaining for the build.",
-      "risks": "Rainbow Ranch HOA has an architectural/landscape committee — CC&Rs not publicly available from snippet data; MUST verify no flat-roof or large-glazing restrictions before advancing (MCM-critical). Utilities status 'buyer to verify': electricity, water, and septic/well setup all unknown — confirm before offer. No active ag exemption (estimated taxes $5,258/yr); verify whether wildlife or ag exemption is transferable or achievable. Confirm road access type (paved vs. caliche) for Rainbow Ranch roads.",
+      "risks": "Rainbow Ranch HOA has an architectural/landscape committee \u2014 CC&Rs not publicly available from snippet data; MUST verify no flat-roof or large-glazing restrictions before advancing (MCM-critical). Utilities status 'buyer to verify': electricity, water, and septic/well setup all unknown \u2014 confirm before offer. No active ag exemption (estimated taxes $5,258/yr); verify whether wildlife or ag exemption is transferable or achievable. Confirm road access type (paved vs. caliche) for Rainbow Ranch roads.",
       "lat": null,
       "lng": null,
       "source": "Coldwell Banker Realty (ACTRIS MLS #2003608); confirmed via LandSearch, Realty San Antonio",
       "status": "active",
-      "hoa": "Rainbow Ranch HOA — $420/yr; architectural/landscape committee exists; CC&Rs not reviewed — verify no MCM-restrictive provisions before advancing",
-      "utilities": "Utilities status unknown — buyer to verify electricity, water source, septic/well requirements before offer"
+      "hoa": "Rainbow Ranch HOA \u2014 $420/yr; architectural/landscape committee exists; CC&Rs not reviewed \u2014 verify no MCM-restrictive provisions before advancing",
+      "utilities": "Utilities status unknown \u2014 buyer to verify electricity, water source, septic/well requirements before offer"
     },
     {
       "id": "750-stanton-ranch-rd-johnson-city",
@@ -2182,13 +2182,13 @@
       "acreage": 10.1,
       "listing_url": "https://www.coldwellbankerhomes.com/tx/johnson-city/750-stanton-ranch-rd/pid_63564975/",
       "notes": "10.10-acre Hill Country lot in Vineyard Hills Ranch Unrec Sub, Johnson City (Blanco County). Level building site with caliche road recently completed; multiple ideal building sites. Sparse trees and gently sloped terrain. No HOA fees; mild restrictive covenants. Located 48 mi west of Austin, 25 min south of Marble Falls, 35 min east of Fredericksburg. Confirmed on Coldwell Banker (MLS #1710968), HAR, PrimeRanchLand, Homecity. At $320,000 (~$31.7k/ac), Scenario A with ~$1.68M remaining for the build.",
-      "risks": "Multiple MLS numbers associated with this address (MLS #1710968 at $320k on Coldwell Banker/Homecity vs. MLS #3186132 on Redfin/Trulia at $410k) — verify current active listing, correct MLS#, and confirmed asking price before engaging. 48-mile commute to Austin means near-full car dependence (significant lifestyle tradeoff). Utilities not confirmed: well + septic likely required (rural Blanco County); electricity availability needs verification. Sparse trees mean less natural shade — design for passive solar from the start. Mild restrictive covenants not reviewed in detail — request full CC&Rs and confirm no MCM design restrictions. Blanco County floodplain check required.",
+      "risks": "Multiple MLS numbers associated with this address (MLS #1710968 at $320k on Coldwell Banker/Homecity vs. MLS #3186132 on Redfin/Trulia at $410k) \u2014 verify current active listing, correct MLS#, and confirmed asking price before engaging. 48-mile commute to Austin means near-full car dependence (significant lifestyle tradeoff). Utilities not confirmed: well + septic likely required (rural Blanco County); electricity availability needs verification. Sparse trees mean less natural shade \u2014 design for passive solar from the start. Mild restrictive covenants not reviewed in detail \u2014 request full CC&Rs and confirm no MCM design restrictions. Blanco County floodplain check required.",
       "lat": null,
       "lng": null,
       "source": "Coldwell Banker (MLS #1710968); confirmed via HAR (ID 15862132), PrimeRanchLand, Homecity",
       "status": "active",
-      "hoa": "No HOA fees; Vineyard Hills Ranch Unrec Sub — mild restrictive covenants; full CC&Rs not reviewed",
-      "utilities": "Well + septic required (rural Blanco County); electricity availability not confirmed — verify before offer"
+      "hoa": "No HOA fees; Vineyard Hills Ranch Unrec Sub \u2014 mild restrictive covenants; full CC&Rs not reviewed",
+      "utilities": "Well + septic required (rural Blanco County); electricity availability not confirmed \u2014 verify before offer"
     },
     {
       "id": "tbd-river-mountain-rd-wimberley",
@@ -2198,14 +2198,14 @@
       "price_usd": 436000,
       "acreage": 5.216,
       "listing_url": "https://theemerygrouprealestate.com/listing/actris/6880042/Wimberley/TBD-RIVER-MOUNTAIN-Road/",
-      "notes": "5.216-acre homesite in River Mountain Ranch, Wimberley (Hays County). ACTRIS MLS #6880042, listed by The Emery Group. Ag valuation in place (reduced property taxes). Private Blanco River Park access for HOA members (swimming, fishing, kayaking, picnicking along the Blanco River). Hill Country views from elevated, gently rolling terrain; multiple potential build sites overlooking a seasonal ravine. Towering live oaks, native hardwoods, abundant wildlife. Minutes from downtown Wimberley. Price varies across IDX platforms ($249k–$436k); $436k from most current IDX data. Confirmed via 6+ independent IDX sources (BHHS, Coldwell Banker, The Emery Group, texcella.com, meganmrazekhomes.com, thomasluxurygroup.com). Approximately 43 days on market as of August 5, 2026. At $436,000 (~$83.4k/ac), Scenario A with ~$1.564M remaining for the build.",
-      "risks": "Price varies widely across IDX platforms ($249k–$436k) — confirm current asking price directly with listing agent (The Emery Group) before advancing. River Mountain Ranch HOA terms and CC&Rs unknown — MUST verify no MCM-restrictive provisions (flat roofs, large glazing, contemporary massing) before offer; HOA prohibition is a hard dealbreaker. Well + septic required (rural Hays County / Wimberley area; no public water confirmed). Ag valuation — verify transfer and maintenance through active construction phase without lapsing. Confirm FEMA floodplain status for build pad; seasonal ravine on property warrants parcel-level flood check. Blanco River Park is a private HOA amenity — confirm membership terms and year-round access.",
+      "notes": "5.216-acre homesite in River Mountain Ranch, Wimberley (Hays County). ACTRIS MLS #6880042, listed by The Emery Group. Ag valuation in place (reduced property taxes). Private Blanco River Park access for HOA members (swimming, fishing, kayaking, picnicking along the Blanco River). Hill Country views from elevated, gently rolling terrain; multiple potential build sites overlooking a seasonal ravine. Towering live oaks, native hardwoods, abundant wildlife. Minutes from downtown Wimberley. Price varies across IDX platforms ($249k\u2013$436k); $436k from most current IDX data. Confirmed via 6+ independent IDX sources (BHHS, Coldwell Banker, The Emery Group, texcella.com, meganmrazekhomes.com, thomasluxurygroup.com). Approximately 43 days on market as of August 5, 2026. At $436,000 (~$83.4k/ac), Scenario A with ~$1.564M remaining for the build.",
+      "risks": "Price varies widely across IDX platforms ($249k\u2013$436k) \u2014 confirm current asking price directly with listing agent (The Emery Group) before advancing. River Mountain Ranch HOA terms and CC&Rs unknown \u2014 MUST verify no MCM-restrictive provisions (flat roofs, large glazing, contemporary massing) before offer; HOA prohibition is a hard dealbreaker. Well + septic required (rural Hays County / Wimberley area; no public water confirmed). Ag valuation \u2014 verify transfer and maintenance through active construction phase without lapsing. Confirm FEMA floodplain status for build pad; seasonal ravine on property warrants parcel-level flood check. Blanco River Park is a private HOA amenity \u2014 confirm membership terms and year-round access.",
       "lat": null,
       "lng": null,
-      "source": "ACTRIS MLS #6880042 (The Emery Group); confirmed via BHHS, Coldwell Banker, texcella.com, meganmrazekhomes.com, thomasluxurygroup.com — 6+ independent IDX sources.",
+      "source": "ACTRIS MLS #6880042 (The Emery Group); confirmed via BHHS, Coldwell Banker, texcella.com, meganmrazekhomes.com, thomasluxurygroup.com \u2014 6+ independent IDX sources.",
       "status": "active",
-      "hoa": "River Mountain Ranch HOA — dues amount unknown; architectural/design restrictions unknown; CC&Rs not reviewed — MUST verify no MCM-restrictive provisions before advancing",
-      "utilities": "Well + septic required (rural Hays County / Wimberley area); electricity availability unknown — verify before offer"
+      "hoa": "River Mountain Ranch HOA \u2014 dues amount unknown; architectural/design restrictions unknown; CC&Rs not reviewed \u2014 MUST verify no MCM-restrictive provisions before advancing",
+      "utilities": "Well + septic required (rural Hays County / Wimberley area); electricity availability unknown \u2014 verify before offer"
     },
     {
       "id": "221-ranch-house-rd-wimberley",
@@ -2215,14 +2215,14 @@
       "price_usd": 220000,
       "acreage": 6.01,
       "listing_url": "https://www.har.com/homedetail/221-ranch-house-rd-wimberley-tx-78676/11212876",
-      "notes": "6.01-acre undeveloped lot in Spring Hollow subdivision, Wimberley (Hays County). ACTRIS MLS #7346521, listed by Armstrong Properties. Mature oaks and native plants throughout for privacy; seasonal dry creek runs along NE property edge (springs known to flow). County-maintained frontage road. Adjacent 9+ acres also for sale (optional, separate purchase). HOA includes 10-acre community reserve park. 10 miles from Wimberley Square, 25 miles to San Marcos, 12 miles to Canyon Lake. Well + septic required. At $220,000 (~$36.6k/ac), Scenario A leaves ~$1.78M remaining for the build — one of the lowest-cost-per-acre Wimberley lots in the feed.",
-      "risks": "Spring Hollow POA reported as 'lightly restricted' — architectural review terms and design restrictions unknown; MUST verify no provisions prohibiting contemporary massing, flat roofs, or large glazing before advancing (HOA prohibition is a hard dealbreaker). Seasonal dry creek on NE edge — confirm build pad is entirely outside FEMA 100-yr floodplain (Blanco River watershed; Wimberley area had catastrophic 2015 flooding). Well + septic required (no public water/sewer). Verify adjacent 9+ acres is an independent optional parcel and not bundled with this listing. HOA annual fees unknown — verify before offer.",
+      "notes": "6.01-acre undeveloped lot in Spring Hollow subdivision, Wimberley (Hays County). ACTRIS MLS #7346521, listed by Armstrong Properties. Mature oaks and native plants throughout for privacy; seasonal dry creek runs along NE property edge (springs known to flow). County-maintained frontage road. Adjacent 9+ acres also for sale (optional, separate purchase). HOA includes 10-acre community reserve park. 10 miles from Wimberley Square, 25 miles to San Marcos, 12 miles to Canyon Lake. Well + septic required. At $220,000 (~$36.6k/ac), Scenario A leaves ~$1.78M remaining for the build \u2014 one of the lowest-cost-per-acre Wimberley lots in the feed.",
+      "risks": "Spring Hollow POA reported as 'lightly restricted' \u2014 architectural review terms and design restrictions unknown; MUST verify no provisions prohibiting contemporary massing, flat roofs, or large glazing before advancing (HOA prohibition is a hard dealbreaker). Seasonal dry creek on NE edge \u2014 confirm build pad is entirely outside FEMA 100-yr floodplain (Blanco River watershed; Wimberley area had catastrophic 2015 flooding). Well + septic required (no public water/sewer). Verify adjacent 9+ acres is an independent optional parcel and not bundled with this listing. HOA annual fees unknown \u2014 verify before offer.",
       "lat": null,
       "lng": null,
-      "source": "ACTRIS MLS #7346521 (Armstrong Properties); confirmed via HAR.com listing #11212876, Homes.com, Zillow — 3 independent IDX sources",
+      "source": "ACTRIS MLS #7346521 (Armstrong Properties); confirmed via HAR.com listing #11212876, Homes.com, Zillow \u2014 3 independent IDX sources",
       "status": "active",
-      "hoa": "Spring Hollow POA — light restrictions; 10-acre community reserve park; annual fees and CC&Rs not reviewed — verify before advancing",
-      "utilities": "Well + septic required; county-maintained paved road access confirmed; electricity availability unknown — verify before offer"
+      "hoa": "Spring Hollow POA \u2014 light restrictions; 10-acre community reserve park; annual fees and CC&Rs not reviewed \u2014 verify before advancing",
+      "utilities": "Well + septic required; county-maintained paved road access confirmed; electricity availability unknown \u2014 verify before offer"
     },
     {
       "id": "tbd-s-rainbow-ranch-rd-wimberley",
@@ -2232,14 +2232,14 @@
       "price_usd": 465000,
       "acreage": 11.22,
       "listing_url": "https://crossingsrealestate.com/listing/actris/4645073/Wimberley/TBD-S-Rainbow-Ranch-Road/",
-      "notes": "11.22-acre unimproved parcel in Rainbow Ranch subdivision, Wimberley (Hays County). ACTRIS MLS #4645073, listed June 9, 2026. Electricity, sewer, and water available — unusually complete utility service for this submarket. Hill Country terrain minutes to downtown Wimberley; Wimberley ISD. Annual taxes $17,217 (2025). At $465,000 (~$41,400/ac), Scenario A with ~$1.535M remaining for the build. Rainbow Ranch HOA ($420/yr confirmed on other subdivision lots). Confirmed via certexas.com, ashleyaustinhomes.com, crossingsrealestate.com, remax-gateway.com — 4 independent IDX sources.",
-      "risks": "Rainbow Ranch HOA architectural/landscape committee — CC&Rs not reviewed; MUST verify no flat-roof, large-glazing, or MCM-massing restrictions before advancing (dealbreaker). 11.22 acres approaches the top of the 0.3–15-acre target range; verify ag/wildlife exemption availability and continuity through construction. TBD address means no parcel-specific FEMA FIRM map available from search data — request flood panel from listing agent before offer. 'Water available' notation not disambiguated (public water vs. shared well vs. rainwater); confirm utility type and septic requirement. ~65 days on market as of scan date (listed June 9, 2026) — investigate reason for lack of offers. Standard Wimberley flood check required.",
+      "notes": "11.22-acre unimproved parcel in Rainbow Ranch subdivision, Wimberley (Hays County). ACTRIS MLS #4645073, listed June 9, 2026. Electricity, sewer, and water available \u2014 unusually complete utility service for this submarket. Hill Country terrain minutes to downtown Wimberley; Wimberley ISD. Annual taxes $17,217 (2025). At $465,000 (~$41,400/ac), Scenario A with ~$1.535M remaining for the build. Rainbow Ranch HOA ($420/yr confirmed on other subdivision lots). Confirmed via certexas.com, ashleyaustinhomes.com, crossingsrealestate.com, remax-gateway.com \u2014 4 independent IDX sources.",
+      "risks": "Rainbow Ranch HOA architectural/landscape committee \u2014 CC&Rs not reviewed; MUST verify no flat-roof, large-glazing, or MCM-massing restrictions before advancing (dealbreaker). 11.22 acres approaches the top of the 0.3\u201315-acre target range; verify ag/wildlife exemption availability and continuity through construction. TBD address means no parcel-specific FEMA FIRM map available from search data \u2014 request flood panel from listing agent before offer. 'Water available' notation not disambiguated (public water vs. shared well vs. rainwater); confirm utility type and septic requirement. ~65 days on market as of scan date (listed June 9, 2026) \u2014 investigate reason for lack of offers. Standard Wimberley flood check required.",
       "lat": null,
       "lng": null,
       "source": "ACTRIS MLS #4645073; confirmed via certexas.com, ashleyaustinhomes.com, crossingsrealestate.com, remax-gateway.com (4 IDX sources)",
       "status": "active",
-      "hoa": "Rainbow Ranch HOA — $420/yr (confirmed on other subdivision lots); architectural/landscape committee exists; CC&Rs not reviewed — MUST verify no MCM-restrictive provisions before advancing",
-      "utilities": "Electricity, sewer, and water available per listing; utility type (public vs. private) not confirmed — verify before offer"
+      "hoa": "Rainbow Ranch HOA \u2014 $420/yr (confirmed on other subdivision lots); architectural/landscape committee exists; CC&Rs not reviewed \u2014 MUST verify no MCM-restrictive provisions before advancing",
+      "utilities": "Electricity, sewer, and water available per listing; utility type (public vs. private) not confirmed \u2014 verify before offer"
     },
     {
       "id": "lot-100-2-s-rainbow-ranch-rd-wimberley",
@@ -2249,14 +2249,14 @@
       "price_usd": 313100,
       "acreage": 5.05,
       "listing_url": "https://www.spyglassrealty.com/listing/2985142-lot-100-2-s-rainbow-ranch-road-wimberley-tx-78676",
-      "notes": "5.05-acre newly subdivided wooded lot in Rainbow Ranch subdivision, Wimberley (Hays County). ACTRIS MLS #2985142. Located between Dripping Springs and Wimberley with easy access via Lone Man Mountain Road to Kyle, Dripping Springs, and Wimberley. Adjacent Lot 100-3 (MLS #3866313, 5.33 acres) also available — potential assemblage of ~10.38 acres for $626,200. Annual taxes $8,497/yr. At $313,100 (~$61,900/ac), one of the most affordable Rainbow Ranch entry points in the feed; Scenario A with ~$1.69M remaining for the build. Well + septic required. 'Reasonable restrictions' noted in listing. Confirmed via spyglassrealty.com, wimberleyhomes.com, armstrongrealestatetx.com — 3 IDX sources.",
-      "risks": "'Reasonable restrictions' noted in listing — CC&Rs not reviewed; MUST verify no flat-roof, large-glazing, or MCM-massing restrictions before advancing (dealbreaker). Well + septic required; no public water. Lot address (Lot 100-2) means build site, road type, and proximity to electricity are not visible in search data — verify on-site or with listing agent. No active ag exemption indicated by tax amount ($8,497/yr); verify whether ag/wildlife exemption is achievable. Adjacent Lot 100-3 also available — confirm HOA treats two-lot assemblage consistently. Standard Wimberley flood and soil checks required.",
+      "notes": "5.05-acre newly subdivided wooded lot in Rainbow Ranch subdivision, Wimberley (Hays County). ACTRIS MLS #2985142. Located between Dripping Springs and Wimberley with easy access via Lone Man Mountain Road to Kyle, Dripping Springs, and Wimberley. Adjacent Lot 100-3 (MLS #3866313, 5.33 acres) also available \u2014 potential assemblage of ~10.38 acres for $626,200. Annual taxes $8,497/yr. At $313,100 (~$61,900/ac), one of the most affordable Rainbow Ranch entry points in the feed; Scenario A with ~$1.69M remaining for the build. Well + septic required. 'Reasonable restrictions' noted in listing. Confirmed via spyglassrealty.com, wimberleyhomes.com, armstrongrealestatetx.com \u2014 3 IDX sources.",
+      "risks": "'Reasonable restrictions' noted in listing \u2014 CC&Rs not reviewed; MUST verify no flat-roof, large-glazing, or MCM-massing restrictions before advancing (dealbreaker). Well + septic required; no public water. Lot address (Lot 100-2) means build site, road type, and proximity to electricity are not visible in search data \u2014 verify on-site or with listing agent. No active ag exemption indicated by tax amount ($8,497/yr); verify whether ag/wildlife exemption is achievable. Adjacent Lot 100-3 also available \u2014 confirm HOA treats two-lot assemblage consistently. Standard Wimberley flood and soil checks required.",
       "lat": null,
       "lng": null,
       "source": "ACTRIS MLS #2985142; confirmed via spyglassrealty.com, wimberleyhomes.com, armstrongrealestatetx.com (3 IDX sources)",
       "status": "active",
-      "hoa": "Rainbow Ranch HOA — dues and CC&Rs not confirmed for this newly subdivided lot; 'reasonable restrictions' noted — verify before advancing",
-      "utilities": "Well + septic required; electricity availability not confirmed — verify before offer"
+      "hoa": "Rainbow Ranch HOA \u2014 dues and CC&Rs not confirmed for this newly subdivided lot; 'reasonable restrictions' noted \u2014 verify before advancing",
+      "utilities": "Well + septic required; electricity availability not confirmed \u2014 verify before offer"
     },
     {
       "id": "lot-100-3-s-rainbow-ranch-rd-wimberley",
@@ -2266,14 +2266,14 @@
       "price_usd": 313100,
       "acreage": 5.33,
       "listing_url": "https://www.urbanspacerealtors.com/homes/lot-100-3-s-rainbow-ranch-rd-wimberley-tx-78676-26d2e9f78b48030ff0d6f27b8a662be6/",
-      "notes": "5.33-acre newly subdivided wooded lot in Rainbow Ranch subdivision, Wimberley (Hays County). ACTRIS MLS #3866313. Adjacent to Lot 100-2 (MLS #2985142, 5.05 acres, also available) — potential assemblage of ~10.38 acres for $626,200. Originally listed May 22, 2025 at $330,460; price reduced to $313,100 (~5.2% cut). Located between Dripping Springs and Wimberley via Lone Man Mountain Road. Well + septic required. 'Reasonable restrictions' in place. At $313,100 (~$58,700/ac), Scenario A with ~$1.69M remaining for the build. Confirmed via urbanspacerealtors.com, knoxre.com, exprealty.com — 3 IDX sources.",
-      "risks": "High DOM — listed May 22, 2025 (~15 months on market as of August 2026); MUST investigate reason before engaging (potential title, soil, access, HOA, or structural issue on subdivided lot). 'Reasonable restrictions' noted — CC&Rs not reviewed; MUST verify no flat-roof, large-glazing, or MCM-massing restrictions before advancing. Well + septic required; no public water. Lot address (Lot 100-3) means build site, road access type, and electricity distance are not visible in search data — verify before offer. Confirm HOA treatment of two-lot assemblage if acquiring with Lot 100-2. Standard Wimberley flood and soil checks required.",
+      "notes": "5.33-acre newly subdivided wooded lot in Rainbow Ranch subdivision, Wimberley (Hays County). ACTRIS MLS #3866313. Adjacent to Lot 100-2 (MLS #2985142, 5.05 acres, also available) \u2014 potential assemblage of ~10.38 acres for $626,200. Originally listed May 22, 2025 at $330,460; price reduced to $313,100 (~5.2% cut). Located between Dripping Springs and Wimberley via Lone Man Mountain Road. Well + septic required. 'Reasonable restrictions' in place. At $313,100 (~$58,700/ac), Scenario A with ~$1.69M remaining for the build. Confirmed via urbanspacerealtors.com, knoxre.com, exprealty.com \u2014 3 IDX sources.",
+      "risks": "High DOM \u2014 listed May 22, 2025 (~15 months on market as of August 2026); MUST investigate reason before engaging (potential title, soil, access, HOA, or structural issue on subdivided lot). 'Reasonable restrictions' noted \u2014 CC&Rs not reviewed; MUST verify no flat-roof, large-glazing, or MCM-massing restrictions before advancing. Well + septic required; no public water. Lot address (Lot 100-3) means build site, road access type, and electricity distance are not visible in search data \u2014 verify before offer. Confirm HOA treatment of two-lot assemblage if acquiring with Lot 100-2. Standard Wimberley flood and soil checks required.",
       "lat": null,
       "lng": null,
       "source": "ACTRIS MLS #3866313; confirmed via urbanspacerealtors.com, knoxre.com, exprealty.com (3 IDX sources)",
       "status": "active",
-      "hoa": "Rainbow Ranch HOA — dues and CC&Rs not confirmed for this newly subdivided lot; 'reasonable restrictions' noted — verify before advancing",
-      "utilities": "Well + septic required; electricity availability not confirmed — verify before offer"
+      "hoa": "Rainbow Ranch HOA \u2014 dues and CC&Rs not confirmed for this newly subdivided lot; 'reasonable restrictions' noted \u2014 verify before advancing",
+      "utilities": "Well + septic required; electricity availability not confirmed \u2014 verify before offer"
     },
     {
       "id": "3101-4-longhorn-trl-wimberley",
@@ -2283,8 +2283,8 @@
       "price_usd": 600000,
       "acreage": 10.0,
       "listing_url": "https://www.zillow.com/homedetails/3101-4-Longhorn-Trl-Wimberley-TX-78676/459738905_zpid/",
-      "notes": "10-acre unimproved parcel in a quiet Wimberley country setting — one of four adjacent tracts available along Longhorn Trail (3101-1, -2, -3, -4; each 10 ac). Adjacent 3101-3 Longhorn Trl is already in the feed at $550k (MLS #9699669); this parcel (3101-4) is priced at $600k. No HOA, electricity available, Hill Country views, multiple build sites. Well + septic required. Century 21 Randall Morris & Associates (ACTRIS MLS #4285924). Confirmed active ~August 12, 2026. Scenario A (~$1.4M build budget at $600k land).",
-      "risks": "Standard Wimberley flags: confirm build pad is well outside FEMA 100-yr floodplain and Atlas-14 storm runoff (Blanco River corridor area has 2015 flood history). Well + septic required; well cost and water quantity unknown until drilled. Longhorn Trail subdivision road type and access not confirmed — verify paved vs. easement. With 10 acres E-W orientation freedom should be achievable — verify on plat + satellite before offer.",
+      "notes": "10-acre unimproved parcel in a quiet Wimberley country setting \u2014 one of four adjacent tracts available along Longhorn Trail (3101-1, -2, -3, -4; each 10 ac). Adjacent 3101-3 Longhorn Trl is already in the feed at $550k (MLS #9699669); this parcel (3101-4) is priced at $600k. No HOA, electricity available, Hill Country views, multiple build sites. Well + septic required. Century 21 Randall Morris & Associates (ACTRIS MLS #4285924). Confirmed active ~August 12, 2026. Scenario A (~$1.4M build budget at $600k land).",
+      "risks": "Standard Wimberley flags: confirm build pad is well outside FEMA 100-yr floodplain and Atlas-14 storm runoff (Blanco River corridor area has 2015 flood history). Well + septic required; well cost and water quantity unknown until drilled. Longhorn Trail subdivision road type and access not confirmed \u2014 verify paved vs. easement. With 10 acres E-W orientation freedom should be achievable \u2014 verify on plat + satellite before offer.",
       "lat": null,
       "lng": null,
       "source": "Century 21 Randall Morris & Associates (ACTRIS MLS #4285924)",
@@ -2300,8 +2300,8 @@
       "price_usd": 635000,
       "acreage": 5.08,
       "listing_url": "https://www.zillow.com/homedetails/12333B-Rr-12-2-Wimberley-TX-78676/457978414_zpid/",
-      "notes": "5.08-acre lot on Ranch Road 12 in Wimberley, classified as 'multi lots (adjacent)' in listing data — one of several adjacent parcels available. Listed by Barbara Latimer / Hills Of Texas Sky Realty (ACTRIS MLS #4835773). 'Waterfront' categorization in multiple listing databases suggests proximity to the Blanco River or a creek tributary. At $635,000 (~$125k/ac), price is at the high end for Wimberley land; any waterfront premium should be weighed against flood risk. Scenario A/B border (~$1.37M build budget at $635k land).",
-      "risks": "'Waterfront' classification on Ranch Road 12 in Wimberley strongly suggests Blanco River or creek adjacency — run hard FEMA floodplain/Atlas-14 check on build pad before offer; 2015 Blanco River flood was catastrophic and this road corridor was impacted. Price per acre (~$125k) is elevated vs. typical Wimberley raw land ($40-80k/ac); verify the water-access premium is justified by a usable, out-of-floodplain build pad. HOA/deed restrictions not confirmed — verify before offer. Well + septic likely required. Full listing description not accessible due to proxy blocks; verify details directly with Hills Of Texas Sky Realty before engaging.",
+      "notes": "5.08-acre lot on Ranch Road 12 in Wimberley, classified as 'multi lots (adjacent)' in listing data \u2014 one of several adjacent parcels available. Listed by Barbara Latimer / Hills Of Texas Sky Realty (ACTRIS MLS #4835773). 'Waterfront' categorization in multiple listing databases suggests proximity to the Blanco River or a creek tributary. At $635,000 (~$125k/ac), price is at the high end for Wimberley land; any waterfront premium should be weighed against flood risk. Scenario A/B border (~$1.37M build budget at $635k land).",
+      "risks": "'Waterfront' classification on Ranch Road 12 in Wimberley strongly suggests Blanco River or creek adjacency \u2014 run hard FEMA floodplain/Atlas-14 check on build pad before offer; 2015 Blanco River flood was catastrophic and this road corridor was impacted. Price per acre (~$125k) is elevated vs. typical Wimberley raw land ($40-80k/ac); verify the water-access premium is justified by a usable, out-of-floodplain build pad. HOA/deed restrictions not confirmed \u2014 verify before offer. Well + septic likely required. Full listing description not accessible due to proxy blocks; verify details directly with Hills Of Texas Sky Realty before engaging.",
       "lat": null,
       "lng": null,
       "source": "Hills Of Texas Sky Realty (ACTRIS MLS #4835773); confirmed via Zillow, LandWatch, Trulia (3 IDX sources)",
@@ -2317,14 +2317,44 @@
       "price_usd": 205000,
       "acreage": 3.0,
       "listing_url": "https://www.coldwellbankerhomes.com/tx/marble-falls/2229-park-view-dr/pid_72350890/",
-      "notes": "3-acre lot in Mustang Ridge Estates subdivision, Marble Falls (Burnet County). Mature trees, peaceful Hill Country setting, minutes from downtown Marble Falls and Lake Marble Falls. HOA $400/yr (light restrictions — verify CC&Rs for MCM compatibility before advancing). Seller financing available. Listed July 6, 2026 (~42 days on market at time of scan). ACTRIS MLS #1745370. At $205,000 (~$68k/ac), this is the most affordable 3+ acre lot in the feed. Scenario A with ~$1.795M remaining build budget.",
-      "risks": "HOA ($400/yr) — obtain CC&Rs from Burnet CAD or listing agent before offer; Mustang Ridge Estates has an HOA with 'reasonable' restrictions but architectural review process is unknown — must confirm MCM-compatible (flat roofs, large glazing, unconventional massing). ~50-60 min to downtown Austin (full car dependence, same as Marble Falls / Burnet County generally). Verify FEMA floodplain status on build pad — get FIRM map for parcel. Well + septic likely required (verify city water/sewer availability at parcel). Soil type: Llano Uplift limestone/granite soils expected (not blackland clay) — confirm with county soil survey. Site visit needed before offer.",
+      "notes": "3-acre lot in Mustang Ridge Estates subdivision, Marble Falls (Burnet County). Mature trees, peaceful Hill Country setting, minutes from downtown Marble Falls and Lake Marble Falls. HOA $400/yr (light restrictions \u2014 verify CC&Rs for MCM compatibility before advancing). Seller financing available. Listed July 6, 2026 (~42 days on market at time of scan). ACTRIS MLS #1745370. At $205,000 (~$68k/ac), this is the most affordable 3+ acre lot in the feed. Scenario A with ~$1.795M remaining build budget.",
+      "risks": "HOA ($400/yr) \u2014 obtain CC&Rs from Burnet CAD or listing agent before offer; Mustang Ridge Estates has an HOA with 'reasonable' restrictions but architectural review process is unknown \u2014 must confirm MCM-compatible (flat roofs, large glazing, unconventional massing). ~50-60 min to downtown Austin (full car dependence, same as Marble Falls / Burnet County generally). Verify FEMA floodplain status on build pad \u2014 get FIRM map for parcel. Well + septic likely required (verify city water/sewer availability at parcel). Soil type: Llano Uplift limestone/granite soils expected (not blackland clay) \u2014 confirm with county soil survey. Site visit needed before offer.",
       "lat": null,
       "lng": null,
-      "source": "ACTRIS MLS #1745370; confirmed via cbapex.com, Knox Realtors, Coldwell Banker (pid_72350890), eXp Realty, TDR Real Estate Group — 5+ broker IDX sources",
+      "source": "ACTRIS MLS #1745370; confirmed via cbapex.com, Knox Realtors, Coldwell Banker (pid_72350890), eXp Realty, TDR Real Estate Group \u2014 5+ broker IDX sources",
       "status": "active",
-      "hoa": "$400/yr (Mustang Ridge Estates — CC&Rs not yet reviewed)",
+      "hoa": "$400/yr (Mustang Ridge Estates \u2014 CC&Rs not yet reviewed)",
       "utilities": "Well + septic likely required; verify city water/sewer availability; electric assumed available"
+    },
+    {
+      "id": "3101-1-longhorn-trl-wimberley",
+      "first_seen": "2026-08-19T07:00:00Z",
+      "address": "3101-1 Longhorn Trl, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 600000,
+      "acreage": 10.0,
+      "listing_url": "https://www.remax.com/tx/wimberley/home-details/3101-longhorn-trl-wimberley-tx-78676/14422671512004880511/M00000589/5707629",
+      "notes": "Unimproved 10-acre parcel \u2014 first in the cluster of four adjacent tracts (3101-1 through -4, each ~10 ac) on Longhorn Trail; siblings 3101-3 ($550k) and 3101-4 ($600k) are already in the feed. No HOA; electricity available; Hill Country views; multiple potential build sites. Well + septic required. ~89 DOM at scan time. At $600k (~$60k/ac), Scenario A with ~$1.4M remaining for the build.",
+      "risks": "Confirm build pad is well outside FEMA 100-yr floodplain and Atlas-14 storm runoff (Blanco River corridor \u2014 same flag as 3101-3 and 3101-4). Verify road access type on Longhorn Trail (paved subdivision road vs. private easement). 10 acres gives E-W orientation flexibility \u2014 verify on plat + satellite before offer. Well cost and water yield unknown; budget accordingly.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS (RE/MAX IDX, MLS #5707629)",
+      "status": "active"
+    },
+    {
+      "id": "2051-lost-valley-rd-dripping-springs",
+      "first_seen": "2026-08-19T07:00:00Z",
+      "address": "2051 Lost Valley Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 650000,
+      "acreage": 5.07,
+      "listing_url": "https://www.search.unlockmls.com/address/2051-Lost-Valley-Rd-Dripping-Springs-TX-78620/7450498",
+      "notes": "5-acre Dripping Springs lot (Longview Add subdivision, Hays County, DSISD) with all three utilities already in: level building site complete with septic, well, and electricity on site \u2014 removes the two biggest Hill Country unknowns. Native trees and long-range views. No HOA indicated. Listed November 2025 (~277 DOM at scan \u2014 potential negotiating leverage). At $650k ($128k/ac), Scenario A with ~$1.35M remaining for the build.",
+      "risks": "High DOM (~277 days, listed November 2025) warrants asking the listing agent what has suppressed interest \u2014 verify no hidden encumbrances, easements, or soil issues before engaging. Standard Dripping Springs flag: confirm Edwards Aquifer recharge-zone status (TCEQ) before offer; impervious-cover limits may apply. Verify well water quality and quantity (budget for a water test). Confirm no deed restrictions limit MCM flat-roof/modern massing (HOA/CC&Rs unconfirmed in listing data; verify with agent).",
+      "lat": null,
+      "lng": null,
+      "source": "Unlock MLS (ACTRIS MLS #7450498) via Coldwell Banker, HAR, RE/MAX IDX",
+      "status": "active"
     }
   ]
 }
