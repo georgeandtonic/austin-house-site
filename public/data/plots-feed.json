@@ -33921,6 +33921,418 @@
       "lat": 30.680526733398438,
       "lng": -99.15727233886719,
       "firstSeen": "2026-08-25"
+    },
+    {
+      "url": "https://www.landwatch.com/travis-county-texas-undeveloped-land-for-sale/pid/427882762",
+      "source": "landwatch",
+      "address": "Mountain Top Circle lot: 24A, Jonestown, TX, 78645",
+      "county": "travis",
+      "price": 495000,
+      "acres": 12.36,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/travis-county-texas-undeveloped-land-for-sale/pid/425753103",
+      "source": "landwatch",
+      "address": "24300 Cisco Trail, Leander, TX, 78641",
+      "county": "travis",
+      "price": 499000,
+      "acres": 11.88,
+      "lat": 30.5952702,
+      "lng": -97.96043768,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-undeveloped-land-for-sale/pid/426975690",
+      "source": "landwatch",
+      "address": "1907 Falconwood Drive lot: 84, San Marcos, TX, 78666",
+      "county": "hays",
+      "price": 220000,
+      "acres": 3.08,
+      "lat": 29.919425,
+      "lng": -98.074122,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-undeveloped-land-for-sale/pid/427881774",
+      "source": "landwatch",
+      "address": "601 Lonesome Trl, Driftwood, TX, 78619",
+      "county": "hays",
+      "price": 380000,
+      "acres": 5.44,
+      "lat": 30.067266,
+      "lng": -98.024429,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-homes-for-sale/pid/427980656",
+      "source": "landwatch",
+      "address": "204 Deer Creek Circle, Dripping Springs, TX, 78620",
+      "county": "hays",
+      "price": 650000,
+      "acres": 1.27,
+      "lat": 30.26127824,
+      "lng": -98.05756285,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-homes-for-sale/pid/427982004",
+      "source": "landwatch",
+      "address": "254 Heatherwood Dr, Driftwood, TX, 78619",
+      "county": "hays",
+      "price": 280000,
+      "acres": 12.25,
+      "lat": 30.12305979,
+      "lng": -98.07766971,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-undeveloped-land-for-sale/pid/426537656",
+      "source": "landwatch",
+      "address": "306 Cresthill Cswy, Kyle, TX, 78640",
+      "county": "hays",
+      "price": 379900,
+      "acres": 5.2,
+      "lat": 30.00089513,
+      "lng": -97.80952552,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-undeveloped-land-for-sale/pid/425986574",
+      "source": "landwatch",
+      "address": "1017 Montell Road lot: 190, Wimberley, TX, 78676",
+      "county": "hays",
+      "price": 875000,
+      "acres": 22.13,
+      "lat": 30.121736,
+      "lng": -98.241019,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/williamson-county-texas-farms-and-ranches-for-sale/pid/427976088",
+      "source": "landwatch",
+      "address": "7100 Farm to Market Road 972, Granger, TX, 76530",
+      "county": "williamson",
+      "price": 899900,
+      "acres": 27.79,
+      "lat": 30.753971099853516,
+      "lng": -97.53437805175781,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/blanco-county-texas-homes-for-sale/pid/425258455",
+      "source": "landwatch",
+      "address": "235 Mr Charlie Lane, Round Mountain, TX, 78663",
+      "county": "blanco",
+      "price": 759000,
+      "acres": 3,
+      "lat": 30.46220567,
+      "lng": -98.32588013,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-farms-and-ranches-for-sale/pid/426557733",
+      "source": "landwatch",
+      "address": "1630 County Road 335, Burnet, TX, 78611",
+      "county": "burnet",
+      "price": 680000,
+      "acres": 25.76,
+      "lat": 30.714168,
+      "lng": -98.195277,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-farms-and-ranches-for-sale/pid/427643993",
+      "source": "landwatch",
+      "address": "4745 county road 120, Marble Falls, TX, 78654",
+      "county": "burnet",
+      "price": 535000,
+      "acres": 13.72,
+      "lat": 30.650132,
+      "lng": -98.326944,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-homes-for-sale/pid/427534347",
+      "source": "landwatch",
+      "address": "111 Pecan Orchard Lane, Marble Falls, TX, 78654",
+      "county": "burnet",
+      "price": 205000,
+      "acres": 1.84,
+      "lat": 30.617243,
+      "lng": -98.307943,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-homes-for-sale/pid/423445847",
+      "source": "landwatch",
+      "address": "407 Windmill, Burnet, TX, 78611",
+      "county": "burnet",
+      "price": 835000,
+      "acres": 6.75,
+      "lat": 30.816414,
+      "lng": -98.225756,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-farms-and-ranches-for-sale/pid/425740813",
+      "source": "landwatch",
+      "address": "489 Nordic Ridge Road, Bertram, TX, 78605",
+      "county": "burnet",
+      "price": 883000,
+      "acres": 25.03,
+      "lat": 30.783599,
+      "lng": -98.079652,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-undeveloped-land-for-sale/pid/427229416",
+      "source": "landwatch",
+      "address": "261 CR 120, Marble Falls, TX, 78654",
+      "county": "burnet",
+      "price": 288000,
+      "acres": 9.56,
+      "lat": 30.63846007,
+      "lng": -98.31016209,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-homes-for-sale/pid/427606630",
+      "source": "landwatch",
+      "address": "421 Chimney Cove Drive, Marble Falls, TX, 78654",
+      "county": "burnet",
+      "price": 895000,
+      "acres": 6.85,
+      "lat": 30.533186,
+      "lng": -98.139592,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427617730",
+      "source": "landwatch",
+      "address": "2939 Rolling Oaks Dr, New Braunfels, TX, 78132",
+      "county": "comal",
+      "price": 715000,
+      "acres": 3.67,
+      "lat": 29.793931,
+      "lng": -98.09824,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-undeveloped-land-for-sale/pid/427494674",
+      "source": "landwatch",
+      "address": "705 Roland Run, Bulverde, TX, 78163",
+      "county": "comal",
+      "price": 279900,
+      "acres": 10.59,
+      "lat": 29.769892,
+      "lng": -98.491478,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-undeveloped-land-for-sale/pid/427979077",
+      "source": "landwatch",
+      "address": "928 Enchanted View, Canyon Lake, TX, 78133",
+      "county": "comal",
+      "price": 463000,
+      "acres": 1.07,
+      "lat": 29.884607,
+      "lng": -98.33725,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-undeveloped-land-for-sale/pid/427979079",
+      "source": "landwatch",
+      "address": "902 Bingham Lane, New Braunfels, TX, 78132",
+      "county": "comal",
+      "price": 367000,
+      "acres": 1.07,
+      "lat": 29.848022,
+      "lng": -98.163208,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-undeveloped-land-for-sale/pid/427852270",
+      "source": "landwatch",
+      "address": "225 SHADY HOLW, New Braunfels, TX, 78132",
+      "county": "comal",
+      "price": 219900,
+      "acres": 1.84,
+      "lat": 29.831591,
+      "lng": -98.104446,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427852851",
+      "source": "landwatch",
+      "address": "1017 Star Ridge, Spring Branch, TX, 78070",
+      "county": "comal",
+      "price": 675000,
+      "acres": 1.37,
+      "lat": 29.921978,
+      "lng": -98.314514,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427979074",
+      "source": "landwatch",
+      "address": "39850 Fm 3159, Canyon Lake, TX, 78133",
+      "county": "comal",
+      "price": 629000,
+      "acres": 4.38,
+      "lat": 29.826024,
+      "lng": -98.29123,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427103130",
+      "source": "landwatch",
+      "address": "1315 Happy Hollow, New Braunfels, TX, 78132",
+      "county": "comal",
+      "price": 499000,
+      "acres": 1.15,
+      "lat": 29.841228,
+      "lng": -98.139129,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/426031851",
+      "source": "landwatch",
+      "address": "217 Rousey St, Canyon Lake, TX, 78133",
+      "county": "comal",
+      "price": 310000,
+      "acres": 1.16,
+      "lat": 29.87889623,
+      "lng": -98.20303083,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-homes-for-sale/pid/427984678",
+      "source": "landwatch",
+      "address": "1121 Monroe Dr, Kerrville, TX, 78028",
+      "county": "kerr",
+      "price": 639900,
+      "acres": 1.23,
+      "lat": 30.0233326,
+      "lng": -99.1663902,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/13107-Nutty-Brown-Rd-Austin-TX-78737/1F68IR_pid/",
+      "source": "compass",
+      "address": "13107 Nutty Brown Rd, TX, 78737",
+      "county": "hays",
+      "price": 650000,
+      "acres": 2.43,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/0-Rocky-Creek-Ranch-Johnson-City-TX-78636/1FF81S_pid/",
+      "source": "compass",
+      "address": "0 Rocky Creek Ranch, TX, 78636",
+      "county": "blanco",
+      "price": 349999,
+      "acres": 6.02,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/Lot-26-Swiss-Ranch-Rd-Round-Mountain-TX-78663/2FHL9Y_pid/",
+      "source": "compass",
+      "address": "lot 26 Swiss Ranch Rd, Round Mountain, TX, 78663",
+      "county": "blanco",
+      "price": 295000,
+      "acres": 4,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/902-Bingham-Ln-New-Braunfels-TX-78132/1FQIM5_pid/",
+      "source": "compass",
+      "address": "902 Bingham Ln, Canyon Lake, TX, 78132",
+      "county": "comal",
+      "price": 367000,
+      "acres": 1.07,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/139-Shimmering-Shore-Ct-Spring-Branch-TX-78070/1F10LU_pid/",
+      "source": "compass",
+      "address": "139 Shimmering Shore Ct, Mystic Shores, TX, 78070",
+      "county": "comal",
+      "price": 569000,
+      "acres": 2.73,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/928-Enchanted-Vw-Canyon-Lake-TX-78133/1G7T78_pid/",
+      "source": "compass",
+      "address": "928 Enchanted Vw, Canyon Lake, TX, 78133",
+      "county": "comal",
+      "price": 463000,
+      "acres": 1.07,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/96-Coyote-Run-Unit-33-Fredericksburg-TX-78624/1G3O8Q_pid/",
+      "source": "compass",
+      "address": "96 Coyote Run, Unit 33, TX, 78624",
+      "county": "gillespie",
+      "price": 500000,
+      "acres": 6.72,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/560-Mystic-Oaks-Trl-Unit-10-Fredericksburg-TX-78624/1GAJJY_pid/",
+      "source": "compass",
+      "address": "560 Mystic Oaks Trl, Unit 10, TX, 78624",
+      "county": "gillespie",
+      "price": 345000,
+      "acres": 4.04,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/560-Mystic-Oaks-Trl-Fredericksburg-TX-78624/1FFYYR_pid/",
+      "source": "compass",
+      "address": "560 Mystic Oaks Trl, TX, 78624",
+      "county": "gillespie",
+      "price": 345000,
+      "acres": 4.04,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/8-Jack-Rabbit-Rd-Unit-8-Doss-TX-78618/1G09C4_pid/",
+      "source": "compass",
+      "address": "8 Jack Rabbit Rd, Unit 8, TX, 78618",
+      "county": "gillespie",
+      "price": 388320,
+      "acres": 24.27,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/210-Mai-Rd-Kerrville-TX-78028/3KMYI_pid/",
+      "source": "compass",
+      "address": "210 Mai Rd, TX, 78028",
+      "county": "kerr",
+      "price": 315000,
+      "acres": 9.47,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/Lot-153-Mulder-Dr-Camp-Kerrville-TX-78028/2FR66G_pid/",
+      "source": "compass",
+      "address": "lot 153 Mulder Dr Camp, TX, 78028",
+      "county": "kerr",
+      "price": 289380,
+      "acres": 7.42,
+      "firstSeen": "2026-08-26"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/0-Cool-Creek-Dr-E-Center-Point-TX-78010/2FCXWW_pid/",
+      "source": "compass",
+      "address": "0 Cool Creek Dr E, TX, 78010",
+      "county": "kerr",
+      "price": 225000,
+      "acres": 5.26,
+      "firstSeen": "2026-08-26"
     }
   ]
 }
