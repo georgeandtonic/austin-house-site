@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-26T07:00:00Z",
+  "last_updated": "2026-08-28T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -31711,6 +31711,21 @@
       "status": "active"
     },
     {
+      "id": "205-serenity-dr-liberty-hill",
+      "first_seen": "2026-08-28T07:00:00Z",
+      "address": "205 Serenity Dr, Liberty Hill, TX 78642",
+      "submarket": "Liberty Hill",
+      "price_usd": 235000,
+      "acreage": 2.0,
+      "listing_url": "https://www.compass.com/homedetails/205-Serenity-Dr-Liberty-Hill-TX-78642/1G2084_pid/",
+      "notes": "Serenity Springs gated community, Liberty Hill ISD. 2-acre Lot 77 with elevated valley views, mature oak trees, Bear Creek nearby. Electric on-site and — notably — a well already drilled, removing one of the biggest Hill Country unknowns. Same community as 212 Serenity Dr (feed entry); price ranges $235k–$267k across sources — confirm current ask with listing agent (LPT Realty, ACTRIS MLS #6507528). At $235k, Scenario A with ~$1.765M build budget remaining.",
+      "risks": "Bear Creek runs through the community — floodplain/Atlas-14 check required; build pad must clear FEMA 100-yr and 500-yr. HOA CC&Rs for Serenity Springs must be reviewed for MCM design compatibility (flat roof, large glazing) before advancing — hard dealbreaker if conservative ARB. Verify soil type in Williamson County (clay line risk). At 2 acres, smaller than ideal Hill Country parcel — confirm E-W MCM siting achievable with required setbacks. Price varies across sources ($235k–$267k); confirm with listing agent.",
+      "lat": null,
+      "lng": null,
+      "source": "LPT Realty (ACTRIS MLS #6507528)",
+      "status": "active"
+    },
+    {
       "url": "https://www.landwatch.com/travis-county-texas-undeveloped-land-for-sale/pid/427965265",
       "source": "landwatch",
       "address": "9 Pedernales Canyon Trail, Spicewood, TX, 78669",
@@ -34331,5 +34346,5 @@
       "firstSeen": "2026-08-27"
     }
   ],
-  "count": 3079
+  "count": 3080
 }
