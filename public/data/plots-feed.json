@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-08-31T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -31732,6 +31732,21 @@
       "status": "active"
     },
     {
+      "id": "lot-10-round-mountain-reserve-dr-round-mountain",
+      "first_seen": "2026-08-31T07:00:00Z",
+      "address": "Lot 10 - 12.6 Acres, Round Mountain Reserve Dr, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 775000,
+      "acreage": 12.64,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/9616238/lot-10-126-acres-round-mountain-reserve-dr-round-mountain-tx-78663/",
+      "notes": "12.64-acre estate within Round Mountain Reserve, a premier private gated 2,000-acre luxury ranch community in Blanco County between Marble Falls and Johnson City. Panoramic Hill Country views, mature oaks, gently varied terrain with multiple build sites \u2014 strong MCM site profile. Underground utilities, fiber internet, community propane, high-capacity wells, and paved private roads pre-installed. 50+ acres protected nature preserve and 5 miles of private hiking trails. Ag-exempt status expected (near-zero land carrying cost). Scenario B/C at $775k.",
+      "risks": "Luxury gated community \u2014 HOA CC&Rs and ARB must be reviewed for MCM compatibility (flat roofs, large glazing, contemporary massing) before any offer; this is the primary dealbreaker gate. At 12.64 acres it exceeds the ideal maximum (10 ac) \u2014 more land and management overhead than needed. Round Mountain is 60\u201375 min to downtown \u2014 total car dependence is the headline commute cost.",
+      "lat": null,
+      "lng": null,
+      "source": "Longhorn Realty (ACTRIS MLS #9616238)",
+      "status": "active"
+    },
+    {
       "url": "https://www.landwatch.com/travis-county-texas-undeveloped-land-for-sale/pid/427965265",
       "source": "landwatch",
       "address": "9 Pedernales Canyon Trail, Spicewood, TX, 78669",
@@ -35745,5 +35760,5 @@
       "firstSeen": "2026-08-30"
     }
   ],
-  "count": 3207
+  "count": 3208
 }
