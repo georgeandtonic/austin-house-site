@@ -35958,7 +35958,18 @@
       "lat": 29.81972562,
       "lng": -99.05559529,
       "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Jonestown/TBD-W-Reed-Park-Rd-78645/home/143355529",
+      "source": "redfin",
+      "address": "TBD E Reed Park Rd, Jonestown, TX 78645",
+      "county": "travis",
+      "price": 350000,
+      "acres": 5.014990817263545,
+      "lat": 30.48089407,
+      "lng": -97.93000475,
+      "firstSeen": "2026-09-01"
     }
   ],
-  "count": 3226
+  "count": 3227
 }
