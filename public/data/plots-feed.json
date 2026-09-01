@@ -34079,7 +34079,9 @@
       "county": "kerr",
       "price": 315000,
       "acres": 9.47,
-      "firstSeen": "2026-08-26"
+      "firstSeen": "2026-08-26",
+      "lat": 29.976699829101562,
+      "lng": -99.20906066894531
     },
     {
       "url": "https://www.compass.com/homedetails/Lot-153-Mulder-Dr-Camp-Kerrville-TX-78028/2FR66G_pid/",
@@ -35780,7 +35782,183 @@
       "lat": 30.864645,
       "lng": -98.466931,
       "firstSeen": "2026-08-31"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-homes-for-sale/pid/428042504",
+      "source": "landwatch",
+      "address": "304 Lea Lane, Wimberley, TX, 78676",
+      "county": "hays",
+      "price": 335000,
+      "acres": 1.25,
+      "lat": 30.00030687,
+      "lng": -98.12248213,
+      "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-lakefront-property-for-sale/pid/426848936",
+      "source": "landwatch",
+      "address": "700 CLIFFSIDE Rd, Wimberley, TX, 78676",
+      "county": "hays",
+      "price": 549900,
+      "acres": 1.88,
+      "lat": 30.03906937,
+      "lng": -98.22154985,
+      "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-undeveloped-land-for-sale/pid/428048997",
+      "source": "landwatch",
+      "address": "Schubert Ln, Kyle, TX, 78640",
+      "county": "hays",
+      "price": 480000,
+      "acres": 5,
+      "lat": 30.01899802,
+      "lng": -97.72949264,
+      "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.landwatch.com/williamson-county-texas-farms-and-ranches-for-sale/pid/428040710",
+      "source": "landwatch",
+      "address": "3560 County Road 236, Liberty Hill, TX, 78642",
+      "county": "williamson",
+      "price": 875000,
+      "acres": 30,
+      "lat": 30.77807,
+      "lng": -97.936272,
+      "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.landwatch.com/blanco-county-texas-homes-for-sale/pid/427853072",
+      "source": "landwatch",
+      "address": "115 N Calvin Barrett, Blanco, TX, 78606",
+      "county": "blanco",
+      "price": 795500,
+      "acres": 1.04,
+      "lat": 30.04895581,
+      "lng": -98.39259963,
+      "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-farms-and-ranches-for-sale/pid/426727109",
+      "source": "landwatch",
+      "address": "Twisted Oak Drive lot: 28, Horseshoe Bay, TX, 78657",
+      "county": "burnet",
+      "price": 230000,
+      "acres": 10,
+      "lat": 30.50826711,
+      "lng": -98.33915389,
+      "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-farms-and-ranches-for-sale/pid/425895197",
+      "source": "landwatch",
+      "address": "N FM 2341, Burnet, TX, 78611",
+      "county": "burnet",
+      "price": 379000,
+      "acres": 18.65,
+      "lat": 30.77343045,
+      "lng": -98.28010344,
+      "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427359418",
+      "source": "landwatch",
+      "address": "144 Wagon Wheel Dr, Spring Branch, TX, 78070",
+      "county": "comal",
+      "price": 674900,
+      "acres": 5.01,
+      "lat": 29.853469,
+      "lng": -98.439419,
+      "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427692686",
+      "source": "landwatch",
+      "address": "1433 HAVENWOOD BLVD, New Braunfels, TX, 78132",
+      "county": "comal",
+      "price": 724900,
+      "acres": 1.03,
+      "lat": 29.785902,
+      "lng": -98.059829,
+      "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-homes-for-sale/pid/427213571",
+      "source": "landwatch",
+      "address": "434 Gold-Schaefer Rd, Fredericksburg, TX, 78624",
+      "county": "gillespie",
+      "price": 699000,
+      "acres": 10,
+      "lat": 30.3887817,
+      "lng": -98.7091255,
+      "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.landwatch.com/kendall-county-texas-undeveloped-land-for-sale/pid/427868315",
+      "source": "landwatch",
+      "address": "22C Cravey, Boerne, TX, 78006",
+      "county": "kendall",
+      "price": 599000,
+      "acres": 16.34,
+      "lat": 29.925676,
+      "lng": -98.764122,
+      "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/427263606",
+      "source": "landwatch",
+      "address": "143 Coldwater Dr, Center Point, TX, 78010",
+      "county": "kerr",
+      "price": 210000,
+      "acres": 5.04,
+      "lat": 29.908586,
+      "lng": -99.083502,
+      "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/425008162",
+      "source": "landwatch",
+      "address": "Stevens Ranch Rd., Harper, TX, 78631",
+      "county": "kerr",
+      "price": 329000,
+      "acres": 21.29,
+      "lat": 30.24886577,
+      "lng": -99.24807729,
+      "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-homes-for-sale/pid/428042932",
+      "source": "landwatch",
+      "address": "157 McCullough Ranch Rd, Kerrville, TX, 78028",
+      "county": "kerr",
+      "price": 749000,
+      "acres": 10,
+      "lat": 30.112002,
+      "lng": -99.1486482,
+      "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-homes-for-sale/pid/427859068",
+      "source": "landwatch",
+      "address": "1094 Harper Rd, Kerrville, TX, 78028",
+      "county": "kerr",
+      "price": 489000,
+      "acres": 2.21,
+      "lat": 30.0983852,
+      "lng": -99.1500208,
+      "firstSeen": "2026-09-01"
+    },
+    {
+      "url": "https://www.landwatch.com/bandera-county-texas-land-for-sale/pid/427143779",
+      "source": "landwatch",
+      "address": "TRACT 2 Elm Pass, Bandera, TX, 78003",
+      "county": "bandera",
+      "price": 398500,
+      "acres": 13.28,
+      "lat": 29.81972562,
+      "lng": -99.05559529,
+      "firstSeen": "2026-09-01"
     }
   ],
-  "count": 3210
+  "count": 3226
 }
