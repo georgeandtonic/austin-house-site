@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-08-30",
+  "last_updated": "2026-09-02",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -31745,6 +31745,40 @@
       "lng": null,
       "source": "Longhorn Realty (ACTRIS MLS #9616238)",
       "status": "active"
+    },
+    {
+      "id": "850-days-end-rd-wimberley",
+      "first_seen": "2026-09-02T07:00:00Z",
+      "address": "850 Days End Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 465000,
+      "acreage": 6.73,
+      "listing_url": "https://www.trulia.com/home/850-days-end-rd-wimberley-tx-78676-202140355",
+      "notes": "6.73-acre parcel in Burnett Ranch Sec 3, same POA as 400 Wolf Trail and 901 Days End Rd already in feed. Water well and electricity already on site — utilities substantially de-risked vs. a raw lot. Sunrise views, dark skies, mature trees. Burnett Ranches River Park membership provides Blanco River access (swimming, kayaking, fishing, hiking). Light, reasonable deed restrictions in this section. Active as of Aug 17, 2026 per IDX. Listed by Gibson Properties (ACTRIS MLS #7710986).",
+      "risks": "Wimberley / Blanco River watershed — 2015 flood was catastrophic (20+ ft); verify FEMA 100-yr floodplain and build-pad elevation before offer. POA CC&Rs not reviewed — confirm MCM compatibility (flat roof, large glazing, contemporary massing) before engaging. Well quantity/quality not confirmed — require well test as inspection contingency. ~90+ DOM (listed ~June 9, 2026) — investigate price history and seller motivation.",
+      "lat": null,
+      "lng": null,
+      "source": "Gibson Properties (ACTRIS MLS #7710986); confirmed via Tinsley Realty IDX, Devora Realty IDX, Trulia",
+      "status": "active",
+      "hoa": "Burnett Ranch POA (includes River Park access; fee and ARB terms not confirmed)",
+      "utilities": "Water well and electricity on site; septic required"
+    },
+    {
+      "id": "559-vail-river-rd-dripping-springs",
+      "first_seen": "2026-09-02T07:00:00Z",
+      "address": "559 Vail River Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 300000,
+      "acreage": 1.481,
+      "listing_url": "https://www.har.com/homedetail/559-vail-river-rd-dripping-springs-tx-78620/14691760",
+      "notes": "1.48-acre cul-de-sac end lot in Blue Horse Ranch — same exclusive 12-lot gated community as 439 Vail River Rd (feed entry, 3.37 ac at $395k). Underground utilities, panoramic Hill Country views, privacy from traffic. At $300k, Scenario A (~$1.7M build budget remaining). Listed by Audrey Pudder Realty, LLC (ACTRIS MLS #4212939). Confirmed active via HAR.com and multiple IDX sources.",
+      "risks": "At 1.48 acres this is the smallest lot in the search feed — significantly below the 3+ ideal for Hill Country MCM siting. Verify buildable footprint, setbacks, and whether E-W siting achieves adequate privacy and shaded glazing. Same community as 439 Vail River Rd — same HOA CC&R MCM-compatibility risk applies; verify before engaging. Standard Dripping Springs: confirm Edwards Aquifer recharge-zone status (TCEQ). Water supply method not confirmed (well or rainwater collection per community rules); septic required. Broker sites blocked during scan — verify active status directly with listing agent.",
+      "lat": null,
+      "lng": null,
+      "source": "Audrey Pudder Realty, LLC (ACTRIS MLS #4212939); confirmed via HAR.com, RE/MAX of Marble Falls, Lumer Real Estate IDX",
+      "status": "active",
+      "hoa": "Blue Horse Ranch HOA — terms not confirmed; same community as 439 Vail River Rd",
+      "utilities": "Underground utilities; water per community rules (well or rainwater collection); septic required"
     },
     {
       "url": "https://www.landwatch.com/travis-county-texas-undeveloped-land-for-sale/pid/427965265",
