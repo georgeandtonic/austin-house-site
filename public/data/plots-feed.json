@@ -36375,7 +36375,29 @@
       "lat": 30.7621362,
       "lng": -98.6981378,
       "firstSeen": "2026-09-02"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Manor/11807-Arnhamn-Ln-78653/home/172470046",
+      "source": "redfin",
+      "address": "11807 Arnhamn Ln, Manor, TX 78653",
+      "county": "travis",
+      "price": 244900,
+      "acres": 1.0009871441689624,
+      "lat": 30.3817255,
+      "lng": -97.5220255,
+      "firstSeen": "2026-09-02"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Lakeway/6-Barrie-Dr-78734/home/173208091",
+      "source": "redfin",
+      "address": "Lot 6 Barrie Dr, Lakeway, TX 78734",
+      "county": "travis",
+      "price": 499000,
+      "acres": 1.6409779614325068,
+      "lat": 30.34713918,
+      "lng": -97.95556947,
+      "firstSeen": "2026-09-02"
     }
   ],
-  "count": 3261
+  "count": 3263
 }
