@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-02",
+  "last_updated": "2026-09-05T00:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -49,10 +49,10 @@
       "first_seen": "2026-06-07T00:00:00Z",
       "address": "3006 Point Cv, Lago Vista, TX 78645",
       "submarket": "Lago Vista",
-      "price_usd": 850000,
+      "price_usd": 679000,
       "acreage": 1.02,
       "listing_url": "https://www.texasrealestatesource.com/listing/lago-vista-tx/78645/3006-point-cv/44-913144265/",
-      "notes": "Lake Travis waterfront with public water AND public sewer (rare out here — kills the well+septic cost and risk), moderate trees, panoramic main-channel views. The lowest-friction utilities + water + view package found. [2026-08-25 price update: confirmed at $850,000 via Redfin (MLS #2078108) and multiple IDX sources — up from feed price of $575,000 (+47.8%). Lago Vista Lake Travis waterfront; 1.02 ac with public water + sewer. Old price: $575,000.]",
+      "notes": "Lake Travis waterfront with public water AND public sewer (rare out here — kills the well+septic cost and risk), moderate trees, panoramic main-channel views. The lowest-friction utilities + water + view package found. [2026-08-25 price update: confirmed at $850,000 via Redfin (MLS #2078108) and multiple IDX sources — up from feed price of $575,000 (+47.8%). Lago Vista Lake Travis waterfront; 1.02 ac with public water + sewer. Old price: $575,000.] [2026-09-05 price update: relisted under new MLS #1839813 at $679,000 — down from $850,000 (-20.1%). Likely listing expired and re-listed with a new agent. Price has now cycled: $575k original → $850k relist → $679k current. Old price: $850,000.]",
       "risks": "The commute is the real cost. As a waterfront lot the build-pad elevation must check out against the Lake Travis flood pool / FEMA. ~1 acre limits siting flexibility vs. the Hill Country lots.",
       "lat": 30.436602,
       "lng": -98.024403,
