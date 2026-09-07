@@ -37647,7 +37647,40 @@
       "lat": 30.886936,
       "lng": -98.466623,
       "firstSeen": "2026-09-07"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Volente/15746-Booth-Cir-78641/home/109932194",
+      "source": "redfin",
+      "address": "15746 Booth Cir, Volente, TX 78641",
+      "county": "travis",
+      "price": 299900,
+      "acres": 1.9829889807162535,
+      "lat": 30.434969,
+      "lng": -97.910236,
+      "firstSeen": "2026-09-07"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Austin/15505-Mc-Cormick-Vis-78734/home/109895068",
+      "source": "redfin",
+      "address": "15505 Mccormick Vista Dr, Austin, TX 78734",
+      "county": "travis",
+      "price": 500000,
+      "acres": 1.2162993572084482,
+      "lat": 30.4088348,
+      "lng": -97.922436,
+      "firstSeen": "2026-09-07"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Spicewood/21732-State-Hwy-71-78669/home/31860149",
+      "source": "redfin",
+      "address": "21732 State Highway 71 W, Spicewood, TX 78669",
+      "county": "travis",
+      "price": 595000,
+      "acres": 2.269995408631772,
+      "lat": 30.3628161,
+      "lng": -98.0687266,
+      "firstSeen": "2026-09-07"
     }
   ],
-  "count": 3379
+  "count": 3382
 }
