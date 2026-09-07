@@ -1,0 +1,79 @@
+#!/usr/bin/env node
+// git pre-commit hook — enforce plots-feed.json count == plots.length.
+//
+// count is a DERIVED value (a self-consistency witness for truncation detection).
+// It must never be set independently by any writer. This hook is the single
+// place that enforces the invariant: if count disagrees with the array at commit
+// time, it is corrected and re-staged automatically. Writers do not need to
+// maintain it by convention.
+//
+// Behaviour:
+//   - No-op when public/data/plots-feed.json is not staged.
+//   - No-op when the file uses the bare-array format (no count field).
+//   - Rewrites only the count value (regex, not a full JSON.stringify) so the
+//     diff stays minimal and all other whitespace/key order is preserved.
+//   - Re-stages the corrected file so the commit includes the fix.
+//   - Fails the commit (exit 1) if the file is not valid JSON — a truncated or
+//     partially-written file must not be committed.
+//
+// Installation (run once per clone):
+//   git config core.hooksPath scripts/git-hooks
+//
+// Note on LAND_SCRAPER_FEED override: the austin-land-scraper config lets an
+// env var redirect the feed path. That override does not apply here — this hook
+// always guards the tracked path public/data/plots-feed.json. If the override
+// ever points to a different file in this repo, add it to FEED_PATHS below.
+
+import { execSync } from 'child_process';
+import { readFileSync, writeFileSync } from 'fs';
+import { join } from 'path';
+
+const FEED_PATHS = ['public/data/plots-feed.json'];
+
+const staged = execSync('git diff --cached --name-only', { encoding: 'utf8' });
+const stagedSet = new Set(staged.split('\n'));
+const toCheck = FEED_PATHS.filter((p) => stagedSet.has(p));
+if (toCheck.length === 0) process.exit(0);
+
+const root = execSync('git rev-parse --show-toplevel', { encoding: 'utf8' }).trim();
+
+let anyFixed = false;
+for (const feedPath of toCheck) {
+  const abs = join(root, feedPath);
+
+  let raw;
+  try {
+    raw = readFileSync(abs, 'utf8');
+  } catch (e) {
+    process.stderr.write(`[pre-commit] cannot read ${feedPath}: ${e.message}\n`);
+    process.exit(1);
+  }
+
+  let feed;
+  try {
+    feed = JSON.parse(raw);
+  } catch (e) {
+    process.stderr.write(
+      `[pre-commit] ${feedPath} is not valid JSON — refusing commit: ${e.message}\n`,
+    );
+    process.exit(1);
+  }
+
+  if (!feed || typeof feed !== 'object' || Array.isArray(feed)) continue; // bare array — no count field
+  if (!Array.isArray(feed.plots)) continue; // unrecognised shape — leave it alone
+  if (typeof feed.count !== 'number') continue; // count absent — assertFeedCount is a no-op too
+
+  const correct = feed.plots.length;
+  if (feed.count === correct) continue; // already correct
+
+  // Rewrite only the count value, leaving everything else byte-identical.
+  const fixed = raw.replace(/("count"\s*:\s*)\d+/, `$1${correct}`);
+  writeFileSync(abs, fixed, 'utf8');
+  execSync(`git add "${feedPath}"`, { cwd: root });
+  process.stderr.write(
+    `[pre-commit] ${feedPath}: count auto-corrected ${feed.count} → ${correct} and re-staged\n`,
+  );
+  anyFixed = true;
+}
+
+process.exit(0);
