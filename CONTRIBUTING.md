@@ -4,14 +4,14 @@
 
 When adding plots to `public/data/plots-feed.json` by hand (or via an agent):
 
-**Do not edit the JSON file directly with a text editor or Edit tool.** The file has several derived fields that must stay consistent with the array:
+**Do not edit the JSON file directly with a text editor or Edit tool.** The file has derived fields enforced by the pre-commit hook:
 
-- `count` — must equal `plots.length` at all times (enforced by the pre-commit hook; a stale count from a direct edit has taken the scanner down for days)
-- `last_updated` — must reflect the actual edit date
+- `count` — must equal `plots.length` (self-consistency witness; a stale count blocked every subsequent scanner startup for five days in Sept 2026)
+- `last_updated` — must reflect the date of the most recent write (the automated scanner never set this; after every automated run the feed gained new plots but the date stayed stale)
 
-Instead, append new plot objects to the `plots` array and let the pre-commit hook maintain `count`. You still need to update `last_updated` by hand if no automated run will do it.
+The pre-commit hook recomputes both fields automatically whenever `plots-feed.json` is staged. You do not need to set either field — just append plot objects and commit.
 
-**Why a direct Edit is risky:** the automated scanner maintains `count` through `writeFeed()`, which derives it from the array at write time. A direct file edit bypasses that function. If you append a plot object without touching `count`, the hook will fix `count` automatically — but the hook only covers the fields it knows about. The general rule is: call the write function, do not edit structured data files at the record level.
+**Why a direct Edit is risky:** the automated scanner maintains these fields through `writeFeed()`, which derives them at write time. A direct file edit bypasses that function. The hook covers `count` and `last_updated` specifically, but it does not cover whatever the next direct edit breaks. The general rule is: call the write function, do not edit structured data files at the record level.
 
 ## Setup after cloning
 
