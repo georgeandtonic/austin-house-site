@@ -36,8 +36,9 @@ matching `src/data/*.ts`), then rebuild.
 ## The plot feed
 
 `public/data/plots-feed.json` is the live land feed. The recurring land-scan agent appends
-new plots to the `plots[]` array and bumps `last_updated`, then triggers a redeploy; the
-site picks them up on the next build. Required fields per plot:
+new plots to the `plots[]` array; the pre-commit hook corrects `count` and `last_updated`
+at commit time. Pushing the commit triggers a redeploy and the site picks up the new
+plots on the next build. Required fields per plot:
 
 ```
 id, first_seen, address, submarket, price_usd, acreage,
