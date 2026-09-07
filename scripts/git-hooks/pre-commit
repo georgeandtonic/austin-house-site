@@ -1,28 +1,43 @@
 #!/usr/bin/env node
-// git pre-commit hook — enforce plots-feed.json count == plots.length.
+// git pre-commit hook — enforce derived fields in plots-feed.json.
 //
-// count is a DERIVED value (a self-consistency witness for truncation detection).
-// It must never be set independently by any writer. This hook is the single
-// place that enforces the invariant: if count disagrees with the array at commit
-// time, it is corrected and re-staged automatically. Writers do not need to
-// maintain it by convention.
+// Two fields are DERIVED and must never be set independently by any writer:
+//
+//   count        — must equal plots.length (self-consistency witness for truncation
+//                  detection; a mismatch blocks every subsequent scanner startup).
+//                  writeFeed() in the automated scanner maintains this; a direct
+//                  Edit by a curation agent does not. Sept 2026: a +2 offset from
+//                  one curated commit propagated for five days and took the scanner
+//                  down.
+//
+//   last_updated — must reflect the date of the most recent write. The automated
+//                  scanner's rebuild() preserves ...obj and never sets this field;
+//                  only interactive curation agents have been setting it, meaning
+//                  the field goes stale after every automated run.
+//
+// This hook is the single enforcement point. It fires on every git commit in this
+// repo (simple-git included). If plots-feed.json is staged, it recomputes both
+// fields, rewrites only those values (regex — not a full JSON.stringify, so the
+// diff stays minimal), and re-stages the file. Writers do not need to maintain
+// either field by convention.
 //
 // Behaviour:
 //   - No-op when public/data/plots-feed.json is not staged.
-//   - No-op when the file uses the bare-array format (no count field).
-//   - Rewrites only the count value (regex, not a full JSON.stringify) so the
-//     diff stays minimal and all other whitespace/key order is preserved.
-//   - Re-stages the corrected file so the commit includes the fix.
-//   - Fails the commit (exit 1) if the file is not valid JSON — a truncated or
-//     partially-written file must not be committed.
+//   - No-op when the file uses the bare-array format (no wrapped header).
+//   - Rewrites count if it disagrees with the array length.
+//   - Rewrites last_updated to today's ISO date (YYYY-MM-DD) unconditionally
+//     when the field is present — any write to the feed is a write worth dating.
+//   - Re-stages the file if either field was changed.
+//   - Fails the commit (exit 1) if the file is not valid JSON.
 //
-// Installation (run once per clone):
+// Installation (automatic via npm install — see package.json prepare script):
 //   git config core.hooksPath scripts/git-hooks
 //
-// Note on LAND_SCRAPER_FEED override: the austin-land-scraper config lets an
-// env var redirect the feed path. That override does not apply here — this hook
-// always guards the tracked path public/data/plots-feed.json. If the override
-// ever points to a different file in this repo, add it to FEED_PATHS below.
+// Note on LAND_SCRAPER_SITE_REPO override: the austin-land-scraper config lets
+// an env var redirect siteRepoDir to a different checkout. That checkout will NOT
+// have core.hooksPath set unless npm install is run there too. Add
+// scripts/git-hooks to FEED_PATHS below if the override ever points inside this
+// repo; for an alternate checkout, run: git config core.hooksPath scripts/git-hooks
 
 import { execSync } from 'child_process';
 import { readFileSync, writeFileSync } from 'fs';
@@ -36,8 +51,8 @@ const toCheck = FEED_PATHS.filter((p) => stagedSet.has(p));
 if (toCheck.length === 0) process.exit(0);
 
 const root = execSync('git rev-parse --show-toplevel', { encoding: 'utf8' }).trim();
+const today = new Date().toISOString().split('T')[0]; // YYYY-MM-DD
 
-let anyFixed = false;
 for (const feedPath of toCheck) {
   const abs = join(root, feedPath);
 
@@ -59,21 +74,35 @@ for (const feedPath of toCheck) {
     process.exit(1);
   }
 
-  if (!feed || typeof feed !== 'object' || Array.isArray(feed)) continue; // bare array — no count field
-  if (!Array.isArray(feed.plots)) continue; // unrecognised shape — leave it alone
-  if (typeof feed.count !== 'number') continue; // count absent — assertFeedCount is a no-op too
+  if (!feed || typeof feed !== 'object' || Array.isArray(feed)) continue; // bare array
+  if (!Array.isArray(feed.plots)) continue; // unrecognised shape
 
-  const correct = feed.plots.length;
-  if (feed.count === correct) continue; // already correct
+  let current = raw;
+  const corrections = [];
 
-  // Rewrite only the count value, leaving everything else byte-identical.
-  const fixed = raw.replace(/("count"\s*:\s*)\d+/, `$1${correct}`);
-  writeFileSync(abs, fixed, 'utf8');
+  // count: must equal plots.length
+  if (typeof feed.count === 'number' && feed.count !== feed.plots.length) {
+    const correct = feed.plots.length;
+    current = current.replace(/("count"\s*:\s*)\d+/, `$1${correct}`);
+    corrections.push(`count ${feed.count} → ${correct}`);
+  }
+
+  // last_updated: set to today's date whenever the field is present
+  if (typeof feed.last_updated === 'string' && feed.last_updated !== today) {
+    current = current.replace(
+      /("last_updated"\s*:\s*)"[^"]*"/,
+      `$1"${today}"`,
+    );
+    corrections.push(`last_updated ${feed.last_updated} → ${today}`);
+  }
+
+  if (corrections.length === 0) continue;
+
+  writeFileSync(abs, current, 'utf8');
   execSync(`git add "${feedPath}"`, { cwd: root });
   process.stderr.write(
-    `[pre-commit] ${feedPath}: count auto-corrected ${feed.count} → ${correct} and re-staged\n`,
+    `[pre-commit] ${feedPath}: auto-corrected ${corrections.join(', ')} and re-staged\n`,
   );
-  anyFixed = true;
 }
 
 process.exit(0);
