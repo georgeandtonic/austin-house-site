@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-09",
+  "last_updated": "2026-09-10",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -38133,7 +38133,37 @@
       "lat": 30.957332611083984,
       "lng": -98.73410034179688,
       "firstSeen": "2026-09-09"
+    },
+    {
+      "id": "3300-fm-165-lot-23-dripping-springs",
+      "first_seen": "2026-09-10T07:00:00Z",
+      "address": "3300 FM 165 Lot 23, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 652500,
+      "acreage": 13.17,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/4829715/3300-fm-165-lot-23-dripping-springs-tx-78620/",
+      "notes": "13.17-acre lot in Hurlbut Ranch West (MLS #4829715), northwest of Dripping Springs, Hays County, DSISD. Native vegetation includes Madrones, Live Oaks, Spanish Oaks, Elms, and Mountain Laurels — strong Hill Country canopy for mid-century siting. At $652,500 this is Scenario B with ~$1.1M remaining for build. 13 acres provides ample flexibility for E-W long-axis siting, pool, and accessory structures.",
+      "risks": "Broker site blocked during scan — verify active status and full CC&R details with listing agent. Standard Dripping Springs flags: confirm Edwards Aquifer recharge-zone status (TCEQ) and plan for well + septic. Slope and buildable envelope not confirmed; schedule a site visit to assess tree preservation and build-pad options.",
+      "lat": null,
+      "lng": null,
+      "source": "Longhorn Realty (ACTRIS MLS #4829715)",
+      "status": "active"
+    },
+    {
+      "id": "lot-36-round-mountain-reserve-dr-round-mountain",
+      "first_seen": "2026-09-10T07:00:00Z",
+      "address": "Lot 36 Round Mountain Reserve Dr, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 610000,
+      "acreage": 6.65,
+      "listing_url": "https://www.atproperties.com/8655200/lot-36-665-acres-round-mountain-reserve-dr-round-mountain-texas-78663-unlockmls",
+      "notes": "6.65-acre lot in Round Mountain Reserve Phase 2, a gated Hill Country community spanning 2,000+ acres (MLS #8655200). Listed July 27, 2026. Ag-exempt, underground utilities, community propane, fiber internet, paved private roads, and panoramic Hill Country views. Blanco County. At $610,000 this is Scenario B with ~$1.1M remaining for build. Fiber and underground utilities significantly reduce infrastructure burden vs. raw land.",
+      "risks": "Gated community — confirm CC&R design standards and any ARB/architectural review process before offer (MCM dealbreaker if conservative restrictions prohibit flat roofs or large glazing). Ag exemption will lapse on residential build; factor in property tax step-up. Precise lot coordinates not confirmed from search snippets — use Blanco County Appraisal District records before site visit.",
+      "lat": null,
+      "lng": null,
+      "source": "@properties / Coldwell Banker Realty (ACTRIS MLS #8655200)",
+      "status": "active"
     }
   ],
-  "count": 3421
+  "count": 3423
 }
