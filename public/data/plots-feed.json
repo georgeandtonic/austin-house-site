@@ -38163,7 +38163,219 @@
       "lng": null,
       "source": "@properties / Coldwell Banker Realty (ACTRIS MLS #8655200)",
       "status": "active"
+    },
+    {
+      "url": "https://www.landwatch.com/travis-county-texas-undeveloped-land-for-sale/pid/428140722",
+      "source": "landwatch",
+      "address": "2907 Cameron Loop, Austin, TX, 78745",
+      "county": "travis",
+      "price": 900000,
+      "acres": 1.12,
+      "lat": 30.193537,
+      "lng": -97.829547,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/travis-county-texas-homes-for-sale/pid/428130651",
+      "source": "landwatch",
+      "address": "19112 Leisure Lane, Jonestown, TX, 78645",
+      "county": "travis",
+      "price": 800000,
+      "acres": 1.66,
+      "lat": 30.458467,
+      "lng": -97.960041,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/travis-county-texas-undeveloped-land-for-sale/pid/423807640",
+      "source": "landwatch",
+      "address": "2802 Marina Shores Dr, Spicewood, TX, 78669",
+      "county": "travis",
+      "price": 675000,
+      "acres": 1.53,
+      "lat": 30.46887712,
+      "lng": -98.0970126,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-undeveloped-land-for-sale/pid/426782552",
+      "source": "landwatch",
+      "address": "1215 Montell Rd lot: 187, Wimberley, TX, 78676",
+      "county": "hays",
+      "price": 549995,
+      "acres": 17.76,
+      "lat": 30.1198483,
+      "lng": -98.2454621,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/williamson-county-texas-undeveloped-land-for-sale/pid/427245135",
+      "source": "landwatch",
+      "address": "County Road 467, Elgin, TX, 78621",
+      "county": "williamson",
+      "price": 399999,
+      "acres": 25.01,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-farms-and-ranches-for-sale/pid/424998462",
+      "source": "landwatch",
+      "address": "Miller Creek Bluff lot: 9A-3, Briggs, TX, 78608",
+      "county": "burnet",
+      "price": 697250,
+      "acres": 27.89,
+      "lat": 30.9247,
+      "lng": -97.9403,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-farms-and-ranches-for-sale/pid/427754038",
+      "source": "landwatch",
+      "address": "104 County Road 323A, Liberty Hill, TX, 78642",
+      "county": "burnet",
+      "price": 630000,
+      "acres": 17,
+      "lat": 30.66834449,
+      "lng": -98.03972018,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-undeveloped-land-for-sale/pid/428003663",
+      "source": "landwatch",
+      "address": "1300 Avenida Serena, Marble Falls, TX, 78654",
+      "county": "burnet",
+      "price": 250000,
+      "acres": 2.93,
+      "lat": 30.536248,
+      "lng": -98.162854,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-recreational-property-for-sale/pid/428145297",
+      "source": "landwatch",
+      "address": "FM 32, Blanco, TX, 78070",
+      "county": "comal",
+      "price": 650000,
+      "acres": 12.55,
+      "lat": 29.99016571044922,
+      "lng": -98.31538391113281,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-lakefront-property-for-sale/pid/426305220",
+      "source": "landwatch",
+      "address": "707 Park Shores, Canyon Lake, TX, 78133",
+      "county": "comal",
+      "price": 724000,
+      "acres": 1.44,
+      "lat": 29.906113,
+      "lng": -98.283009,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-undeveloped-land-for-sale/pid/426240685",
+      "source": "landwatch",
+      "address": "1000 Earle Oak, Bulverde, TX, 78163",
+      "county": "comal",
+      "price": 350000,
+      "acres": 5.01,
+      "lat": 29.776661,
+      "lng": -98.487724,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-undeveloped-land-for-sale/pid/428032833",
+      "source": "landwatch",
+      "address": "S Shapen Springs, Kerrville, TX, 78028",
+      "county": "gillespie",
+      "price": 225000,
+      "acres": 4.16,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/kendall-county-texas-undeveloped-land-for-sale/pid/426825683",
+      "source": "landwatch",
+      "address": "228 Spring Rd lot: 32, Fredericksburg, TX, 78624",
+      "county": "kendall",
+      "price": 314000,
+      "acres": 12.56,
+      "lat": 30.110508,
+      "lng": -98.781927,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/kendall-county-texas-homes-for-sale/pid/421737594",
+      "source": "landwatch",
+      "address": "689 FM 289, Boerne, TX, 78006",
+      "county": "kendall",
+      "price": 860000,
+      "acres": 15.06,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-homes-for-sale/pid/427178068",
+      "source": "landwatch",
+      "address": "181 Dingley View, Kerrville, TX, 78028",
+      "county": "kerr",
+      "price": 479000,
+      "acres": 9.75,
+      "lat": 30.002269,
+      "lng": -99.252273,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-homes-for-sale/pid/427178818",
+      "source": "landwatch",
+      "address": "349 N Vine St, Kerrville, TX, 78028",
+      "county": "kerr",
+      "price": 499000,
+      "acres": 7.13,
+      "lat": 29.998989,
+      "lng": -99.1919912,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/bandera-county-texas-undeveloped-land-for-sale/pid/428140661",
+      "source": "landwatch",
+      "address": "LOT 11B Mountain Creek Road, Pipe Creek, TX, 78063",
+      "county": "bandera",
+      "price": 299999,
+      "acres": 5.28,
+      "lat": 29.683608,
+      "lng": -98.889367,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/bandera-county-texas-undeveloped-land-for-sale/pid/428144819",
+      "source": "landwatch",
+      "address": "Mountain Creek Rd lot: 11B, Pipe Creek, TX, 78063",
+      "county": "bandera",
+      "price": 299999,
+      "acres": 5.28,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/bandera-county-texas-undeveloped-land-for-sale/pid/428146208",
+      "source": "landwatch",
+      "address": "1085 White Bluff Rd, Medina, TX, 78055",
+      "county": "bandera",
+      "price": 330000,
+      "acres": 16.76,
+      "lat": 29.8795326,
+      "lng": -99.3415154,
+      "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/llano-county-texas-homes-for-sale/pid/428141444",
+      "source": "landwatch",
+      "address": "1248 Steen Road, Kingsland, TX, 78639",
+      "county": "llano",
+      "price": 225000,
+      "acres": 1,
+      "lat": 30.681042,
+      "lng": -98.470979,
+      "firstSeen": "2026-09-10"
     }
   ],
-  "count": 3423
+  "count": 3443
 }
