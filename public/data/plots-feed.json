@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-10",
+  "last_updated": "2026-09-11",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -21252,17 +21252,6 @@
       "firstSeen": "2026-08-24"
     },
     {
-      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/427001390",
-      "source": "landwatch",
-      "address": "191 River Valley Road South, Ingram, TX, 78025",
-      "county": "kerr",
-      "price": 375000,
-      "acres": 18,
-      "lat": 30.062192916870117,
-      "lng": -99.25946807861328,
-      "firstSeen": "2026-08-24"
-    },
-    {
       "url": "https://www.landwatch.com/kerr-county-texas-farms-and-ranches-for-sale/pid/424580760",
       "source": "landwatch",
       "address": "121 Paloma Rnch Rd NW, Mountain Home, TX, 78058",
@@ -38375,7 +38364,170 @@
       "lat": 30.681042,
       "lng": -98.470979,
       "firstSeen": "2026-09-10"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-undeveloped-land-for-sale/pid/428155506",
+      "source": "landwatch",
+      "address": "Gant Road, Dripping Springs, TX, 78620",
+      "county": "hays",
+      "price": 375000,
+      "acres": 5.01,
+      "lat": 30.250009536743164,
+      "lng": -98.20034790039062,
+      "firstSeen": "2026-09-11"
+    },
+    {
+      "url": "https://www.landwatch.com/blanco-county-texas-undeveloped-land-for-sale/pid/421908458",
+      "source": "landwatch",
+      "address": "129 & 130 Lynx Cove lot: Rmks, Blanco, TX, 78606",
+      "county": "blanco",
+      "price": 499000,
+      "acres": 21,
+      "lat": 30.15696789,
+      "lng": -98.39288647,
+      "firstSeen": "2026-09-11"
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-homes-for-sale/pid/425823958",
+      "source": "landwatch",
+      "address": "120 Zurita Trl, Marble Falls, TX, 78654",
+      "county": "burnet",
+      "price": 465000,
+      "acres": 2,
+      "lat": 30.644031,
+      "lng": -98.323583,
+      "firstSeen": "2026-09-11"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-undeveloped-land-for-sale/pid/427190718",
+      "source": "landwatch",
+      "address": "2405 Fm 484, Canyon Lake, TX, 78133",
+      "county": "comal",
+      "price": 300000,
+      "acres": 2.09,
+      "lat": 29.956032,
+      "lng": -98.261932,
+      "firstSeen": "2026-09-11"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427651091",
+      "source": "landwatch",
+      "address": "7944 JETHRO LN, San Antonio, TX, 78266",
+      "county": "comal",
+      "price": 499000,
+      "acres": 3,
+      "lat": 29.615225,
+      "lng": -98.333058,
+      "firstSeen": "2026-09-11"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-farms-and-ranches-for-sale/pid/425429687",
+      "source": "landwatch",
+      "address": "Zenner-Ahrens Rd, Kerrville, TX, 78028",
+      "county": "gillespie",
+      "price": 340000,
+      "acres": 18.35,
+      "lat": 30.1663904,
+      "lng": -99.1120289,
+      "firstSeen": "2026-09-11"
+    },
+    {
+      "url": "https://www.landwatch.com/kendall-county-texas-undeveloped-land-for-sale/pid/428154701",
+      "source": "landwatch",
+      "address": "26712 Rockwall Pt, Boerne, TX, 78006",
+      "county": "kendall",
+      "price": 495700,
+      "acres": 3.19,
+      "lat": 29.69191,
+      "lng": -98.72622,
+      "firstSeen": "2026-09-11"
+    },
+    {
+      "url": "https://www.landwatch.com/kendall-county-texas-homes-for-sale/pid/425441512",
+      "source": "landwatch",
+      "address": "123 Birch Rd, Fredericksburg, TX, 78624",
+      "county": "kendall",
+      "price": 420000,
+      "acres": 9.04,
+      "lat": 30.110127,
+      "lng": -98.81139942,
+      "firstSeen": "2026-09-11"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/427001390",
+      "source": "landwatch",
+      "address": "191 River Valley Road South, Ingram, TX, 78025",
+      "county": "kerr",
+      "price": 375000,
+      "acres": 18,
+      "lat": 30.062192916870117,
+      "lng": -99.25946807861328,
+      "firstSeen": "2026-08-24"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-homes-for-sale/pid/427133445",
+      "source": "landwatch",
+      "address": "1903 Junction Hwy, Kerrville, TX, 78028",
+      "county": "kerr",
+      "price": 899000,
+      "acres": 1.21,
+      "lat": 30.0695569,
+      "lng": -99.1871293,
+      "firstSeen": "2026-09-11"
+    },
+    {
+      "url": "https://www.landwatch.com/bandera-county-texas-undeveloped-land-for-sale/pid/428160753",
+      "source": "landwatch",
+      "address": "4370 Fm 2107, Medina, TX, 78055",
+      "county": "bandera",
+      "price": 399900,
+      "acres": 18.75,
+      "lat": 29.868114,
+      "lng": -99.339462,
+      "firstSeen": "2026-09-11"
+    },
+    {
+      "url": "https://www.landwatch.com/bandera-county-texas-homes-for-sale/pid/425215698",
+      "source": "landwatch",
+      "address": "21.4 +/- AC FM 1077, Bandera, TX, 78003",
+      "county": "bandera",
+      "price": 530000,
+      "acres": 21.44,
+      "firstSeen": "2026-09-11"
+    },
+    {
+      "url": "https://www.landwatch.com/mason-county-texas-undeveloped-land-for-sale/pid/428156790",
+      "source": "landwatch",
+      "address": "T-3 State Highway 29, Mason, TX, 76856",
+      "county": "mason",
+      "price": 313500,
+      "acres": 33,
+      "lat": 30.798535,
+      "lng": -99.330474,
+      "firstSeen": "2026-09-11"
+    },
+    {
+      "url": "https://www.landwatch.com/mason-county-texas-undeveloped-land-for-sale/pid/428156147",
+      "source": "landwatch",
+      "address": "T-1 State Highway 29, Mason, TX, 76856",
+      "county": "mason",
+      "price": 220500,
+      "acres": 21,
+      "lat": 30.795489,
+      "lng": -99.326625,
+      "firstSeen": "2026-09-11"
+    },
+    {
+      "url": "https://www.landwatch.com/mason-county-texas-undeveloped-land-for-sale/pid/428156793",
+      "source": "landwatch",
+      "address": "T-2 State Highway 29, Mason, TX, 76856",
+      "county": "mason",
+      "price": 220500,
+      "acres": 21,
+      "lat": 30.797329,
+      "lng": -99.328294,
+      "firstSeen": "2026-09-11"
     }
   ],
-  "count": 3443
+  "count": 3457
 }
