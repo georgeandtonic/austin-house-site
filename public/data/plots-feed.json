@@ -8754,7 +8754,7 @@
       "source": "landwatch",
       "address": "101 Landons Way, Georgetown, TX, 78633",
       "county": "williamson",
-      "price": null,
+      "price": 725000,
       "acres": 1.45,
       "lat": 30.708025,
       "lng": -97.787065,
