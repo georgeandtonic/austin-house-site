@@ -39011,7 +39011,18 @@
       "price": 420000,
       "acres": 1.23,
       "firstSeen": "2026-09-13"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Leander/11207-Mountain-Top-Cir-78645/home/181170577",
+      "source": "redfin",
+      "address": "11207 Mountain Top Cir, Leander, TX 78645",
+      "county": "travis",
+      "price": 499000,
+      "acres": 6.178282828282828,
+      "lat": 30.4996946,
+      "lng": -97.9276138,
+      "firstSeen": "2026-09-13"
     }
   ],
-  "count": 3501
+  "count": 3502
 }
