@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-13",
+  "last_updated": "2026-09-14",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -38456,17 +38456,6 @@
       "firstSeen": "2026-09-11"
     },
     {
-      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/427001390",
-      "source": "landwatch",
-      "address": "191 River Valley Road South, Ingram, TX, 78025",
-      "county": "kerr",
-      "price": 375000,
-      "acres": 18,
-      "lat": 30.062192916870117,
-      "lng": -99.25946807861328,
-      "firstSeen": "2026-08-24"
-    },
-    {
       "url": "https://www.landwatch.com/kerr-county-texas-homes-for-sale/pid/427133445",
       "source": "landwatch",
       "address": "1903 Junction Hwy, Kerrville, TX, 78028",
@@ -39022,7 +39011,51 @@
       "lat": 30.4996946,
       "lng": -97.9276138,
       "firstSeen": "2026-09-13"
+    },
+    {
+      "url": "https://www.landwatch.com/travis-county-texas-undeveloped-land-for-sale/pid/424028423",
+      "source": "landwatch",
+      "address": "Pedernales Point lot: 17 & 18, Spicewood, TX, 78669",
+      "county": "travis",
+      "price": 550000,
+      "acres": 2.99,
+      "lat": 30.43675697,
+      "lng": -98.08753906,
+      "firstSeen": "2026-09-14"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/428197942",
+      "source": "landwatch",
+      "address": "227 PARADISE HLS, New Braunfels, TX, 78132",
+      "county": "comal",
+      "price": 825000,
+      "acres": 1.08,
+      "lat": 29.835112,
+      "lng": -98.094655,
+      "firstSeen": "2026-09-14"
+    },
+    {
+      "url": "https://www.landwatch.com/kendall-county-texas-undeveloped-land-for-sale/pid/428195678",
+      "source": "landwatch",
+      "address": "104 OAK ACRES LN, Boerne, TX, 78006",
+      "county": "kendall",
+      "price": 349900,
+      "acres": 1.23,
+      "lat": 29.8165223,
+      "lng": -98.7576131,
+      "firstSeen": "2026-09-14"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/427001390",
+      "source": "landwatch",
+      "address": "191 River Valley Road South, Ingram, TX, 78025",
+      "county": "kerr",
+      "price": 375000,
+      "acres": 18,
+      "lat": 30.062192916870117,
+      "lng": -99.25946807861328,
+      "firstSeen": "2026-08-24"
     }
   ],
-  "count": 3502
+  "count": 3505
 }
