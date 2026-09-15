@@ -39246,7 +39246,142 @@
       "lat": 30.762508392333984,
       "lng": -98.69801330566406,
       "firstSeen": "2026-09-15"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-10-tuscany-dr-driftwood-tx-78619-us/16683552",
+      "source": "har",
+      "address": "LOT 10 Tuscany Dr, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 690000,
+      "acres": 2.69,
+      "firstSeen": "2026-09-15"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-11-tuscany-dr-driftwood-tx-78619-us/17663362",
+      "source": "har",
+      "address": "LOT 11 Tuscany Dr, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 675000,
+      "acres": 2.13,
+      "firstSeen": "2026-09-15"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-15-tuscany-dr-driftwood-tx-78619-us/17663365",
+      "source": "har",
+      "address": "LOT 15 Tuscany Dr, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 600000,
+      "acres": 2.82,
+      "firstSeen": "2026-09-15"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-8-tuscany-dr-driftwood-tx-78619-us/17530015",
+      "source": "har",
+      "address": "LOT 8 Tuscany Dr, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 775000,
+      "acres": 3.67,
+      "firstSeen": "2026-09-15"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-14-tuscany-dr-driftwood-tx-78619-us/17663364",
+      "source": "har",
+      "address": "LOT 14 Tuscany Dr, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 625000,
+      "acres": 2.46,
+      "firstSeen": "2026-09-15"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-16-tuscany-dr-driftwood-tx-78619-us/17663366",
+      "source": "har",
+      "address": "LOT 16 Tuscany Dr, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 550000,
+      "acres": 3.06,
+      "firstSeen": "2026-09-15"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-101-tuscany-dr-driftwood-tx-78619-us/17530013",
+      "source": "har",
+      "address": "LOT 101 Tuscany Dr, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 475000,
+      "acres": 1.78,
+      "firstSeen": "2026-09-15"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-105-tuscany-dr-driftwood-tx-78619-us/17663356",
+      "source": "har",
+      "address": "LOT 105 Tuscany Dr, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 575000,
+      "acres": 2.31,
+      "firstSeen": "2026-09-15"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-106-tuscany-dr-driftwood-tx-78619-us/17663357",
+      "source": "har",
+      "address": "LOT 106 Tuscany Dr, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 575000,
+      "acres": 2.3,
+      "firstSeen": "2026-09-15"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-9-tuscany-dr-driftwood-tx-78619-us/17663367",
+      "source": "har",
+      "address": "LOT 9 Tuscany Dr, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 750000,
+      "acres": 3.49,
+      "firstSeen": "2026-09-15"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-12-tuscany-dr-driftwood-tx-78619-us/16683555",
+      "source": "har",
+      "address": "LOT 12 Tuscany Dr, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 625000,
+      "acres": 1.99,
+      "firstSeen": "2026-09-15"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-13-tuscany-dr-driftwood-tx-78619-us/17663363",
+      "source": "har",
+      "address": "LOT 13 Tuscany Dr, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 625000,
+      "acres": 2.17,
+      "firstSeen": "2026-09-15"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-100-tuscany-dr-driftwood-tx-78619-us/16683553",
+      "source": "har",
+      "address": "LOT 100 Tuscany Dr, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 525000,
+      "acres": 2.36,
+      "firstSeen": "2026-09-15"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-103-tuscany-dr-driftwood-tx-78619-us/17530014",
+      "source": "har",
+      "address": "LOT 103 Tuscany Dr, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 525000,
+      "acres": 2.26,
+      "firstSeen": "2026-09-15"
+    },
+    {
+      "url": "https://www.har.com/homedetail/270-gant-rd-dripping-springs-tx-78620-us/17663113",
+      "source": "har",
+      "address": "270 Gant Rd, Dripping Springs, TX 78620",
+      "county": "hays",
+      "price": 375000,
+      "acres": 5.004,
+      "firstSeen": "2026-09-15"
     }
   ],
-  "count": 3522
+  "count": 3537
 }
