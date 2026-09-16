@@ -28227,7 +28227,9 @@
       "county": "travis",
       "price": 299000,
       "acres": 1.56,
-      "firstSeen": "2026-08-24"
+      "firstSeen": "2026-08-24",
+      "lat": 30.494236,
+      "lng": -97.9144382
     },
     {
       "url": "https://www.compass.com/homedetails/17609-Regatta-View-Dr-Jonestown-TX-78645/1F2ZBI_pid/",
