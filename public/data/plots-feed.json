@@ -39652,7 +39652,18 @@
       "price": 225000,
       "acres": 5,
       "firstSeen": "2026-09-17"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Marble-Falls/6709-Singleton-Bend-Rd-78654/home/187469602",
+      "source": "redfin",
+      "address": "6709 Singleton Bend Rd, Marble Falls, TX 78654",
+      "county": "travis",
+      "price": 369000,
+      "acres": 5.9899908172635445,
+      "lat": 30.498556,
+      "lng": -98.052503,
+      "firstSeen": "2026-09-17"
     }
   ],
-  "count": 3562
+  "count": 3563
 }
