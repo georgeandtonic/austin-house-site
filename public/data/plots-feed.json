@@ -39571,7 +39571,88 @@
       "lat": 29.872733,
       "lng": -98.555146,
       "firstSeen": "2026-09-17"
+    },
+    {
+      "url": "https://www.har.com/homedetail/233-rust-ranch-rd-blanco-tx-78606/702658",
+      "source": "har",
+      "address": "233 Rust Ranch Rd., Blanco, TX 78606",
+      "county": "blanco",
+      "price": 235000,
+      "acres": 2.055,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "url": "https://www.har.com/homedetail/1051-lipan-apache-run-blanco-tx-78606/14425037",
+      "source": "har",
+      "address": "1051 Lipan Apache Run, Blanco, TX 78606",
+      "county": "blanco",
+      "price": 249000,
+      "acres": 5.222,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "url": "https://www.har.com/homedetail/119-riley-wood-blanco-tx-78606/706447",
+      "source": "har",
+      "address": "119 Riley Wood St, Blanco, TX 78606",
+      "county": "blanco",
+      "price": 215000,
+      "acres": 3.53,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-8-majestic-crk-blanco-tx-78606/17663546?lid=11253368",
+      "source": "har",
+      "address": "Lot 8 Majestic Crk, Blanco, TX 78606",
+      "county": "blanco",
+      "price": 220000,
+      "acres": 6.05,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "url": "https://www.har.com/homedetail/243-rust-ranch-rust-ranch-rd-lot:-20-blanco-tx-78606/17662780",
+      "source": "har",
+      "address": "233 Rust Ranch Rust Ranch Rd. lot: 20, Blanco, TX 78606",
+      "county": "blanco",
+      "price": 235000,
+      "acres": 2.0155,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "url": "https://www.har.com/homedetail/1440-stone-ridge-mountain-dr-round-mountain-tx-78663/707412",
+      "source": "har",
+      "address": "1440 Stone Ridge Mountain Dr, Round Mountain, TX 78663",
+      "county": "blanco",
+      "price": 299000,
+      "acres": 7.66,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-32-prancing-deer-ln-johnson-city-tx-78636-us/17256488",
+      "source": "har",
+      "address": "LOT 32 Prancing Deer Ln, Johnson City, TX 78636",
+      "county": "blanco",
+      "price": 318000,
+      "acres": 6,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "url": "https://www.har.com/homedetail/0-majestic-hills-blanco-tx-78606/17659368",
+      "source": "har",
+      "address": "0 Majestic Hills, Blanco, TX 78606",
+      "county": "blanco",
+      "price": 209999,
+      "acres": 5,
+      "firstSeen": "2026-09-17"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-16-n-scenic-hills-ct-blanco-tx-78606/17657060",
+      "source": "har",
+      "address": "LOT 16 N Scenic Hills Ct, Blanco, TX 78606",
+      "county": "blanco",
+      "price": 225000,
+      "acres": 5,
+      "firstSeen": "2026-09-17"
     }
   ],
-  "count": 3553
+  "count": 3562
 }
