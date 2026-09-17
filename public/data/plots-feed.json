@@ -22133,7 +22133,7 @@
       "source": "landwatch",
       "address": "N Coronado Dr, Kerrville, TX, 78028",
       "county": "kerr",
-      "price": null,
+      "price": 800000,
       "acres": 20.5,
       "lat": 30.0664958,
       "lng": -99.1795281,
