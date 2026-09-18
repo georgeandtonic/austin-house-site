@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-17",
+  "last_updated": "2026-09-18T12:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -39663,7 +39663,22 @@
       "lat": 30.498556,
       "lng": -98.052503,
       "firstSeen": "2026-09-17"
+    },
+    {
+      "id": "lot-91-barton-creek-dr-dripping-springs",
+      "first_seen": "2026-09-18T12:00:00Z",
+      "address": "Lot 91 Barton Creek Dr, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 375000,
+      "acreage": 2.48,
+      "listing_url": "https://www.har.com/homedetail/lot-91-barton-creek-dr-dripping-springs-tx-78620-us/16860086",
+      "notes": "2.48-acre blank-slate lot in Barton Creek Ranch subdivision on the north side of Dripping Springs near the Lakeway/Bee Cave corridor. Rolling terrain suits an MCM siting; located within DSISD (~35-40 min downtown). At $375k (~$151k/ac) this is competitive for a Dripping Springs lot with paved road access. Active listing, MLS #6064715, confirmed across 7+ independent IDX sources (HAR.com, RocketHomes, Worth Clark Realty, austinrealestate365.com, johnpohly.com, gtxhomes.com, austinhomes.net).",
+      "risks": "Standard Dripping Springs flag: confirm Edwards Aquifer recharge-zone status (TCEQ) — impervious-cover limits apply in recharge zones. Barton Creek Ranch has deed restrictions; obtain full CC&Rs and confirm no MCM-hostile design requirements before advancing. At 2.48 ac, below DS-area ideal (5–15 ac) — confirm E-W MCM long-axis siting achievable within lot setbacks on the plat. Well + septic required.",
+      "lat": null,
+      "lng": null,
+      "source": "HAR.com / MLS #6064715 (7+ IDX sources)",
+      "status": "active"
     }
   ],
-  "count": 3563
+  "count": 3564
 }
