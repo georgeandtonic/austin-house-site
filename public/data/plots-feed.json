@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18T12:00:00Z",
+  "last_updated": "2026-09-18",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -39678,7 +39678,159 @@
       "lng": null,
       "source": "HAR.com / MLS #6064715 (7+ IDX sources)",
       "status": "active"
+    },
+    {
+      "url": "https://www.landwatch.com/williamson-county-texas-homes-for-sale/pid/426687131",
+      "source": "landwatch",
+      "address": "408 Horseshoe Dr, Leander, TX, 78641",
+      "county": "williamson",
+      "price": 600000,
+      "acres": 1.81,
+      "lat": 30.56898622,
+      "lng": -97.85448692,
+      "firstSeen": "2026-09-18"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-undeveloped-land-for-sale/pid/428116631",
+      "source": "landwatch",
+      "address": "1951 Camino Alto, San Marcos, TX, 78666",
+      "county": "comal",
+      "price": 725000,
+      "acres": 16.81,
+      "lat": 29.918254,
+      "lng": -98.146834,
+      "firstSeen": "2026-09-18"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/428228073",
+      "source": "landwatch",
+      "address": "2 Trophy Lane, New Braunfels, TX, 78132",
+      "county": "comal",
+      "price": 825000,
+      "acres": 1.06,
+      "lat": 29.72103,
+      "lng": -98.187715,
+      "firstSeen": "2026-09-18"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/426782528",
+      "source": "landwatch",
+      "address": "1154 Spitz Kegel View Dr, Canyon Lake, TX, 78133",
+      "county": "comal",
+      "price": 399000,
+      "acres": 1.36,
+      "lat": 29.8842675,
+      "lng": -98.207932,
+      "firstSeen": "2026-09-18"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-undeveloped-land-for-sale/pid/426782285",
+      "source": "landwatch",
+      "address": "Tract 4 Southview Ridge Ln lot: 4, Fredericksburg, TX, 78624",
+      "county": "gillespie",
+      "price": 324900,
+      "acres": 10.14,
+      "lat": 30.17022615,
+      "lng": -98.88222603,
+      "firstSeen": "2026-09-18"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-undeveloped-land-for-sale/pid/426782252",
+      "source": "landwatch",
+      "address": "Tract 4 Rare Eagle Dr lot: 4, Fredericksburg, TX, 78624",
+      "county": "gillespie",
+      "price": 348000,
+      "acres": 10.02,
+      "lat": 30.28119307,
+      "lng": -98.97074054,
+      "firstSeen": "2026-09-18"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-farms-and-ranches-for-sale/pid/428239621",
+      "source": "landwatch",
+      "address": "000 South Ranch Road 783, Kerrville, TX, 78028",
+      "county": "gillespie",
+      "price": 220000,
+      "acres": 10,
+      "lat": 30.187419891357422,
+      "lng": -99.2083511352539,
+      "firstSeen": "2026-09-18"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-lakefront-property-for-sale/pid/427569127",
+      "source": "landwatch",
+      "address": "76 Indian Springs, Kerrville, TX, 78028",
+      "county": "gillespie",
+      "price": 785000,
+      "acres": 6.08,
+      "lat": 30.1639876,
+      "lng": -99.1480858,
+      "firstSeen": "2026-09-18"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-homes-for-sale/pid/426649600",
+      "source": "landwatch",
+      "address": "222 Dallas Josie Rd, Harper, TX, 78631",
+      "county": "gillespie",
+      "price": 685000,
+      "acres": 9.31,
+      "lat": 30.3692358,
+      "lng": -99.2575598,
+      "firstSeen": "2026-09-18"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-farms-and-ranches-for-sale/pid/428237041",
+      "source": "landwatch",
+      "address": "Ranch Rd 1623, Stonewall, TX, 78671",
+      "county": "gillespie",
+      "price": 650000,
+      "acres": 28,
+      "lat": 30.1790076,
+      "lng": -98.5855954,
+      "firstSeen": "2026-09-18"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-farms-and-ranches-for-sale/pid/426782954",
+      "source": "landwatch",
+      "address": "24622 W US Hwy 290, Harper, TX, 78631",
+      "county": "gillespie",
+      "price": 739000,
+      "acres": 10,
+      "lat": 30.3007445,
+      "lng": -99.2680815,
+      "firstSeen": "2026-09-18"
+    },
+    {
+      "url": "https://www.landwatch.com/bandera-county-texas-farms-and-ranches-for-sale/pid/428238787",
+      "source": "landwatch",
+      "address": "33 ac Cross Gate Ranch, Bandera, TX, 78003",
+      "county": "bandera",
+      "price": null,
+      "acres": 33,
+      "lat": 29.756731033325195,
+      "lng": -99.1762466430664,
+      "firstSeen": "2026-09-18"
+    },
+    {
+      "url": "https://www.landwatch.com/bandera-county-texas-homes-for-sale/pid/427535733",
+      "source": "landwatch",
+      "address": "1355 BROAD OAK DR, Bandera, TX, 78003",
+      "county": "bandera",
+      "price": 679000,
+      "acres": 5.96,
+      "lat": 29.757906,
+      "lng": -99.030746,
+      "firstSeen": "2026-09-18"
+    },
+    {
+      "url": "https://www.landwatch.com/bandera-county-texas-undeveloped-land-for-sale/pid/427868319",
+      "source": "landwatch",
+      "address": "TBD-LOT 42 Blackbuck, Pipe Creek, TX, 78063",
+      "county": "bandera",
+      "price": 279000,
+      "acres": 6.77,
+      "firstSeen": "2026-09-18"
     }
   ],
-  "count": 3564
+  "count": 3578
 }
