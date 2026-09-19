@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-18",
+  "last_updated": "2026-09-19",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -39830,7 +39830,52 @@
       "price": 279000,
       "acres": 6.77,
       "firstSeen": "2026-09-18"
+    },
+    {
+      "url": "https://www.har.com/homedetail/0-hugo-rd-san-marcos-tx-78666/1215682",
+      "source": "har",
+      "address": "TBD Hugo Rd, San Marcos, TX 78666",
+      "county": "hays",
+      "price": 300000,
+      "acres": 4.89,
+      "firstSeen": "2026-09-19"
+    },
+    {
+      "url": "https://www.har.com/homedetail/0-hugo-rd-san-marcos-tx-78666/12193667",
+      "source": "har",
+      "address": "Hugo Road, San Marcos, TX 78666",
+      "county": "hays",
+      "price": 300000,
+      "acres": 4.89,
+      "firstSeen": "2026-09-19"
+    },
+    {
+      "url": "https://www.har.com/homedetail/0-sundance-ridge-rd-dripping-springs-tx-78620/7886877",
+      "source": "har",
+      "address": "0 Sundance Ridge Dr, Dripping Springs, TX 78620",
+      "county": "hays",
+      "price": 339900,
+      "acres": 1.45,
+      "firstSeen": "2026-09-19"
+    },
+    {
+      "url": "https://www.har.com/homedetail/0-billie-brooks-ln-driftwood-tx-78619/16758136",
+      "source": "har",
+      "address": "260 Billie Brooks Ln, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 298900,
+      "acres": 2.59,
+      "firstSeen": "2026-09-19"
+    },
+    {
+      "url": "https://www.har.com/homedetail/312-summit-ledge-dr-johnson-city-tx-78636/13906875",
+      "source": "har",
+      "address": "312 Summit Ledge DR, Johnson City, TX 78636",
+      "county": "blanco",
+      "price": 250000,
+      "acres": 5.04,
+      "firstSeen": "2026-09-19"
     }
   ],
-  "count": 3578
+  "count": 3583
 }
