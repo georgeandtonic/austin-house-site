@@ -39875,7 +39875,40 @@
       "price": 250000,
       "acres": 5.04,
       "firstSeen": "2026-09-19"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Jonestown/17705-Maritime-Point-Dr-78645/home/31047953",
+      "source": "redfin",
+      "address": "17705 Maritime Point Dr, Jonestown, TX 78645",
+      "county": "travis",
+      "price": 248000,
+      "acres": 1.1099862258953168,
+      "lat": 30.452491,
+      "lng": -97.934509,
+      "firstSeen": "2026-09-19"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Spicewood/22717-Rainbow-Connection-Skwy-78669/home/34251458",
+      "source": "redfin",
+      "address": "22717 Rainbow Connection Skwy, Spicewood, TX 78669",
+      "county": "travis",
+      "price": 399999,
+      "acres": 1.0109963269054179,
+      "lat": 30.3958106,
+      "lng": -98.0650843,
+      "firstSeen": "2026-09-19"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Spicewood/2908-Marina-Shores-Dr-78669/home/171951792",
+      "source": "redfin",
+      "address": "2908 Marina Shores Dr, Spicewood, TX 78669",
+      "county": "travis",
+      "price": 449000,
+      "acres": 1.209986225895317,
+      "lat": 30.470752,
+      "lng": -98.096256,
+      "firstSeen": "2026-09-19"
     }
   ],
-  "count": 3583
+  "count": 3586
 }
