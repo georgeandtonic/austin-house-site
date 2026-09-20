@@ -39696,6 +39696,21 @@
       "status": "active"
     },
     {
+      "id": "tbd-lot-1-pump-station-rd-wimberley",
+      "first_seen": "2026-09-20T07:00:00Z",
+      "address": "TBD Lot 1 Pump Station Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 279000,
+      "acreage": 4.09,
+      "listing_url": "https://www.coldwellbanker.com/tx/wimberley/lot-1-pump-station-road/lid-P00800000HA9nSzQ3HEZneZ35aPxgJV3ghVtgbor",
+      "notes": "4.09-ac unrestricted lot in Wimberley (Hays County) at intersection of Pump Station Rd and Longhorn Trl. Paved road frontage on two sides. Homesite cleared and private with mature tree cover. Close to Wimberley and Dripping Springs downtowns. Listed ~April 2026; $279k (~$68k/ac). Wimberley ISD. ACTRIS MLS #8714797. No HOA, no deed restrictions — MCM-friendly. Well/septic likely required (rural Wimberley area). Confirm flood zone, soil type, and utility availability before offer.",
+      "risks": "No utilities confirmed on-site — well and septic almost certainly required; verify water well feasibility and electricity proximity. Floodplain status unknown — verify via FEMA NFHL (Hays County) before advancing. Soil type not confirmed — rule out blackland clay (hard filter). At ~5 months DOM (April → September), ask seller why it hasn't moved. Check for any access easements or utility line easements on paved road frontage.",
+      "lat": null,
+      "lng": null,
+      "source": "Coldwell Banker (ACTRIS MLS #8714797); confirmed via Homecity, RealEstateInAustin, Phyllis Browning, Hoyden Homes",
+      "status": "active"
+    },
+    {
       "url": "https://www.landwatch.com/williamson-county-texas-homes-for-sale/pid/426687131",
       "source": "landwatch",
       "address": "408 Horseshoe Dr, Leander, TX, 78641",
