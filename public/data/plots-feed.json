@@ -40786,7 +40786,95 @@
       "lat": 30.07839456,
       "lng": -97.68477194,
       "firstSeen": "2026-09-20"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/513-Nomad-Dr-Spicewood-TX-78669/111971742_zpid/",
+      "source": "zillow",
+      "address": "513 Nomad Dr, Spicewood, TX 78669",
+      "county": "travis",
+      "price": 325000,
+      "acres": 1.16,
+      "lat": 30.429262,
+      "lng": -98.09329,
+      "firstSeen": "2026-09-20"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/24369-Round-Mountain-Rd-6-Leander-TX-78641/64603803_zpid/",
+      "source": "zillow",
+      "address": "24369 Round Mountain Rd #6, Leander, TX 78641",
+      "county": "travis",
+      "price": 549900,
+      "acres": 12.5,
+      "lat": 30.611423,
+      "lng": -97.9466,
+      "firstSeen": "2026-09-20"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/2700-Cornell-Cv-Leander-TX-78645/144205535_zpid/",
+      "source": "zillow",
+      "address": "2700 Cornell Cv, Leander, TX 78645",
+      "county": "travis",
+      "price": 240001,
+      "acres": 1.03,
+      "lat": 30.418053,
+      "lng": -97.998474,
+      "firstSeen": "2026-09-20"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/Hibbs-Ln-Manor-TX-78653/449618835_zpid/",
+      "source": "zillow",
+      "address": "Hibbs Ln, Manor, TX 78653",
+      "county": "travis",
+      "price": 225000,
+      "acres": 2.62,
+      "lat": 30.30368,
+      "lng": -97.47514,
+      "firstSeen": "2026-09-20"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/5000-S-1st-St-Austin-TX-78745/125917789_zpid/",
+      "source": "zillow",
+      "address": "5000 S 1st St, Austin, TX 78745",
+      "county": "travis",
+      "price": 233888,
+      "acres": 2.81,
+      "lat": 30.214756,
+      "lng": -97.77906,
+      "firstSeen": "2026-09-20"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/6512-Caudill-Ln-Austin-TX-78738/439872538_zpid/",
+      "source": "zillow",
+      "address": "6512 Caudill Ln, Austin, TX 78738",
+      "county": "travis",
+      "price": 575000,
+      "acres": 1.1,
+      "lat": 30.30377,
+      "lng": -98.00392,
+      "firstSeen": "2026-09-20"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/8818-Elroy-Rd-Del-Valle-TX-78617/461614534_zpid/",
+      "source": "zillow",
+      "address": "8818 Elroy Rd, Del Valle, TX 78617",
+      "county": "travis",
+      "price": 274500,
+      "acres": 10.08,
+      "lat": 30.125198,
+      "lng": -97.62693,
+      "firstSeen": "2026-09-20"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/25113-Lake-View-Dr-Spicewood-TX-78669/125904275_zpid/",
+      "source": "zillow",
+      "address": "25113 Lake View Dr, Spicewood, TX 78669",
+      "county": "travis",
+      "price": 260000,
+      "acres": 1,
+      "lat": 30.42835,
+      "lng": -98.08849,
+      "firstSeen": "2026-09-20"
     }
   ],
-  "count": 3665
+  "count": 3673
 }
