@@ -40775,7 +40775,18 @@
       "lat": 31.271602630615234,
       "lng": -98.94378662109375,
       "firstSeen": "2026-08-24"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Buda/DR-78610/home/205611320",
+      "source": "redfin",
+      "address": "- - Dr, Buda, TX 78610",
+      "county": "travis",
+      "price": 375000,
+      "acres": 10,
+      "lat": 30.07839456,
+      "lng": -97.68477194,
+      "firstSeen": "2026-09-20"
     }
   ],
-  "count": 3664
+  "count": 3665
 }
