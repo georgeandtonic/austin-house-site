@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-20",
+  "last_updated": "2026-09-21",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -39694,6 +39694,21 @@
       "lat": null,
       "lng": null,
       "source": "Coldwell Banker (ACTRIS MLS #8714797); confirmed via Homecity, RealEstateInAustin, Phyllis Browning, Hoyden Homes",
+      "status": "active"
+    },
+    {
+      "id": "170-brownson-ln-driftwood",
+      "first_seen": "2026-09-21T12:00:00Z",
+      "address": "170 Brownson Ln, Driftwood, TX 78619",
+      "submarket": "Driftwood",
+      "price_usd": 550000,
+      "acreage": 2.0,
+      "listing_url": "https://www.redfin.com/TX/Driftwood/170-Brownson-Ln-78619/home/65967232",
+      "notes": "Rare 2-acre unrestricted opportunity between Driftwood and Dripping Springs — UNRESTRICTED unincorporated Hays County (no ETJ). Walking distance to Mercer Dancehall and Ghost Note Brewing. Dead-end lane setting surrounded by established homes. Adjacent ~7.57-acre parcel also available (could combine to 10+ acres unrestricted if assembled). At $550k (~$275k/ac), Scenario B with ~$1.45M build budget remaining. Confirmed via Redfin (ACTRIS MLS), LandWatch, and multiple IDX sources. 2 acres gives adequate room for E-W MCM siting if setbacks allow.",
+      "risks": "At 2 acres, confirm E-W MCM long-axis siting achievable within setbacks on plat survey. Well + septic required (rural unincorporated Hays County; electricity proximity unconfirmed). Floodplain status not confirmed — verify via FEMA NFHL before advancing. Soil type not confirmed — rule out blackland clay (hard filter). Prior sale $59.8k (2012) — large appreciation from basis; verify listing is genuine and priced accurately. Confirm paved or all-weather access on Brownson Ln.",
+      "lat": null,
+      "lng": null,
+      "source": "Redfin (ACTRIS MLS); confirmed via LandWatch, Ownerly, multiple IDX sources",
       "status": "active"
     },
     {
