@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-21",
+  "last_updated": "2026-09-22",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -39712,6 +39712,21 @@
       "status": "active"
     },
     {
+      "id": "600-n-angel-light-dr-spicewood",
+      "first_seen": "2026-09-22T07:00:00Z",
+      "address": "600 N Angel Light Dr, Spicewood, TX 78669",
+      "submarket": "Spicewood",
+      "price_usd": 655000,
+      "acreage": 5.048,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/7888426/600-n-angel-light-dr-spicewood-tx-78669/",
+      "notes": "5-acre lot in Angel Bay, exclusive gated waterfront community on Lake Travis. Heavily wooded with large oaks, wet weather creek and waterfalls — textbook passive-cooling MCM site profile. Lake Travis views, community boat ramp/marina access. Keller Williams Lake Travis listing (MLS #7888426). Scenario A/B at $655k (~$1.35M build budget remaining). Confirmed active via Zillow, LandSearch (updated Aug 25, 2026), and Longhorn Realty IDX.",
+      "risks": "Angel Bay HOA is $1,350 semi-annually ($2,700/yr) — obtain CC&Rs before offer and verify no ARB clause restricting MCM/flat-roof/large-glazing design. Well + septic + propane needed (no public utilities). Spicewood WUI exposure — verify wildfire rating before advancing. Floodplain not confirmed — verify build-pad elevation vs. Lake Travis flood pool. At ~$130k/ac, higher $/acre than open Hill Country options.",
+      "lat": null,
+      "lng": null,
+      "source": "Longhorn Realty (MLS #7888426); confirmed via Zillow, LandSearch",
+      "status": "active"
+    },
+    {
       "url": "https://www.landwatch.com/williamson-county-texas-homes-for-sale/pid/426687131",
       "source": "landwatch",
       "address": "408 Horseshoe Dr, Leander, TX, 78641",
@@ -40891,5 +40906,5 @@
       "firstSeen": "2026-09-20"
     }
   ],
-  "count": 3673
+  "count": 3674
 }
