@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-22",
+  "last_updated": "2026-09-23",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -39724,6 +39724,21 @@
       "lat": null,
       "lng": null,
       "source": "Longhorn Realty (MLS #7888426); confirmed via Zillow, LandSearch",
+      "status": "active"
+    },
+    {
+      "id": "1400-valley-view-rd-wimberley",
+      "first_seen": "2026-09-23T07:00:00Z",
+      "address": "1400 Valley View Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 375000,
+      "acreage": 5.0,
+      "listing_url": "https://www.gregspearsrealty.com/property-search/detail/156/615748/1400-valley-view-rd-wimberley-tx-78676/",
+      "notes": "5-acre lot in Burnett Ranch Sec 3, Wimberley, TX 78676. Listed ~August 14, 2026 (~40 DOM as of 2026-09-23). MLS #615748 (Greg Spears Realty). Same subdivision as feed entry 1401 Valley View Rd ($350k/5.02 ac, power+well+septic in) and 850 Days End Rd. Community amenity: Blanco River swimming hole access. At $375k for 5 acres ($75k/ac), priced slightly above adjacent 1401 Valley View — utilities likely not yet installed at this parcel. Wimberley ISD. Confirmed active via Greg Spears Realty and Trulia.",
+      "risks": "Verify utilities status — at $375k vs $350k for nearby 1401 with utilities in, this lot likely lacks well/septic/power (confirm before advancing). Standard Wimberley due diligence: FEMA floodplain check (Blanco River basin), soil type (confirm not blackland clay), HOA/deed restrictions for Burnett Ranch (verify no ARB clause blocking MCM design). Secondary note: 1401 Valley View Rd ($350k, utilities in) is already in feed and may be the stronger lot if both remain available.",
+      "lat": null,
+      "lng": null,
+      "source": "Greg Spears Realty (MLS #615748); confirmed via Trulia",
       "status": "active"
     },
     {
