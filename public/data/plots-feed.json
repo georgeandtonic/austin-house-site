@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-23",
+  "last_updated": "2026-09-24T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -29845,10 +29845,10 @@
       "first_seen": "2026-06-11T07:00:00Z",
       "address": "275 Deer Run, Wimberley, TX 78676",
       "submarket": "Wimberley",
-      "price_usd": 449000,
+      "price_usd": 399000,
       "acreage": 5,
       "listing_url": "https://www.redfin.com/TX/Wimberley/275-Deer-Run-78676/home/180371608",
-      "notes": "5-acre Deer Run Estates lot in Wimberley, heavily wooded with selective clearing for a private homesite; county-maintained road; community Blanco River deep-water park 2 min away; 10 min to Wimberley Square. Price cut from $499k. Listing by Compass RE Texas (Unlock MLS #7229607). Scenario A (~$1.55M build budget at $449k land). [Price updated 2026-06-18: was $449,000, now $399,000 (−11.1%); confirmed via multiple IDX sources. Build budget improves to ~$1.60M.] [2026-07-05 price update: confirmed at $299,000 via new active listing MLS #8330749 (Central Metro Realty, listing agent Mario Barrett) — down from feed price of $399,000 (−25%). Old listing MLS #7229607 (Compass RE Texas, Unlock MLS) appears to have been relisted under new broker. Verify current terms directly with Central Metro Realty before engaging.] [2026-08-12 price update: multiple IDX sources now show $449,000 (MLS #7229607, Compass RE Texas); MLS #8330749 (Central Metro Realty at $299k) no longer appearing in search results — may have expired or been withdrawn. Price updated to $449k (+50% from prior feed value of $299k).]",
+      "notes": "5-acre Deer Run Estates lot in Wimberley, heavily wooded with selective clearing for a private homesite; county-maintained road; community Blanco River deep-water park 2 min away; 10 min to Wimberley Square. Price cut from $499k. Listing by Compass RE Texas (Unlock MLS #7229607). Scenario A (~$1.55M build budget at $449k land). [Price updated 2026-06-18: was $449,000, now $399,000 (−11.1%); confirmed via multiple IDX sources. Build budget improves to ~$1.60M.] [2026-07-05 price update: confirmed at $299,000 via new active listing MLS #8330749 (Central Metro Realty, listing agent Mario Barrett) — down from feed price of $399,000 (−25%). Old listing MLS #7229607 (Compass RE Texas, Unlock MLS) appears to have been relisted under new broker. Verify current terms directly with Central Metro Realty before engaging.] [2026-08-12 price update: multiple IDX sources now show $449,000 (MLS #7229607, Compass RE Texas); MLS #8330749 (Central Metro Realty at $299k) no longer appearing in search results — may have expired or been withdrawn. Price updated to $449k (+50% from prior feed value of $299k).] [2026-09-24 price update: confirmed at $399,000 via Zillow/Compass (MLS #7229607) — down from $449,000 (-11.1%). Price cut of $50,000 on September 22, 2026. Old price: $449,000.]",
       "risks": "Standard Wimberley flood check required: confirm build pad is well clear of FEMA 100-yr floodplain and Atlas-14 storm runoff — Blanco River park is nearby and area has 2015 flood history. Well + septic likely required (not confirmed in listing). HOA fee for Deer Run Estates not confirmed in search data. Listing URL points to Redfin — confirm details directly with Central Metro Realty (new listing agent Mario Barrett, MLS #8330749).",
       "lat": null,
       "lng": null,
