@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-24T07:00:00Z",
+  "last_updated": "2026-09-26T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -40919,6 +40919,66 @@
       "lat": 30.42835,
       "lng": -98.08849,
       "firstSeen": "2026-09-20"
+    },
+    {
+      "id": "4401-cottonwood-rd-wimberley",
+      "first_seen": "2026-09-26T00:00:00Z",
+      "address": "4401 Cottonwood Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 320000,
+      "acreage": 5.28,
+      "listing_url": "https://www.urbanspacerealtors.com/homes/4401-cottonwood-rd-wimberley-tx-78676-da4231bbbe6b8734330a2d0eadd52892/",
+      "notes": "Burnett Ranch Sec 5, corner lot, mature oaks and cedar, high-point lot, gentle slope, multiple homesites, Hill Country views, Wimberley ISD. Same community as Valley View Rd and Days End Rd entries. POA includes Blanco River park access. Listed by Maggie Maddox & Benson Oldmixon, Live512 LLC.",
+      "risks": "HOA/deed restrictions — verify MCM design compatibility with Burnett Ranch POA CC&Rs. Well and septic required; no confirmed utilities. Floodplain and soil type unconfirmed — verify on site.",
+      "lat": null,
+      "lng": null,
+      "source": "Live512 LLC / ACTRIS MLS (Urbanspace IDX, MLS #3793229)",
+      "status": "active"
+    },
+    {
+      "id": "4501-cottonwood-rd-wimberley",
+      "first_seen": "2026-09-26T00:00:00Z",
+      "address": "4501 Cottonwood Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 375000,
+      "acreage": 5.37,
+      "listing_url": "https://www.compass.com/listing/4501-cottonwood-road-wimberley-tx-78676/1662383580082885601/",
+      "notes": "Burnett Ranch Sec 5, post oaks, cedar trees, natural clearings, multiple potential homesites. Adjacent to 4401 Cottonwood Rd (also just listed). Same community as Valley View Rd and Days End Rd entries. POA includes Blanco River park access. Listed by Maggie Maddox & Benson Oldmixon, Live512 LLC.",
+      "risks": "HOA/deed restrictions — verify MCM design compatibility with Burnett Ranch POA CC&Rs. Well and septic required. Original Zillow listing date shows Sep 10, 2024 — may be relisted. Floodplain and soil type unconfirmed — verify on site.",
+      "lat": null,
+      "lng": null,
+      "source": "Live512 LLC / ACTRIS MLS (Compass IDX)",
+      "status": "active"
+    },
+    {
+      "id": "1364-n-walnut-springs-rd-lot-19-johnson-city",
+      "first_seen": "2026-09-26T00:00:00Z",
+      "address": "1364 N Walnut Springs Rd, Johnson City, TX 78636",
+      "submarket": "Johnson City",
+      "price_usd": 484995,
+      "acreage": 5.61,
+      "listing_url": "https://txlandandlake.com/1364-n-walnut-springs-rd/",
+      "notes": "Preserve at Walnut Springs, Lot 19. 5.61 acres with mature hardwoods, Towhead Creek, gently rolling terrain, pond views. Gated 2000-acre ranch community with 1500ac protected open space, 22 miles of hike/bike/horse trails, equestrian center (10-stall barn, covered arena), resort pool, clubhouse, tennis. Ag/wildlife exemption in place. Listed by Matthew Lewis, Madrone Realty.",
+      "risks": "Gated community HOA with deed restrictions — verify MCM flat-roof / large glazing / massing compatibility with Preserve CC&Rs before engaging. Well and septic required. Price discrepancy across IDX sources ($485k–$525k) — confirm current list price with listing agent. Blanco County; Edwards Aquifer recharge zone verification needed.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS / Madrone Realty (HAR, TexasLand IDX)",
+      "status": "active"
+    },
+    {
+      "id": "207-verbena-ct-johnson-city",
+      "first_seen": "2026-09-26T00:00:00Z",
+      "address": "207 Verbena CT, Johnson City, TX 78636",
+      "submarket": "Johnson City",
+      "price_usd": 450000,
+      "acreage": 5.88,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/6556517/207-verbena-ct-johnson-city-tx-78636/",
+      "notes": "Preserve at Walnut Springs. 5.88 acres with Hill Country views, buffered by community common areas. Ag exemption maintained by resident Longhorn herd. Gated community with clubhouse, pool, tennis courts, equestrian facilities (covered riding arena, stalls), 25+ miles trails. Listed by Mock Ranches Group, Keller Williams Realty (MLS #6556517).",
+      "risks": "Gated community HOA with deed restrictions — verify MCM design compatibility with Preserve CC&Rs before engaging. Well and septic required. Multiple MLS numbers observed across IDX sites — confirm listing is currently active (could be expired and relisted). Blanco County; Edwards Aquifer recharge zone check required.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS / Keller Williams (Longhorn Realty IDX, MLS #6556517)",
+      "status": "active"
     }
   ],
   "count": 3674
