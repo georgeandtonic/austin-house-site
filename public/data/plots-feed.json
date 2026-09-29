@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-28T07:00:00Z",
+  "last_updated": "2026-09-29T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -41009,7 +41009,22 @@
       "lng": null,
       "source": "longhornrealty.com (ACTRIS MLS #6425117)",
       "status": "active"
+    },
+    {
+      "id": "3300-fm-165-lot-10b-dripping-springs",
+      "first_seen": "2026-09-29T07:00:00Z",
+      "address": "3300 FM 165 Lot 10B, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 816400,
+      "acreage": 12.56,
+      "listing_url": "https://www.ryansmithhomes.com/homes-for-sale/TX/dripping_springs/78620/3300_fm_165_lot_10b/bid-39-2726166",
+      "source": "Moreland Properties / Ranches at Dripping Springs (ACTRIS MLS #2726166)",
+      "status": "active",
+      "lat": null,
+      "lng": null,
+      "notes": "12.56-acre tract in Ranches at Dripping Springs (gated development, 26 homesites across 389 total acres). Mature oak trees, long-distance Hill Country views, active wet-weather grotto. Wildlife exemption in place (near-zero annual carry cost). Same subdivision as Lot 23 (already in feed at $652,500 / 10.1 ac). MLS #2726166. Listed ~2026-09-28. Scenario A/B: at $816,400 land, ~$1.18M remaining for build within $2M total budget.",
+      "risks": "Confirm CC&Rs/ARB are MCM-compatible before offer — gated ranch community may have architectural controls that restrict flat roofs or large glazing. Dripping Springs / Hays County: Edwards Aquifer recharge zone check required (TCEQ permit likely for septic). Well + septic needed (no public utilities). WUI/wildfire rating unconfirmed. At 12.56 ac, slightly above 10-ac soft ideal — confirm wildlife exemption continuity through construction phase. Price at $816,400 leaves tighter build budget (~$1.18M) at $2M cap."
     }
   ],
-  "count": 3674
+  "count": 3675
 }
