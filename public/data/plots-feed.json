@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-29T07:00:00Z",
+  "last_updated": "2026-09-30T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -41023,7 +41023,22 @@
       "lat": null,
       "lng": null,
       "notes": "12.56-acre tract in Ranches at Dripping Springs (gated development, 26 homesites across 389 total acres). Mature oak trees, long-distance Hill Country views, active wet-weather grotto. Wildlife exemption in place (near-zero annual carry cost). Same subdivision as Lot 23 (already in feed at $652,500 / 10.1 ac). MLS #2726166. Listed ~2026-09-28. Scenario A/B: at $816,400 land, ~$1.18M remaining for build within $2M total budget.",
-      "risks": "Confirm CC&Rs/ARB are MCM-compatible before offer — gated ranch community may have architectural controls that restrict flat roofs or large glazing. Dripping Springs / Hays County: Edwards Aquifer recharge zone check required (TCEQ permit likely for septic). Well + septic needed (no public utilities). WUI/wildfire rating unconfirmed. At 12.56 ac, slightly above 10-ac soft ideal — confirm wildlife exemption continuity through construction phase. Price at $816,400 leaves tighter build budget (~$1.18M) at $2M cap."
+      "risks": "Confirm CC&Rs/ARB are MCM-compatible before offer \u2014 gated ranch community may have architectural controls that restrict flat roofs or large glazing. Dripping Springs / Hays County: Edwards Aquifer recharge zone check required (TCEQ permit likely for septic). Well + septic needed (no public utilities). WUI/wildfire rating unconfirmed. At 12.56 ac, slightly above 10-ac soft ideal \u2014 confirm wildlife exemption continuity through construction phase. Price at $816,400 leaves tighter build budget (~$1.18M) at $2M cap."
+    },
+    {
+      "id": "000-moonridge-ln-wimberley",
+      "first_seen": "2026-09-30T07:00:00Z",
+      "address": "000 Moonridge Ln, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 558000,
+      "acreage": 5.88,
+      "listing_url": "https://kw.com/property/000-Moonridge-Lane-Wimberley-TX-78676/1992016085937920",
+      "notes": "Lot 9 in Moonridge \u2014 the same exclusive 10-lot gated Hill Country enclave as tbd-moonridge-ln-wimberley (Lot 3). Ridgeline perch overlooking Wimberley Valley; cleared to showcase mature oaks and cedars with multiple ideal build sites. Gated entrance, paved streets with ribbon curbs, underground utilities, Wildlife tax exemption active. Listed by Keller Williams (ACTRIS MLS #578254). Scenario A (~$1.44M build budget at $558k land). Both Lot 3 ($550k) and Lot 9 ($558k) are simultaneously active \u2014 may indicate phased release or slow absorption.",
+      "risks": "Same subdivision CC&R risk as Lot 3 (tbd-moonridge-ln-wimberley) \u2014 verify no ARB restricting flat roofs, large glazing, or MCM exterior materials; request design guidelines from listing agent. Well + septic required (water source not specified beyond 'underground utilities'). Build pad floodplain status not confirmed \u2014 standard Wimberley flood check required. HOA fee not confirmed. Investigate with listing agent why two lots in the same 10-lot subdivision are both active.",
+      "lat": null,
+      "lng": null,
+      "source": "Keller Williams (ACTRIS MLS #578254)",
+      "status": "active"
     }
   ],
   "count": 3675
