@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-09-30T07:00:00Z",
+  "last_updated": "2026-10-01T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -41038,6 +41038,51 @@
       "lat": null,
       "lng": null,
       "source": "Keller Williams (ACTRIS MLS #578254)",
+      "status": "active"
+    },
+    {
+      "id": "104-stonegate-ln-dripping-springs",
+      "first_seen": "2026-10-01T07:00:00Z",
+      "address": "104 Stonegate Ln, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 290000,
+      "acreage": 5.74,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/8951849/104-stonegate-ln-dripping-springs-tx-78620/",
+      "notes": "5.74-acre lot in Stonegate At Dripping Springs, DSISD. At $290k ($50.5k/ac), among the best $/acre in the Dripping Springs submarket. Vacant limestone terrain, Hill Country setting. Scenario A (~$1.71M build budget remaining at this land price).",
+      "risks": "Standard Dripping Springs Edwards Aquifer recharge zone check required. Stonegate At Dripping Springs CC&Rs needed to verify MCM flat-roof/large-glazing compatibility before advancing. Well + septic required. FEMA floodplain check standard for Hays County.",
+      "lat": null,
+      "lng": null,
+      "source": "Longhorn Realty (ACTRIS MLS #8951849)",
+      "status": "active"
+    },
+    {
+      "id": "200-stonehouse-dr-liberty-hill",
+      "first_seen": "2026-10-01T07:00:00Z",
+      "address": "200 Stonehouse Dr, Liberty Hill, TX 78642",
+      "submarket": "Liberty Hill",
+      "price_usd": 375000,
+      "acreage": 5.03,
+      "listing_url": "https://www.longhornrealty.com/property-search/detail/44/3659530/200-stonehouse-dr-liberty-hill-tx-78642/",
+      "notes": "5.03-acre cul-de-sac lot in Stone House Estates, Liberty Hill \u2014 surrounded by 160 acres of rolling Texas ranch land. Western Williamson County limestone terrain (favorable soil). LHISD. Geotech report already available. At $375k ($74.6k/ac), Scenario A/B (~$1.625M build budget remaining).",
+      "risks": "Stone House Estates deed restrictions/HOA status unknown \u2014 verify CC&Rs for MCM flat-roof/glazing compatibility before advancing. Williamson County clay line check recommended (western LH is typically limestone, but confirm per parcel geotech). Well + septic required.",
+      "lat": null,
+      "lng": null,
+      "source": "Longhorn Realty (ACTRIS MLS #3659530)",
+      "status": "active"
+    },
+    {
+      "id": "tbd-running-brook-trl-spicewood",
+      "first_seen": "2026-10-01T07:00:00Z",
+      "address": "TBD Running Brook Trl, Spicewood, TX 78669",
+      "submarket": "Spicewood",
+      "price_usd": 599000,
+      "acreage": 9.61,
+      "listing_url": "https://www.realestateinaustin.com/property-search/detail/44/6232724/tbd-running-brook-trl-spicewood-tx-78669/",
+      "notes": "9.61-acre cul-de-sac homesite in Double Horn, Spicewood (Burnet County). Hill Country views, privacy, direct access to Double Horn Creek. Listed April 2026. At $599k ($62.3k/ac), Scenario A/B (~$1.4M build budget remaining).",
+      "risks": "Views described as 'sunset vistas' (west-facing) \u2014 MCM soft flag; afternoon heat on west-facing glass must be designed around. Double Horn Creek proximity requires FEMA floodplain check on build pad. Well + septic required. Confirm deed restrictions/HOA for MCM compatibility. Long DOM (~170 days) may indicate negotiation room.",
+      "lat": null,
+      "lng": null,
+      "source": "RealEstateInAustin IDX (ACTRIS MLS #6232724)",
       "status": "active"
     }
   ],
