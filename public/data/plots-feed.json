@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-01T07:00:00Z",
+  "last_updated": "2026-10-02T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -41083,6 +41083,36 @@
       "lat": null,
       "lng": null,
       "source": "RealEstateInAustin IDX (ACTRIS MLS #6232724)",
+      "status": "active"
+    },
+    {
+      "id": "5775-county-road-200-liberty-hill",
+      "first_seen": "2026-10-02T07:00:00Z",
+      "address": "5775 County Road 200, Liberty Hill, TX 78642",
+      "submarket": "Liberty Hill",
+      "price_usd": 614999,
+      "acreage": 9.579,
+      "listing_url": "https://www.coldwellbankerhomes.com/tx/liberty-hill/5775-county-road-200/pid_72697037/",
+      "notes": "9.58-acre parcel in western Williamson County with no HOA \u2014 a rare MCM-positive feature for Liberty Hill. Rolling terrain, seasonal creek frontage, and mature hardwoods provide a strong site-responsive canvas. Existing improvements include a 540 sq ft cabin (1 bed/1 bath, 1998) + barn with covered RV storage, perimeter/cross fencing, and electricity + propane already connected. Useful infrastructure for an on-site stay during the design and build phase. Listed July 2026 (~70 DOM). Scenario A/B (~$1.39M build budget remaining at $614,999).",
+      "risks": "Seasonal creek on the parcel requires FEMA floodplain check on the intended build pad \u2014 confirm it is entirely outside the 100-yr zone. Two MLS numbers observed (#3967329 original, #4145037 current re-list) \u2014 verify listing history and active status with Coldwell Banker listing agent. Western Williamson County is predominantly limestone but the clay line runs through the county; geotech verification recommended. Existing septic/water source unknown \u2014 confirm utilities before advancing.",
+      "lat": null,
+      "lng": null,
+      "source": "Coldwell Banker (ACTRIS MLS #4145037)",
+      "status": "active"
+    },
+    {
+      "id": "3385-fulton-ranch-rd-wimberley",
+      "first_seen": "2026-10-02T07:00:00Z",
+      "address": "3385 Fulton Ranch Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 560000,
+      "acreage": 14.36,
+      "listing_url": "https://www.kwnewbraunfels.com/3385-fulton-ranch-road-wimberley-tx-78676",
+      "notes": "14.36-acre Wimberley parcel with strong privacy \u2014 only 6 neighboring properties, a large working ranch behind the lot and another in front. Dense mature trees throughout. PEC electric already in place. Light deed restrictions: no mobile homes; tiny homes and RVs are permitted \u2014 MCM-compatible. Existing 320 sq ft storage building attached to carport. At $560k ($39k/ac), among the better $/acre in the Wimberley submarket. Scenario A (~$1.44M build budget remaining). Listed by Gibson Properties (ACTRIS MLS #609382).",
+      "risks": "14.36 acres is over the 10-acre ideal max \u2014 more land than strictly needed, with corresponding carrying cost and management overhead; confirm exemption availability. Wimberley standard caution: verify build pad elevation is outside 100-yr FEMA floodplain (Fulton Ranch Rd is not on the Blanco River main channel but a tributary flood check is still required). Edwards Aquifer recharge zone check required (Hays County). Well and septic needed. Two MLS numbers sighted (#609382, #570628) suggest a possible prior listing expiry and relist \u2014 verify DOM and listing continuity with agent.",
+      "lat": null,
+      "lng": null,
+      "source": "Gibson Properties (ACTRIS MLS #609382)",
       "status": "active"
     }
   ],
