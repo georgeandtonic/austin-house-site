@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-02T07:00:00Z",
+  "last_updated": "2026-10-03T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -41114,7 +41114,52 @@
       "lng": null,
       "source": "Gibson Properties (ACTRIS MLS #609382)",
       "status": "active"
+    },
+    {
+      "id": "1200-cave-springs-dr-wimberley",
+      "first_seen": "2026-10-03T07:00:00Z",
+      "address": "1200 Cave Springs Dr, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 249000,
+      "acreage": 3.94,
+      "listing_url": "https://texasopendoor.com/listing/actris/8856718/Wimberley/1200-Cave-Springs-Drive/",
+      "notes": "Gated Lost Springs Ranch community with deeded Blanco River access (community park on bluff above the river). 3.94-acre cul-de-sac lot with multiple building sites, electricity and community water available. HOA $500/yr. At $249k ($63.2k/ac), among the lower-priced Wimberley entries. Scenario A (~$1.75M build budget remaining). 85 DOM.",
+      "risks": "Level terrain limits the split-level/walkout MCM drama typical of Hill Country lots — design budget for terracing if desired. Blanco River community access triggers the standard Wimberley flood flag: verify parcel elevation and drainage relative to the 2015 flood event. Confirm community water scope and connection cost; standard aquifer recharge zone check for Hays County. HOA CC&Rs not confirmed — verify for MCM flat-roof/large-glazing compatibility.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS #8856718",
+      "status": "active"
+    },
+    {
+      "id": "530-lost-valley-rd-dripping-springs",
+      "first_seen": "2026-10-03T07:00:00Z",
+      "address": "530 Lost Valley Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 400000,
+      "acreage": 9.17,
+      "listing_url": "https://www.har.com/homedetail/530-lost-valley-rd-dripping-springs-tx-78620/9426786",
+      "notes": "Heavily wooded 9.17-acre retreat in the Lost Valley subdivision with panoramic Hill Country views from a 1,130 ft summit. Multiple premium build sites; listing agent plans to clear a walking path to the highest elevation point. At $400k ($43.6k/ac), the lowest ¢/acre currently in the Dripping Springs submarket. Paved road access. Scenario A (~$1.6M build budget remaining). Listed KW Wimberley / ACTRIS MLS #2540183.",
+      "risks": "Very high DOM (~320 days from Nov 2025 listing) raises a flag — access to the best build sites is currently difficult and may have deterred buyers; verify independently. Water hookup not available (well required). Standard Dripping Springs diligence: Edwards Aquifer recharge zone check (impervious cover limits) and FEMA floodplain check on the build pad. Mineral rights not included. Confirm Lost Valley deed restrictions for MCM compatibility.",
+      "lat": null,
+      "lng": null,
+      "source": "Keller Williams Wimberley (ACTRIS MLS #2540183)",
+      "status": "active"
+    },
+    {
+      "id": "1830-old-marble-falls-rd-round-mountain",
+      "first_seen": "2026-10-03T07:00:00Z",
+      "address": "1830 Old Marble Falls Rd (Lot 19), Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 200000,
+      "acreage": 3.0,
+      "listing_url": "https://www.landsearch.com/properties/1830-old-marble-old-marble-falls-rd-round-mountain-tx-78663/5343604",
+      "notes": "Lot 19 in the gated community of The Woods at Flat Rock Creek. AG-exempt (near-zero carrying cost during design/build). Central community water service and electric at front of property — removes the well risk, rare for Round Mountain. Starlink internet confirmed for the area. Blanco County light permitting is a design-freedom plus. At $200k ($66.7k/ac), the lowest-priced new entry in the Round Mountain submarket. Scenario A (~$1.8M build budget remaining). MLS #178378.",
+      "risks": "Level building site limits MCM split-level/walkout potential — design for terracing or plan around views rather than topography. 3 acres is on the smaller side for Round Mountain (typical lots 5–11 ac). 60–75 min downtown commute is the headline trade-off. Confirm gated community CC&Rs for MCM flat-roof/large-glazing compatibility. Septic required despite community water. Standard Blanco County diligence.",
+      "lat": null,
+      "lng": null,
+      "source": "Blanco County MLS #178378",
+      "status": "active"
     }
   ],
-  "count": 3675
+  "count": 3692
 }
