@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-06T07:00:00Z",
+  "last_updated": "2026-10-07T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -291,10 +291,10 @@
       "first_seen": "2026-06-07T00:00:00Z",
       "address": "1935 Wayside Dr, Wimberley, TX 78676",
       "submarket": "Wimberley",
-      "price_usd": 599000,
+      "price_usd": 499000,
       "acreage": 6,
       "listing_url": "https://www.longhornrealty.com/property-search/detail/44/9519580/1935-wayside-dr-wimberley-tx-78676/",
-      "notes": "A textbook site-responsive canvas: panoramic Devil's Backbone views, gently sloping, partially cleared with mature trees, multiple build sites, ~98% fenced/gated, private Blanco River park access, tiny HOA. [2026-08-25 price update: confirmed at $599,000 via multiple IDX sources (MLS #6280084) \u2014 up from feed price of $529,000 (+13.2%). Wimberley Hill Country parcel. Old price: $529,000.]",
+      "notes": "A textbook site-responsive canvas: panoramic Devil's Backbone views, gently sloping, partially cleared with mature trees, multiple build sites, ~98% fenced/gated, private Blanco River park access, tiny HOA. [2026-08-25 price update: confirmed at $599,000 via multiple IDX sources (MLS #6280084) \u2014 up from feed price of $529,000 (+13.2%). Wimberley Hill Country parcel. Old price: $529,000.] [2026-10-07 price update: confirmed at $499,000 via multiple IDX sources (neuhausre.com, thekeenangroup.com) \u2014 down from feed price of $599,000 (-16.7%). Original list Apr 3, 2026 at $529k; price cut to $499k on Jun 25, 2026. Old price: $599,000.]",
       "risks": "Longest \"lifestyle\" commute (50\u201360 min). Wimberley + Blanco River access means running the floodplain / Atlas-14 review hard (2015 flood history) \u2014 the build pad must be high and dry. Well unknowns.",
       "lat": 29.9818608,
       "lng": -98.1353421,
@@ -41369,7 +41369,37 @@
       "lng": null,
       "source": "HAR (ACTRIS MLS #7643568)",
       "status": "active"
+    },
+    {
+      "id": "2609-prochnow-rd-dripping-springs",
+      "first_seen": "2026-10-07T07:00:00Z",
+      "address": "2609 Prochnow Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 639000,
+      "acreage": 10.07,
+      "listing_url": "https://www.spyglassrealty.com/listing/4311234-2609-prochnow-rd-dripping-springs-tx-78620",
+      "notes": "Cedar-cleared 10-acre parcel revealing mature live oaks, post oaks, and cedar elms throughout — gently rolling terrain with multiple build sites and long-range Hill Country views. 400+ ft paved frontage on Prochnow Rd. Agricultural exemption active (near-zero taxes during design-build). No HOA, light restrictions (MCM-friendly). Neighboring well <500 ft away yielded 35 GPM — strong groundwater indicator for this corridor. Hays County unincorporated (lightest permitting path for unconventional MCM design). Scenario A (~$1.36M build budget remaining at $639k land price).",
+      "risks": "Standard Dripping Springs flags: Edwards Aquifer recharge-zone check (TCEQ) required before offer — impervious-cover limits apply if parcel is in recharge zone. Verify FEMA floodplain status on intended build pad. Well cost and depth unknown until drilled; 35 GPM nearby well is encouraging but not a guarantee. WUI wildfire exposure: verify Texas A&M Forest Service rating.",
+      "lat": null,
+      "lng": null,
+      "source": "Topper Real Estate (ACTRIS MLS #4311234)",
+      "status": "active"
+    },
+    {
+      "id": "301-lonesome-trl-driftwood",
+      "first_seen": "2026-10-07T07:00:00Z",
+      "address": "301 Lonesome Trl, Driftwood, TX 78619",
+      "submarket": "Driftwood",
+      "price_usd": 425000,
+      "acreage": 5.16,
+      "listing_url": "https://www.spyglassrealty.com/listing/5684804-301-lonesome-trail-driftwood-tx-78619/",
+      "notes": "5.16 acres of Texas Hill Country nestled between Wimberley and Dripping Springs in Hays County unincorporated. Heritage Oak trees throughout; panoramic views. Lot sits between Rolling Oaks Drive and Lonesome Trail — dual road frontage allows entrance from either side. No builder timeline or minimum square footage restrictions. Wimberley ISD. $82.4k/ac, Scenario A (~$1.58M build budget remaining).",
+      "risks": "Well + septic required (standard for Driftwood rural). Edwards Aquifer recharge-zone check (TCEQ) required — Driftwood varies parcel to parcel; impervious-cover limits apply if in recharge zone. CC&Rs for this subdivision not reviewed — must verify no MCM design restrictions (flat roofs, large glazing) before advancing. FEMA floodplain status for build pad unconfirmed. WUI wildfire assessment needed.",
+      "lat": null,
+      "lng": null,
+      "source": "ACTRIS MLS #5684804 (Spyglass Realty IDX)",
+      "status": "active"
     }
   ],
-  "count": 3706
+  "count": 3708
 }
