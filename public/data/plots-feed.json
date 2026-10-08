@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-07T07:00:00Z",
+  "last_updated": "2026-10-08T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -41399,7 +41399,37 @@
       "lng": null,
       "source": "ACTRIS MLS #5684804 (Spyglass Realty IDX)",
       "status": "active"
+    },
+    {
+      "id": "2251-w-fitzhugh-rd-dripping-springs",
+      "first_seen": "2026-10-08T07:00:00Z",
+      "address": "2251 W Fitzhugh Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 299000,
+      "acreage": 2.42,
+      "listing_url": "https://www.coldwellbankerhomes.com/tx/dripping-springs/2251-w-fitzhugh-rd/pid_71580431/",
+      "notes": "2.42-acre parcel in Medlin Creek subdivision (same ranch as 150 Barton Bnd in this feed). Rolling hills ~10 min from downtown Dripping Springs. Electric at road; well + septic required. Seller is builder offering build-to-suit OR buyer may bring own builder — MCM-compatible. HOA $675/yr with no ARB indicated. DSISD. At $299k (~$124k/ac), Scenario A (~$1.70M build budget remaining).",
+      "risks": "Medlin Creek CC&Rs not reviewed — verify no MCM design restrictions (flat roof, large glazing) before offer. Well + septic required. Edwards Aquifer recharge-zone check (TCEQ) required — impervious-cover limits if parcel falls in recharge zone. FEMA floodplain status for build pad unconfirmed. Long DOM (~134 days as of listing date 2026-05-27) — investigate reason before advancing. At 2.42 ac, smaller than ideal Hill Country minimum.",
+      "lat": null,
+      "lng": null,
+      "source": "Compass RE Texas (ACTRIS MLS #7365984)",
+      "status": "active"
+    },
+    {
+      "id": "1250-myers-creek-rd-dripping-springs",
+      "first_seen": "2026-10-08T07:00:00Z",
+      "address": "1250 Myers Creek Rd, Dripping Springs, TX 78620",
+      "submarket": "Dripping Springs",
+      "price_usd": 435000,
+      "acreage": 7.29,
+      "listing_url": "https://www.landsearch.com/properties/1250-myers-creek-rd-dripping-springs-tx-78620/4861743",
+      "notes": "7.29-acre parcel in Bell Spring Ranches, densely wooded with mature hardwoods including live oaks. Natural spring with seasonal creek at back of property; 1,158 ft elevation with 'breathtaking views' and 'vibrant Texas sunsets.' Newly-cut driveway path to building site. Annual HOA for common area maintenance only — no ARB indicated. DSISD. $15k recent price reduction. At $435k (~$60k/ac), Scenario A (~$1.56M build budget remaining).",
+      "risks": "Very long DOM (~300 days) — investigate before advancing: likely creek floodplain, rough access, or obsolete pricing. Seasonal creek + natural dam at back = FEMA 100-yr floodplain check essential for build pad. Newly-cut driveway suggests access was recently cleared — verify paved road frontage to build pad. Edwards Aquifer recharge-zone check (TCEQ) required. Well + septic needed (no utility info in listing). Bell Spring Ranches CC&Rs not reviewed. WUI wildfire assessment needed.",
+      "lat": null,
+      "lng": null,
+      "source": "Keller Williams (ACTRIS/ABOR MLS #4428418)",
+      "status": "active"
     }
   ],
-  "count": 3708
+  "count": 3710
 }
