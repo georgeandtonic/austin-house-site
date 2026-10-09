@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-08T07:00:00Z",
+  "last_updated": "2026-10-09T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -41429,7 +41429,23 @@
       "lng": null,
       "source": "Keller Williams (ACTRIS/ABOR MLS #4428418)",
       "status": "active"
+    },
+    {
+      "id": "181-kadens-blf-round-mountain",
+      "first_seen": "2026-10-09T07:00:00Z",
+      "address": "181 Kadens Blf, Round Mountain, TX 78663",
+      "submarket": "Round Mountain",
+      "price_usd": 274900,
+      "acreage": 5.01,
+      "listing_url": "https://www.landsearch.com/properties/181-kadens-blf-round-mountain-tx-78663/5013543",
+      "notes": "5.01-acre gated homesite in The Bluffs at Round Mountain, Blanco County. Same subdivision as two other Bluffs lots already in feed ($218k and $250k) — this is the third Bluffs lot now tracked. Wildlife exemption (Blackbuck Antelope) keeps carry cost near zero; property taxes ~$851/yr confirmed. Underground utilities pre-installed — rare for Round Mountain, removes a major build unknown. Paved road access, gated entry. Johnson City ISD. ~40 min to Austin (shorter commute than most Round Mountain entries). At $274,900 (~$54.9k/ac), priced above the $218k and $250k Bluffs lots already in feed but still competitive for a utilities-included Blanco County parcel. Scenario A (~$1.73M build budget remaining).",
+      "risks": "The Bluffs at Round Mountain HOA/ARB: deed restrictions and architectural guidelines not confirmed — must verify CC&Rs explicitly permit flat roofs, large glazing, and MCM massing before advancing (hard dealbreaker if conservative ARB). At $274,900 this is a meaningful premium over the $218k and $250k Bluffs lots already in the feed — assess whether site characteristics justify the difference vs. advancing an existing Bluffs entry. Well required (underground utilities pre-installed but water source must be confirmed — verify community vs. individual well). Septic required. Blanco County typically limestone (MCM-positive) but verify geotech before offer. 60–70 min commute when Austin traffic is heavy.",
+      "lat": null,
+      "lng": null,
+      "source": "The Keenan Group / LandBrokerMLS #999276560",
+      "status": "active",
+      "utilities": "Underground utilities pre-installed; individual well required (verify community vs. individual)"
     }
   ],
-  "count": 3710
+  "count": 3711
 }
