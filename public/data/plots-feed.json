@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-11T07:00:00Z",
+  "last_updated": "2026-10-12T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -41565,7 +41565,52 @@
       "lng": null,
       "source": "Spyglass Realty (ACTRIS MLS #9586527)",
       "status": "active"
+    },
+    {
+      "id": "1001-bluff-view-rd-wimberley",
+      "first_seen": "2026-10-12T07:00:00Z",
+      "address": "1001 Bluff View Rd, Wimberley, TX 78676",
+      "submarket": "Wimberley",
+      "price_usd": 475000,
+      "acreage": 5.07,
+      "listing_url": "https://www.landbrokermls.com/property/999251796/5-07-acres-of-land-for-sale-in-wimberley-texas",
+      "notes": "River Mountain Ranch Sec 4, Wimberley (Hays County). 5.07 acres with selected perimeter clearing and mature trees remaining \u2014 build site is yours to choose. Ag Evaluation via range cattle/grazing agreement in place (near-zero carrying cost). Electricity available; well + septic needed. Multiple build sites on rolling terrain. Strong MCM canvas at $93.7k/ac. Wimberley ISD. Scenario A (~$1.52M build budget remaining at $475k land). Active as of June 2026 (LandBrokerMLS last updated Jun 19, 2026).",
+      "risks": "HOA fee conflicted across sources: $0 on some pages, $160/mo on others \u2014 verify CC&Rs before advancing, especially for MCM design compatibility (flat roof, large glazing) and actual dues. Well + septic both needed. Standard Hays County/Wimberley checks: FEMA floodplain for build pad, Edwards Aquifer recharge-zone (TCEQ), and WUI wildfire rating (TAMFS) required.",
+      "lat": null,
+      "lng": null,
+      "source": "Keller Williams Wimberley (LandBrokerMLS MLS #999251796)",
+      "status": "active"
+    },
+    {
+      "id": "18512-sugar-maple-dr-lago-vista",
+      "first_seen": "2026-10-12T07:00:00Z",
+      "address": "18512 Sugar Maple Dr, Lago Vista, TX 78645",
+      "submarket": "Lago Vista",
+      "price_usd": 345000,
+      "acreage": 1.55,
+      "listing_url": "https://www.landbrokermls.com/property/465826699/vacant-land-in-lago-vista",
+      "notes": "1.55-acre corner homesite in the gated Waterford on Lake Travis community, Lago Vista (Travis County). Lake Travis and Hill Country views. Underground utilities in place, well-maintained paved roads, not builder-restricted. Updated Sep 15, 2026. Lago Vista ISD. Price ranges $345k\u2013$395k across sources; confirm with listing agent. Scenario B (~$1.15M+ build budget at $345k land).",
+      "risks": "Only 1.55 acres \u2014 limited siting room for a larger MCM footprint. Waterford on Lake Travis is a gated POA community \u2014 confirm design guidelines, actual HOA dues (one adjacent lot shows ~$1,200/yr), and transfer fees before advancing. Floodplain check required for lake-adjacent parcel (Travis County FEMA). Annual taxes ~$8,385 on this lot per appraisal district.",
+      "lat": null,
+      "lng": null,
+      "source": "Coldwell Banker Realty (LandBrokerMLS MLS #465826699)",
+      "status": "active"
+    },
+    {
+      "id": "17507-navigation-ln-lago-vista",
+      "first_seen": "2026-10-12T07:00:00Z",
+      "address": "17507 Navigation Ln, Lago Vista, TX 78645",
+      "submarket": "Lago Vista",
+      "price_usd": 325000,
+      "acreage": 1.01,
+      "listing_url": "https://www.landbrokermls.com/property/320825354/1-01-acres-of-land-for-sale-in-lago-vista-tx",
+      "notes": "1.01-acre lot in Northshore at Lake Travis / The Hollows community, Lago Vista (Travis County). Flat topography with underground utilities already at street. Listed July 1, 2026 (MLS #320825354). Adjacent lot 17509 went off-market; this one active. The two lots could be combined for ~2 acres. Lago Vista ISD. Price ranges $325k\u2013$399k across sources. Scenario B (~$1.28M build at $325k land).",
+      "risks": "Only 1.01 acre \u2014 tight for a large MCM; flat topography limits slope-based design moves. The Hollows is a gated luxury community \u2014 confirm HOA/POA dues, design guidelines, and any ARB restrictions before advancing; MCM flat-roof/glazing compatibility is the key question here. Floodplain check for Lake Travis-adjacent parcel required.",
+      "lat": null,
+      "lng": null,
+      "source": "Keller Williams Lake Travis (LandBrokerMLS MLS #320825354)",
+      "status": "active"
     }
   ],
-  "count": 3711
+  "count": 3722
 }
