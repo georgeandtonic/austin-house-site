@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-12T07:00:00Z",
+  "last_updated": "2026-10-14T07:00:00Z",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -41609,6 +41609,21 @@
       "lat": null,
       "lng": null,
       "source": "Keller Williams Lake Travis (LandBrokerMLS MLS #320825354)",
+      "status": "active"
+    },
+    {
+      "id": "6925-fm-3237-st-driftwood",
+      "first_seen": "2026-10-14T07:00:00Z",
+      "address": "6925 FM 3237 St, Driftwood, TX 78619",
+      "submarket": "Driftwood",
+      "price_usd": 729900,
+      "acreage": 8.88,
+      "listing_url": "https://www.spyglassrealty.com/listing/6280878-6925-fm-3237-street-driftwood-tx-78619/",
+      "notes": "8.88-acre tract in Rolling Oaks Sec 2, Driftwood (Hays County). Over 800 ft of frontage on FM 3237 with gated access. 10 min from Wimberley, 20 min from I-35. Includes a relocated 1891 house (1,450 sqft, needs updating) + workshop, shed, and metal carport \u2014 electrical service and likely septic in place. Offered whole at $729,900 ($82.2k/ac) or as two tracts: west (3.997 ac, $330k) and east with house (4.879 ac, $440k). DSISD. Scenario A (~$1.27M build budget remaining).",
+      "risks": "FM 3237 is a state farm-to-market road \u2014 verify setback distance and road noise impact on primary build pad before advancing. Existing 1891 house: assess demo vs. repurpose cost and verify septic age/condition. Rolling Oaks Sec 2 is a subdivision \u2014 obtain CC&Rs and confirm no restrictions on MCM design (flat roof, large glazing). Standard Driftwood diligence: Edwards Aquifer recharge-zone (TCEQ \u2014 varies parcel to parcel), FEMA floodplain for build pad, WUI wildfire rating (TAMFS).",
+      "lat": null,
+      "lng": null,
+      "source": "Spyglass Realty (ACTRIS MLS #9954224)",
       "status": "active"
     }
   ],
