@@ -44305,7 +44305,97 @@
       "lat": 30.99514691,
       "lng": -98.63842988,
       "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.har.com/homedetail/147-zinnia-ct-driftwood-tx-78619/7859517",
+      "source": "har",
+      "address": "147 Zinnia Ct, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 325000,
+      "acres": 1.48,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.har.com/homedetail/1513-graef-kyle-tx-78640/17689899",
+      "source": "har",
+      "address": "1513 Graef, Kyle, TX 78640",
+      "county": "hays",
+      "price": 499500,
+      "acres": 10.16,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.har.com/homedetail/3097-c-farris-ridge-pkwy-wimberley-tx-78676-us/17689862",
+      "source": "har",
+      "address": "3097 C Farris Ridge Pkwy, Wimberley, TX 78676",
+      "county": "hays",
+      "price": 650000,
+      "acres": 10.01,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.har.com/homedetail/10911-w-cave-blvd-dripping-springs-tx-78620-us/17689242",
+      "source": "har",
+      "address": "10911 W. Cave Blvd, Dripping Springs, TX 78620",
+      "county": "hays",
+      "price": 240000,
+      "acres": 1.416,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.har.com/homedetail/0-s-canyonwood-dr-dripping-springs-tx-78620/13552618",
+      "source": "har",
+      "address": "00 S Canyonwood Dr, Dripping Springs, TX 78620",
+      "county": "hays",
+      "price": 666468,
+      "acres": 2.55,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.har.com/homedetail/0-crosswater-ln-dripping-springs-tx-78620/16755668",
+      "source": "har",
+      "address": "123 Crosswater Ln, Dripping Springs, TX 78620",
+      "county": "hays",
+      "price": 370000,
+      "acres": 1.028,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.har.com/homedetail/10933-hwy-21-uhland-tx-78640-us/17687895",
+      "source": "har",
+      "address": "10933 Hwy 21, Uhland, TX 78640",
+      "county": "hays",
+      "price": 330000,
+      "acres": 10,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.har.com/homedetail/3275-hilliard-rd-d-san-marcos-tx-78666/8585792?lid=11324189",
+      "source": "har",
+      "address": "3275 Hilliard Rd D, San Marcos, TX 78666",
+      "county": "hays",
+      "price": 325000,
+      "acres": 5.39,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.har.com/homedetail/0-buckskin-pass-driftwood-tx-78619/16125901",
+      "source": "har",
+      "address": "244 Buckskin Pass, Driftwood, TX 78619",
+      "county": "hays",
+      "price": 325000,
+      "acres": 3.82,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.har.com/homedetail/0-windy-hills-rd-dripping-springs-tx-78620/3871895?lid=11315631",
+      "source": "har",
+      "address": "TBD Windy Hills Rd, Dripping Springs, TX 78620",
+      "county": "hays",
+      "price": 878000,
+      "acres": 10.2,
+      "firstSeen": "2026-10-20"
     }
   ],
-  "count": 3967
+  "count": 3977
 }
