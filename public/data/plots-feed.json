@@ -44395,7 +44395,216 @@
       "price": 878000,
       "acres": 10.2,
       "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Austin/0-Pool-Canyon-CV-78734/home/177898751",
+      "source": "redfin",
+      "address": "0 Pool Canyon Cv, Austin, TX 78734",
+      "county": "travis",
+      "price": 450000,
+      "acres": 1.0319788797061524,
+      "lat": 30.42346425,
+      "lng": -97.92949182,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Austin/2405-Gardenia-Dr-78727/home/31570630",
+      "source": "redfin",
+      "address": "2405 Gardenia Dr, Austin, TX 78727",
+      "county": "travis",
+      "price": 712500,
+      "acres": 1.0027777777777778,
+      "lat": 30.4343001,
+      "lng": -97.6910084,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Leander/1636-Cantina-Sky-Dr-78641/home/179152477",
+      "source": "redfin",
+      "address": "1636 Cantina Sky Dr, Leander, TX 78641",
+      "county": "travis",
+      "price": 419000,
+      "acres": 1.175596877869605,
+      "lat": 30.5478455,
+      "lng": -97.876727,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Manor/6930-Lee-Manor-Cv-78653/home/109945107",
+      "source": "redfin",
+      "address": "6930 Lee Manor Cv, Manor, TX 78653",
+      "county": "travis",
+      "price": 555000,
+      "acres": 2.109986225895317,
+      "lat": 30.3893005,
+      "lng": -97.5815832,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Marble-Falls/26528-Post-Oak-Bend-Loop-78654/home/206308755",
+      "source": "redfin",
+      "address": "26528 Post Oak Bend Loop, Marble Falls, TX 78654",
+      "county": "travis",
+      "price": 429000,
+      "acres": 10.582988980716253,
+      "lat": 30.5023451,
+      "lng": -98.0634309,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Austin/Bradshaw-Rd-78747/home/51577610",
+      "source": "redfin",
+      "address": "0 Bradshaw Rd, Austin, TX 78747",
+      "county": "travis",
+      "price": 300000,
+      "acres": 13.014990817263545,
+      "lat": 30.125378,
+      "lng": -97.771955,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Austin/9206-Gallant-Fox-Rd-78737/home/109988705",
+      "source": "redfin",
+      "address": "9206 Gallant Fox Rd, Austin, TX 78737",
+      "county": "travis",
+      "price": 535000,
+      "acres": 1.5199954086317722,
+      "lat": 30.215092,
+      "lng": -97.898164,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Lago-Vista/18101-Marshalls-Point-Dr-78645/home/145966136",
+      "source": "redfin",
+      "address": "18101 Marshalls Point Dr, Lago Vista, TX 78645",
+      "county": "travis",
+      "price": 750000,
+      "acres": 4.2399908172635445,
+      "lat": 30.4387297,
+      "lng": -97.9522725,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Austin/4614-Spicewood-Springs-Rd-78759/home/191776298",
+      "source": "redfin",
+      "address": "4614 Spicewood Springs Rd, Austin, TX 78759",
+      "county": "travis",
+      "price": 450000,
+      "acres": 1.0399908172635446,
+      "lat": 30.375651,
+      "lng": -97.7611938,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Elgin/18101-Littig-Rd-78621/home/202716473",
+      "source": "redfin",
+      "address": "18101 Littig Rd, Elgin, TX 78621",
+      "county": "travis",
+      "price": 399000,
+      "acres": 15.5,
+      "lat": 30.3161926,
+      "lng": -97.4538627,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Lago-Vista/Undisclosed-address-78645/home/34252318",
+      "source": "redfin",
+      "address": "Undisclosed address, Lago Vista, TX 78645",
+      "county": "travis",
+      "price": 400000,
+      "acres": 1.2626951331496785,
+      "lat": 30.4180811,
+      "lng": -98.0216574,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Spicewood/1901-Ballinger-Dr-78669/home/30989868",
+      "source": "redfin",
+      "address": "1901 Ballinger Dr, Spicewood, TX 78669",
+      "county": "travis",
+      "price": 700000,
+      "acres": 7.369995408631772,
+      "lat": 30.454473,
+      "lng": -98.090937,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Spicewood/927-Debco-Ln-78669/home/31306684",
+      "source": "redfin",
+      "address": "927 Debco Ln, Spicewood, TX 78669",
+      "county": "travis",
+      "price": 229000,
+      "acres": 1.0119834710743802,
+      "lat": 30.3851121,
+      "lng": -98.0261093,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Jonestown/10692-Deer-Canyon-Rd-78645/home/196850040",
+      "source": "redfin",
+      "address": "10692 Deer Canyon Rd, Jonestown, TX 78645",
+      "county": "travis",
+      "price": 325000,
+      "acres": 3.75,
+      "lat": 30.4985214,
+      "lng": -97.9330387,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Jonestown/10678-Deer-Canyon-Rd-78645/home/200410986",
+      "source": "redfin",
+      "address": "10678 Deer Canyon Rd, Jonestown, TX 78645",
+      "county": "travis",
+      "price": 325000,
+      "acres": 4.072979797979798,
+      "lat": 30.4973949,
+      "lng": -97.9333376,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Spicewood/2803-Oak-Ridge-Dr-78669/home/52204601",
+      "source": "redfin",
+      "address": "2803 Oak Ridge Dr, Spicewood, TX 78669",
+      "county": "travis",
+      "price": 899000,
+      "acres": 2.7514921946740127,
+      "lat": 30.3695765,
+      "lng": -98.036022,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Spicewood/1900-Cisco-Dr-78669/home/30989878",
+      "source": "redfin",
+      "address": "1900 Cisco Dr, Spicewood, TX 78669",
+      "county": "travis",
+      "price": 399900,
+      "acres": 2.459986225895317,
+      "lat": 30.4541459,
+      "lng": -98.088797,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Austin/11624-78759/home/206010102",
+      "source": "redfin",
+      "address": "11624 Us 183 Hwy S, Austin, TX 78759",
+      "county": "travis",
+      "price": 899000,
+      "acres": 3.209986225895317,
+      "lat": 30.07224271,
+      "lng": -97.69393481,
+      "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Volente/16400-Jackson-St-78641/home/109932783",
+      "source": "redfin",
+      "address": "16400 Jackson St, Volente, TX 78641",
+      "county": "travis",
+      "price": 300000,
+      "acres": 1.0199954086317722,
+      "lat": 30.4497939,
+      "lng": -97.9128694,
+      "firstSeen": "2026-10-20"
     }
   ],
-  "count": 3977
+  "count": 3996
 }
