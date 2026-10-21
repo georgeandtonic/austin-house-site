@@ -56579,7 +56579,52 @@
       "lat": 29.618279,
       "lng": -98.941144,
       "firstSeen": "2026-10-21"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-12-ridgeway-trl-johnson-city-tx-78636-us/17178153",
+      "source": "har",
+      "address": "Lot 12 Ridgeway Trl, Johnson City, TX 78636",
+      "county": "blanco",
+      "price": 238000,
+      "acres": 6.179,
+      "firstSeen": "2026-10-21"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-10-ridgeway-trl-johnson-city-tx-78636-us/16781363",
+      "source": "har",
+      "address": "Lot 10 Ridgeway Trl, Johnson City, TX 78636",
+      "county": "blanco",
+      "price": 314900,
+      "acres": 6.684,
+      "firstSeen": "2026-10-21"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-7-sunset-view-ct-johnson-city-tx-78636-us/17178083",
+      "source": "har",
+      "address": "Lot 7 Sunset View Ct, Johnson City, TX 78636",
+      "county": "blanco",
+      "price": 299000,
+      "acres": 6.572,
+      "firstSeen": "2026-10-21"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-3-sunset-view-ct-johnson-city-tx-78636-us/17550155",
+      "source": "har",
+      "address": "Lot 3 Sunset View Ct, Johnson City, TX 78636",
+      "county": "blanco",
+      "price": 325000,
+      "acres": 5.312,
+      "firstSeen": "2026-10-21"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-75-summit-ledge-dr-johnson-city-tx-78636-us/17284010",
+      "source": "har",
+      "address": "LOT 75 Summit Ledge Dr, Johnson City, TX 78636",
+      "county": "blanco",
+      "price": 229000,
+      "acres": 5.01,
+      "firstSeen": "2026-10-21"
     }
   ],
-  "count": 5093
+  "count": 5098
 }
