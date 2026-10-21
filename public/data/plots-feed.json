@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-20",
+  "last_updated": "2026-10-21",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -43615,17 +43615,6 @@
       "firstSeen": "2026-10-20"
     },
     {
-      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/427001390",
-      "source": "landwatch",
-      "address": "191 River Valley Road South, Ingram, TX, 78025",
-      "county": "kerr",
-      "price": 375000,
-      "acres": 18,
-      "lat": 30.062192916870117,
-      "lng": -99.25946807861328,
-      "firstSeen": "2026-08-24"
-    },
-    {
       "url": "https://www.landwatch.com/kerr-county-texas-recreational-property-for-sale/pid/428499866",
       "source": "landwatch",
       "address": "Walnut Creek Ranch, Tract 15 - Pressler-Henke Rd off Hwy 16, Kerrville, TX, 78028",
@@ -43679,17 +43668,6 @@
       "lat": 29.972675323486328,
       "lng": -99.15170288085938,
       "firstSeen": "2026-10-20"
-    },
-    {
-      "url": "https://www.compass.com/homedetails/210-Mai-Rd-Kerrville-TX-78028/3KMYI_pid/",
-      "source": "compass",
-      "address": "210 Mai Rd, TX, 78028",
-      "county": "kerr",
-      "price": 315000,
-      "acres": 9.47,
-      "firstSeen": "2026-08-26",
-      "lat": 29.976699829101562,
-      "lng": -99.20906066894531
     },
     {
       "url": "https://www.landwatch.com/kerr-county-texas-farms-and-ranches-for-sale/pid/428412863",
@@ -49454,17 +49432,6 @@
       "lat": 30.046337,
       "lng": -98.49794,
       "firstSeen": "2026-10-20"
-    },
-    {
-      "url": "https://www.compass.com/homedetails/2124-Old-Marble-Falls-Rd-Round-Mountain-TX-78663/2F5YG4_pid/",
-      "source": "compass",
-      "address": "2124 Old Marble Falls Rd, TX, 78663",
-      "county": "blanco",
-      "price": 275000,
-      "acres": 4,
-      "firstSeen": "2026-08-24",
-      "lat": 30.45502922,
-      "lng": -98.32023973
     },
     {
       "url": "https://www.zillow.com/homedetails/2102-Montell-Rd-Wimberley-TX-78676/125661130_zpid/",
@@ -56480,7 +56447,139 @@
       "price": 349900,
       "acres": 20,
       "firstSeen": "2026-10-20"
+    },
+    {
+      "url": "https://www.landwatch.com/blanco-county-texas-homes-for-sale/pid/428573246",
+      "source": "landwatch",
+      "address": "2970/3008 Rolling Hills Road, Blanco, TX, 78606",
+      "county": "blanco",
+      "price": 799900,
+      "acres": 11.43,
+      "lat": 30.099054,
+      "lng": -98.41213,
+      "firstSeen": "2026-10-21"
+    },
+    {
+      "url": "https://www.landwatch.com/blanco-county-texas-homes-for-sale/pid/428573248",
+      "source": "landwatch",
+      "address": "3008 Rolling Hills Road, Blanco, TX, 78606",
+      "county": "blanco",
+      "price": 389900,
+      "acres": 6.25,
+      "lat": 30.099054,
+      "lng": -98.41213,
+      "firstSeen": "2026-10-21"
+    },
+    {
+      "url": "https://www.landwatch.com/blanco-county-texas-homes-for-sale/pid/428573247",
+      "source": "landwatch",
+      "address": "2970 Rolling Hills Rd, Blanco, TX, 78606",
+      "county": "blanco",
+      "price": 419000,
+      "acres": 5.18,
+      "lat": 30.139914,
+      "lng": -98.364784,
+      "firstSeen": "2026-10-21"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/2124-Old-Marble-Falls-Rd-Round-Mountain-TX-78663/2F5YG4_pid/",
+      "source": "compass",
+      "address": "2124 Old Marble Falls Rd, TX, 78663",
+      "county": "blanco",
+      "price": 275000,
+      "acres": 4,
+      "firstSeen": "2026-08-24",
+      "lat": 30.45502922,
+      "lng": -98.32023973
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/428580504",
+      "source": "landwatch",
+      "address": "558 Mystic Shores Boulevard, Spring Branch, TX, 78070",
+      "county": "comal",
+      "price": 850000,
+      "acres": 1.01,
+      "lat": 29.927393,
+      "lng": -98.303981,
+      "firstSeen": "2026-10-21"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-undeveloped-land-for-sale/pid/428580503",
+      "source": "landwatch",
+      "address": "570 MysticShores Boulevard, Spring Branch, TX, 78070",
+      "county": "comal",
+      "price": 210000,
+      "acres": 1.02,
+      "lat": 29.92763,
+      "lng": -98.304323,
+      "firstSeen": "2026-10-21"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-farms-and-ranches-for-sale/pid/428575219",
+      "source": "landwatch",
+      "address": "100 N Gretchen Grove Ln, Fredericksburg, TX, 78624",
+      "county": "gillespie",
+      "price": 529880,
+      "acres": 10.19,
+      "lat": 30.34363835,
+      "lng": -98.95061402,
+      "firstSeen": "2026-10-21"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-farms-and-ranches-for-sale/pid/428579828",
+      "source": "landwatch",
+      "address": "Royal Oaks Loop, Fredericksburg, TX, 78624",
+      "county": "gillespie",
+      "price": 239000,
+      "acres": 1.97,
+      "lat": 30.2808555,
+      "lng": -98.9053474,
+      "firstSeen": "2026-10-21"
+    },
+    {
+      "url": "https://www.landwatch.com/kendall-county-texas-undeveloped-land-for-sale/pid/428446549",
+      "source": "landwatch",
+      "address": "259 Lookout Pt, Comfort, TX, 78013",
+      "county": "kendall",
+      "price": 400000,
+      "acres": 7.99,
+      "lat": 30.048346,
+      "lng": -98.925575,
+      "firstSeen": "2026-10-21"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/427001390",
+      "source": "landwatch",
+      "address": "191 River Valley Road South, Ingram, TX, 78025",
+      "county": "kerr",
+      "price": 375000,
+      "acres": 18,
+      "lat": 30.062192916870117,
+      "lng": -99.25946807861328,
+      "firstSeen": "2026-08-24"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/210-Mai-Rd-Kerrville-TX-78028/3KMYI_pid/",
+      "source": "compass",
+      "address": "210 Mai Rd, TX, 78028",
+      "county": "kerr",
+      "price": 315000,
+      "acres": 9.47,
+      "firstSeen": "2026-08-26",
+      "lat": 29.976699829101562,
+      "lng": -99.20906066894531
+    },
+    {
+      "url": "https://www.landwatch.com/bandera-county-texas-homes-for-sale/pid/428576876",
+      "source": "landwatch",
+      "address": "783 Lakeridge Loop, Lakehills, TX, 78063",
+      "county": "bandera",
+      "price": 620000,
+      "acres": 2.83,
+      "lat": 29.618279,
+      "lng": -98.941144,
+      "firstSeen": "2026-10-21"
     }
   ],
-  "count": 5084
+  "count": 5093
 }
