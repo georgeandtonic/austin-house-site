@@ -58134,7 +58134,29 @@
       "price": 670000,
       "acres": 10.01,
       "firstSeen": "2026-10-22"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Manor/20600-Trappers-Trl-78653/home/145964983",
+      "source": "redfin",
+      "address": "20600 Trappers Trl, Manor, TX 78653",
+      "county": "travis",
+      "price": 700000,
+      "acres": 8,
+      "lat": 30.286099,
+      "lng": -97.490431,
+      "firstSeen": "2026-10-22"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Dripping-Springs/405-Saddlehorn-Dr-78620/home/31856778",
+      "source": "redfin",
+      "address": "405 Saddlehorn Dr, Dripping Springs, TX 78620",
+      "county": "travis",
+      "price": 250000,
+      "acres": 1.6469926538108357,
+      "lat": 30.2886647,
+      "lng": -98.0737516,
+      "firstSeen": "2026-10-22"
     }
   ],
-  "count": 5236
+  "count": 5238
 }
