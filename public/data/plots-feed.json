@@ -58968,7 +58968,16 @@
       "firstSeen": "2026-08-26",
       "lat": 29.976699829101562,
       "lng": -99.20906066894531
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-9-spring-oak-dr-dripping-springs-tx-78620/17725070",
+      "source": "har",
+      "address": "Lot 9 Spring Oak Dr, Dripping Springs, TX 78620",
+      "county": "hays",
+      "price": 275000,
+      "acres": 1,
+      "firstSeen": "2026-10-23"
     }
   ],
-  "count": 5312
+  "count": 5313
 }
