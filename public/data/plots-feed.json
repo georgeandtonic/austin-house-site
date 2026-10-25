@@ -59580,17 +59580,6 @@
       "firstSeen": "2026-10-24"
     },
     {
-      "url": "https://www.redfin.com/TX/Leander/14248-FM-2769-78641/home/108558233",
-      "source": "redfin",
-      "address": "14248 Fm-2769 Rd, Leander, TX 78641",
-      "county": "travis",
-      "price": 900000,
-      "acres": 5.764990817263545,
-      "lat": 30.437509,
-      "lng": -97.884542,
-      "firstSeen": "2026-08-28"
-    },
-    {
       "url": "https://www.zillow.com/homedetails/18505-Monet-Pointe-Dr-Leander-TX-78645/2071190574_zpid/",
       "source": "zillow",
       "address": "18505 Monet Pointe Dr, Leander, TX 78645",
@@ -59644,39 +59633,6 @@
       "lat": 30.469757,
       "lng": -97.92837,
       "firstSeen": "2026-10-24"
-    },
-    {
-      "url": "https://www.compass.com/homedetails/300-Live-Oak-Hills-Ct-San-Marcos-TX-78666/1G5QP2_pid/",
-      "source": "compass",
-      "address": "300 Live Oak Hills Ct, TX, 78666",
-      "county": "hays",
-      "price": 369900,
-      "acres": 5.89,
-      "firstSeen": "2026-08-24",
-      "lat": 29.928316,
-      "lng": -98.05812
-    },
-    {
-      "url": "https://www.compass.com/homedetails/415-E-Bartlett-Dr-Buda-TX-78610/1FXEZU_pid/",
-      "source": "compass",
-      "address": "415 E Bartlett Dr, TX, 78610",
-      "county": "hays",
-      "price": 799000,
-      "acres": 3.61,
-      "firstSeen": "2026-08-24",
-      "lat": 30.074625,
-      "lng": -97.9121
-    },
-    {
-      "url": "https://www.landwatch.com/hays-county-texas-undeveloped-land-for-sale/pid/427354762",
-      "source": "landwatch",
-      "address": "249 Grande Street lot: 4-A, Driftwood, TX, 78619",
-      "county": "hays",
-      "price": 430000,
-      "acres": 3,
-      "lat": 30.070145,
-      "lng": -97.992493,
-      "firstSeen": "2026-09-20"
     },
     {
       "url": "https://www.zillow.com/homedetails/0-Hermosa-Paloma-Wimberley-TX-78676/459991118_zpid/",
@@ -59800,17 +59756,6 @@
       "firstSeen": "2026-10-24"
     },
     {
-      "url": "https://www.compass.com/homedetails/163-Robison-Rd-Bertram-TX-78605/1FEGYS_pid/",
-      "source": "compass",
-      "address": "163 Robison Rd, TX, 78605",
-      "county": "burnet",
-      "price": 225000,
-      "acres": 5,
-      "firstSeen": "2026-08-24",
-      "lat": 30.725794,
-      "lng": -98.107956
-    },
-    {
       "url": "https://www.zillow.com/homedetails/LOT-48-Bridget-Ct-Briggs-TX-78608/347586865_zpid/",
       "source": "zillow",
       "address": "LOT 48 Bridget Ct, Briggs, TX 78608",
@@ -59930,17 +59875,6 @@
       "lat": 30.015177,
       "lng": -98.313446,
       "firstSeen": "2026-10-24"
-    },
-    {
-      "url": "https://www.compass.com/homedetails/139-Shimmering-Shore-Ct-Spring-Branch-TX-78070/1F10LU_pid/",
-      "source": "compass",
-      "address": "139 Shimmering Shore Ct, Mystic Shores, TX, 78070",
-      "county": "comal",
-      "price": 569000,
-      "acres": 2.73,
-      "firstSeen": "2026-08-26",
-      "lat": 29.920795,
-      "lng": -98.29614
     },
     {
       "url": "https://www.zillow.com/homedetails/1463-Whispering-Woods-Trl-New-Braunfels-TX-78132/447156982_zpid/",
@@ -60157,17 +60091,6 @@
       "firstSeen": "2026-10-24"
     },
     {
-      "url": "https://www.landwatch.com/llano-county-texas-undeveloped-land-for-sale/pid/426567762",
-      "source": "landwatch",
-      "address": "201A W Riverside Drive, Llano, TX, 78643",
-      "county": "llano",
-      "price": 450000,
-      "acres": 5.15,
-      "lat": 30.74704305,
-      "lng": -98.74249962,
-      "firstSeen": "2026-08-24"
-    },
-    {
       "url": "https://www.zillow.com/homedetails/28-Westgate-Loop-29-Horseshoe-Bay-TX-78657/2062579907_zpid/",
       "source": "zillow",
       "address": "28 and 29 Westgate Loop, Horseshoe Bay, TX 78657",
@@ -60199,17 +60122,6 @@
       "lat": 30.573599,
       "lng": -98.424866,
       "firstSeen": "2026-10-24"
-    },
-    {
-      "url": "https://www.landwatch.com/llano-county-texas-recreational-property-for-sale/pid/424277415",
-      "source": "landwatch",
-      "address": "432 Sandy Mountain Drive, Sunrise Beach Village, TX, 78643",
-      "county": "llano",
-      "price": 490000,
-      "acres": 6.08,
-      "lat": 30.573855,
-      "lng": -98.42577,
-      "firstSeen": "2026-08-24"
     },
     {
       "url": "https://www.zillow.com/homedetails/Inksview-Ln-Kingsland-TX-78639/460348217_zpid/",
@@ -60245,28 +60157,6 @@
       "firstSeen": "2026-10-25"
     },
     {
-      "url": "https://www.compass.com/homedetails/377-Heritage-Loop-Hutto-TX-78634/1FMED3_pid/",
-      "source": "compass",
-      "address": "377 Heritage Loop, TX, 78634",
-      "county": "williamson",
-      "price": 485000,
-      "acres": 4.81,
-      "firstSeen": "2026-08-24",
-      "lat": 30.62831607,
-      "lng": -97.54536941
-    },
-    {
-      "url": "https://www.compass.com/homedetails/1920-County-Road-130-Hutto-TX-78634/1FNU29_pid/",
-      "source": "compass",
-      "address": "1920 County Road 130, TX, 78634",
-      "county": "williamson",
-      "price": 375000,
-      "acres": 4.31,
-      "firstSeen": "2026-08-23",
-      "lat": 30.61566029,
-      "lng": -97.56184238
-    },
-    {
       "url": "https://www.landwatch.com/williamson-county-texas-undeveloped-land-for-sale/pid/426589660",
       "source": "landwatch",
       "address": "Bell St, Bartlett, TX, 76511",
@@ -60276,17 +60166,6 @@
       "lat": 30.801254,
       "lng": -97.44382,
       "firstSeen": "2026-10-25"
-    },
-    {
-      "url": "https://www.compass.com/homedetails/2124-Old-Marble-Falls-Rd-Round-Mountain-TX-78663/2F5YG4_pid/",
-      "source": "compass",
-      "address": "2124 Old Marble Falls Rd, TX, 78663",
-      "county": "blanco",
-      "price": 275000,
-      "acres": 4,
-      "firstSeen": "2026-08-24",
-      "lat": 30.45502922,
-      "lng": -98.32023973
     },
     {
       "url": "https://www.landwatch.com/comal-county-texas-undeveloped-land-for-sale/pid/428464588",
@@ -60461,7 +60340,518 @@
       "lat": 29.5980578,
       "lng": -98.94105619999999,
       "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/400-Lakefront-Dr-Leander-TX-78645/125888132_zpid/",
+      "source": "zillow",
+      "address": "400 Lakefront Dr, Leander, TX 78645",
+      "county": "travis",
+      "price": 850000,
+      "acres": 1.26,
+      "lat": 30.38678,
+      "lng": -98.00333,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/2803-Oak-Ridge-Dr-LOT-13-14-Spicewood-TX-78669/465204295_zpid/",
+      "source": "zillow",
+      "address": "2803 Oak Ridge Dr Lot 13 & 14, Spicewood, TX 78669",
+      "county": "travis",
+      "price": 899000,
+      "acres": 2.75,
+      "lat": 30.369574,
+      "lng": -98.03604,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/6203-Lakeshore-Dr-Leander-TX-78645/2074833132_zpid/",
+      "source": "zillow",
+      "address": "6203 Lakeshore Dr, Leander, TX 78645",
+      "county": "travis",
+      "price": 290000,
+      "acres": 1,
+      "lat": 30.460728,
+      "lng": -97.99362,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Leander/14248-FM-2769-78641/home/108558233",
+      "source": "redfin",
+      "address": "14248 Fm-2769 Rd, Leander, TX 78641",
+      "county": "travis",
+      "price": 900000,
+      "acres": 5.764990817263545,
+      "lat": 30.437509,
+      "lng": -97.884542,
+      "firstSeen": "2026-08-28"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/3212-Fall-Creek-Estates-Dr-Spicewood-TX-78669/465851623_zpid/",
+      "source": "zillow",
+      "address": "3212 Fall Creek Estates Dr, Spicewood, TX 78669",
+      "county": "travis",
+      "price": 895000,
+      "acres": 6.58,
+      "lat": 30.401875,
+      "lng": -98.11324,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/300-Live-Oak-Hills-Ct-San-Marcos-TX-78666/1G5QP2_pid/",
+      "source": "compass",
+      "address": "300 Live Oak Hills Ct, TX, 78666",
+      "county": "hays",
+      "price": 369900,
+      "acres": 5.89,
+      "firstSeen": "2026-08-24",
+      "lat": 29.928316,
+      "lng": -98.05812
+    },
+    {
+      "url": "https://www.compass.com/homedetails/415-E-Bartlett-Dr-Buda-TX-78610/1FXEZU_pid/",
+      "source": "compass",
+      "address": "415 E Bartlett Dr, TX, 78610",
+      "county": "hays",
+      "price": 799000,
+      "acres": 3.61,
+      "firstSeen": "2026-08-24",
+      "lat": 30.074625,
+      "lng": -97.9121
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-undeveloped-land-for-sale/pid/427354762",
+      "source": "landwatch",
+      "address": "249 Grande Street lot: 4-A, Driftwood, TX, 78619",
+      "county": "hays",
+      "price": 430000,
+      "acres": 3,
+      "lat": 30.070145,
+      "lng": -97.992493,
+      "firstSeen": "2026-09-20"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/0-Craddock-Bishop-St-San-Marcos-TX-78666/2078711260_zpid/",
+      "source": "zillow",
+      "address": "0 Craddock Bishop St, San Marcos, TX 78666",
+      "county": "hays",
+      "price": 800000,
+      "acres": 4.12,
+      "lat": 29.885004,
+      "lng": -97.96708,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/1920-County-Road-130-Hutto-TX-78634/1FNU29_pid/",
+      "source": "compass",
+      "address": "1920 County Road 130, TX, 78634",
+      "county": "williamson",
+      "price": 375000,
+      "acres": 4.31,
+      "firstSeen": "2026-08-23",
+      "lat": 30.61566029,
+      "lng": -97.56184238
+    },
+    {
+      "url": "https://www.compass.com/homedetails/377-Heritage-Loop-Hutto-TX-78634/1FMED3_pid/",
+      "source": "compass",
+      "address": "377 Heritage Loop, TX, 78634",
+      "county": "williamson",
+      "price": 485000,
+      "acres": 4.81,
+      "firstSeen": "2026-08-24",
+      "lat": 30.62831607,
+      "lng": -97.54536941
+    },
+    {
+      "url": "https://www.compass.com/homedetails/2124-Old-Marble-Falls-Rd-Round-Mountain-TX-78663/2F5YG4_pid/",
+      "source": "compass",
+      "address": "2124 Old Marble Falls Rd, TX, 78663",
+      "county": "blanco",
+      "price": 275000,
+      "acres": 4,
+      "firstSeen": "2026-08-24",
+      "lat": 30.45502922,
+      "lng": -98.32023973
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/116-Majestic-Hills-Dr-Blanco-TX-78606/2055550779_zpid/",
+      "source": "zillow",
+      "address": "LOT 116 Majestic Hills LOT 116, Blanco, TX 78606",
+      "county": "blanco",
+      "price": 229000,
+      "acres": 5,
+      "lat": 30.059586,
+      "lng": -98.49303,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/LOT-4-Skyline-Dr-4-Blanco-TX-78606/449629232_zpid/",
+      "source": "zillow",
+      "address": "LOT 04 Skyline Drive LOT 4, Blanco, TX 78606",
+      "county": "blanco",
+      "price": 525000,
+      "acres": 12.63,
+      "lat": 30.159813,
+      "lng": -98.55166,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/36-E-Twisted-Oak-Trl-Blanco-TX-78606/459413592_zpid/",
+      "source": "zillow",
+      "address": "36 Twisted Oak Trail, Blanco, TX 78606",
+      "county": "blanco",
+      "price": 400000,
+      "acres": 5.18,
+      "lat": 30.133436,
+      "lng": -98.56292,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/36-E-Twisted-Oak-Trl-36-Blanco-TX-78606/344605214_zpid/",
+      "source": "zillow",
+      "address": "36 Twisted Oak Trail LOT 36, Blanco, TX 78606",
+      "county": "blanco",
+      "price": 400000,
+      "acres": 5.18,
+      "lat": 30.133436,
+      "lng": -98.56292,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/472-Stallion-Estates-Dr-109-Spring-Branch-TX-78070/447368757_zpid/",
+      "source": "zillow",
+      "address": "472 Stallion Estates Dr LOT 109, Spring Branch, TX 78070",
+      "county": "blanco",
+      "price": 220000,
+      "acres": 3.9,
+      "lat": 29.964088,
+      "lng": -98.385376,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/239-Flickering-Sky-Cir-217-Blanco-TX-78606/381420276_zpid/",
+      "source": "zillow",
+      "address": "239 Flickering Sky Circle LOT 217, Blanco, TX 78606",
+      "county": "blanco",
+      "price": 210000,
+      "acres": 5,
+      "lat": 30.06155,
+      "lng": -98.49423,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/163-Robison-Rd-Bertram-TX-78605/1FEGYS_pid/",
+      "source": "compass",
+      "address": "163 Robison Rd, TX, 78605",
+      "county": "burnet",
+      "price": 225000,
+      "acres": 5,
+      "firstSeen": "2026-08-24",
+      "lat": 30.725794,
+      "lng": -98.107956
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/0-Waterway-Ln-Burnet-TX-78611/446373271_zpid/",
+      "source": "zillow",
+      "address": "0 Waterway Ln, Burnet, TX 78611",
+      "county": "burnet",
+      "price": 849000,
+      "acres": 3.5,
+      "lat": 30.867363,
+      "lng": -98.4223,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/131-Hessie-Ave-Burnet-TX-78611/448193764_zpid/",
+      "source": "zillow",
+      "address": "131 Hessie Ave, Burnet, TX 78611",
+      "county": "burnet",
+      "price": 649999,
+      "acres": 1.03,
+      "lat": 30.826385,
+      "lng": -98.36907,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/Lots-196-A-198-A-201-A-Canyon-Ridge-Ct-Bertram-TX-78605/458550312_zpid/",
+      "source": "zillow",
+      "address": "Lots 196 A 198 A 201 A Canyon Ridge Ct, Bertram, TX 78605",
+      "county": "burnet",
+      "price": 655000,
+      "acres": 21.44,
+      "lat": 30.615866,
+      "lng": -98.118484,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/46-Riparian-Elm-Rd-46-Bertram-TX-78605/465556821_zpid/",
+      "source": "zillow",
+      "address": "LOT 46 Riparian Elm Rd LOT 46, Bertram, TX 78605",
+      "county": "burnet",
+      "price": 208900,
+      "acres": 3.43,
+      "lat": 30.765676,
+      "lng": -98.13587,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/LOT-14A-Carol-Cv-Spicewood-TX-78669/456696295_zpid/",
+      "source": "zillow",
+      "address": "LOT-14A Carol Cv, Spicewood, TX 78669",
+      "county": "burnet",
+      "price": 345000,
+      "acres": 3.87,
+      "lat": 30.46849,
+      "lng": -98.10523,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/1711-W-Fm-2147-Marble-Falls-TX-78654/308916894_zpid/",
+      "source": "zillow",
+      "address": "1711 W Fm 2147, Marble Falls, TX 78654",
+      "county": "burnet",
+      "price": 579000,
+      "acres": 4.75,
+      "lat": 30.556068,
+      "lng": -98.28424,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/Running-Brook-Trl-Spicewood-TX-78669/224836881_zpid/",
+      "source": "zillow",
+      "address": "Running Brook Trl, Spicewood, TX 78669",
+      "county": "burnet",
+      "price": 549000,
+      "acres": 9.61,
+      "lat": 30.493782,
+      "lng": -98.23584,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/139-Shimmering-Shore-Ct-Spring-Branch-TX-78070/1F10LU_pid/",
+      "source": "compass",
+      "address": "139 Shimmering Shore Ct, Mystic Shores, TX, 78070",
+      "county": "comal",
+      "price": 569000,
+      "acres": 2.73,
+      "firstSeen": "2026-08-26",
+      "lat": 29.920795,
+      "lng": -98.29614
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/1106-Diretto-Dr-710-New-Braunfels-TX-78132/344625695_zpid/",
+      "source": "zillow",
+      "address": "1106 Diretto Drive LOT 710, New Braunfels, TX 78132",
+      "county": "comal",
+      "price": 299900,
+      "acres": 2.53,
+      "lat": 29.788301,
+      "lng": -98.25408,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/523-Oak-Shores-Dr-61AP-Canyon-Lake-TX-78133/446952614_zpid/",
+      "source": "zillow",
+      "address": "523 OAK SHORES DR LOT 61AP, Canyon Lake, TX 78133",
+      "county": "comal",
+      "price": 254900,
+      "acres": 1,
+      "lat": 29.88151,
+      "lng": -98.28167,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/2240-San-Jose-Way-107-Canyon-Lake-TX-78133/344603086_zpid/",
+      "source": "zillow",
+      "address": "2240 San Jose LOT 107, Canyon Lake, TX 78133",
+      "county": "comal",
+      "price": 250000,
+      "acres": 4.21,
+      "lat": 29.894829,
+      "lng": -98.328285,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/1022-Ranger-Rdg-102-New-Braunfels-TX-78132/447370119_zpid/",
+      "source": "zillow",
+      "address": "1022 Ranger Rdg LOT 102, New Braunfels, TX 78132",
+      "county": "comal",
+      "price": 399000,
+      "acres": 5,
+      "lat": 29.818806,
+      "lng": -98.28639,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/293-River-Cliff-Pl-2292-Spring-Branch-TX-78070/447370194_zpid/",
+      "source": "zillow",
+      "address": "293 RIVER CLIFF PL LOT 2292, Spring Branch, TX 78070",
+      "county": "comal",
+      "price": 299900,
+      "acres": 1.56,
+      "lat": 29.907307,
+      "lng": -98.3157,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/1934-Paradise-Pkwy-53-Canyon-Lake-TX-78133/460638612_zpid/",
+      "source": "zillow",
+      "address": "1934 Paradise LOT 53, Canyon Lake, TX 78133",
+      "county": "comal",
+      "price": 800000,
+      "acres": 5.23,
+      "lat": 29.90294,
+      "lng": -98.33911,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/3012-River-Way-828-Spring-Branch-TX-78070/464641943_zpid/",
+      "source": "zillow",
+      "address": "3012 River Way LOT 828, Spring Branch, TX 78070",
+      "county": "comal",
+      "price": 325000,
+      "acres": 2.54,
+      "lat": 29.80047,
+      "lng": -98.41012,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/TRACT-1-2-22-5-Ac-Lipan-Run-Fischer-TX-78623/465098902_zpid/",
+      "source": "zillow",
+      "address": "TRACT 1 & 2 22.5 Ac Lipan Run, Fischer, TX 78623",
+      "county": "comal",
+      "price": 854900,
+      "acres": 22.5,
+      "lat": 29.942,
+      "lng": -98.20354,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/7627-Ramble-Rdg-203-San-Antonio-TX-78266/344603449_zpid/",
+      "source": "zillow",
+      "address": "7627 Ramble Ridge LOT 203, San Antonio, TX 78266",
+      "county": "comal",
+      "price": 349000,
+      "acres": 1.52,
+      "lat": 29.710987,
+      "lng": -98.33761,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/287-Brook-Cyn-New-Braunfels-TX-78132/334258376_zpid/",
+      "source": "zillow",
+      "address": "287 Brook Cyn, New Braunfels, TX 78132",
+      "county": "comal",
+      "price": 249000,
+      "acres": 1.67,
+      "lat": 29.787863,
+      "lng": -98.225716,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/200-Countless-Views-Dr-16-Kerrville-TX-78028/450134484_zpid/",
+      "source": "zillow",
+      "address": "200 Countless Views Dr. LOT 16, Kerrville, TX 78028",
+      "county": "gillespie",
+      "price": 779500,
+      "acres": 30.17,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/195-Countless-Views-Dr-15-Kerrville-TX-78028/450134566_zpid/",
+      "source": "zillow",
+      "address": "195 Countless Views Dr. LOT 15, Kerrville, TX 78028",
+      "county": "gillespie",
+      "price": 579000,
+      "acres": 21.13,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/740-Hagee-Dr-Fredericksburg-TX-78624/461058340_zpid/",
+      "source": "zillow",
+      "address": "740 Hagee Dr, Fredericksburg, TX 78624",
+      "county": "gillespie",
+      "price": 895000,
+      "acres": 2.28,
+      "lat": 30.361168,
+      "lng": -98.89612,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/813-Beaumont-Dr-Fredericksburg-TX-78624/461073755_zpid/",
+      "source": "zillow",
+      "address": "813 Beaumont Dr, Fredericksburg, TX 78624",
+      "county": "gillespie",
+      "price": 895000,
+      "acres": 1.89,
+      "lat": 30.364353,
+      "lng": -98.89476,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/795-Temple-Trl-Fredericksburg-TX-78624/460902638_zpid/",
+      "source": "zillow",
+      "address": "795 Temple Trl, Fredericksburg, TX 78624",
+      "county": "gillespie",
+      "price": 885000,
+      "acres": 2.3,
+      "lat": 30.365458,
+      "lng": -98.89157,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/648-Presidio-Ridge-Dr-Fredericksburg-TX-78624/460433379_zpid/",
+      "source": "zillow",
+      "address": "648 Presidio Ridge Dr, Fredericksburg, TX 78624",
+      "county": "gillespie",
+      "price": 895000,
+      "acres": 2.03,
+      "lat": 30.352686,
+      "lng": -98.884605,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/67-Sabinas-Springs-Rd-Boerne-TX-78006/2057532791_zpid/",
+      "source": "zillow",
+      "address": "LOT 67 Sabinas Springs Rd LOT 67, Boerne, TX 78006",
+      "county": "kendall",
+      "price": 470000,
+      "acres": 5.48,
+      "lat": 29.883667,
+      "lng": -98.69559,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.zillow.com/homedetails/54-Elk-Mountain-Rnch-Pipe-Creek-TX-78063/461723039_zpid/",
+      "source": "zillow",
+      "address": "LOT 54 Elk Mountain Ranch LOT 54, Pipe Creek, TX 78063",
+      "county": "bandera",
+      "price": 325000,
+      "acres": 5,
+      "firstSeen": "2026-10-25"
+    },
+    {
+      "url": "https://www.landwatch.com/llano-county-texas-undeveloped-land-for-sale/pid/426567762",
+      "source": "landwatch",
+      "address": "201A W Riverside Drive, Llano, TX, 78643",
+      "county": "llano",
+      "price": 450000,
+      "acres": 5.15,
+      "lat": 30.74704305,
+      "lng": -98.74249962,
+      "firstSeen": "2026-08-24"
+    },
+    {
+      "url": "https://www.landwatch.com/llano-county-texas-recreational-property-for-sale/pid/424277415",
+      "source": "landwatch",
+      "address": "432 Sandy Mountain Drive, Sunrise Beach Village, TX, 78643",
+      "county": "llano",
+      "price": 490000,
+      "acres": 6.08,
+      "lat": 30.573855,
+      "lng": -98.42577,
+      "firstSeen": "2026-08-24"
     }
   ],
-  "count": 5449
+  "count": 5485
 }
