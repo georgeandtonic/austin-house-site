@@ -60895,7 +60895,18 @@
       "lat": 30.1286259,
       "lng": -99.1573082,
       "firstSeen": "2026-10-26"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Leander/14202-Summit-View-Dr-78641/home/31859869",
+      "source": "redfin",
+      "address": "14202 Summit View Dr, Leander, TX 78641",
+      "county": "travis",
+      "price": 540000,
+      "acres": 8.651010101010101,
+      "lat": 30.5860112,
+      "lng": -97.9790095,
+      "firstSeen": "2026-10-26"
     }
   ],
-  "count": 5489
+  "count": 5490
 }
