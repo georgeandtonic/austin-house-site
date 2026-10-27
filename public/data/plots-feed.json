@@ -61502,7 +61502,25 @@
       "lat": 29.77797,
       "lng": -99.03668,
       "firstSeen": "2026-10-27"
+    },
+    {
+      "url": "https://www.har.com/homedetail/2965-old-marble-falls-rd-blanco-tx-78663-us/17290626",
+      "source": "har",
+      "address": "2965 Old Marble Falls Rd, Round Mountain, TX 78663",
+      "county": "blanco",
+      "price": 569000,
+      "acres": 10,
+      "firstSeen": "2026-10-27"
+    },
+    {
+      "url": "https://www.har.com/homedetail/0-lot-119-falling-oak-dr-blanco-tx-78606-us/17244263",
+      "source": "har",
+      "address": "TBD LOT 119 Falling Oak Dr, Blanco, TX 78606",
+      "county": "blanco",
+      "price": 240000,
+      "acres": 8.3,
+      "firstSeen": "2026-10-27"
     }
   ],
-  "count": 5544
+  "count": 5546
 }
