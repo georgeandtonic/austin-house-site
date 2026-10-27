@@ -61520,7 +61520,18 @@
       "price": 240000,
       "acres": 8.3,
       "firstSeen": "2026-10-27"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Del-Valle/TBD-Wolf-Ln-78617/home/206687959",
+      "source": "redfin",
+      "address": "TBD Wolf Ln, Del Valle, TX 78617",
+      "county": "travis",
+      "price": 699900,
+      "acres": 10.009986225895316,
+      "lat": 30.15466587,
+      "lng": -97.55455951,
+      "firstSeen": "2026-10-27"
     }
   ],
-  "count": 5546
+  "count": 5547
 }
