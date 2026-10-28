@@ -62157,7 +62157,18 @@
       "lat": 30.860546,
       "lng": -98.445983,
       "firstSeen": "2026-10-28"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Austin/2312-Little-Beaver-Trl-78734/home/147343836",
+      "source": "redfin",
+      "address": "2312 Little Beaver Trl, Austin, TX 78734",
+      "county": "travis",
+      "price": 350000,
+      "acres": 1.0064967860422407,
+      "lat": 30.3765379,
+      "lng": -97.9207357,
+      "firstSeen": "2026-10-28"
     }
   ],
-  "count": 5605
+  "count": 5606
 }
