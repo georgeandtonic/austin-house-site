@@ -62714,7 +62714,16 @@
       "lat": 30.658481,
       "lng": -98.468925,
       "firstSeen": "2026-10-29"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-17-stonegate-ct-johnson-city-tx-78636-us/17253600",
+      "source": "har",
+      "address": "Lot 17 Stonegate Ct, Johnson City, TX 78636",
+      "county": "blanco",
+      "price": 209000,
+      "acres": 2.07,
+      "firstSeen": "2026-10-29"
     }
   ],
-  "count": 5656
+  "count": 5657
 }
