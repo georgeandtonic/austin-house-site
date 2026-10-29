@@ -62723,7 +62723,18 @@
       "price": 209000,
       "acres": 2.07,
       "firstSeen": "2026-10-29"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Jonestown/7717-Calcutta-Run-Dr-78645/home/31047949",
+      "source": "redfin",
+      "address": "7717 Calcutta Run Dr, Jonestown, TX 78645",
+      "county": "travis",
+      "price": 394200,
+      "acres": 1.5099862258953167,
+      "lat": 30.453466,
+      "lng": -97.933187,
+      "firstSeen": "2026-10-29"
     }
   ],
-  "count": 5657
+  "count": 5658
 }
