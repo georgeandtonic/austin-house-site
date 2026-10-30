@@ -63053,7 +63053,62 @@
       "price": 275000,
       "acres": 1,
       "firstSeen": "2026-10-30"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Austin/14711-Hornsby-Hill-Rd-78734/home/39979216",
+      "source": "redfin",
+      "address": "14711 Hornsby Hill Rd, Austin, TX 78734",
+      "county": "travis",
+      "price": 625000,
+      "acres": 1.0699954086317722,
+      "lat": 30.403366,
+      "lng": -97.912507,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Austin/14715-Hornsby-Hill-Rd-78734/home/39889410",
+      "source": "redfin",
+      "address": "14715 Hornsby Hill Rd, Austin, TX 78734",
+      "county": "travis",
+      "price": 599000,
+      "acres": 1.0299816345270891,
+      "lat": 30.403047,
+      "lng": -97.912218,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Austin/14743-Hornsby-Hill-Rd-78734/home/39545033",
+      "source": "redfin",
+      "address": "14743 Hornsby Hill Rd, Austin, TX 78734",
+      "county": "travis",
+      "price": 650000,
+      "acres": 1.1,
+      "lat": 30.403292,
+      "lng": -97.91227,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Leander/Undisclosed-address-78641/home/177874060",
+      "source": "redfin",
+      "address": "Undisclosed address, Leander, TX 78641",
+      "county": "travis",
+      "price": 525000,
+      "acres": 1.3079889807162535,
+      "lat": 30.5293738,
+      "lng": -97.8945542,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Leander/13903-Long-Hollow-Loop-78641/home/31860179",
+      "source": "redfin",
+      "address": "13903 Long Hollow Loop, Leander, TX 78641",
+      "county": "travis",
+      "price": 250000,
+      "acres": 4.139990817263545,
+      "lat": 30.5830812,
+      "lng": -97.9830279,
+      "firstSeen": "2026-10-30"
     }
   ],
-  "count": 5687
+  "count": 5692
 }
