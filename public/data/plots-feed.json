@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-29",
+  "last_updated": "2026-10-30",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -62531,28 +62531,6 @@
       "firstSeen": "2026-10-29"
     },
     {
-      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/427001390",
-      "source": "landwatch",
-      "address": "191 River Valley Road South, Ingram, TX, 78025",
-      "county": "kerr",
-      "price": 375000,
-      "acres": 18,
-      "lat": 30.062192916870117,
-      "lng": -99.25946807861328,
-      "firstSeen": "2026-08-24"
-    },
-    {
-      "url": "https://www.compass.com/homedetails/210-Mai-Rd-Kerrville-TX-78028/3KMYI_pid/",
-      "source": "compass",
-      "address": "210 Mai Rd, TX, 78028",
-      "county": "kerr",
-      "price": 315000,
-      "acres": 9.47,
-      "firstSeen": "2026-08-26",
-      "lat": 29.976699829101562,
-      "lng": -99.20906066894531
-    },
-    {
       "url": "https://www.landwatch.com/kerr-county-texas-farms-and-ranches-for-sale/pid/428656813",
       "source": "landwatch",
       "address": "Cool Creek Rd lot: 54, Camp Verde, TX, 78010",
@@ -62683,17 +62661,6 @@
       "lng": -98.05812
     },
     {
-      "url": "https://www.compass.com/homedetails/415-E-Bartlett-Dr-Buda-TX-78610/1FXEZU_pid/",
-      "source": "compass",
-      "address": "415 E Bartlett Dr, TX, 78610",
-      "county": "hays",
-      "price": 799000,
-      "acres": 3.61,
-      "firstSeen": "2026-08-24",
-      "lat": 30.074625,
-      "lng": -97.9121
-    },
-    {
       "url": "https://www.landwatch.com/hays-county-texas-undeveloped-land-for-sale/pid/427354762",
       "source": "landwatch",
       "address": "249 Grande Street lot: 4-A, Driftwood, TX, 78619",
@@ -62738,28 +62705,6 @@
       "lng": -97.91038
     },
     {
-      "url": "https://www.compass.com/homedetails/1920-County-Road-130-Hutto-TX-78634/1FNU29_pid/",
-      "source": "compass",
-      "address": "1920 County Road 130, TX, 78634",
-      "county": "williamson",
-      "price": 375000,
-      "acres": 4.31,
-      "firstSeen": "2026-08-23",
-      "lat": 30.61566029,
-      "lng": -97.56184238
-    },
-    {
-      "url": "https://www.compass.com/homedetails/377-Heritage-Loop-Hutto-TX-78634/1FMED3_pid/",
-      "source": "compass",
-      "address": "377 Heritage Loop, TX, 78634",
-      "county": "williamson",
-      "price": 485000,
-      "acres": 4.81,
-      "firstSeen": "2026-08-24",
-      "lat": 30.62831607,
-      "lng": -97.54536941
-    },
-    {
       "url": "https://www.zillow.com/homedetails/909-Old-1460-Trl-Georgetown-TX-78626/121722344_zpid/",
       "source": "zillow",
       "address": "909 Old 1460 Trl, Georgetown, TX 78626",
@@ -62780,17 +62725,6 @@
       "lat": 30.817976,
       "lng": -97.58933,
       "firstSeen": "2026-10-29"
-    },
-    {
-      "url": "https://www.compass.com/homedetails/2124-Old-Marble-Falls-Rd-Round-Mountain-TX-78663/2F5YG4_pid/",
-      "source": "compass",
-      "address": "2124 Old Marble Falls Rd, TX, 78663",
-      "county": "blanco",
-      "price": 275000,
-      "acres": 4,
-      "firstSeen": "2026-08-24",
-      "lat": 30.45502922,
-      "lng": -98.32023973
     },
     {
       "url": "https://www.zillow.com/homedetails/LOT-136-Cherry-Laurel-Ln-Lampasas-TX-76550/456791837_zpid/",
@@ -62967,7 +62901,150 @@
       "lat": 30.573855,
       "lng": -98.42577,
       "firstSeen": "2026-08-24"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-homes-for-sale/pid/428683294",
+      "source": "landwatch",
+      "address": "1000 Martin Rd, Dripping Springs, TX, 78620",
+      "county": "hays",
+      "price": 639900,
+      "acres": 2.65,
+      "lat": 30.21328004,
+      "lng": -98.18178779,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-homes-for-sale/pid/428667995",
+      "source": "landwatch",
+      "address": "1880 Spring Valley Dr, Dripping Springs, TX, 78620",
+      "county": "hays",
+      "price": 650000,
+      "acres": 2.32,
+      "lat": 30.22776874,
+      "lng": -98.09692914,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/415-E-Bartlett-Dr-Buda-TX-78610/1FXEZU_pid/",
+      "source": "compass",
+      "address": "415 E Bartlett Dr, TX, 78610",
+      "county": "hays",
+      "price": 799000,
+      "acres": 3.61,
+      "firstSeen": "2026-08-24",
+      "lat": 30.074625,
+      "lng": -97.9121
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-undeveloped-land-for-sale/pid/428606648",
+      "source": "landwatch",
+      "address": "Spring Oak Drive lot: 9, Dripping Springs, TX, 78620",
+      "county": "hays",
+      "price": 275000,
+      "acres": 1,
+      "lat": 30.208356,
+      "lng": -98.088205,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/377-Heritage-Loop-Hutto-TX-78634/1FMED3_pid/",
+      "source": "compass",
+      "address": "377 Heritage Loop, TX, 78634",
+      "county": "williamson",
+      "price": 485000,
+      "acres": 4.81,
+      "firstSeen": "2026-08-24",
+      "lat": 30.62831607,
+      "lng": -97.54536941
+    },
+    {
+      "url": "https://www.compass.com/homedetails/1920-County-Road-130-Hutto-TX-78634/1FNU29_pid/",
+      "source": "compass",
+      "address": "1920 County Road 130, TX, 78634",
+      "county": "williamson",
+      "price": 375000,
+      "acres": 4.31,
+      "firstSeen": "2026-08-23",
+      "lat": 30.61566029,
+      "lng": -97.56184238
+    },
+    {
+      "url": "https://www.compass.com/homedetails/2124-Old-Marble-Falls-Rd-Round-Mountain-TX-78663/2F5YG4_pid/",
+      "source": "compass",
+      "address": "2124 Old Marble Falls Rd, TX, 78663",
+      "county": "blanco",
+      "price": 275000,
+      "acres": 4,
+      "firstSeen": "2026-08-24",
+      "lat": 30.45502922,
+      "lng": -98.32023973
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-recreational-property-for-sale/pid/428667721",
+      "source": "landwatch",
+      "address": "305 Kelly Creek Road, Bulverde, TX, 78163",
+      "county": "comal",
+      "price": 525090,
+      "acres": 11.5,
+      "lat": 29.768999099731445,
+      "lng": -98.52850341796875,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-recreational-property-for-sale/pid/428669294",
+      "source": "landwatch",
+      "address": "501 Kelly Creek Road, Bulverde, TX, 78163",
+      "county": "comal",
+      "price": 525090,
+      "acres": 11.5,
+      "lat": 29.767799377441406,
+      "lng": -98.5282974243164,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "url": "https://www.landwatch.com/kendall-county-texas-homes-for-sale/pid/428662359",
+      "source": "landwatch",
+      "address": "117 Sisterdale Road, Boerne, TX, 78006",
+      "county": "kendall",
+      "price": 450000,
+      "acres": 3,
+      "lat": 29.826846,
+      "lng": -98.736656,
+      "firstSeen": "2026-10-30"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/427001390",
+      "source": "landwatch",
+      "address": "191 River Valley Road South, Ingram, TX, 78025",
+      "county": "kerr",
+      "price": 375000,
+      "acres": 18,
+      "lat": 30.062192916870117,
+      "lng": -99.25946807861328,
+      "firstSeen": "2026-08-24"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/210-Mai-Rd-Kerrville-TX-78028/3KMYI_pid/",
+      "source": "compass",
+      "address": "210 Mai Rd, TX, 78028",
+      "county": "kerr",
+      "price": 315000,
+      "acres": 9.47,
+      "firstSeen": "2026-08-26",
+      "lat": 29.976699829101562,
+      "lng": -99.20906066894531
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-homes-for-sale/pid/428666036",
+      "source": "landwatch",
+      "address": "1366 Calcote Road, Kerrville, TX, 78028",
+      "county": "kerr",
+      "price": 399998,
+      "acres": 2,
+      "lat": 30.00816,
+      "lng": -99.17287,
+      "firstSeen": "2026-10-30"
     }
   ],
-  "count": 5679
+  "count": 5686
 }
