@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-10-30",
+  "last_updated": "2026-11-02",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -28255,7 +28255,9 @@
       "county": "hays",
       "price": 625000,
       "acres": 11.07,
-      "firstSeen": "2026-08-24"
+      "firstSeen": "2026-08-24",
+      "lat": 29.815108,
+      "lng": -97.979929
     },
     {
       "url": "https://www.compass.com/homedetails/31860-Mirela-Ann-Rd-Dripping-Springs-TX-78620/277VCT_pid/",
@@ -63223,7 +63225,29 @@
       "lat": 30.756691,
       "lng": -98.66535,
       "firstSeen": "2026-10-30"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-undeveloped-land-for-sale/pid/428696511",
+      "source": "landwatch",
+      "address": "2907 Canyon Heights, Spring Branch, TX, 78070",
+      "county": "comal",
+      "price": 625000,
+      "acres": 11.53,
+      "lat": 29.959378,
+      "lng": -98.343903,
+      "firstSeen": "2026-10-31"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-recreational-property-for-sale/pid/428688392",
+      "source": "landwatch",
+      "address": "1866 Althaus-Davis Road, Fredericksburg, TX, 78624",
+      "county": "gillespie",
+      "price": 900000,
+      "acres": 30,
+      "lat": 30.40947151184082,
+      "lng": -98.61579895019531,
+      "firstSeen": "2026-10-31"
     }
   ],
-  "count": 5703
+  "count": 5705
 }
