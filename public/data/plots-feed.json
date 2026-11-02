@@ -63247,7 +63247,40 @@
       "lat": 30.40947151184082,
       "lng": -98.61579895019531,
       "firstSeen": "2026-10-31"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Dripping-Springs/17908-Vistancia-Dr-78620/home/144478060",
+      "source": "redfin",
+      "address": "17908 Vistancia Dr, Dripping Springs, TX 78620",
+      "county": "travis",
+      "price": 285000,
+      "acres": 1.0059917355371901,
+      "lat": 30.28671634,
+      "lng": -98.05152045,
+      "firstSeen": "2026-10-31"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Leander/8144-Lake-Mountain-Ln-78641/home/40130580",
+      "source": "redfin",
+      "address": "8144 Lake Mountain Lane B, Leander, TX 78641",
+      "county": "travis",
+      "price": 625000,
+      "acres": 3.6799816345270893,
+      "lat": 30.436746,
+      "lng": -97.8888128,
+      "firstSeen": "2026-10-31"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Spicewood/4155-Bee-Creek-Rd-78669/home/206768866",
+      "source": "redfin",
+      "address": "4155 Bee Creek Rd, Spicewood, TX 78669",
+      "county": "travis",
+      "price": 749000,
+      "acres": 6.00599173553719,
+      "lat": 30.3557932,
+      "lng": -98.0337964,
+      "firstSeen": "2026-10-31"
     }
   ],
-  "count": 5705
+  "count": 5708
 }
