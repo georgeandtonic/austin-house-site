@@ -63703,7 +63703,29 @@
       "price": 299000,
       "acres": 5,
       "firstSeen": "2026-11-03"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Spicewood/18509-Flying-J-Blvd-78669/home/40130042",
+      "source": "redfin",
+      "address": "18509 Flying J Blvd, Spicewood, TX 78669",
+      "county": "travis",
+      "price": 395000,
+      "acres": 1.0009871441689624,
+      "lat": 30.4070492,
+      "lng": -97.9979992,
+      "firstSeen": "2026-11-03"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Leander/4001-Crystal-Diamond-Ct-78641/home/205636724",
+      "source": "redfin",
+      "address": "4001 Crystal Diamond Ct, Leander, TX 78641",
+      "county": "travis",
+      "price": 395000,
+      "acres": 1.2269972451790634,
+      "lat": 30.5620891,
+      "lng": -97.9162929,
+      "firstSeen": "2026-11-03"
     }
   ],
-  "count": 5747
+  "count": 5749
 }
