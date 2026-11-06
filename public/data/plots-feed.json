@@ -64998,7 +64998,18 @@
       "lat": 30.746523,
       "lng": -98.460332,
       "firstSeen": "2026-11-06"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Manor/13814-Rector-Loop-78653/home/31518729",
+      "source": "redfin",
+      "address": "13814 Rector Loop, Manor, TX 78653",
+      "county": "travis",
+      "price": 498000,
+      "acres": 1.4099862258953169,
+      "lat": 30.3709112,
+      "lng": -97.5583813,
+      "firstSeen": "2026-11-06"
     }
   ],
-  "count": 5866
+  "count": 5867
 }
