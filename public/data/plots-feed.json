@@ -65240,7 +65240,25 @@
       "lat": 29.64867,
       "lng": -98.96663,
       "firstSeen": "2026-11-07"
+    },
+    {
+      "url": "https://www.har.com/homedetail/506-s-lariat-cir-dripping-springs-tx-78620/8571018",
+      "source": "har",
+      "address": "506 S Lariat Cir, Dripping Springs, TX 78620",
+      "county": "hays",
+      "price": 450000,
+      "acres": 1.44,
+      "firstSeen": "2026-11-07"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-7-spring-oak-dr-dripping-springs-tx-78620-us/17551283",
+      "source": "har",
+      "address": "Lot-7 Spring Oak Dr, Dripping Springs, TX 78620",
+      "county": "hays",
+      "price": 225000,
+      "acres": 1,
+      "firstSeen": "2026-11-07"
     }
   ],
-  "count": 5888
+  "count": 5890
 }
