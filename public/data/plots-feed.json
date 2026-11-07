@@ -65258,7 +65258,18 @@
       "price": 225000,
       "acres": 1,
       "firstSeen": "2026-11-07"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Marble-Falls/28921-Platinum-Ln-78654/home/31873220",
+      "source": "redfin",
+      "address": "28921 Platinum Ln, Marble Falls, TX 78654",
+      "county": "travis",
+      "price": 580000,
+      "acres": 5.109986225895317,
+      "lat": 30.5180412,
+      "lng": -98.0989742,
+      "firstSeen": "2026-11-07"
     }
   ],
-  "count": 5890
+  "count": 5891
 }
