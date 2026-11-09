@@ -65577,7 +65577,29 @@
       "lat": 29.6734557,
       "lng": -99.235689,
       "firstSeen": "2026-11-09"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Leander/14711-Quail-Ct-78641/home/31859769",
+      "source": "redfin",
+      "address": "14711 Quail Ct, Leander, TX 78641",
+      "county": "travis",
+      "price": 299990,
+      "acres": 1.8019972451790633,
+      "lat": 30.5906874,
+      "lng": -97.9692373,
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Austin/17409-Auburn-Vista-Cv-78738/home/179148557",
+      "source": "redfin",
+      "address": "17409 Auburn Vista Cv, Austin, TX 78738",
+      "county": "travis",
+      "price": 660000,
+      "acres": 1.2487832874196512,
+      "lat": 30.3167707,
+      "lng": -98.018687,
+      "firstSeen": "2026-11-09"
     }
   ],
-  "count": 5919
+  "count": 5921
 }
