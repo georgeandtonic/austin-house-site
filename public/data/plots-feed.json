@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-08",
+  "last_updated": "2026-11-09",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -14162,17 +14162,6 @@
       "acres": 1.26,
       "lat": 29.821136,
       "lng": -98.093864,
-      "firstSeen": "2026-08-24"
-    },
-    {
-      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427862834",
-      "source": "landwatch",
-      "address": "549 Acacia Parkway, Spring Branch, TX, 78070",
-      "county": "comal",
-      "price": 850000,
-      "acres": 5,
-      "lat": 29.864532,
-      "lng": -98.430458,
       "firstSeen": "2026-08-24"
     },
     {
@@ -65282,28 +65271,6 @@
       "firstSeen": "2026-11-08"
     },
     {
-      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/427001390",
-      "source": "landwatch",
-      "address": "191 River Valley Road South, Ingram, TX, 78025",
-      "county": "kerr",
-      "price": 375000,
-      "acres": 18,
-      "lat": 30.062192916870117,
-      "lng": -99.25946807861328,
-      "firstSeen": "2026-08-24"
-    },
-    {
-      "url": "https://www.compass.com/homedetails/210-Mai-Rd-Kerrville-TX-78028/3KMYI_pid/",
-      "source": "compass",
-      "address": "210 Mai Rd, TX, 78028",
-      "county": "kerr",
-      "price": 315000,
-      "acres": 9.47,
-      "firstSeen": "2026-08-26",
-      "lat": 29.976699829101562,
-      "lng": -99.20906066894531
-    },
-    {
       "url": "https://www.landwatch.com/bandera-county-texas-homes-for-sale/pid/428783649",
       "source": "landwatch",
       "address": "165 Lost Valley Dr, Bandera, TX, 78003",
@@ -65392,28 +65359,6 @@
       "lng": -97.9121
     },
     {
-      "url": "https://www.compass.com/homedetails/1920-County-Road-130-Hutto-TX-78634/1FNU29_pid/",
-      "source": "compass",
-      "address": "1920 County Road 130, TX, 78634",
-      "county": "williamson",
-      "price": 375000,
-      "acres": 4.31,
-      "firstSeen": "2026-08-23",
-      "lat": 30.61566029,
-      "lng": -97.56184238
-    },
-    {
-      "url": "https://www.compass.com/homedetails/377-Heritage-Loop-Hutto-TX-78634/1FMED3_pid/",
-      "source": "compass",
-      "address": "377 Heritage Loop, TX, 78634",
-      "county": "williamson",
-      "price": 485000,
-      "acres": 4.81,
-      "firstSeen": "2026-08-24",
-      "lat": 30.62831607,
-      "lng": -97.54536941
-    },
-    {
       "url": "https://www.compass.com/homedetails/100-Spence-Ln-Liberty-Hill-TX-78642/1F0B2F_pid/",
       "source": "compass",
       "address": "100 Spence Ln, TX, 78642",
@@ -65423,17 +65368,6 @@
       "firstSeen": "2026-08-24",
       "lat": 30.69488,
       "lng": -97.91038
-    },
-    {
-      "url": "https://www.compass.com/homedetails/2124-Old-Marble-Falls-Rd-Round-Mountain-TX-78663/2F5YG4_pid/",
-      "source": "compass",
-      "address": "2124 Old Marble Falls Rd, TX, 78663",
-      "county": "blanco",
-      "price": 275000,
-      "acres": 4,
-      "firstSeen": "2026-08-24",
-      "lat": 30.45502922,
-      "lng": -98.32023973
     },
     {
       "url": "https://www.zillow.com/homedetails/Lakeside-W-Elevated-View-Westshore-Ln-LOT-19-Spicewood-TX-78669/443760635_zpid/",
@@ -65533,7 +65467,117 @@
       "lat": 30.573855,
       "lng": -98.42577,
       "firstSeen": "2026-08-24"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/377-Heritage-Loop-Hutto-TX-78634/1FMED3_pid/",
+      "source": "compass",
+      "address": "377 Heritage Loop, TX, 78634",
+      "county": "williamson",
+      "price": 485000,
+      "acres": 4.81,
+      "firstSeen": "2026-08-24",
+      "lat": 30.62831607,
+      "lng": -97.54536941
+    },
+    {
+      "url": "https://www.compass.com/homedetails/1920-County-Road-130-Hutto-TX-78634/1FNU29_pid/",
+      "source": "compass",
+      "address": "1920 County Road 130, TX, 78634",
+      "county": "williamson",
+      "price": 375000,
+      "acres": 4.31,
+      "firstSeen": "2026-08-23",
+      "lat": 30.61566029,
+      "lng": -97.56184238
+    },
+    {
+      "url": "https://www.compass.com/homedetails/2124-Old-Marble-Falls-Rd-Round-Mountain-TX-78663/2F5YG4_pid/",
+      "source": "compass",
+      "address": "2124 Old Marble Falls Rd, TX, 78663",
+      "county": "blanco",
+      "price": 275000,
+      "acres": 4,
+      "firstSeen": "2026-08-24",
+      "lat": 30.45502922,
+      "lng": -98.32023973
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427862834",
+      "source": "landwatch",
+      "address": "549 Acacia Parkway, Spring Branch, TX, 78070",
+      "county": "comal",
+      "price": 850000,
+      "acres": 5,
+      "lat": 29.864532,
+      "lng": -98.430458,
+      "firstSeen": "2026-08-24"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/428757763",
+      "source": "landwatch",
+      "address": "1924 Lost Trail, New Braunfels, TX, 78132",
+      "county": "comal",
+      "price": 575000,
+      "acres": 7.16,
+      "lat": 29.851742,
+      "lng": -98.069299,
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/428688931",
+      "source": "landwatch",
+      "address": "1331/1321/1343 Hammermill, Canyon Lake, TX, 78133",
+      "county": "comal",
+      "price": 424990,
+      "acres": 2.15,
+      "lat": 29.918216,
+      "lng": -98.237835,
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-undeveloped-land-for-sale/pid/426782472",
+      "source": "landwatch",
+      "address": "Overhill Dr lot: 26, Fredericksburg, TX, 78624",
+      "county": "gillespie",
+      "price": 229000,
+      "acres": 10.01,
+      "lat": 30.27637,
+      "lng": -98.8738819,
+      "firstSeen": "2026-11-09"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/427001390",
+      "source": "landwatch",
+      "address": "191 River Valley Road South, Ingram, TX, 78025",
+      "county": "kerr",
+      "price": 375000,
+      "acres": 18,
+      "lat": 30.062192916870117,
+      "lng": -99.25946807861328,
+      "firstSeen": "2026-08-24"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/210-Mai-Rd-Kerrville-TX-78028/3KMYI_pid/",
+      "source": "compass",
+      "address": "210 Mai Rd, TX, 78028",
+      "county": "kerr",
+      "price": 315000,
+      "acres": 9.47,
+      "firstSeen": "2026-08-26",
+      "lat": 29.976699829101562,
+      "lng": -99.20906066894531
+    },
+    {
+      "url": "https://www.landwatch.com/bandera-county-texas-undeveloped-land-for-sale/pid/426240246",
+      "source": "landwatch",
+      "address": "Walker Ridge lot: 35, Bandera, TX, 78003",
+      "county": "bandera",
+      "price": 250000,
+      "acres": 12.94,
+      "lat": 29.6734557,
+      "lng": -99.235689,
+      "firstSeen": "2026-11-09"
     }
   ],
-  "count": 5915
+  "count": 5919
 }
