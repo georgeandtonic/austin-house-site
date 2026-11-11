@@ -65947,7 +65947,40 @@
       "lat": 29.836164474487305,
       "lng": -99.26982879638672,
       "firstSeen": "2026-11-11"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Del-Valle/16523-Fagerquist-Rd-78617/home/31668212",
+      "source": "redfin",
+      "address": "16523 Fagerquist Rd, Del Valle, TX 78617",
+      "county": "travis",
+      "price": 399900,
+      "acres": 10.939990817263544,
+      "lat": 30.135756,
+      "lng": -97.5822653,
+      "firstSeen": "2026-11-11"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Jonestown/17616-Hunters-Holw-78645/home/31164513",
+      "source": "redfin",
+      "address": "17616 Hunters Holw, Jonestown, TX 78645",
+      "county": "travis",
+      "price": 349990,
+      "acres": 1.5649908172635445,
+      "lat": 30.4696585,
+      "lng": -97.9232508,
+      "firstSeen": "2026-11-11"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Marble-Falls/003-Post-Oak-Bend-Loop-78654/home/206304045",
+      "source": "redfin",
+      "address": "003 Post Oak Bend Loop, Marble Falls, TX 78654",
+      "county": "travis",
+      "price": 342000,
+      "acres": 10.35,
+      "lat": 30.50091774,
+      "lng": -98.06438288,
+      "firstSeen": "2026-11-11"
     }
   ],
-  "count": 5953
+  "count": 5956
 }
