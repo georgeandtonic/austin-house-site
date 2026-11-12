@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-11",
+  "last_updated": "2026-11-12",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -29452,28 +29452,6 @@
       "price": 654500,
       "acres": 23.8,
       "firstSeen": "2026-08-24"
-    },
-    {
-      "url": "https://www.compass.com/homedetails/0-Cedar-Run-Pipe-Creek-TX-78063/3M0CW_pid/",
-      "source": "compass",
-      "address": "0 Cedar Run, TX, 78063",
-      "county": "bandera",
-      "price": 350000,
-      "acres": 17.86,
-      "firstSeen": "2026-08-24",
-      "lat": 29.673623,
-      "lng": -98.876834
-    },
-    {
-      "url": "https://www.compass.com/homedetails/0-Timbercreek-Rd-Pipe-Creek-TX-78063/403I8_pid/",
-      "source": "compass",
-      "address": "0 Timbercreek Rd, TX, 78063",
-      "county": "bandera",
-      "price": 250000,
-      "acres": 10.45,
-      "firstSeen": "2026-08-24",
-      "lat": 29.67908,
-      "lng": -98.863808
     },
     {
       "url": "https://www.compass.com/homedetails/1721-Lakeshore-Dr-N-Bandera-TX-78003/3YKM5_pid/",
@@ -65762,17 +65740,6 @@
       "firstSeen": "2026-11-11"
     },
     {
-      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427862834",
-      "source": "landwatch",
-      "address": "549 Acacia Parkway, Spring Branch, TX, 78070",
-      "county": "comal",
-      "price": 850000,
-      "acres": 5,
-      "lat": 29.864532,
-      "lng": -98.430458,
-      "firstSeen": "2026-08-24"
-    },
-    {
       "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/428802318",
       "source": "landwatch",
       "address": "580 Lone Oak Rd, New Braunfels, TX, 78132",
@@ -65804,28 +65771,6 @@
       "lat": 29.787063,
       "lng": -98.544715,
       "firstSeen": "2026-11-11"
-    },
-    {
-      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/427001390",
-      "source": "landwatch",
-      "address": "191 River Valley Road South, Ingram, TX, 78025",
-      "county": "kerr",
-      "price": 375000,
-      "acres": 18,
-      "lat": 30.062192916870117,
-      "lng": -99.25946807861328,
-      "firstSeen": "2026-08-24"
-    },
-    {
-      "url": "https://www.compass.com/homedetails/210-Mai-Rd-Kerrville-TX-78028/3KMYI_pid/",
-      "source": "compass",
-      "address": "210 Mai Rd, TX, 78028",
-      "county": "kerr",
-      "price": 315000,
-      "acres": 9.47,
-      "firstSeen": "2026-08-26",
-      "lat": 29.976699829101562,
-      "lng": -99.20906066894531
     },
     {
       "url": "https://www.landwatch.com/kerr-county-texas-homes-for-sale/pid/428808290",
@@ -65927,28 +65872,6 @@
       "firstSeen": "2026-09-20"
     },
     {
-      "url": "https://www.compass.com/homedetails/1920-County-Road-130-Hutto-TX-78634/1FNU29_pid/",
-      "source": "compass",
-      "address": "1920 County Road 130, TX, 78634",
-      "county": "williamson",
-      "price": 375000,
-      "acres": 4.31,
-      "firstSeen": "2026-08-23",
-      "lat": 30.61566029,
-      "lng": -97.56184238
-    },
-    {
-      "url": "https://www.compass.com/homedetails/377-Heritage-Loop-Hutto-TX-78634/1FMED3_pid/",
-      "source": "compass",
-      "address": "377 Heritage Loop, TX, 78634",
-      "county": "williamson",
-      "price": 485000,
-      "acres": 4.81,
-      "firstSeen": "2026-08-24",
-      "lat": 30.62831607,
-      "lng": -97.54536941
-    },
-    {
       "url": "https://www.compass.com/homedetails/100-Spence-Ln-Liberty-Hill-TX-78642/1F0B2F_pid/",
       "source": "compass",
       "address": "100 Spence Ln, TX, 78642",
@@ -65993,17 +65916,6 @@
       "firstSeen": "2026-11-11"
     },
     {
-      "url": "https://www.compass.com/homedetails/2124-Old-Marble-Falls-Rd-Round-Mountain-TX-78663/2F5YG4_pid/",
-      "source": "compass",
-      "address": "2124 Old Marble Falls Rd, TX, 78663",
-      "county": "blanco",
-      "price": 275000,
-      "acres": 4,
-      "firstSeen": "2026-08-24",
-      "lat": 30.45502922,
-      "lng": -98.32023973
-    },
-    {
       "url": "https://www.zillow.com/homedetails/128-Milfoil-Ln-1442-Spring-Branch-TX-78070/344602180_zpid/",
       "source": "zillow",
       "address": "128 MILFOIL LN LOT 1442, Spring Branch, TX 78070",
@@ -66046,7 +65958,315 @@
       "lat": 30.064783,
       "lng": -99.13551,
       "firstSeen": "2026-11-11"
+    },
+    {
+      "url": "https://www.landwatch.com/travis-county-texas-homes-for-sale/pid/428816563",
+      "source": "landwatch",
+      "address": "8814 Laverty Pl, Austin, TX, 78753",
+      "county": "travis",
+      "price": 475000,
+      "acres": 1.33,
+      "lat": 30.35320935,
+      "lng": -97.6964938,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/travis-county-texas-homes-for-sale/pid/428817540",
+      "source": "landwatch",
+      "address": "429 & 430 Sunfish Street , Lakeway, TX, 78734",
+      "county": "travis",
+      "price": null,
+      "acres": 1.64,
+      "lat": 30.36383,
+      "lng": -97.989618,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/travis-county-texas-undeveloped-land-for-sale/pid/419165891",
+      "source": "landwatch",
+      "address": "21604 Cold Spring Dr, Leander, TX, 78641",
+      "county": "travis",
+      "price": 295000,
+      "acres": 2,
+      "lat": 30.523086,
+      "lng": -97.959989,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/377-Heritage-Loop-Hutto-TX-78634/1FMED3_pid/",
+      "source": "compass",
+      "address": "377 Heritage Loop, TX, 78634",
+      "county": "williamson",
+      "price": 485000,
+      "acres": 4.81,
+      "firstSeen": "2026-08-24",
+      "lat": 30.62831607,
+      "lng": -97.54536941
+    },
+    {
+      "url": "https://www.compass.com/homedetails/1920-County-Road-130-Hutto-TX-78634/1FNU29_pid/",
+      "source": "compass",
+      "address": "1920 County Road 130, TX, 78634",
+      "county": "williamson",
+      "price": 375000,
+      "acres": 4.31,
+      "firstSeen": "2026-08-23",
+      "lat": 30.61566029,
+      "lng": -97.56184238
+    },
+    {
+      "url": "https://www.landwatch.com/williamson-county-texas-undeveloped-land-for-sale/pid/428816672",
+      "source": "landwatch",
+      "address": "County Road 491 lot: 1, Elgin, TX, 78621",
+      "county": "williamson",
+      "price": 255000,
+      "acres": 5,
+      "lat": 30.4076946,
+      "lng": -97.3178765,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/2124-Old-Marble-Falls-Rd-Round-Mountain-TX-78663/2F5YG4_pid/",
+      "source": "compass",
+      "address": "2124 Old Marble Falls Rd, TX, 78663",
+      "county": "blanco",
+      "price": 275000,
+      "acres": 4,
+      "firstSeen": "2026-08-24",
+      "lat": 30.45502922,
+      "lng": -98.32023973
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-farms-and-ranches-for-sale/pid/425807810",
+      "source": "landwatch",
+      "address": "1720 County Road 276, Bertram, TX, 78605",
+      "county": "burnet",
+      "price": 775000,
+      "acres": 45.58,
+      "lat": 30.760815,
+      "lng": -97.988738,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-farms-and-ranches-for-sale/pid/421585852",
+      "source": "landwatch",
+      "address": "Winding River Road, Kempner, TX, 76539",
+      "county": "burnet",
+      "price": 535000,
+      "acres": 17,
+      "lat": 30.99566243,
+      "lng": -97.91623813,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/burnet-county-texas-homes-for-sale/pid/428759739",
+      "source": "landwatch",
+      "address": "116 Thomas Ridge Rd, Burnet, TX, 78611",
+      "county": "burnet",
+      "price": 498000,
+      "acres": 2.88,
+      "lat": 30.742062,
+      "lng": -98.292639,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427791198",
+      "source": "landwatch",
+      "address": "348 WHITE OAK DR, Canyon Lake, TX, 78133",
+      "county": "comal",
+      "price": 795000,
+      "acres": 1.18,
+      "lat": 29.841699,
+      "lng": -98.24604,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427862834",
+      "source": "landwatch",
+      "address": "549 Acacia Parkway, Spring Branch, TX, 78070",
+      "county": "comal",
+      "price": 850000,
+      "acres": 5,
+      "lat": 29.864532,
+      "lng": -98.430458,
+      "firstSeen": "2026-08-24"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-homes-for-sale/pid/428428404",
+      "source": "landwatch",
+      "address": "5978 Ranch Rd 1323, Willow City, TX, 78624",
+      "county": "gillespie",
+      "price": 495000,
+      "acres": 5.01,
+      "lat": 30.3821504,
+      "lng": -98.6598366,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-homes-for-sale/pid/428290151",
+      "source": "landwatch",
+      "address": "4291 E Gellermann Lane, Fredericksburg, TX, 78624",
+      "county": "gillespie",
+      "price": 450000,
+      "acres": 7.34,
+      "lat": 30.283913,
+      "lng": -98.688808,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-lakefront-property-for-sale/pid/428806401",
+      "source": "landwatch",
+      "address": "411 W Lacey Oak Pkwy, Kerrville, TX, 78028",
+      "county": "gillespie",
+      "price": 689900,
+      "acres": 8.3,
+      "lat": 30.1709639,
+      "lng": -99.1506568,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/gillespie-county-texas-homes-for-sale/pid/428753655",
+      "source": "landwatch",
+      "address": "550 Shin Oak Way, Kerrville, TX, 78028",
+      "county": "gillespie",
+      "price": 725000,
+      "acres": 7.5,
+      "lat": 30.1821556,
+      "lng": -99.1568573,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/kendall-county-texas-lakefront-property-for-sale/pid/428813103",
+      "source": "landwatch",
+      "address": "115 Ridge Place, Boerne, TX, 78006",
+      "county": "kendall",
+      "price": 675000,
+      "acres": 3.06,
+      "lat": 29.888347625732422,
+      "lng": -98.62129974365234,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/427001390",
+      "source": "landwatch",
+      "address": "191 River Valley Road South, Ingram, TX, 78025",
+      "county": "kerr",
+      "price": 375000,
+      "acres": 18,
+      "lat": 30.062192916870117,
+      "lng": -99.25946807861328,
+      "firstSeen": "2026-08-24"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/210-Mai-Rd-Kerrville-TX-78028/3KMYI_pid/",
+      "source": "compass",
+      "address": "210 Mai Rd, TX, 78028",
+      "county": "kerr",
+      "price": 315000,
+      "acres": 9.47,
+      "firstSeen": "2026-08-26",
+      "lat": 29.976699829101562,
+      "lng": -99.20906066894531
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/428812458",
+      "source": "landwatch",
+      "address": "3 Lots Roanoke Lane, Kerrville, TX, 78028",
+      "county": "kerr",
+      "price": 294000,
+      "acres": 1.37,
+      "lat": 30.064783,
+      "lng": -99.135514,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-homes-for-sale/pid/428821778",
+      "source": "landwatch",
+      "address": "428 Oakwood Rd, Kerrville, TX, 78028",
+      "county": "kerr",
+      "price": 585000,
+      "acres": 1.08,
+      "lat": 29.9596282,
+      "lng": -99.1228473,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/0-Timbercreek-Rd-Pipe-Creek-TX-78063/403I8_pid/",
+      "source": "compass",
+      "address": "0 Timbercreek Rd, TX, 78063",
+      "county": "bandera",
+      "price": 250000,
+      "acres": 10.45,
+      "firstSeen": "2026-08-24",
+      "lat": 29.67908,
+      "lng": -98.863808
+    },
+    {
+      "url": "https://www.compass.com/homedetails/0-Cedar-Run-Pipe-Creek-TX-78063/3M0CW_pid/",
+      "source": "compass",
+      "address": "0 Cedar Run, TX, 78063",
+      "county": "bandera",
+      "price": 350000,
+      "acres": 17.86,
+      "firstSeen": "2026-08-24",
+      "lat": 29.673623,
+      "lng": -98.876834
+    },
+    {
+      "url": "https://www.landwatch.com/bandera-county-texas-homes-for-sale/pid/428815431",
+      "source": "landwatch",
+      "address": "266 LIVE OAK TRL, Tarpley, TX, 78883",
+      "county": "bandera",
+      "price": 550000,
+      "acres": 5.14,
+      "lat": 29.697464,
+      "lng": -99.358189,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/bandera-county-texas-undeveloped-land-for-sale/pid/428802125",
+      "source": "landwatch",
+      "address": "E Bear Springs, Pipe Creek, TX, 78063",
+      "county": "bandera",
+      "price": 299500,
+      "acres": 13.26,
+      "lat": 29.7501104,
+      "lng": -98.9133089,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/llano-county-texas-undeveloped-land-for-sale/pid/428812480",
+      "source": "landwatch",
+      "address": "0 Ranch Road 2241 Tx, Tow, TX, 78672",
+      "county": "llano",
+      "price": 675000,
+      "acres": 21.7,
+      "lat": 30.867086,
+      "lng": -98.466149,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/llano-county-texas-undeveloped-land-for-sale/pid/428812481",
+      "source": "landwatch",
+      "address": "0 Rr 2241, Tow, TX, 78672",
+      "county": "llano",
+      "price": 675000,
+      "acres": 22,
+      "lat": 30.865297,
+      "lng": -98.464937,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.landwatch.com/llano-county-texas-homes-for-sale/pid/428814097",
+      "source": "landwatch",
+      "address": "703 Roselea Drive, Buchanan Dam, TX, 78609",
+      "county": "llano",
+      "price": 348500,
+      "acres": 1.79,
+      "lat": 30.744639,
+      "lng": -98.455693,
+      "firstSeen": "2026-11-12"
     }
   ],
-  "count": 5962
+  "count": 5982
 }
