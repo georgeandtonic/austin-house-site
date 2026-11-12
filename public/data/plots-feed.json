@@ -66266,7 +66266,61 @@
       "lat": 30.744639,
       "lng": -98.455693,
       "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-28-saddle-ranch-johnson-city-tx-78636-us/17733535",
+      "source": "har",
+      "address": "Lot 28 Saddle Ranch, Johnson City, TX 78636",
+      "county": "blanco",
+      "price": 245000,
+      "acres": 5.19,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-21-saddle-ranch-johnson-city-tx-78636-us/17733515",
+      "source": "har",
+      "address": "Lot 21 Saddle Ranch, Johnson City, TX 78636",
+      "county": "blanco",
+      "price": 525000,
+      "acres": 15.8,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.har.com/homedetail/lot-25-saddle-ranch-johnson-city-tx-78636-us/17733516",
+      "source": "har",
+      "address": "Lot 25 Saddle Ranch, Johnson City, TX 78636",
+      "county": "blanco",
+      "price": 359000,
+      "acres": 13.2,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.har.com/homedetail/0-w-flying-owl-dr-johnson-city-tx-78636/16528457",
+      "source": "har",
+      "address": "TBD W Flying Owl Dr, Johnson City, TX 78636",
+      "county": "blanco",
+      "price": 399950,
+      "acres": 8.01,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.har.com/homedetail/0-w-starview-cv-blanco-tx-78606/16528100",
+      "source": "har",
+      "address": "TBD W Starview CV, Blanco, TX 78606",
+      "county": "blanco",
+      "price": 215000,
+      "acres": 5,
+      "firstSeen": "2026-11-12"
+    },
+    {
+      "url": "https://www.har.com/homedetail/0-prancing-deer-ln-johnson-city-tx-78636-us/15562510",
+      "source": "har",
+      "address": "TBD Prancing Deer Ln, Johnson City, TX 78636",
+      "county": "blanco",
+      "price": 249950,
+      "acres": 5.24,
+      "firstSeen": "2026-11-12"
     }
   ],
-  "count": 5982
+  "count": 5988
 }
