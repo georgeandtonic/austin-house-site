@@ -66593,7 +66593,18 @@
       "lat": 29.6592784,
       "lng": -98.8558531,
       "firstSeen": "2026-11-13"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Dripping-Springs/502-Saddlehorn-Dr-78620/home/205399272",
+      "source": "redfin",
+      "address": "502 Saddlehorn Dr, Dripping Springs, TX 78621",
+      "county": "travis",
+      "price": 325000,
+      "acres": 1.8,
+      "lat": 30.2895439,
+      "lng": -98.0752034,
+      "firstSeen": "2026-11-13"
     }
   ],
-  "count": 6013
+  "count": 6014
 }
