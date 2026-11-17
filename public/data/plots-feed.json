@@ -67194,7 +67194,18 @@
       "lat": 29.6592784,
       "lng": -98.8558531,
       "firstSeen": "2026-11-16"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Manor/17518-Blake-Manor-Rd-78653/home/77715465",
+      "source": "redfin",
+      "address": "17518 Blake Manor Rd, Manor, TX 78653",
+      "county": "travis",
+      "price": 600000,
+      "acres": 2.3569788797061526,
+      "lat": 30.3190371,
+      "lng": -97.5409168,
+      "firstSeen": "2026-11-16"
     }
   ],
-  "count": 6068
+  "count": 6069
 }
