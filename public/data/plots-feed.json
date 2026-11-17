@@ -67436,7 +67436,18 @@
       "firstSeen": "2026-08-24",
       "lat": 29.673623,
       "lng": -98.876834
+    },
+    {
+      "url": "https://www.redfin.com/TX/Austin/11114-Cameron-Rd-78754/home/174357440",
+      "source": "redfin",
+      "address": "11114 Cameron Rd, Austin, TX 78754",
+      "county": "travis",
+      "price": 490000,
+      "acres": 1.3017906336088154,
+      "lat": 30.3556765,
+      "lng": -97.636524,
+      "firstSeen": "2026-11-17"
     }
   ],
-  "count": 6090
+  "count": 6091
 }
