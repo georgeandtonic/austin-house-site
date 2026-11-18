@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-17",
+  "last_updated": "2026-11-18",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -66529,17 +66529,6 @@
       "firstSeen": "2026-11-14"
     },
     {
-      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427862834",
-      "source": "landwatch",
-      "address": "549 Acacia Parkway, Spring Branch, TX, 78070",
-      "county": "comal",
-      "price": 850000,
-      "acres": 5,
-      "lat": 29.864532,
-      "lng": -98.430458,
-      "firstSeen": "2026-08-24"
-    },
-    {
       "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/428464051",
       "source": "landwatch",
       "address": "31051 Elise Ann, Bulverde, TX, 78163",
@@ -67284,28 +67273,6 @@
       "firstSeen": "2026-11-17"
     },
     {
-      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/427001390",
-      "source": "landwatch",
-      "address": "191 River Valley Road South, Ingram, TX, 78025",
-      "county": "kerr",
-      "price": 375000,
-      "acres": 18,
-      "lat": 30.062192916870117,
-      "lng": -99.25946807861328,
-      "firstSeen": "2026-08-24"
-    },
-    {
-      "url": "https://www.compass.com/homedetails/210-Mai-Rd-Kerrville-TX-78028/3KMYI_pid/",
-      "source": "compass",
-      "address": "210 Mai Rd, TX, 78028",
-      "county": "kerr",
-      "price": 315000,
-      "acres": 9.47,
-      "firstSeen": "2026-08-26",
-      "lat": 29.976699829101562,
-      "lng": -99.20906066894531
-    },
-    {
       "url": "https://www.redfin.com/TX/Austin/11114-Cameron-Rd-78754/home/174357440",
       "source": "redfin",
       "address": "11114 Cameron Rd, Austin, TX 78754",
@@ -67359,17 +67326,6 @@
       "firstSeen": "2026-09-20"
     },
     {
-      "url": "https://www.compass.com/homedetails/1920-County-Road-130-Hutto-TX-78634/1FNU29_pid/",
-      "source": "compass",
-      "address": "1920 County Road 130, TX, 78634",
-      "county": "williamson",
-      "price": 375000,
-      "acres": 4.31,
-      "firstSeen": "2026-08-23",
-      "lat": 30.61566029,
-      "lng": -97.56184238
-    },
-    {
       "url": "https://www.compass.com/homedetails/100-Spence-Ln-Liberty-Hill-TX-78642/1F0B2F_pid/",
       "source": "compass",
       "address": "100 Spence Ln, TX, 78642",
@@ -67381,17 +67337,6 @@
       "lng": -97.91038
     },
     {
-      "url": "https://www.compass.com/homedetails/377-Heritage-Loop-Hutto-TX-78634/1FMED3_pid/",
-      "source": "compass",
-      "address": "377 Heritage Loop, TX, 78634",
-      "county": "williamson",
-      "price": 485000,
-      "acres": 4.81,
-      "firstSeen": "2026-08-24",
-      "lat": 30.62831607,
-      "lng": -97.54536941
-    },
-    {
       "url": "https://www.zillow.com/homedetails/330-Old-West-Dr-Round-Rock-TX-78681/185161831_zpid/",
       "source": "zillow",
       "address": "330 Old West Dr, Round Rock, TX 78681",
@@ -67401,17 +67346,6 @@
       "lat": 30.491322,
       "lng": -97.679695,
       "firstSeen": "2026-11-17"
-    },
-    {
-      "url": "https://www.compass.com/homedetails/2124-Old-Marble-Falls-Rd-Round-Mountain-TX-78663/2F5YG4_pid/",
-      "source": "compass",
-      "address": "2124 Old Marble Falls Rd, TX, 78663",
-      "county": "blanco",
-      "price": 275000,
-      "acres": 4,
-      "firstSeen": "2026-08-24",
-      "lat": 30.45502922,
-      "lng": -98.32023973
     },
     {
       "url": "https://www.zillow.com/homedetails/S-Highway-281-Lampasas-TX-76550/447186179_zpid/",
@@ -67458,28 +67392,6 @@
       "firstSeen": "2026-11-17"
     },
     {
-      "url": "https://www.compass.com/homedetails/0-Timbercreek-Rd-Pipe-Creek-TX-78063/403I8_pid/",
-      "source": "compass",
-      "address": "0 Timbercreek Rd, TX, 78063",
-      "county": "bandera",
-      "price": 250000,
-      "acres": 10.45,
-      "firstSeen": "2026-08-24",
-      "lat": 29.67908,
-      "lng": -98.863808
-    },
-    {
-      "url": "https://www.compass.com/homedetails/0-Cedar-Run-Pipe-Creek-TX-78063/3M0CW_pid/",
-      "source": "compass",
-      "address": "0 Cedar Run, TX, 78063",
-      "county": "bandera",
-      "price": 350000,
-      "acres": 17.86,
-      "firstSeen": "2026-08-24",
-      "lat": 29.673623,
-      "lng": -98.876834
-    },
-    {
       "url": "https://www.zillow.com/homedetails/Wharton-Dock-Rd-Bandera-TX-78003/2067491415_zpid/",
       "source": "zillow",
       "address": "TBD 50 ACRES Wharton Dock Rd, Bandera, TX 78003",
@@ -67509,7 +67421,238 @@
       "lat": 30.573855,
       "lng": -98.42577,
       "firstSeen": "2026-08-24"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-farms-and-ranches-for-sale/pid/428870135",
+      "source": "landwatch",
+      "address": "1215 Montell Road, Wimberley, TX, 78676",
+      "county": "hays",
+      "price": 549900,
+      "acres": 17.75,
+      "lat": 30.119848251342773,
+      "lng": -98.2454605102539,
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-homes-for-sale/pid/428867979",
+      "source": "landwatch",
+      "address": "301 Shelton Ranch Rd, Dripping Springs, TX, 78620",
+      "county": "hays",
+      "price": 569000,
+      "acres": 2.5,
+      "lat": 30.2280126,
+      "lng": -98.08664785,
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "url": "https://www.landwatch.com/hays-county-texas-land-for-sale/pid/427010970",
+      "source": "landwatch",
+      "address": "TBD South Rainbow Ranch Road , Wimberley, TX, 78676",
+      "county": "hays",
+      "price": 465000,
+      "acres": 11.22,
+      "lat": 30.077329,
+      "lng": -98.047693,
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "url": "https://www.landwatch.com/williamson-county-texas-undeveloped-land-for-sale/pid/428597228",
+      "source": "landwatch",
+      "address": "301 County Road 491, Elgin, TX, 78621",
+      "county": "williamson",
+      "price": 749000,
+      "acres": 11.08,
+      "lat": 30.41094,
+      "lng": -97.31535,
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/377-Heritage-Loop-Hutto-TX-78634/1FMED3_pid/",
+      "source": "compass",
+      "address": "377 Heritage Loop, TX, 78634",
+      "county": "williamson",
+      "price": 485000,
+      "acres": 4.81,
+      "firstSeen": "2026-08-24",
+      "lat": 30.62831607,
+      "lng": -97.54536941
+    },
+    {
+      "url": "https://www.compass.com/homedetails/1920-County-Road-130-Hutto-TX-78634/1FNU29_pid/",
+      "source": "compass",
+      "address": "1920 County Road 130, TX, 78634",
+      "county": "williamson",
+      "price": 375000,
+      "acres": 4.31,
+      "firstSeen": "2026-08-23",
+      "lat": 30.61566029,
+      "lng": -97.56184238
+    },
+    {
+      "url": "https://www.compass.com/homedetails/2124-Old-Marble-Falls-Rd-Round-Mountain-TX-78663/2F5YG4_pid/",
+      "source": "compass",
+      "address": "2124 Old Marble Falls Rd, TX, 78663",
+      "county": "blanco",
+      "price": 275000,
+      "acres": 4,
+      "firstSeen": "2026-08-24",
+      "lat": 30.45502922,
+      "lng": -98.32023973
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427862834",
+      "source": "landwatch",
+      "address": "549 Acacia Parkway, Spring Branch, TX, 78070",
+      "county": "comal",
+      "price": 850000,
+      "acres": 5,
+      "lat": 29.864532,
+      "lng": -98.430458,
+      "firstSeen": "2026-08-24"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427868909",
+      "source": "landwatch",
+      "address": "160 Creekwood Ct, Spring Branch, TX, 78070",
+      "county": "comal",
+      "price": 625000,
+      "acres": 4.37,
+      "lat": 29.937023,
+      "lng": -98.371055,
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427815159",
+      "source": "landwatch",
+      "address": "6430 Derby Way, Bulverde, TX, 78163",
+      "county": "comal",
+      "price": 825000,
+      "acres": 3,
+      "lat": 29.751211,
+      "lng": -98.361337,
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/426636558",
+      "source": "landwatch",
+      "address": "109 Pond View Ct, Spring Branch, TX, 78070",
+      "county": "comal",
+      "price": 815000,
+      "acres": 2.14,
+      "lat": 29.973701,
+      "lng": -98.31186,
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/427103732",
+      "source": "landwatch",
+      "address": "2051 Phantom Rider, Spring Branch, TX, 78070",
+      "county": "comal",
+      "price": 820000,
+      "acres": 4.65,
+      "lat": 29.861976,
+      "lng": -98.436487,
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "url": "https://www.landwatch.com/comal-county-texas-homes-for-sale/pid/428868708",
+      "source": "landwatch",
+      "address": "830 BLUE WATER DR, Canyon Lake, TX, 78133",
+      "county": "comal",
+      "price": 475000,
+      "acres": 1.03,
+      "lat": 29.858282,
+      "lng": -98.23638,
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "url": "https://www.landwatch.com/kendall-county-texas-undeveloped-land-for-sale/pid/425123413",
+      "source": "landwatch",
+      "address": "176 Vaquero, Boerne, TX, 78006",
+      "county": "kendall",
+      "price": 398700,
+      "acres": 5.49,
+      "lat": 29.880275,
+      "lng": -98.551765,
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "url": "https://www.landwatch.com/kendall-county-texas-undeveloped-land-for-sale/pid/427575077",
+      "source": "landwatch",
+      "address": "142 Aermotor, Boerne, TX, 78006",
+      "county": "kendall",
+      "price": 339000,
+      "acres": 6,
+      "lat": 29.932227,
+      "lng": -98.79684,
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "url": "https://www.landwatch.com/kendall-county-texas-undeveloped-land-for-sale/pid/425305311",
+      "source": "landwatch",
+      "address": "119 Platten Creek, Boerne, TX, 78006",
+      "county": "kendall",
+      "price": 290900,
+      "acres": 6.29,
+      "lat": 30.056288,
+      "lng": -98.734795,
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-undeveloped-land-for-sale/pid/427001390",
+      "source": "landwatch",
+      "address": "191 River Valley Road South, Ingram, TX, 78025",
+      "county": "kerr",
+      "price": 375000,
+      "acres": 18,
+      "lat": 30.062192916870117,
+      "lng": -99.25946807861328,
+      "firstSeen": "2026-08-24"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/210-Mai-Rd-Kerrville-TX-78028/3KMYI_pid/",
+      "source": "compass",
+      "address": "210 Mai Rd, TX, 78028",
+      "county": "kerr",
+      "price": 315000,
+      "acres": 9.47,
+      "firstSeen": "2026-08-26",
+      "lat": 29.976699829101562,
+      "lng": -99.20906066894531
+    },
+    {
+      "url": "https://www.landwatch.com/kerr-county-texas-farms-and-ranches-for-sale/pid/427434141",
+      "source": "landwatch",
+      "address": "244 Genesis Trail S Drive, Kerrville, TX, 78028",
+      "county": "kerr",
+      "price": 849000,
+      "acres": 3.17,
+      "lat": 30.009059,
+      "lng": -99.192927,
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/0-Timbercreek-Rd-Pipe-Creek-TX-78063/403I8_pid/",
+      "source": "compass",
+      "address": "0 Timbercreek Rd, TX, 78063",
+      "county": "bandera",
+      "price": 250000,
+      "acres": 10.45,
+      "firstSeen": "2026-08-24",
+      "lat": 29.67908,
+      "lng": -98.863808
+    },
+    {
+      "url": "https://www.compass.com/homedetails/0-Cedar-Run-Pipe-Creek-TX-78063/3M0CW_pid/",
+      "source": "compass",
+      "address": "0 Cedar Run, TX, 78063",
+      "county": "bandera",
+      "price": 350000,
+      "acres": 17.86,
+      "firstSeen": "2026-08-24",
+      "lat": 29.673623,
+      "lng": -98.876834
     }
   ],
-  "count": 6097
+  "count": 6110
 }
