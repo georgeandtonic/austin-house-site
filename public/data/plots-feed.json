@@ -67652,7 +67652,29 @@
       "firstSeen": "2026-08-24",
       "lat": 29.673623,
       "lng": -98.876834
+    },
+    {
+      "url": "https://www.redfin.com/TX/Leander/2224-Annassa-Ct-78641/unit-77/home/147340057",
+      "source": "redfin",
+      "address": "2224 Annassa Ct #77, Leander, TX 78641",
+      "county": "travis",
+      "price": 425000,
+      "acres": 1,
+      "lat": 30.5411604,
+      "lng": -97.8843364,
+      "firstSeen": "2026-11-18"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Marble-Falls/005-Post-Oak-Bend-Loop-78654/home/206307695",
+      "source": "redfin",
+      "address": "005 Post Oak Bend Loop, Marble Falls, TX 78654",
+      "county": "travis",
+      "price": 399000,
+      "acres": 10.104981634527089,
+      "lat": 30.50036243,
+      "lng": -98.06184899,
+      "firstSeen": "2026-11-18"
     }
   ],
-  "count": 6110
+  "count": 6112
 }
