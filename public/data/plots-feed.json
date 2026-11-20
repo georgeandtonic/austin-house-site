@@ -24385,7 +24385,7 @@
       "source": "landwatch",
       "address": "SKYLINE TRAIL, Lakehills, TX, 78063",
       "county": "bandera",
-      "price": null,
+      "price": 45000,
       "acres": 1,
       "firstSeen": "2026-08-24"
     },
