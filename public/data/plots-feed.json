@@ -68310,7 +68310,18 @@
       "firstSeen": "2026-08-24",
       "lat": 29.67908,
       "lng": -98.863808
+    },
+    {
+      "url": "https://www.redfin.com/TX/Leander/3105-Crystal-Falls-Pkwy-78641/home/31108337",
+      "source": "redfin",
+      "address": "3105 Crystal Falls Pkwy, Leander, TX 78641",
+      "county": "travis",
+      "price": 415000,
+      "acres": 2.3840909090909093,
+      "lat": 30.5409373,
+      "lng": -97.8839544,
+      "firstSeen": "2026-11-21"
     }
   ],
-  "count": 6170
+  "count": 6171
 }
