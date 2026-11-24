@@ -4,8 +4,16 @@ name: Deploy to GitHub Pages
 # Settings → Pages → Source = "GitHub Actions" in the repo (one-time, in the UI).
 
 on:
+  # The land scraper pushes new plot data to main every day. Those data-only
+  # pushes no longer deploy; they go out with the weekly run below.
   push:
     branches: [main]
+    paths-ignore:
+      - "public/data/**"
+  # Weekly deploy: Sundays at 20:00 UTC (2 PM CST / 3 PM CDT), after that
+  # day's scraper push.
+  schedule:
+    - cron: "0 20 * * 0"
   workflow_dispatch:
 
 permissions:
