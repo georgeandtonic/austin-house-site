@@ -69019,7 +69019,29 @@
       "lat": 30.68817776,
       "lng": -99.11364709,
       "firstSeen": "2026-11-25"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Spicewood/4129-Bee-Creek-Rd-78669/home/207119604",
+      "source": "redfin",
+      "address": "4129 Bee Creek Rd Rd, Spicewood, TX 78669",
+      "county": "travis",
+      "price": 699000,
+      "acres": 6.00599173553719,
+      "lat": 30.3553789,
+      "lng": -98.0345976,
+      "firstSeen": "2026-11-25"
+    },
+    {
+      "url": "https://www.redfin.com/TX/Marble-Falls/002-Post-Oak-Bend-Loop-78654/home/206306060",
+      "source": "redfin",
+      "address": "002 Post Oak Bend Loop, Marble Falls, TX 78654",
+      "county": "travis",
+      "price": 345000,
+      "acres": 10.45,
+      "lat": 30.49874756,
+      "lng": -98.06082397,
+      "firstSeen": "2026-11-25"
     }
   ],
-  "count": 6235
+  "count": 6237
 }
