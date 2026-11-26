@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-11-25",
+  "last_updated": "2026-11-26",
   "note": "Initialized from land-search.md (2026-06-07 survey). The recurring land-scan agent appends new plots here; the site picks them up on next build. Required fields per plot: id, first_seen, address, submarket, price_usd, acreage, listing_url, notes, risks, lat, lng, source. Optional editorial fields used by the site: rank, scenario, dom, hoa, utilities, geo_precision.",
   "plots": [
     {
@@ -28106,15 +28106,6 @@
       "acres": 5.05,
       "lat": 31.071361,
       "lng": -98.711996,
-      "firstSeen": "2026-08-24"
-    },
-    {
-      "url": "https://www.compass.com/homedetails/4115-Lot-3-Bob-Wire-Rd-Spicewood-TX-78669/2154392800533382929_lid/",
-      "source": "compass",
-      "address": "4115 Lot 3 Bob Wire Rd, TX, 78669",
-      "county": "travis",
-      "price": 679000,
-      "acres": 5.84,
       "firstSeen": "2026-08-24"
     },
     {
@@ -68955,28 +68946,6 @@
       "firstSeen": "2026-11-25"
     },
     {
-      "url": "https://www.compass.com/homedetails/1920-County-Road-130-Hutto-TX-78634/1FNU29_pid/",
-      "source": "compass",
-      "address": "1920 County Road 130, TX, 78634",
-      "county": "williamson",
-      "price": 375000,
-      "acres": 4.31,
-      "firstSeen": "2026-08-23",
-      "lat": 30.61566029,
-      "lng": -97.56184238
-    },
-    {
-      "url": "https://www.compass.com/homedetails/377-Heritage-Loop-Hutto-TX-78634/1FMED3_pid/",
-      "source": "compass",
-      "address": "377 Heritage Loop, TX, 78634",
-      "county": "williamson",
-      "price": 485000,
-      "acres": 4.81,
-      "firstSeen": "2026-08-24",
-      "lat": 30.62831607,
-      "lng": -97.54536941
-    },
-    {
       "url": "https://www.compass.com/homedetails/100-Spence-Ln-Liberty-Hill-TX-78642/1F0B2F_pid/",
       "source": "compass",
       "address": "100 Spence Ln, TX, 78642",
@@ -69118,7 +69087,51 @@
       "lat": 30.74704305,
       "lng": -98.74249962,
       "firstSeen": "2026-08-24"
+    },
+    {
+      "url": "https://www.compass.com/homedetails/4115-Lot-3-Bob-Wire-Rd-Spicewood-TX-78669/2154392800533382929_lid/",
+      "source": "compass",
+      "address": "4115 Lot 3 Bob Wire Rd, TX, 78669",
+      "county": "travis",
+      "price": 679000,
+      "acres": 5.84,
+      "firstSeen": "2026-08-24",
+      "lat": 30.35963535,
+      "lng": -98.0494279
+    },
+    {
+      "url": "https://www.compass.com/homedetails/377-Heritage-Loop-Hutto-TX-78634/1FMED3_pid/",
+      "source": "compass",
+      "address": "377 Heritage Loop, TX, 78634",
+      "county": "williamson",
+      "price": 485000,
+      "acres": 4.81,
+      "firstSeen": "2026-08-24",
+      "lat": 30.62831607,
+      "lng": -97.54536941
+    },
+    {
+      "url": "https://www.compass.com/homedetails/1920-County-Road-130-Hutto-TX-78634/1FNU29_pid/",
+      "source": "compass",
+      "address": "1920 County Road 130, TX, 78634",
+      "county": "williamson",
+      "price": 375000,
+      "acres": 4.31,
+      "firstSeen": "2026-08-23",
+      "lat": 30.61566029,
+      "lng": -97.56184238
+    },
+    {
+      "url": "https://www.landwatch.com/blanco-county-texas-homes-for-sale/pid/428935022",
+      "source": "landwatch",
+      "address": "1215A Democrat, Blanco, TX, 78606",
+      "county": "blanco",
+      "price": 239500,
+      "acres": 1.3,
+      "lat": 30.093893,
+      "lng": -98.411283,
+      "firstSeen": "2026-11-26"
     }
   ],
-  "count": 6244
+  "count": 6245
 }
